@@ -1,0 +1,36 @@
+{
+  "schema_version": "trustfin-phase2.1-v1.0",
+  "data_registry": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/dataset_registry.json",
+  "train_artifact": "train",
+  "validation_artifact": "validation",
+  "allowed_training_datasets": [
+    "FinQA",
+    "FiQA"
+  ],
+  "forbidden_training_datasets": [
+    "FinBen-FOMC",
+    "FinTrust"
+  ],
+  "default_sampling": {
+    "strategy": "dataset_balanced",
+    "dataset_probabilities": {
+      "FinQA": 0.5,
+      "FiQA": 0.5
+    }
+  },
+  "target_format": {
+    "FinQA": "PROGRAM: <program>\\nANSWER: <execution_answer>",
+    "FiQA": "SENTIMENT_SCORE: <float in [-1,1]>"
+  },
+  "task_metrics_for_model_selection": {
+    "FinQA": [
+      "execution_accuracy",
+      "program_accuracy"
+    ],
+    "FiQA": [
+      "mse",
+      "r2"
+    ]
+  },
+  "important": "Do not load protected tests during training except in a final evaluation process after model/configuration selection is frozen."
+}

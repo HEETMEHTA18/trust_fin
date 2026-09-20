@@ -1,0 +1,106 @@
+{
+  "schema_version": "trustfin-phase2.1-v1.0",
+  "created_unix": 1789894475,
+  "seed": 42,
+  "parent_phase2": null,
+  "training_policy": {
+    "allowed_datasets": [
+      "FinQA",
+      "FiQA"
+    ],
+    "forbidden_datasets": [
+      "FinBen-FOMC",
+      "FinTrust"
+    ],
+    "reason": "FinBen-FOMC is public test-only; FinTrust is trust evaluation-only. Neither may be used for SFT, validation, calibration, threshold tuning, or few-shot example selection."
+  },
+  "sampling_policy": {
+    "records_are_exported_unweighted": true,
+    "recommended_phase3_default": "dataset_balanced",
+    "recommended_dataset_probabilities": {
+      "FinQA": 0.5,
+      "FiQA": 0.5
+    },
+    "note": "Phase-3 should log the actual sampler. Also report a natural/proportional mix baseline if multi-task sampling is part of the claimed method."
+  },
+  "threshold_policy": {
+    "calibration_and_abstention_threshold_selection": "validation only",
+    "never_tune_on": [
+      "FinQA test",
+      "FiQA test",
+      "FinBen-FOMC",
+      "FinTrust"
+    ]
+  },
+  "artifacts": {
+    "train": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/datasets/train.jsonl",
+      "role": "sft_train",
+      "dataset": [
+        "FinQA",
+        "FiQA"
+      ],
+      "task": [
+        "financial_numerical_reasoning",
+        "financial_sentiment_regression"
+      ],
+      "sha256": "9a62613461b70e2cf934ff22d60f2c868c1358c782ad1fb69ce6793776e79308",
+      "records": 7073
+    },
+    "validation": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/datasets/validation.jsonl",
+      "role": "validation_and_calibration",
+      "dataset": [
+        "FinQA",
+        "FiQA"
+      ],
+      "task": [
+        "financial_numerical_reasoning",
+        "financial_sentiment_regression"
+      ],
+      "sha256": "354e8171eeb72d9e3ff20c667d7807d1803c4dcd68491c344d9e67edf050bc7b",
+      "records": 1000
+    },
+    "finqa_test": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/finqa_test.jsonl",
+      "role": "protected_test",
+      "dataset": "FinQA",
+      "task": "financial_numerical_reasoning",
+      "sha256": "0250d11a6129b057cea661b463e5db1a8735eee2ff62a79bdfd4aed84c5c2c36",
+      "records": 1147
+    },
+    "fiqa_test": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/fiqa_test.jsonl",
+      "role": "protected_test",
+      "dataset": "FiQA",
+      "task": "financial_sentiment_regression",
+      "sha256": "015bac0f37a003ae8bcab90c2428b1b2a0fc59f288e7f84fc6816f9ad97fc209",
+      "records": 234
+    },
+    "finben_fomc_test": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/finben_fomc_test.jsonl",
+      "role": "protected_external_test",
+      "dataset": "FinBen-FOMC",
+      "task": "fomc_stance",
+      "sha256": "8d7f49e25032e9aac430d7abef64fb343f3c0d45e1f34c9d119582e5f15b0067",
+      "records": 496
+    },
+    "fintrust_registry": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/fintrust_registry.json",
+      "role": "protected_trust_evaluation",
+      "dataset": "FinTrust",
+      "sha256": "649ff9a305d28d2cff9f346e38d17d2880413b74d3350519d1591bf1067535ff"
+    },
+    "finqa_gold_execution_audit": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/audits/finqa_official_gold_execution_audit.csv",
+      "role": "research_integrity_audit",
+      "sha256": "35fea75807f088326c773bd74eb3725b4143fe5f15227f9497a82b3b448c4faf"
+    },
+    "near_duplicate_audit": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/audits/near_duplicate_train_vs_protected_test.csv",
+      "role": "research_integrity_audit",
+      "sha256": "16e4cacb8e78618380023a663b6099cfb6145da0d8e7a7ac9b3f9e3296140304"
+    }
+  },
+  "source_fingerprints": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/source_fingerprints.json"
+}

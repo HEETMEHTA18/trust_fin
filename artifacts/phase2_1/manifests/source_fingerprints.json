@@ -1,0 +1,81 @@
+{
+  "FinQA": {
+    "train": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa/train.json",
+      "sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+      "bytes": 78216616
+    },
+    "dev": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa/dev.json",
+      "sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
+      "bytes": 10954658
+    },
+    "test": {
+      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa/test.json",
+      "sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+      "bytes": 14395143
+    }
+  },
+  "FinQA_official_evaluator": {
+    "url": "https://raw.githubusercontent.com/czyssrs/FinQA/main/code/evaluate/evaluate.py",
+    "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa_official_evaluator/evaluate.py",
+    "sha256": "845cd131cab843eceff256cf6d392978cc470a7da4a80107beb56027fdca5c13"
+  },
+  "FiQA": {
+    "train": {
+      "mode": "huggingface",
+      "hf_repo": "TheFinAI/fiqa-sentiment-classification",
+      "hf_split": "train",
+      "rows": 822,
+      "sha256": "2bb48b6ae1523ca0a306bb95f5860bd5e4510f75b47368468edbb6a3f4a421fe"
+    },
+    "valid": {
+      "mode": "huggingface",
+      "hf_repo": "TheFinAI/fiqa-sentiment-classification",
+      "hf_split": "valid",
+      "rows": 117,
+      "sha256": "74eaa496c05c85aa2f45fa98b3f01ff141d60a1e68cb10838323523408947f2b"
+    },
+    "test": {
+      "mode": "huggingface",
+      "hf_repo": "TheFinAI/fiqa-sentiment-classification",
+      "hf_split": "test",
+      "rows": 234,
+      "sha256": "dfe7f29e0b70333783c70e0a0f458eb074d47f7de141e5f1693009d423c9c2b2"
+    }
+  },
+  "FinBen-FOMC": {
+    "mode": "huggingface",
+    "hf_repo": "TheFinAI/finben-fomc",
+    "split": "test",
+    "rows": 496,
+    "sha256": "f31a099dbf290f823dbcb4a07fac9373c238cd2786f49c0864d8968a71c7c79d"
+  },
+  "FinTrust": {
+    "hf_repo": "HughieHu/FinTrust",
+    "github_repo": "https://github.com/HughieHu/FinTrust.git",
+    "dimensions": [
+      "trustfulness",
+      "robustness",
+      "safety",
+      "fairness",
+      "privacy",
+      "transparency",
+      "knowledge_discovery"
+    ],
+    "file_sha256": {
+      "privacy/privacy_evaluation_1000.json": "9b956ea5c82cd1c103705ad685449e37ac867c13b308ecdc6f84ca5ddda41f7b",
+      "transparency/transparency_evaluation_647.json": "532120082d7caa9e3c0402d586f6e6f1303ed976eeb026189878b3757d608a55",
+      "robustness/robustness_evaluation_220.json": "df74a3843304b6f8d0440880a1a4d7b1e65834319c12cf11647d78b6aaf19cf7",
+      "knowledge-discovery/knowledge_discovery_evaluation_1000.json": "33e214154153fb13a011fd4b1ac1372a102ff836fbd8c8318af131b9c2582276",
+      "fairness/personal-level_data/fairness_personal_level_evaluation_1000.jsonl": "a26ae35081a865912de4f28d7e2e21fd9d361f5fe8b534db92ac9eed5c6a6f10",
+      "fairness/company-level_data/fairness_company_level_evaluation_1000.json": "bdb80ceb11102723c9ae165cb33f913b3a6c39e39e8c1bad35edc3e4555d1918",
+      "safety/deep-inception/safety_deep_inception_evaluation_1000.json": "24bba6e087b48c895dd4c9d6c42a449df0f1087634fc3a11ffbdd8e6ebd5c3ea",
+      "safety/language_barrier/safety_language_barrier_evaluation_1000.json": "7240d7c2f6c3b3f7358d9125c58d2854c6b43b2cc02f1d42e741c4bb202f8c24",
+      "safety/in-context attack/safety_in_context_attack_evaluation_1000.json": "f08b48d8e015db7f67f6ffaa02e5231d47807c20e60ee8fe83912a56ed25f7d2",
+      "safety/plain_question/safety_plain_question_evaluation_1000.json": "0a087418849265988936a4de8331f8aa447a4f48c9e375738ba3d1d0c34986d2",
+      "trustfulness/hallucination_certainty/trustfulness_hallucination_certainty_evaluation_1000.jsonl": "e2f577a4eb925a634b09464223fadbf599082775dbb3441462a7ecb6f6cf288f",
+      "trustfulness/number_informativeness/trustfulness_number_informativeness_evaluation_800.jsonl": "680899b9fbc31cd22a6d866aac34ab73381c47a8fc3effd2cda24c7049350a58"
+    }
+  }
+}

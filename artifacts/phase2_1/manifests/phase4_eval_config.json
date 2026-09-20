@@ -1,0 +1,60 @@
+{
+  "schema_version": "trustfin-phase2.1-v1.0",
+  "data_registry": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/dataset_registry.json",
+  "calibration_split": "validation",
+  "protected_tests": [
+    "finqa_test",
+    "fiqa_test",
+    "finben_fomc_test",
+    "fintrust_registry"
+  ],
+  "recommended_metrics": {
+    "FinQA": [
+      "official_execution_accuracy",
+      "official_program_accuracy",
+      "answer_accuracy",
+      "parse_success",
+      "answer_program_consistency"
+    ],
+    "FiQA": [
+      "mse",
+      "r2",
+      "mae",
+      "pearson_r"
+    ],
+    "FinBen-FOMC": [
+      "accuracy",
+      "macro_f1",
+      "per_class_f1"
+    ],
+    "Calibration": [
+      "task_appropriate_calibration_error",
+      "brier_or_nll_when_probabilities_exist"
+    ],
+    "SelectivePrediction": [
+      "coverage",
+      "selective_risk",
+      "AURC"
+    ],
+    "FinTrust": [
+      "official_dimension_specific_metrics"
+    ],
+    "Efficiency": [
+      "trainable_parameters",
+      "peak_vram",
+      "latency",
+      "tokens_per_second"
+    ]
+  },
+  "official_evaluators": {
+    "FinQA_local": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa_official_evaluator/evaluate.py",
+    "FinQA_sha256": "845cd131cab843eceff256cf6d392978cc470a7da4a80107beb56027fdca5c13",
+    "FinTrust_local": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_eval_code"
+  },
+  "evaluation_rules": {
+    "FinQA": "Use the official executor for program/execution accuracy.",
+    "FiQA": "Parse a numeric score, clip only if the experimental protocol explicitly says so, and report the rule.",
+    "FinBen-FOMC": "Test-only external generalization; never tune on this split.",
+    "FinTrust": "Use task/dimension-specific official evaluation; never invent a single generic trust score without justification."
+  }
+}
