@@ -2,50 +2,70 @@
 
 **Trustworthy Small Language Models for Financial Tasks**
 
-A research pipeline for building, validating, and evaluating trustworthy small language models (SLMs) on financial reasoning, sentiment analysis, FOMC stance classification, and multi-dimensional trust benchmarks.
+A research pipeline for building, validating, and evaluating trustworthy small language models
+(SLMs) on financial reasoning (FinQA), financial sentiment (FiQA), FOMC stance classification,
+and multi-dimensional trust benchmarks (FinTrust).
 
 ---
 
-## Project Structure
+## Project Phases
+
+| Phase | Notebook(s) | Deep-dive doc | Status | Artifacts |
+|---|---|---|---|---|
+| **Phase-2** — Data integrity & unified pipeline | `notebooks/Phase2_TrustFin_Data_Integrity_and_Unified_Pipeline.ipynb` | `docs/exp_1.md` | PASS | `artifacts/phase2/` |
+| **Phase-2.1** — Research validation & data contract | `notebooks/Phase2_1_TrustFin_Research_Validation_and_Data_Contract.ipynb` | `docs/exp_2.md` | **PASS** (68 gates, 0 failures) | `artifacts/phase2_1/` |
+| **Phase-3 (smoke)** — pipeline dry-run | `notebooks/Phase3_smoke_executed.ipynb` | `docs/exp_3(a).md` | PASS | `artifacts/phase3_smoke_16of16.tar.gz` |
+| **Phase-3 (full)** — baselines & failure analysis | `Phase3_TrustFin_SLM_Baselines_and_Failure_Analysis.ipynb` | **`docs/exp_3(b).md`** | **PASS · FROZEN** | `artifacts/phase3/` |
+| **Phase-4** — proposed method (upcoming) | — | — | Not started | — |
+
+Phase-3 selects the Phase-4 backbone on **validation data only**; the frozen winner is **E5**
+(`Qwen/Qwen3-1.7B` + balanced joint QLoRA). Contract: `artifacts/phase3/manifests/phase3_freeze.json`.
+
+---
+
+## Repository Layout
 
 ```
 .
-├── notebooks/                          # Jupyter notebooks (Phase-2.1)
-│   ├── Phase2_1_TrustFin_*.ipynb       # Source notebook (clean)
-│   └── Phase2_1_TrustFin_*_run.ipynb   # Executed notebook (with outputs)
-├── docs/                               # Documentation & deep explanations
-│   ├── exp_1.md                        # Phase-2 cell-by-cell walkthrough
-│   ├── exp_2.md                        # Phase-2.1 cell-by-cell walkthrough
-│   └── *.docx                          # Reference guides
-├── papers/                             # Reference research papers (PDFs)
-├── artifacts/
-│   └── phase2_1/                       # Exported data contracts (Phase-2.1)
-│       ├── datasets/
-│       │   ├── train.jsonl             # SFT training (FinQA + FiQA)
-│       │   └── validation.jsonl        # Validation + calibration
-│       ├── eval/
-│       │   ├── finqa_test.jsonl        # Protected FinQA test
-│       │   ├── fiqa_test.jsonl         # Protected FiQA test
-│       │   ├── finben_fomc_test.jsonl  # Protected FinBen-FOMC test
-│       │   └── fintrust_registry.json  # Protected FinTrust registry
-│       ├── manifests/
-│       │   ├── dataset_registry.json
-│       │   ├── source_fingerprints.json
-│       │   ├── phase3_data_config.json
-│       │   ├── phase4_eval_config.json
-│       │   └── phase2_1_validation_report.json
-│       ├── audits/
-│       │   ├── finqa_official_gold_execution_audit.csv
-│       │   └── near_duplicate_train_vs_protected_test.csv
-│       └── python/
-│           └── phase2_1_interface.py   # Downstream loader module
-└── data/
-    └── raw/                            # Downloaded raw data (re-runnable)
-        ├── finqa/                      # FinQA GitHub raw files
-        ├── finqa_official_evaluator/   # Official FinQA evaluate.py
-        ├── fintrust_hf/               # FinTrust HF snapshot
-        └── fintrust_eval_code/        # FinTrust evaluator repo clone
+├── README.md                              # this file
+├── Phase3_TrustFin_SLM_Baselines_and_Failure_Analysis.ipynb   # Phase-3 master notebook
+│
+├── docs/                                  # deep-dive write-ups (per phase)
+│   ├── exp_1.md                           #   Phase-2  cell-by-cell walkthrough
+│   ├── exp_2.md                           #   Phase-2.1 walkthrough
+│   ├── exp_3(a).md                        #   Phase-3 smoke run
+│   ├── exp_3(b).md                        #   Phase-3 full run
+│   └── Research_Paper_Reading_and_Conference_Drafting_Guide.docx
+│
+├── phases/                                # per-phase run archives (phase-wise grouping)
+│   └── phase3/
+│       ├── README.md                      #   Phase-3 run notes
+│       ├── RESUME_phase3_2026-10-10.md
+│       ├── notebooks/                     #   executed per-part notebooks (8 parts + smoke)
+│       └── logs/                          #   nbconvert + supervisor logs
+│
+├── notebooks/                             # Phase-2 / Phase-2.1 notebooks (+ Phase-3 smoke)
+├── tools/                                 # Phase-3 sharding & supervisor drivers
+│   ├── phase3_shard.py                    #   per-part nbconvert launcher / verifier
+│   └── phase3_supervisor.sh               #   sequential part driver with GPU cool-down
+├── deliverables/                          # shareable submission bundles (.zip)
+│   ├── Phase2_1_TrustFin_Deliverable.zip
+│   └── Phase3_TrustFin_Deliverable.zip
+├── artifacts/                             # frozen data contracts & run outputs
+│   ├── phase2/                            #   Phase-2 exports
+│   ├── phase2_1/                          #   Phase-2.1 contract (FROZEN, SHA-256)
+│   └── phase3/                            #   Phase-3 metrics, analysis, plots, checkpoints
+├── data/raw/                              # downloaded raw data (re-runnable)
+├── papers/                                # reference research papers (PDFs)
+└── trustfin_slm_workspace/                # symlink shim → artifacts/, data/ (absolute-path contract)
 ```
+
+> **Note on the frozen contract.** `artifacts/phase2_1/manifests/dataset_registry.json` stores
+> **absolute paths** to `artifacts/` and `data/`. Those two directories plus `papers/` are kept in
+> place deliberately — moving them would invalidate the frozen SHA-256 contract. Only loose
+> Phase-3 run files are grouped into `phases/`.
+
+---
 
 ## Datasets
 
@@ -61,33 +81,44 @@ A research pipeline for building, validating, and evaluating trustworthy small l
 | Pool | Datasets | Purpose |
 |------|----------|---------|
 | **Training** | FinQA + FiQA | SFT fine-tuning |
-| **Validation** | FinQA dev + FiQA valid | Calibration, threshold selection |
+| **Validation** | FinQA dev + FiQA valid | Calibration, threshold selection, model selection |
 | **Protected test** | FinQA test + FiQA test + FinBen-FOMC + FinTrust | Final evaluation only |
 
 - FinBen-FOMC and FinTrust **never** enter SFT, calibration, or threshold tuning.
 - All exported artifacts are fingerprinted with SHA-256 for reproducibility.
 - The official FinQA executor validates every gold program.
 
-## Phase-2.1 Validation Status
+## Phase Status
 
 ```
-PHASE-2.1 STATUS:    PASS (68 gates, 0 failures)
-READY FOR PHASE-3:   True
-READY FOR PHASE-4:   True
+PHASE-2.1 STATUS:    PASS (68 gates, 0 failures)   ·  READY FOR PHASE-3 / PHASE-4: True
+PHASE-3   STATUS:    PASS  ·  All E1-E16 outputs present: True  ·  Freeze status: FROZEN
 ```
+
+### Phase-3 headline results (validation only)
+
+| Experiment | Model | Sampling | FinQA exec | FiQA MAE | FiQA R² |
+|---|---|---|---|---|---|
+| **E5** ⭐ | Qwen3-1.7B | balanced joint | **0.675** | 0.130 | 0.730 |
+| E11 | Qwen3-1.7B | natural joint | 0.615 | 0.128 | 0.736 |
+| E8 | Phi-4-mini | balanced joint | 0.701 | 0.130 | 0.809 |
+
+→ Frozen backbone: **E5** (selection score 0.7446). Full detail: `docs/exp_3(b).md`.
+
+---
 
 ## How to Re-run
 
 ```bash
-# Install dependencies
-pip install pandas numpy requests datasets huggingface_hub pyarrow scikit-learn tqdm datasketch sympy jupyter nbconvert ipykernel
-
-# Run the notebook
+# Phase-2.1 data contract
 jupyter nbconvert --to notebook --execute \
   --ExecutePreprocessor.timeout=3600 \
-  --output "Phase2_1_TrustFin_*_run.ipynb" \
+  --output "Phase2_1_TrustFin_Research_Validation_and_Data_Contract_run.ipynb" \
   --output-dir="./notebooks/" \
   "./notebooks/Phase2_1_TrustFin_Research_Validation_and_Data_Contract.ipynb"
+
+# Phase-3 full run (sharded; see phases/phase3/README.md and docs/exp_3(b).md)
+bash tools/phase3_supervisor.sh
 ```
 
 ## Schema Version
@@ -96,7 +127,8 @@ jupyter nbconvert --to notebook --execute \
 
 ## Downstream Use
 
-Phase-3 and Phase-4 notebooks should import `artifacts/phase2_1/python/phase2_1_interface.py` and read JSONL/JSON artifacts directly. Do not re-download raw datasets independently.
+Phase-3 and Phase-4 notebooks import `artifacts/phase2_1/python/phase2_1_interface.py` and read
+JSONL/JSON artifacts directly. Do not re-download raw datasets independently.
 
 ```python
 from artifacts.phase2_1.python.phase2_1_interface import load_registry, load_train, load_validation

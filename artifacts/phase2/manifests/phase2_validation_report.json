@@ -1,0 +1,385 @@
+{
+  "schema_version": "trustfin-phase2-v1.1",
+  "phase2_pass": true,
+  "hard_failures": [],
+  "gates": [
+    {
+      "name": "FinQA train count",
+      "passed": true,
+      "observed": 6251,
+      "expected": 6251,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA dev count",
+      "passed": true,
+      "observed": 883,
+      "expected": 883,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA test count",
+      "passed": true,
+      "observed": 1147,
+      "expected": 1147,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA IDs globally unique",
+      "passed": true,
+      "observed": 8281,
+      "expected": 8281,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA required field present: id",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA required field present: question",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA required field present: exe_ans",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA required field present: program",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA required field present: gold_inds",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA required field present: table",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA final step matches an official answer representation",
+      "passed": false,
+      "observed": 0.98261,
+      "expected": ">=0.99",
+      "severity": "WARNING",
+      "note": "This source-annotation audit is non-blocking; the final step may correspond to qa.answer or qa.exe_ans, which are both preserved."
+    },
+    {
+      "name": "FinQA program operation vocabulary recognized",
+      "passed": true,
+      "observed": [],
+      "expected": [],
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA no exact full-input leakage across splits",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA train: official gold programs execute successfully",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA train: official execution equals qa.exe_ans",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA dev: official gold programs execute successfully",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA dev: official execution equals qa.exe_ans",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA test: official gold programs execute successfully",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA test: official execution equals qa.exe_ans",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA train count",
+      "passed": true,
+      "observed": 822,
+      "expected": 822,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA dev count",
+      "passed": true,
+      "observed": 117,
+      "expected": 117,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA test count",
+      "passed": true,
+      "observed": 234,
+      "expected": 234,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA IDs globally unique",
+      "passed": true,
+      "observed": 1173,
+      "expected": 1173,
+      "severity": "WARNING",
+      "note": "If upstream IDs are reused across splits, record IDs still include the split to remain collision-safe."
+    },
+    {
+      "name": "FiQA sentence non-empty",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA target entity non-empty",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA aspect non-empty",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA score numeric",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA score bounded in [-1, 1]",
+      "passed": true,
+      "observed": [
+        -0.938,
+        0.975
+      ],
+      "expected": [
+        -1.0,
+        1.0
+      ],
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA no exact sentence-aspect leakage across splits",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinTrust all seven dimensions represented",
+      "passed": true,
+      "observed": [
+        "fairness",
+        "knowledge_discovery",
+        "privacy",
+        "robustness",
+        "safety",
+        "transparency",
+        "trustfulness"
+      ],
+      "expected": [
+        "fairness",
+        "knowledge_discovery",
+        "privacy",
+        "robustness",
+        "safety",
+        "transparency",
+        "trustfulness"
+      ],
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinTrust data files load without parser errors",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinTrust official postprocess scripts found for seven dimensions",
+      "passed": false,
+      "observed": [
+        "privacy"
+      ],
+      "expected": [
+        "trustfulness",
+        "robustness",
+        "safety",
+        "fairness",
+        "privacy",
+        "transparency",
+        "knowledge_discovery"
+      ],
+      "severity": "WARNING",
+      "note": "A warning here does not justify replacing official task-specific evaluation with a generic metric."
+    },
+    {
+      "name": "No FinTrust records in training",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "No evaluation_only records in training",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "Exact input leakage train_vs_validation",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "Exact input leakage train_vs_finqa_test",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "Exact input leakage train_vs_fiqa_test",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "Exported train has unique record IDs",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "Exported validation has unique record IDs",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinQA test marked evaluation-only",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FiQA test marked evaluation-only",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "FinTrust registry marked evaluation-only",
+      "passed": true,
+      "observed": null,
+      "expected": null,
+      "severity": "ERROR",
+      "note": ""
+    },
+    {
+      "name": "No protected test record IDs in training",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "severity": "ERROR",
+      "note": ""
+    }
+  ],
+  "artifact_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2/manifests/dataset_registry.json",
+  "interface_module": "/home/heet18/Downloads/Research Papers/artifacts/phase2/python/phase2_interface.py"
+}

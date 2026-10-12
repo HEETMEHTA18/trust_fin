@@ -1,24 +1,40 @@
-# Raw data (re-runnable, stored in trust_fin_dataset repo)
+# --- Raw / large data (re-runnable; stored in trust_fin_dataset repo) ---
 data/raw/
+notebooks/data/
 
-# Python
+# --- Phase data splits & protected test sets (data, not code) ---
+artifacts/*/datasets/
+artifacts/*/eval/
+
+# --- Trained LoRA adapters & archives (kept out of git; shared via deliverables) ---
+artifacts/phase3/checkpoints/
+artifacts/**/*.tar.gz
+artifacts/*.tar.gz
+*.safetensors
+deliverables/*.tar.gz
+deliverables/*_with_adapters*
+deliverables/Phase2_1_TrustFin_Deliverable/
+deliverables/Phase3_TrustFin_Deliverable/
+deliverables/Phase3_TrustFin_Deliverable_with_adapters/
+
+# --- Python ---
 __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
 
-# OS
+# --- OS ---
 .DS_Store
 Thumbs.db
 
-# Jupyter
+# --- Jupyter ---
 .ipynb_checkpoints/
 
-# IDE
+# --- IDE ---
 .vscode/
 .idea/
 
-# Env
+# --- Env ---
 .env
 *.venv
 venv/

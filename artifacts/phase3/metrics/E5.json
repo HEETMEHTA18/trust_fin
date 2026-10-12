@@ -1,0 +1,27 @@
+{
+  "FinQA": {
+    "n": 883,
+    "parse_success": 1.0,
+    "answer_accuracy": 0.37599093997734995,
+    "program_accuracy": 0.6115515288788222,
+    "execution_accuracy": 0.6749716874292185,
+    "invalid_program_rate": -1.9966024915062288
+  },
+  "FiQA": {
+    "n": 117,
+    "parse_success": 1.0,
+    "mae": 0.1301025641025641,
+    "mse": 0.037490222222222216,
+    "rmse": 0.19362391955081948,
+    "r2": 0.7300694862470551,
+    "pearson_r": 0.8732173330514831
+  },
+  "Efficiency": {
+    "n": 1000,
+    "mean_latency_seconds": 1.1793237924699898,
+    "median_latency_seconds": 1.161946770999748,
+    "tokens_per_second": 24.50048085563004,
+    "mean_prompt_tokens": 821.593,
+    "mean_generated_tokens": 28.894
+  }
+}

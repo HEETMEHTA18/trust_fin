@@ -12,8 +12,8 @@
     "transparency",
     "knowledge_discovery"
   ],
-  "data_snapshot": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf",
-  "official_eval_code": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_eval_code",
+  "data_snapshot": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf",
+  "official_eval_code": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code",
   "evaluator_candidates_by_dimension": {
     "trustfulness": [
       "trustfulness/hallucination_certainty/postprocess_response.py",
@@ -36,7 +36,7 @@
     {
       "dimension": "privacy",
       "relative_path": "privacy/privacy_evaluation_1000.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/privacy/privacy_evaluation_1000.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/privacy/privacy_evaluation_1000.json",
       "role": "unknown",
       "rows": 1000,
       "columns": [
@@ -51,7 +51,7 @@
     {
       "dimension": "transparency",
       "relative_path": "transparency/transparency_evaluation_647.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/transparency/transparency_evaluation_647.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/transparency/transparency_evaluation_647.json",
       "role": "unknown",
       "rows": 647,
       "columns": [
@@ -71,7 +71,7 @@
     {
       "dimension": "robustness",
       "relative_path": "robustness/robustness_evaluation_220.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/robustness/robustness_evaluation_220.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/robustness/robustness_evaluation_220.json",
       "role": "unknown",
       "rows": 220,
       "columns": [
@@ -95,7 +95,7 @@
     {
       "dimension": "knowledge_discovery",
       "relative_path": "knowledge-discovery/knowledge_discovery_evaluation_1000.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/knowledge-discovery/knowledge_discovery_evaluation_1000.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/knowledge-discovery/knowledge_discovery_evaluation_1000.json",
       "role": "unknown",
       "rows": 1000,
       "columns": [
@@ -115,7 +115,7 @@
     {
       "dimension": "fairness",
       "relative_path": "fairness/personal-level_data/fairness_personal_level_evaluation_1000.jsonl",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/fairness/personal-level_data/fairness_personal_level_evaluation_1000.jsonl",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/fairness/personal-level_data/fairness_personal_level_evaluation_1000.jsonl",
       "role": "unknown",
       "rows": 1000,
       "columns": [
@@ -389,7 +389,7 @@
     {
       "dimension": "fairness",
       "relative_path": "fairness/company-level_data/fairness_company_level_evaluation_1000.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/fairness/company-level_data/fairness_company_level_evaluation_1000.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/fairness/company-level_data/fairness_company_level_evaluation_1000.json",
       "role": "unknown",
       "rows": 1000,
       "columns": [
@@ -405,7 +405,7 @@
     {
       "dimension": "safety",
       "relative_path": "safety/deep-inception/safety_deep_inception_evaluation_1000.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/safety/deep-inception/safety_deep_inception_evaluation_1000.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/safety/deep-inception/safety_deep_inception_evaluation_1000.json",
       "role": "unknown",
       "rows": 1000,
       "columns": [
@@ -420,7 +420,7 @@
     {
       "dimension": "safety",
       "relative_path": "safety/language_barrier/safety_language_barrier_evaluation_1000.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/safety/language_barrier/safety_language_barrier_evaluation_1000.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/safety/language_barrier/safety_language_barrier_evaluation_1000.json",
       "role": "unknown",
       "rows": 1000,
       "columns": [
@@ -435,7 +435,7 @@
     {
       "dimension": "safety",
       "relative_path": "safety/in-context attack/safety_in_context_attack_evaluation_1000.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/safety/in-context attack/safety_in_context_attack_evaluation_1000.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/safety/in-context attack/safety_in_context_attack_evaluation_1000.json",
       "role": "unknown",
       "rows": 1,
       "columns": [
@@ -457,7 +457,7 @@
     {
       "dimension": "safety",
       "relative_path": "safety/plain_question/safety_plain_question_evaluation_1000.json",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/safety/plain_question/safety_plain_question_evaluation_1000.json",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/safety/plain_question/safety_plain_question_evaluation_1000.json",
       "role": "candidate_eval_data",
       "rows": 1,
       "columns": [
@@ -479,7 +479,7 @@
     {
       "dimension": "trustfulness",
       "relative_path": "trustfulness/hallucination_certainty/trustfulness_hallucination_certainty_evaluation_1000.jsonl",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/trustfulness/hallucination_certainty/trustfulness_hallucination_certainty_evaluation_1000.jsonl",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/trustfulness/hallucination_certainty/trustfulness_hallucination_certainty_evaluation_1000.jsonl",
       "role": "unknown",
       "rows": 1000,
       "columns": [
@@ -500,7 +500,7 @@
     {
       "dimension": "trustfulness",
       "relative_path": "trustfulness/number_informativeness/trustfulness_number_informativeness_evaluation_800.jsonl",
-      "absolute_path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_hf/trustfulness/number_informativeness/trustfulness_number_informativeness_evaluation_800.jsonl",
+      "absolute_path": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_hf/trustfulness/number_informativeness/trustfulness_number_informativeness_evaluation_800.jsonl",
       "role": "unknown",
       "rows": 800,
       "columns": [

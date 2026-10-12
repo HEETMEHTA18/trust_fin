@@ -1,24 +1,24 @@
 {
   "FinQA": {
     "train": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa/train.json",
+      "path": "/home/heet18/Downloads/Research Papers/data/raw/finqa/train.json",
       "sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
       "bytes": 78216616
     },
     "dev": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa/dev.json",
+      "path": "/home/heet18/Downloads/Research Papers/data/raw/finqa/dev.json",
       "sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
       "bytes": 10954658
     },
     "test": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa/test.json",
+      "path": "/home/heet18/Downloads/Research Papers/data/raw/finqa/test.json",
       "sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
       "bytes": 14395143
     }
   },
   "FinQA_official_evaluator": {
     "url": "https://raw.githubusercontent.com/czyssrs/FinQA/main/code/evaluate/evaluate.py",
-    "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa_official_evaluator/evaluate.py",
+    "path": "/home/heet18/Downloads/Research Papers/data/raw/finqa_official_evaluator/evaluate.py",
     "sha256": "845cd131cab843eceff256cf6d392978cc470a7da4a80107beb56027fdca5c13"
   },
   "FiQA": {

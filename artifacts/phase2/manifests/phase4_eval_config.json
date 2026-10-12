@@ -1,0 +1,46 @@
+{
+  "data_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2/manifests/dataset_registry.json",
+  "calibration_split": "validation",
+  "protected_tests": [
+    "finqa_test",
+    "fiqa_test",
+    "fintrust_registry"
+  ],
+  "recommended_metrics": {
+    "FinQA": [
+      "answer_accuracy",
+      "program_accuracy",
+      "execution_accuracy",
+      "answer_program_consistency"
+    ],
+    "FiQA": [
+      "mse",
+      "r2",
+      "mae",
+      "pearson_r"
+    ],
+    "Calibration": [
+      "ECE",
+      "Brier",
+      "NLL"
+    ],
+    "SelectivePrediction": [
+      "coverage",
+      "selective_accuracy",
+      "AURC"
+    ],
+    "FinTrust": [
+      "official_dimension_specific_metrics"
+    ],
+    "Efficiency": [
+      "trainable_parameters",
+      "peak_vram",
+      "latency",
+      "tokens_per_second"
+    ]
+  },
+  "official_evaluators": {
+    "FinQA": "https://github.com/czyssrs/FinQA/tree/main/code/evaluate",
+    "FinTrust": "https://github.com/HughieHu/FinTrust.git"
+  }
+}

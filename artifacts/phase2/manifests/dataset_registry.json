@@ -1,0 +1,130 @@
+{
+  "schema_version": "trustfin-phase2-v1.1",
+  "created_unix": 1791112589,
+  "seed": 42,
+  "training_policy": {
+    "allowed_datasets": [
+      "FinQA",
+      "FiQA"
+    ],
+    "forbidden_datasets": [
+      "FinTrust"
+    ],
+    "recommended_sampling": "dataset-balanced or explicitly reported mixture weights"
+  },
+  "threshold_policy": {
+    "calibration_and_abstention_threshold_selection": "validation only",
+    "never_tune_on": [
+      "FinQA test",
+      "FiQA test",
+      "FinTrust"
+    ]
+  },
+  "artifacts": {
+    "train": {
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2/datasets/train.jsonl",
+      "role": "sft_train",
+      "dataset": [
+        "FinQA",
+        "FiQA"
+      ],
+      "task": [
+        "financial_numerical_reasoning",
+        "financial_sentiment_regression"
+      ],
+      "sha256": "fe2023def8752192bd5ba386988fc5d83d64fb71e632c9264ec23fdde993cf66",
+      "records": 7073
+    },
+    "validation": {
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2/datasets/validation.jsonl",
+      "role": "validation_and_calibration",
+      "dataset": [
+        "FinQA",
+        "FiQA"
+      ],
+      "task": [
+        "financial_numerical_reasoning",
+        "financial_sentiment_regression"
+      ],
+      "sha256": "3c642f4fe8e25f81836ffe08c97873ed09ccd08c3a7f9c8adbab977625e6dfe0",
+      "records": 1000
+    },
+    "finqa_test": {
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2/eval/finqa_test.jsonl",
+      "role": "protected_test",
+      "dataset": "FinQA",
+      "task": "financial_numerical_reasoning",
+      "sha256": "080f2d7d14b06f26daf7abc597a446b67474f58703e929e1f90de5a086565e63",
+      "records": 1147
+    },
+    "fiqa_test": {
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2/eval/fiqa_test.jsonl",
+      "role": "protected_test",
+      "dataset": "FiQA",
+      "task": "financial_sentiment_regression",
+      "sha256": "d0cf8e39646febf016b14addfe7226fc89b5cee0c3f54787d1662cf2cd1d8493",
+      "records": 234
+    },
+    "fintrust_registry": {
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2/eval/fintrust_registry.json",
+      "role": "protected_trust_evaluation",
+      "dataset": "FinTrust",
+      "sha256": "b7f655aacecc337bc50ddb544e3d3ae91e521cb6535bfeb38715afc0df4b82ef"
+    }
+  },
+  "source_manifests": {
+    "FinQA": {
+      "train": {
+        "path": "/home/heet18/Downloads/Research Papers/data/raw/finqa/train.json",
+        "sha256": "49f237eb9779b569473b26b08048867d04635a7cc39ad6a7a5664c55bb428db6",
+        "bytes": 78216616
+      },
+      "dev": {
+        "path": "/home/heet18/Downloads/Research Papers/data/raw/finqa/dev.json",
+        "sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
+        "bytes": 10954658
+      },
+      "test": {
+        "path": "/home/heet18/Downloads/Research Papers/data/raw/finqa/test.json",
+        "sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+        "bytes": 14395143
+      }
+    },
+    "FiQA": {
+      "train": {
+        "mode": "huggingface",
+        "hf_repo": "TheFinAI/fiqa-sentiment-classification",
+        "hf_split": "train",
+        "rows": 822,
+        "sha256": "2bb48b6ae1523ca0a306bb95f5860bd5e4510f75b47368468edbb6a3f4a421fe"
+      },
+      "dev": {
+        "mode": "huggingface",
+        "hf_repo": "TheFinAI/fiqa-sentiment-classification",
+        "hf_split": "valid",
+        "rows": 117,
+        "sha256": "74eaa496c05c85aa2f45fa98b3f01ff141d60a1e68cb10838323523408947f2b"
+      },
+      "test": {
+        "mode": "huggingface",
+        "hf_repo": "TheFinAI/fiqa-sentiment-classification",
+        "hf_split": "test",
+        "rows": 234,
+        "sha256": "dfe7f29e0b70333783c70e0a0f458eb074d47f7de141e5f1693009d423c9c2b2"
+      }
+    },
+    "FinTrust": {
+      "hf_repo": "HughieHu/FinTrust",
+      "github_repo": "https://github.com/HughieHu/FinTrust.git",
+      "dimensions": [
+        "trustfulness",
+        "robustness",
+        "safety",
+        "fairness",
+        "privacy",
+        "transparency",
+        "knowledge_discovery"
+      ]
+    }
+  }
+}

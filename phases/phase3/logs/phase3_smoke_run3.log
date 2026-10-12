@@ -1,0 +1,3 @@
+[NbConvertApp] Converting notebook ./Phase3_TrustFin_SLM_Baselines_and_Failure_Analysis.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 326241 bytes to Phase3_smoke_run3.ipynb

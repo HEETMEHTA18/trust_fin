@@ -1,0 +1,28 @@
+{
+  "experiment": "E8",
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "dataset_mode": "joint",
+  "sampling": "balanced",
+  "prompt_variant": "canonical",
+  "train_rows": 7073,
+  "train_counts": {
+    "FiQA": 3537,
+    "FinQA": 3536
+  },
+  "epochs": 2.0,
+  "train_max_seq_length": 768,
+  "total_parameters": 2248477696,
+  "trainable_parameters": 23068672,
+  "trainable_fraction": 0.010259684603960598,
+  "train_seconds": 12737.540465354003,
+  "peak_vram_gb": 4.904659271240234,
+  "trainer_metrics": {
+    "train_runtime": 12736.8625,
+    "train_samples_per_second": 1.111,
+    "train_steps_per_second": 0.139,
+    "total_flos": 1.1680096005155635e+17,
+    "train_loss": 0.38614235496790394,
+    "epoch": 2.0
+  },
+  "adapter_path": "/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E8"
+}

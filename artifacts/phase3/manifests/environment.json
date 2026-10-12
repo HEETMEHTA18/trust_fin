@@ -1,0 +1,38 @@
+{
+  "created_unix": 1791694765,
+  "run_mode": "full",
+  "seed": 42,
+  "primary_model": "Qwen/Qwen3-1.7B",
+  "secondary_model": "microsoft/Phi-4-mini-instruct",
+  "phase2_1_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/dataset_registry.json",
+  "phase2_1_registry_sha256": "e0c43a54add7323b60d139cac7be6a93694fad96d979b94539cb01968595e794",
+  "train_sha256": "9a62613461b70e2cf934ff22d60f2c868c1358c782ad1fb69ce6793776e79308",
+  "validation_sha256": "354e8171eeb72d9e3ff20c667d7807d1803c4dcd68491c344d9e67edf050bc7b",
+  "python": "3.12.3",
+  "torch": "2.13.0+cu130",
+  "cuda_runtime": "13.0",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "packages": {
+    "transformers": "5.15.0",
+    "peft": "0.20.0",
+    "bitsandbytes": "0.50.0",
+    "accelerate": "1.14.0",
+    "datasets": "5.0.1",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "pandas": "3.0.5",
+    "matplotlib": "3.11.1"
+  },
+  "training": {
+    "max_seq_length": 1024,
+    "epochs": 2.0,
+    "per_device_train_batch": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "use_4bit": true,
+    "bnb_quant_type": "nf4"
+  }
+}

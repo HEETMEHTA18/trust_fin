@@ -1,0 +1,27 @@
+{
+  "experiment": "E5",
+  "model_id": "Qwen/Qwen3-1.7B",
+  "dataset_mode": "joint",
+  "sampling": "balanced",
+  "prompt_variant": "canonical",
+  "train_rows": 7073,
+  "train_counts": {
+    "FiQA": 3537,
+    "FinQA": 3536
+  },
+  "epochs": 2.0,
+  "total_parameters": 1033364480,
+  "trainable_parameters": 17432576,
+  "trainable_fraction": 0.01686972635250633,
+  "train_seconds": 8903.151756157,
+  "peak_vram_gb": 3.398371696472168,
+  "trainer_metrics": {
+    "train_runtime": 8902.951,
+    "train_samples_per_second": 1.589,
+    "train_steps_per_second": 0.199,
+    "total_flos": 6.46412444775383e+16,
+    "train_loss": 0.349736580202135,
+    "epoch": 2.0
+  },
+  "adapter_path": "/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E5"
+}

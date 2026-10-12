@@ -1,0 +1,2 @@
+shard part1: RUN_MODE=full EXPERIMENTS=E1,E2,E6
+started pid=13007 log=/home/heet18/Downloads/Research Papers/phase3_part1_full.log

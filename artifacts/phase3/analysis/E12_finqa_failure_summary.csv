@@ -1,0 +1,7 @@
+failure_type,count,rate
+correct,304,0.34428086070215175
+reasoning_execution_error,283,0.3204983012457531
+program_right_answer_wrong,265,0.3001132502831257
+alternate_program_same_execution,27,0.030577576443941108
+invalid_program,3,0.0033975084937712344
+answer_right_program_wrong,1,0.0011325028312570782

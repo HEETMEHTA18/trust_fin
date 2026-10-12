@@ -1,0 +1,3 @@
+dataset,n,target,spearman_confidence_target,roc_auc_confidence,pearson_confidence_target
+FinQA,883,execution_correct,0.12477396339228738,0.5769005916329538,
+FiQA,117,negative_absolute_error,0.23675549105205998,,0.21854640273647702

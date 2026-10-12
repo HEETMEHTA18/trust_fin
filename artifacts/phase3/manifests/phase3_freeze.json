@@ -1,0 +1,65 @@
+{
+  "phase": "Phase-3",
+  "status": "FROZEN",
+  "run_mode": "full",
+  "selection_rule": {
+    "eligible_experiments": [
+      "E5",
+      "E11"
+    ],
+    "finqa_score": "mean(answer_accuracy, program_accuracy, execution_accuracy)",
+    "fiqa_score": "1 - MAE/2, clipped to [0,1]",
+    "macro_score": "mean(FinQA_score, FiQA_score)"
+  },
+  "winner": {
+    "experiment": "E5",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "adapter_path": "/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E5",
+    "sampling": "balanced",
+    "selection_score": 0.7445600516885907,
+    "finqa_answer_accuracy": 0.37599093997734995,
+    "finqa_program_accuracy": 0.6115515288788222,
+    "finqa_execution_accuracy": 0.6749716874292185,
+    "fiqa_mae": 0.1301025641025641,
+    "fiqa_mse": 0.037490222222222216,
+    "fiqa_r2": 0.7300694862470551,
+    "fiqa_pearson_r": 0.8732173330514831
+  },
+  "prompt_policy": {
+    "FinQA": "canonical",
+    "FiQA": "explicit_schema",
+    "FinQA_validation_row": {
+      "variant": "canonical",
+      "n": 883,
+      "parse_success": 1.0,
+      "answer_accuracy": 0.3759909399773499,
+      "program_accuracy": 0.6115515288788222,
+      "execution_accuracy": 0.6749716874292185,
+      "invalid_program_rate": 0.0033975084937712
+    },
+    "FiQA_validation_row": {
+      "variant": "explicit_schema",
+      "n": 117,
+      "parse_success": 1.0,
+      "mae": 0.1272905982905982,
+      "mse": 0.0364233076923077,
+      "rmse": 0.1908489132594359,
+      "r2": 0.7377512968664545,
+      "pearson_r": 0.8742461589514843
+    }
+  },
+  "data": {
+    "phase2_1_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/dataset_registry.json",
+    "registry_sha256": "e0c43a54add7323b60d139cac7be6a93694fad96d979b94539cb01968595e794",
+    "train_path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/datasets/train.jsonl",
+    "train_sha256": "9a62613461b70e2cf934ff22d60f2c868c1358c782ad1fb69ce6793776e79308",
+    "validation_path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/datasets/validation.jsonl",
+    "validation_sha256": "354e8171eeb72d9e3ff20c667d7807d1803c4dcd68491c344d9e67edf050bc7b"
+  },
+  "environment_manifest": "/home/heet18/Downloads/Research Papers/artifacts/phase3/manifests/environment.json",
+  "important": [
+    "No protected Phase-4 test set was used for model selection.",
+    "Phase-4 must not change the frozen baseline backbone after seeing protected-test results.",
+    "Calibration/abstention thresholds must be fitted on validation only."
+  ]
+}

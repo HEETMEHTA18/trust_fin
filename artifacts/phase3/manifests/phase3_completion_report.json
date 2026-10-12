@@ -1,0 +1,89 @@
+{
+  "phase3_complete": true,
+  "run_mode": "full",
+  "all_E1_to_E16_outputs_exist": true,
+  "freeze_status": "FROZEN",
+  "gates": [
+    {
+      "experiment": "E1",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E1.json",
+      "exists": true
+    },
+    {
+      "experiment": "E2",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E2.json",
+      "exists": true
+    },
+    {
+      "experiment": "E3",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E3.json",
+      "exists": true
+    },
+    {
+      "experiment": "E4",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E4.json",
+      "exists": true
+    },
+    {
+      "experiment": "E5",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E5.json",
+      "exists": true
+    },
+    {
+      "experiment": "E6",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E6.json",
+      "exists": true
+    },
+    {
+      "experiment": "E7",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E7.json",
+      "exists": true
+    },
+    {
+      "experiment": "E8",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/metrics/E8.json",
+      "exists": true
+    },
+    {
+      "experiment": "E9",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/analysis/E9_finqa_prompt_ablation.csv",
+      "exists": true
+    },
+    {
+      "experiment": "E10",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/analysis/E10_fiqa_prompt_ablation.csv",
+      "exists": true
+    },
+    {
+      "experiment": "E11",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/analysis/E11_sampling_ablation.csv",
+      "exists": true
+    },
+    {
+      "experiment": "E12",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/analysis/E12_finqa_failure_summary.csv",
+      "exists": true
+    },
+    {
+      "experiment": "E13",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/analysis/E13_fiqa_failure_summary.csv",
+      "exists": true
+    },
+    {
+      "experiment": "E14",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/analysis/E14_confidence_error_correlation.csv",
+      "exists": true
+    },
+    {
+      "experiment": "E15",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/analysis/E15_efficiency_profile.csv",
+      "exists": true
+    },
+    {
+      "experiment": "E16",
+      "output": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase3/manifests/phase3_freeze.json",
+      "exists": true
+    }
+  ],
+  "protected_test_policy": "No Phase-4 protected artifact was loaded by this notebook."
+}

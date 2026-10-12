@@ -1,0 +1,3 @@
+experiment,model_id,adapter_path,sampling,selection_score,finqa_answer_accuracy,finqa_program_accuracy,finqa_execution_accuracy,fiqa_mae,fiqa_mse,fiqa_r2,fiqa_pearson_r
+E5,Qwen/Qwen3-1.7B,/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E5,balanced,0.7445600516885907,0.37599093997734995,0.6115515288788222,0.6749716874292185,0.1301025641025641,0.037490222222222216,0.7300694862470551,0.8732173330514831
+E11,Qwen/Qwen3-1.7B,/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E11,natural,0.7204640817531531,0.34428086070215175,0.5549263873159683,0.6149490373725934,0.12758119658119657,0.03673019658119658,0.7355416893866209,0.8736555785621648

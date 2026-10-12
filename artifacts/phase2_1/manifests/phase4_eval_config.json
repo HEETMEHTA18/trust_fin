@@ -1,6 +1,6 @@
 {
   "schema_version": "trustfin-phase2.1-v1.0",
-  "data_registry": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/dataset_registry.json",
+  "data_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/dataset_registry.json",
   "calibration_split": "validation",
   "protected_tests": [
     "finqa_test",
@@ -47,9 +47,9 @@
     ]
   },
   "official_evaluators": {
-    "FinQA_local": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/finqa_official_evaluator/evaluate.py",
+    "FinQA_local": "/home/heet18/Downloads/Research Papers/data/raw/finqa_official_evaluator/evaluate.py",
     "FinQA_sha256": "845cd131cab843eceff256cf6d392978cc470a7da4a80107beb56027fdca5c13",
-    "FinTrust_local": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/data/raw/fintrust_eval_code"
+    "FinTrust_local": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code"
   },
   "evaluation_rules": {
     "FinQA": "Use the official executor for program/execution accuracy.",

@@ -1,0 +1,14 @@
+{
+  "data_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2/manifests/dataset_registry.json",
+  "train_artifact": "train",
+  "validation_artifact": "validation",
+  "task_mix": {
+    "FinQA": 0.5,
+    "FiQA": 0.5
+  },
+  "mix_note": "Starting point only; report actual sampling strategy in experiments.",
+  "target_format": {
+    "FinQA": "PROGRAM: <program>\\nANSWER: <answer>",
+    "FiQA": "SENTIMENT_SCORE: <number in [-1, 1]>"
+  }
+}

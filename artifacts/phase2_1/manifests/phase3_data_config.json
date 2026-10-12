@@ -1,6 +1,6 @@
 {
   "schema_version": "trustfin-phase2.1-v1.0",
-  "data_registry": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/dataset_registry.json",
+  "data_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/dataset_registry.json",
   "train_artifact": "train",
   "validation_artifact": "validation",
   "allowed_training_datasets": [

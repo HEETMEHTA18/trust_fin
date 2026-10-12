@@ -1,0 +1,11 @@
+{
+  "FinQA": [
+    "finqa::DG/2008/page_86.pdf-1",
+    "finqa::AMT/2007/page_35.pdf-1"
+  ],
+  "FiQA": [
+    "fiqa::train::15596",
+    "fiqa::train::16465",
+    "fiqa::train::17075"
+  ]
+}

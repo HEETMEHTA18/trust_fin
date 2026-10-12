@@ -1,8 +1,11 @@
 {
   "schema_version": "trustfin-phase2.1-v1.0",
-  "created_unix": 1789894475,
+  "created_unix": 1791112762,
   "seed": 42,
-  "parent_phase2": null,
+  "parent_phase2": {
+    "registry_path": "/home/heet18/Downloads/Research Papers/artifacts/phase2/manifests/dataset_registry.json",
+    "sha256": "1fa353b0d94de3cc4ab21a4d1920a889f7c21105e01c346c20a1e1e6015414fb"
+  },
   "training_policy": {
     "allowed_datasets": [
       "FinQA",
@@ -34,7 +37,7 @@
   },
   "artifacts": {
     "train": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/datasets/train.jsonl",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/datasets/train.jsonl",
       "role": "sft_train",
       "dataset": [
         "FinQA",
@@ -48,7 +51,7 @@
       "records": 7073
     },
     "validation": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/datasets/validation.jsonl",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/datasets/validation.jsonl",
       "role": "validation_and_calibration",
       "dataset": [
         "FinQA",
@@ -62,7 +65,7 @@
       "records": 1000
     },
     "finqa_test": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/finqa_test.jsonl",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/eval/finqa_test.jsonl",
       "role": "protected_test",
       "dataset": "FinQA",
       "task": "financial_numerical_reasoning",
@@ -70,7 +73,7 @@
       "records": 1147
     },
     "fiqa_test": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/fiqa_test.jsonl",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/eval/fiqa_test.jsonl",
       "role": "protected_test",
       "dataset": "FiQA",
       "task": "financial_sentiment_regression",
@@ -78,7 +81,7 @@
       "records": 234
     },
     "finben_fomc_test": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/finben_fomc_test.jsonl",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/eval/finben_fomc_test.jsonl",
       "role": "protected_external_test",
       "dataset": "FinBen-FOMC",
       "task": "fomc_stance",
@@ -86,21 +89,21 @@
       "records": 496
     },
     "fintrust_registry": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/eval/fintrust_registry.json",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/eval/fintrust_registry.json",
       "role": "protected_trust_evaluation",
       "dataset": "FinTrust",
-      "sha256": "649ff9a305d28d2cff9f346e38d17d2880413b74d3350519d1591bf1067535ff"
+      "sha256": "e714a336739bd05b664ca46eed28a072134d9e6228e842886a9dc59202e01a05"
     },
     "finqa_gold_execution_audit": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/audits/finqa_official_gold_execution_audit.csv",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/audits/finqa_official_gold_execution_audit.csv",
       "role": "research_integrity_audit",
       "sha256": "35fea75807f088326c773bd74eb3725b4143fe5f15227f9497a82b3b448c4faf"
     },
     "near_duplicate_audit": {
-      "path": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/audits/near_duplicate_train_vs_protected_test.csv",
+      "path": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/audits/near_duplicate_train_vs_protected_test.csv",
       "role": "research_integrity_audit",
       "sha256": "16e4cacb8e78618380023a663b6099cfb6145da0d8e7a7ac9b3f9e3296140304"
     }
   },
-  "source_fingerprints": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/source_fingerprints.json"
+  "source_fingerprints": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/source_fingerprints.json"
 }

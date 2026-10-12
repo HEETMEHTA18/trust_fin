@@ -1,0 +1,61 @@
+{
+  "E1": {
+    "name": "Primary zero-shot",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E2": {
+    "name": "Primary few-shot",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E3": {
+    "name": "Primary FinQA-only QLoRA",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E4": {
+    "name": "Primary FiQA-only QLoRA",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E5": {
+    "name": "Primary joint balanced QLoRA",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E6": {
+    "name": "Secondary zero-shot",
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  "E7": {
+    "name": "Secondary few-shot",
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  "E8": {
+    "name": "Secondary joint balanced QLoRA",
+    "model": "microsoft/Phi-4-mini-instruct"
+  },
+  "E9": {
+    "name": "FinQA prompt comparison",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E10": {
+    "name": "FiQA prompt comparison",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E11": {
+    "name": "Joint sampling comparison",
+    "model": "Qwen/Qwen3-1.7B"
+  },
+  "E12": {
+    "name": "FinQA failure analysis"
+  },
+  "E13": {
+    "name": "FiQA failure analysis"
+  },
+  "E14": {
+    "name": "Confidence/error correlation"
+  },
+  "E15": {
+    "name": "Efficiency profiling"
+  },
+  "E16": {
+    "name": "Final validation comparison and freeze"
+  }
+}

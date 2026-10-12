@@ -628,10 +628,10 @@
       "note": ""
     }
   ],
-  "artifact_registry": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/dataset_registry.json",
-  "phase3_config": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/phase3_data_config.json",
-  "phase4_config": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/manifests/phase4_eval_config.json",
-  "interface_module": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/python/phase2_1_interface.py",
-  "near_duplicate_audit": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/audits/near_duplicate_train_vs_protected_test.csv",
-  "finqa_official_execution_audit": "/home/heet18/Downloads/Research Papers/trustfin_slm_workspace/artifacts/phase2_1/audits/finqa_official_gold_execution_audit.csv"
+  "artifact_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/dataset_registry.json",
+  "phase3_config": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/phase3_data_config.json",
+  "phase4_config": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/phase4_eval_config.json",
+  "interface_module": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/python/phase2_1_interface.py",
+  "near_duplicate_audit": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/audits/near_duplicate_train_vs_protected_test.csv",
+  "finqa_official_execution_audit": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/audits/finqa_official_gold_execution_audit.csv"
 }
