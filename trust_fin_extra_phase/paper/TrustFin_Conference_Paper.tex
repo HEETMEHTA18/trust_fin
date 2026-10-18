@@ -21,7 +21,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{tikz}
-\usetikzlibrary{arrows.meta,positioning,fit}
+\usetikzlibrary{arrows.meta,positioning,fit,shapes.geometric}
 \usepackage{url}
 \usepackage[numbers,square,sort&compress]{natbib}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
@@ -218,16 +218,16 @@ silently deleting legitimate financial-report reuse.
 \begin{figure}[t]
 \centering
 \begin{tikzpicture}[node distance=4pt and 6pt, >=Latex,
-  step/.style={draw, rounded corners=1pt, fill=orange!10, align=center,
+  gstep/.style={draw, rounded corners=1pt, fill=orange!10, align=center,
     minimum width=1.45cm, minimum height=0.7cm, font=\scriptsize},
   decision/.style={draw, diamond, aspect=2.0, fill=yellow!15, align=center,
     inner sep=1pt, font=\scriptsize}, arrow/.style={->, thick}]
-\node[step] (raw) {raw data\\unchanged};
-\node[step, right=of raw] (schema) {schema\\validation};
-\node[step, right=of schema] (exec) {official\\execution};
-\node[step, right=of exec] (leak) {leakage +\\near-duplicate};
+\node[gstep] (raw) {raw data\\unchanged};
+\node[gstep, right=of raw] (schema) {schema\\validation};
+\node[gstep, right=of schema] (exec) {official\\execution};
+\node[gstep, right=of exec] (leak) {leakage +\\near-duplicate};
 \node[decision, right=8mm of leak] (pass) {ERROR gates\\pass?};
-\node[step, right=8mm of pass] (freeze) {write\\FROZEN contract};
+\node[gstep, right=8mm of pass] (freeze) {write\\FROZEN contract};
 \draw[arrow] (raw) -- (schema);
 \draw[arrow] (schema) -- (exec);
 \draw[arrow] (exec) -- (leak);
@@ -852,7 +852,6 @@ transfer. Artifacts, frozen manifest and the full experiment trail are public; \
 the declared next step.
 
 \small
-\section*{References}
 \begin{thebibliography}{99}
 \bibitem{chen2021finqa} Z.~Chen \emph{et al.}, ``FinQA: A Dataset of Numerical Reasoning over Financial Data,'' EMNLP, 2021.
 \bibitem{chen2022convfinqa} Z.~Chen \emph{et al.}, ``ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering,'' EMNLP, 2022.
