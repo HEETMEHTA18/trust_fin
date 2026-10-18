@@ -1,0 +1,100 @@
+{
+  "stage": "P4-E9",
+  "artifact": "fintrust sample-subset generation",
+  "created_utc": "2026-10-13T07:11:11Z",
+  "gate": {
+    "phase4_freeze": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/manifests/phase4_freeze.json",
+    "freeze_sha256": "701afd75dbc964dee852d36bdca9be4faad4b14730b532a9a82936bf4a03e079",
+    "dataset_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/dataset_registry.json",
+    "dataset_registry_sha256": "e0c43a54add7323b60d139cac7be6a93694fad96d979b94539cb01968595e794",
+    "fintrust_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/eval/fintrust_registry.json",
+    "fintrust_registry_sha256": "e714a336739bd05b664ca46eed28a072134d9e6228e842886a9dc59202e01a05",
+    "protected_optin_required": "TRUSTFIN4_PROTECTED=1"
+  },
+  "model": {
+    "base": "Qwen/Qwen3-1.7B",
+    "adapter": "/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E5",
+    "adapter_sha256": "c7e6273e304d5b1bb8cd46695ffe0da2379dc68773f009d20d74861c3aa7167b",
+    "quantization": "4bit nf4 double-quant, bf16 compute"
+  },
+  "generation": {
+    "framework": "local transformers generate",
+    "do_sample": true,
+    "seed": 42,
+    "max_len": 3072,
+    "truncation": "middle (first half + last half)",
+    "enable_thinking": false,
+    "batch_size": 4
+  },
+  "dims": {
+    "privacy": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/privacy/privacy_evaluation_100.json",
+      "sha256": "c6ef365127f38354e36336fd00a7821fb5f7c416c7053b71739b494d75c22644"
+    },
+    "robustness": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/robustness/Robustness_evaluation_20.json",
+      "sha256": "d369b4a482e9906dd9c8fd427f9bf4f1fd1531aa4062c21b1171d3e28c78f45c"
+    },
+    "transparency": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/transparency/transparency_evaluation_100.json",
+      "sha256": "87991fb8e6cb5d9473cf0b8a8e6de3813e7f2fcf061e8ba8add4364499513400"
+    },
+    "knowledge_discovery": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/knowledge-discovery/knowledge-discovery_evaluation_100.json",
+      "sha256": "30b37d837ecbb78271f20831e21152c6fa54974f9d05a0df5f8c089d4efe2638"
+    },
+    "fairness_personal": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/fairness/personal-level_data/fairness_personal_level_evaluation_100.jsonl",
+      "sha256": "b4d0e4a5f5ea3e185210fb64e42a8a0b9e3dc1a46fe3720798e1476157076419"
+    },
+    "fairness_industry": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/fairness/industry-level_data/fairness_industry_level_evaluation_100.json",
+      "sha256": "13863dd4d5157f8e7510cf24c235a28c08525f7ce2d1fa61e37e5caf40bfa11e"
+    },
+    "safety_deep_inception": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/safety/deep-inception/deep_inception_evaluation_100.json",
+      "sha256": "677127d749aefed94210711f154051f4c04fc91edaf748a0005cdc89ba6e2e54"
+    },
+    "safety_in_context": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/safety/in-context attack/in_context_evaluation_100.json",
+      "sha256": "817e7e2e27f8c884ff724bed55c560679dd8e0a35380a3c2f421290a3f314d20"
+    },
+    "safety_language_barrier": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/safety/language_barrier/language_barrier_evaluation_100.json",
+      "sha256": "644de41f03533877acca2eb9568616a48710a6080b4f2babd0c9081241ac8f85"
+    },
+    "safety_plain_question": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/safety/plain_question/plain_attack_evaluation_100.json",
+      "sha256": "55ba752cd9e5a18f81db58d74283b32b9f3616444215521ace3b3d738e8c68c5"
+    },
+    "trustfulness_hallucination_certainty": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/trustfulness/hallucination_certainty/hallucination_certainty_evaluation_100.jsonl",
+      "sha256": "4e955d6150c63382056140fdd67116e41e7af72f779dd96f3158260bbe20d491"
+    },
+    "trustfulness_number_informativeness": {
+      "sample_file": "/home/heet18/Downloads/Research Papers/data/raw/fintrust_eval_code/trustfulness/number_informativeness/number_informativeness_evaluation_100.jsonl",
+      "sha256": "62b7cc0fca25e5a5250e4d47be628e5644dcbb75923206fafba5cc8826f2401b"
+    }
+  },
+  "scoring_plan": {
+    "fairness_personal": "rule-scored now (official port, no judge)",
+    "fairness_industry": "rule-scored now (official port; buy-token logprob Cohen's d)",
+    "all_other_dims": "judge-pending: reuse official postprocess_response.py with gpt-4.1-mini is the scoring path (key not available at generation time)"
+  },
+  "deviations_declared_before_generation": [
+    "generation runs locally on the frozen E5 adapter (Qwen3-1.7B + QLoRA E5) instead of a hosted API;",
+    "prompts longer than 3072 tokens are middle-truncated (keep first 1536 + last 1536 tokens); hosted APIs saw the full prompt;",
+    "max_new token caps are local safety caps (privacy/robustness/safety 512, transparency/KD/NI 1024, fairness personal 64, fairness industry 8);",
+    "Qwen3 chat template is rendered with enable_thinking=False (frozen E5 prompt policy);",
+    "robustness irrelevant-context draws are seeded locally (seed 42) from the same 20-record sample list;",
+    "safety language-barrier translation-to-English step (official: gpt-4.1-mini) is deferred to scoring time;",
+    "scoring: fairness dimensions rule-scored now (official postprocess code, no judge); all other dimensions judge-pending (gpt-4.1-mini, official postprocess)."
+  ],
+  "note": "Schema-only reconnaissance of the official eval code happened before this manifest; no generation parameter or model choice depends on FinTrust content. Records are evaluation-only and are never used for training or calibration (registry constraint).",
+  "amendments": [
+    {
+      "at": "2026-10-13T13:15:03Z",
+      "note": "two implementation corrections applied before the affected dimensions were generated: (1) deep-inception sample is a flat list of records, so jobs read item['inception_attack'] per record (was mistakenly treated as topic->list); (2) fairness_personal stored 'query' now equals the exact model input (make_format_prompt). No generation parameter changed and neither affected dimension had been generated at edit time."
+    }
+  ]
+}

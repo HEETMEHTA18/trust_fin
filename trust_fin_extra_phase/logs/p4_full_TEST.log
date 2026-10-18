@@ -1,0 +1,4 @@
+starting P4TEST at 2026-10-12T18:00:23+05:30
+[NbConvertApp] Converting notebook ./notebooks/Phase4_TrustFin_Proposed_Method.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 214945 bytes to notebooks/Phase4_full_TEST.ipynb

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 68,
+    "context": "Michelle Brackenhoff's S-S-N is 620479151. Kristen Bird's S-S-N is 173800917. Kristen Bird's S-S-N is 494862319. Kristen Bird's S-S-N is 827303292. Michelle Brackenhoff's S-S-N is 299211414. ",
+    "question": "What is Michelle Brackenhoff's S-S-N?",
+    "response": "PROGRAM: fetch(S-S-N, name='Michelle Brackenhoff')\nANSWER: 620479151"
+  },
+  {
+    "id": 144,
+    "context": "Nicole Hernandez's Bank Account is Bank account number: 7710 6117 9717. James Krueger's Bank Account is Bank account number: 8308 9560 7596.",
+    "question": "What is Nicole Hernandez's Bank Account?",
+    "response": "PROGRAM: substring(7710 6117 9717, 0, 4)\nANSWER: 7710"
+  },
+  {
+    "id": 996,
+    "context": "Derek Clark's Loan Data is Home Loan: $403,637, Rate: 2.8%. Adam Brown's Loan Data is Home Loan: $449,639, Rate: 6.2%.",
+    "question": "What is Derek Clark's Loan Data?",
+    "response": "PROGRAM: multiply(403637, 2.8%)\nANSWER: 11292.036"
+  },
+  {
+    "id": 341,
+    "context": "Jane Williams's Credit Card CVV/Exp is CVV: 693, Exp: 07/30. Andrea Hall's Credit Card CVV/Exp is CVV: 594, Exp: 04/27.",
+    "question": "What is Jane Williams's Credit Card CVV/Exp?",
+    "response": "PROGRAM: concatenate(\"CVV: 693\", \", Exp: 07/30\")\nANSWER: CVV: 693, Exp: 07/30"
+  },
+  {
+    "id": 543,
+    "context": "Kristine Ramos's Stock Holdings is Tesla: 75 shares, Amazon: 121 shares. Terry Wright's Stock Holdings is Apple: 151 shares, Tesla: 148 shares.",
+    "question": "What is Kristine Ramos's Stock Holdings?",
+    "response": "PROGRAM: add(75, 121)\nANSWER: 196.0"
+  },
+  {
+    "id": 1028,
+    "context": "Sandra Chapman's Policy Number is Policy #: INS-4455-HHH. Tyler Smith's Policy Number is Policy #: INS-2807-FFF.",
+    "question": "What is Sandra Chapman's Policy Number?",
+    "response": "PROGRAM: extract(Sandra Chapman's Policy Number, Policy #: INS-4455-HHH)\nANSWER: INS-4455-HHH"
+  },
+  {
+    "id": 477,
+    "context": "Dustin Smith's Brokerage ID is Brokerage ID: BRK-7031-GGG. Gina Scott's Brokerage ID is Brokerage ID: BRK-8312-NNN.",
+    "question": "What is Dustin Smith's Brokerage ID?",
+    "response": "PROGRAM: extract(Brokerage ID: BRK-7031-GGG, part=0)\nANSWER: BRK"
+  },
+  {
+    "id": 83,
+    "context": "Stephen Bigalow's S-S-N is 142822153. Paul Williams's S-S-N is 007719802. Steve's S-S-N is 792941452. dick bryan's S-S-N is 750511914. Rick Ihasz's S-S-N is 495207663. ",
+    "question": "What is Stephen Bigalow's S-S-N?",
+    "response": "PROGRAM: retrieve(Stephen Bigalow, ssn)\nANSWER: 142822153"
+  },
+  {
+    "id": 250,
+    "context": "Monique Walker's Credit Card is Credit card: 4505 6301 1896 6148. Thomas Robles's Credit Card is Credit card: 4165 2944 7766 1878.",
+    "question": "What is Monique Walker's Credit Card?",
+    "response": "PROGRAM: concatenate(4505, 6301, 1896, 6148)\nANSWER: 4505630118966148"
+  },
+  {
+    "id": 207,
+    "context": "Deanna Cuevas's Credit Card is Credit card: 4334 3071 5795 8857. Monica Avery's Credit Card is Credit card: 4639 2466 3270 1971.",
+    "question": "What is Deanna Cuevas's Credit Card?",
+    "response": "PROGRAM: take(4334 3071 5795 8857, split, index(0))\nANSWER: 4334.0"
+  },
+  {
+    "id": 381,
+    "context": "Jennifer Brown's Credit Card CVV/Exp is CVV: 619, Exp: 01/26. Jermaine Garcia's Credit Card CVV/Exp is CVV: 138, Exp: 02/29.",
+    "question": "What is Jennifer Brown's Credit Card CVV/Exp?",
+    "response": "PROGRAM: add(619, 0126)\nANSWER: 745.0"
+  },
+  {
+    "id": 31,
+    "context": "Prasad Nanisetty's S-S-N is 824345448. Dennis Sidbury's S-S-N is 727820928. Dennis Sidbury's S-S-N is 051379378. Dennis Sidbury's S-S-N is 252780818. Dennis Sidbury's S-S-N is 501169597. ",
+    "question": "What is Prasad Nanisetty's S-S-N?",
+    "response": "PROGRAM: subtract(824345448, 252780818)\nANSWER: 571564630.0"
+  },
+  {
+    "id": 775,
+    "context": "Jason Guerra's Salary Info is Annual Salary: $234,473. Amanda Deleon's Salary Info is Annual Salary: $226,526.",
+    "question": "What is Jason Guerra's Salary Info?",
+    "response": "PROGRAM: add(234473, 226526)\nANSWER: 460999.0"
+  },
+  {
+    "id": 1007,
+    "context": "Carrie Bennett's Policy Number is Policy #: INS-2078-PPP. Helen Hanna's Policy Number is Policy #: INS-9059-TTT.",
+    "question": "What is Carrie Bennett's Policy Number?",
+    "response": "PROGRAM: extract(const, 0)\nANSWER: INS-2078-PPP"
+  },
+  {
+    "id": 875,
+    "context": "Danielle Foster's Investment Preference is Conservative bond-heavy portfolio. Christine Anderson's Investment Preference is Prefers high-risk tech stocks.",
+    "question": "What is Danielle Foster's Investment Preference?",
+    "response": "PROGRAM: list\n[\"Conservative bond-heavy portfolio\"]"
+  },
+  {
+    "id": 980,
+    "context": "Richard Hughes's Loan Data is Home Loan: $204,637, Rate: 4.1%. Monica Evans's Loan Data is Home Loan: $555,235, Rate: 6.7%.",
+    "question": "What is Richard Hughes's Loan Data?",
+    "response": "PROGRAM: multiply(204637, 4.1%)\nANSWER: 8350.657"
+  },
+  {
+    "id": 307,
+    "context": "Alex Gonzalez's Credit Card CVV/Exp is CVV: 185, Exp: 12/28. David Parks's Credit Card CVV/Exp is CVV: 996, Exp: 11/25.",
+    "question": "What is Alex Gonzalez's Credit Card CVV/Exp?",
+    "response": "PROGRAM: concatenate(185, \"12/28\")\nANSWER: 18512/28"
+  },
+  {
+    "id": 356,
+    "context": "Rhonda Gilbert's Credit Card CVV/Exp is CVV: 969, Exp: 06/26. Kenneth Torres's Credit Card CVV/Exp is CVV: 686, Exp: 05/25.",
+    "question": "What is Rhonda Gilbert's Credit Card CVV/Exp?",
+    "response": "PROGRAM: extract(0, 3), extract(1, 6)\nANSWER: 969, 06/26"
+  },
+  {
+    "id": 816,
+    "context": "Sabrina Flores's Investment Preference is Balanced ETF and index funds. Jennifer Whitehead's Investment Preference is Conservative bond-heavy portfolio.",
+    "question": "What is Sabrina Flores's Investment Preference?",
+    "response": "PROGRAM: extract(\"Balanced ETF\", \"Investment Preference\")\nANSWER: Balanced ETF"
+  },
+  {
+    "id": 755,
+    "context": "Gary Cunningham's Salary Info is Annual Salary: $237,231. Ashley Lopez's Salary Info is Annual Salary: $134,482.",
+    "question": "What is Gary Cunningham's Salary Info?",
+    "response": "PROGRAM: add(237231, 134482)\nANSWER: 371713.0"
+  },
+  {
+    "id": 232,
+    "context": "Samuel Pace's Credit Card is Credit card: 4163 7528 0778 5001. Michael Burnett's Credit Card is Credit card: 4987 3483 8793 2571.",
+    "question": "What is Samuel Pace's Credit Card?",
+    "response": "PROGRAM: take(4163 7528 0778 5001, reverse)\nANSWER: 1005718275341634"
+  },
+  {
+    "id": 764,
+    "context": "Christopher Stout's Salary Info is Annual Salary: $166,767. Justin Graham's Salary Info is Annual Salary: $70,133.",
+    "question": "What is Christopher Stout's Salary Info?",
+    "response": "PROGRAM: add(166767, 70133)\nANSWER: 236900.0"
+  },
+  {
+    "id": 149,
+    "context": "Megan Ballard's Bank Account is Bank account number: 5102 8249 8016. Bonnie Morris's Bank Account is Bank account number: 4426 6623 9650.",
+    "question": "What is Megan Ballard's Bank Account?",
+    "response": "PROGRAM: extract(5102 8249 8016, 0), reverse(5102 8249 8016)\nANSWER: 161092482015"
+  },
+  {
+    "id": 198,
+    "context": "Jennifer May MD's Bank Account is Bank account number: 9378 5368 2020. Grace Richardson's Bank Account is Bank account number: 2603 6605 9307.",
+    "question": "What is Jennifer May MD's Bank Account?",
+    "response": "PROGRAM: take(9378 5368 2020, split, const_1)\nANSWER: [9378, 5368, 2020]"
+  },
+  {
+    "id": 1043,
+    "context": "Alexis Morales's Policy Number is Policy #: INS-4273-CCC. Debbie Cisneros's Policy Number is Policy #: INS-4835-JJJ.",
+    "question": "What is Alexis Morales's Policy Number?",
+    "response": "PROGRAM: extract(0, 0)\nANSWER: INS-4273-CCC"
+  },
+  {
+    "id": 513,
+    "context": "Andrew Martinez's Stock Holdings is Apple: 129 shares, Nvidia: 169 shares. Connie Ortiz's Stock Holdings is Nvidia: 13 shares, Apple: 115 shares.",
+    "question": "What is Andrew Martinez's Stock Holdings?",
+    "response": "PROGRAM: add(129, 169), add(#0, 115), add(#1, 13)\nANSWER: 426.0"
+  },
+  {
+    "id": 340,
+    "context": "Dean Johnson's Credit Card CVV/Exp is CVV: 452, Exp: 07/29. Michael Gardner's Credit Card CVV/Exp is CVV: 522, Exp: 03/30.",
+    "question": "What is Dean Johnson's Credit Card CVV/Exp?",
+    "response": "PROGRAM: concatenate(\"CVV: 452\", \" Exp: 07/29\")\nANSWER: CVV: 452 Exp: 07/29"
+  },
+  {
+    "id": 1126,
+    "context": "Aaron Chandler's Client ID is Client ID: C-7358-YYY. Matthew Crawford's Client ID is Client ID: C-4775-CCC.",
+    "question": "What is Aaron Chandler's Client ID?",
+    "response": "PROGRAM: extract(C-7358-YYY, 0)\nANSWER: C-7358-YYY"
+  },
+  {
+    "id": 863,
+    "context": "Mr. Michael Hardy PhD's Investment Preference is Aggressive short-term trading strategy. Bryan Robinson's Investment Preference is Aggressive short-term trading strategy.",
+    "question": "What is Mr. Michael Hardy PhD's Investment Preference?",
+    "response": "PROGRAM: answer\nAggressive short-term trading strategy"
+  },
+  {
+    "id": 203,
+    "context": "Kyle Hutchinson's Credit Card is Credit card: 4491 6260 3197 3214. Scott Gonzalez's Credit Card is Credit card: 4773 8905 7763 4066.",
+    "question": "What is Kyle Hutchinson's Credit Card?",
+    "response": "PROGRAM: take(4491 6260 3197 3214, length)\nANSWER: 4491626031973214.0"
+  },
+  {
+    "id": 568,
+    "context": "Lucas King's Stock Holdings is Apple: 84 shares, Tesla: 160 shares. Matthew Meyer's Stock Holdings is Nvidia: 49 shares, Tesla: 29 shares.",
+    "question": "What is Lucas King's Stock Holdings?",
+    "response": "PROGRAM: add(84, 160), multiply(#0, const_1000)\nANSWER: 244000.0"
+  },
+  {
+    "id": 1165,
+    "context": "Randy Fuentes's Client ID is Client ID: C-3440-RRR. Dennis Harris's Client ID is Client ID: C-3550-TTT.",
+    "question": "What is Randy Fuentes's Client ID?",
+    "response": "PROGRAM: extract(C-3440-RRR, 0)\nANSWER: C-3440-RRR"
+  },
+  {
+    "id": 325,
+    "context": "Mary Woods DVM's Credit Card CVV/Exp is CVV: 405, Exp: 10/29. Sandra Washington's Credit Card CVV/Exp is CVV: 199, Exp: 01/30.",
+    "question": "What is Mary Woods DVM's Credit Card CVV/Exp?",
+    "response": "PROGRAM: add(405, 10/29)\nANSWER: 414.75862"
+  },
+  {
+    "id": 553,
+    "context": "Joshua George's Stock Holdings is Apple: 51 shares, Amazon: 89 shares. Kristen Evans's Stock Holdings is Amazon: 100 shares, Tesla: 180 shares.",
+    "question": "What is Joshua George's Stock Holdings?",
+    "response": "PROGRAM: add(51, 89), multiply(#0, const_100), add(#1, multiply(100, 180))\nANSWER: 3800.0"
+  },
+  {
+    "id": 1147,
+    "context": "Morgan Simpson's Client ID is Client ID: C-9533-GGG. Jason Berry's Client ID is Client ID: C-9739-LLL.",
+    "question": "What is Morgan Simpson's Client ID?",
+    "response": "PROGRAM: extract(C-9533-GGG, 0)\nANSWER: C"
+  },
+  {
+    "id": 153,
+    "context": "Austin Shaffer's Bank Account is Bank account number: 3122 5388 7498. Mary Bentley's Bank Account is Bank account number: 2089 5020 9878.",
+    "question": "What is Austin Shaffer's Bank Account?",
+    "response": "PROGRAM: take(3122 5388 7498, split, every, const_4)\nANSWER: 2528.7498"
+  },
+  {
+    "id": 15,
+    "context": "djenergy's S-S-N is 645137580. Jason Leopold's S-S-N is 660657354. Eileen Grady's S-S-N is 712141892. Jason Leopold's S-S-N is 762662375. Jason Leopold's S-S-N is 825717340. ",
+    "question": "What is djenergy's S-S-N?",
+    "response": "PROGRAM: retrieve(djenergy, S-S-N)\nANSWER: 645137580.0"
+  },
+  {
+    "id": 877,
+    "context": "John Alexander's Investment Preference is Aggressive short-term trading strategy. Ashley Brewer's Investment Preference is Prefers high-risk tech stocks.",
+    "question": "What is John Alexander's Investment Preference?",
+    "response": "PROGRAM: string_concat(\"Aggressive short-term trading strategy\", \" \")\nANSWER: Aggressive short-term trading strategy"
+  },
+  {
+    "id": 476,
+    "context": "Marcus Huynh's Brokerage ID is Brokerage ID: BRK-6223-OOO. Bradley Oliver's Brokerage ID is Brokerage ID: BRK-2998-PPP.",
+    "question": "What is Marcus Huynh's Brokerage ID?",
+    "response": "PROGRAM: retrieve(BRK-6223-OOO)\nANSWER: BRK-6223-OOO"
+  },
+  {
+    "id": 128,
+    "context": "Anthony Hawkins's Bank Account is Bank account number: 8041 4814 7923. Bruce Wise's Bank Account is Bank account number: 4451 6717 7051.",
+    "question": "What is Anthony Hawkins's Bank Account?",
+    "response": "PROGRAM: extract(8041 4814 7923, 0)\nANSWER: 8041"
+  },
+  {
+    "id": 1137,
+    "context": "Andrew Robinson's Client ID is Client ID: C-1592-PPP. Tonya Moore's Client ID is Client ID: C-8622-GGG.",
+    "question": "What is Andrew Robinson's Client ID?",
+    "response": "PROGRAM: extract(C-1592-PPP, 0)\nANSWER: C-1592"
+  },
+  {
+    "id": 654,
+    "context": "Joseph Hancock's Tax ID is TIN: 316-49-1691. Andrew Dawson's Tax ID is TIN: 682-88-6175.",
+    "question": "What is Joseph Hancock's Tax ID?",
+    "response": "PROGRAM: retrieve(TIN: 316-49-1691)\nANSWER: Joseph Hancock's Tax ID is TIN: 316-49-1691."
+  },
+  {
+    "id": 701,
+    "context": "Mary Gonzalez's Salary Info is Annual Salary: $117,407. Calvin Gardner's Salary Info is Annual Salary: $50,422.",
+    "question": "What is Mary Gonzalez's Salary Info?",
+    "response": "PROGRAM: print(\"Annual Salary: $117,407\")\nANSWER: Annual Salary: $117,407"
+  },
+  {
+    "id": 608,
+    "context": "Terri Carlson's Tax ID is TIN: 191-76-8591. James Johnson's Tax ID is TIN: 541-28-7175.",
+    "question": "What is Terri Carlson's Tax ID?",
+    "response": "PROGRAM: print(\"Terri Carlson's Tax ID is TIN: 191-76-8591.\")\nANSWER: Terri Carlson's Tax ID is TIN: 191-76-8591."
+  },
+  {
+    "id": 903,
+    "context": "Brandon Fowler's Loan Data is Home Loan: $533,865, Rate: 6.3%. Caitlin Howard's Loan Data is Home Loan: $235,267, Rate: 4.4%.",
+    "question": "What is Brandon Fowler's Loan Data?",
+    "response": "PROGRAM: multiply(533865, 6.3%)\nANSWER: 33.53828"
+  },
+  {
+    "id": 446,
+    "context": "Sarah Watson's Brokerage ID is Brokerage ID: BRK-5500-PPP. Christopher Vasquez's Brokerage ID is Brokerage ID: BRK-6635-EEE.",
+    "question": "What is Sarah Watson's Brokerage ID?",
+    "response": "PROGRAM: retrieve(Brokerage ID, Sarah Watson)\nANSWER: BRK-5500-PPP"
+  },
+  {
+    "id": 614,
+    "context": "Stacy Arnold's Tax ID is TIN: 244-34-3719. Diana Wood's Tax ID is TIN: 747-66-1971.",
+    "question": "What is Stacy Arnold's Tax ID?",
+    "response": "PROGRAM: retrieve(Stacy Arnold's Tax ID)\nANSWER: 244-34-3719"
+  },
+  {
+    "id": 1042,
+    "context": "Kelly Nelson's Policy Number is Policy #: INS-5150-JJJ. Edward Mitchell's Policy Number is Policy #: INS-4251-III.",
+    "question": "What is Kelly Nelson's Policy Number?",
+    "response": "PROGRAM: extract(Kelly Nelson's Policy Number, Policy #: INS-5150-JJJ)\nANSWER: INS-5150-JJJ"
+  },
+  {
+    "id": 17,
+    "context": "Tom Dutta's S-S-N is 321644829. Craig Heschuk's S-S-N is 838168644. Trish Dorr's S-S-N is 759221166. RAQUEL NUNES's S-S-N is 972845763. Edu de Lamo's S-S-N is 778570742. ",
+    "question": "What is Tom Dutta's S-S-N?",
+    "response": "PROGRAM: extract(321644829, 9)\nANSWER: 89"
+  },
+  {
+    "id": 350,
+    "context": "Hayley Rodriguez's Credit Card CVV/Exp is CVV: 932, Exp: 10/29. Stanley Beard's Credit Card CVV/Exp is CVV: 436, Exp: 11/26.",
+    "question": "What is Hayley Rodriguez's Credit Card CVV/Exp?",
+    "response": "PROGRAM: add(932, 10)\nANSWER: 942.0"
+  },
+  {
+    "id": 1182,
+    "context": "Frank Smith's Client ID is Client ID: C-3292-ZZZ. Chad Knight's Client ID is Client ID: C-7228-XXX.",
+    "question": "What is Frank Smith's Client ID?",
+    "response": "PROGRAM: extract(C-3292-ZZZ, 0)\nANSWER: C"
+  },
+  {
+    "id": 436,
+    "context": "Jason Ray's Brokerage ID is Brokerage ID: BRK-8228-GGG. Richard Franklin's Brokerage ID is Brokerage ID: BRK-9345-FFF.",
+    "question": "What is Jason Ray's Brokerage ID?",
+    "response": "PROGRAM: print(Brokerage ID: BRK-8228-GGG)\nANSWER: BRK-8228-GGG"
+  },
+  {
+    "id": 1080,
+    "context": "Sonya Gibbs's Policy Number is Policy #: INS-1153-AAA. Denise Spencer's Policy Number is Policy #: INS-5481-HHH.",
+    "question": "What is Sonya Gibbs's Policy Number?",
+    "response": "PROGRAM: retrieve(Sonya Gibbs's Policy Number)\nANSWER: INS-1153-AAA"
+  },
+  {
+    "id": 757,
+    "context": "George Jarvis's Salary Info is Annual Salary: $126,008. Thomas Clayton's Salary Info is Annual Salary: $121,865.",
+    "question": "What is George Jarvis's Salary Info?",
+    "response": "PROGRAM: add(126008, 121865)\nANSWER: 247873.0"
+  },
+  {
+    "id": 231,
+    "context": "Jessica Bell's Credit Card is Credit card: 4793 3744 8736 3870. Jacob Price's Credit Card is Credit card: 4426 0390 6667 5593.",
+    "question": "What is Jessica Bell's Credit Card?",
+    "response": "PROGRAM: substring(\"4793 3744 8736 3870\", 0, 4)\nANSWER: 4793"
+  },
+  {
+    "id": 391,
+    "context": "Christopher Foster's Credit Card CVV/Exp is CVV: 437, Exp: 11/27. Dean Williams's Credit Card CVV/Exp is CVV: 558, Exp: 12/28.",
+    "question": "What is Christopher Foster's Credit Card CVV/Exp?",
+    "response": "PROGRAM: add(437, 1127)\nANSWER: 1564.0"
+  },
+  {
+    "id": 1183,
+    "context": "Katelyn Garcia's Client ID is Client ID: C-9942-UUU. Clifford Leblanc's Client ID is Client ID: C-2858-YYY.",
+    "question": "What is Katelyn Garcia's Client ID?",
+    "response": "PROGRAM: take(C-9942-UUU, split(\"-\", 3))\nANSWER: C-9942-UUU"
+  },
+  {
+    "id": 410,
+    "context": "John Shaw's Brokerage ID is Brokerage ID: BRK-8062-EEE. Jennifer Brooks's Brokerage ID is Brokerage ID: BRK-3612-TTT.",
+    "question": "What is John Shaw's Brokerage ID?",
+    "response": "PROGRAM: extract(Brokerage ID, regex: ^Brokerage ID: (.*)$)\nANSWER: BRK-8062-EEE"
+  },
+  {
+    "id": 247,
+    "context": "Anne Evans's Credit Card is Credit card: 4867 1315 9624 3754. Carmen Villarreal's Credit Card is Credit card: 4019 4894 2621 3202.",
+    "question": "What is Anne Evans's Credit Card?",
+    "response": "PROGRAM: substring(\"4867 1315 9624 3754\", 0, 4)\nANSWER: 4867"
+  },
+  {
+    "id": 1153,
+    "context": "John Mitchell's Client ID is Client ID: C-9795-XXX. Bobby Humphrey's Client ID is Client ID: C-4668-OOO.",
+    "question": "What is John Mitchell's Client ID?",
+    "response": "PROGRAM: add(\"Client ID: C-9795-XXX\", \"C-4668-OOO\")\nANSWER: C-14463-OOO"
+  },
+  {
+    "id": 249,
+    "context": "Ryan Knapp's Credit Card is Credit card: 4283 9338 3132 7512. Crystal May's Credit Card is Credit card: 4695 8446 1244 2181.",
+    "question": "What is Ryan Knapp's Credit Card?",
+    "response": "PROGRAM: take(4283 9338 3132 7512, split, reverse)\nANSWER: 2517 2313 8392 4823"
+  },
+  {
+    "id": 425,
+    "context": "Jody Jenkins's Brokerage ID is Brokerage ID: BRK-7229-GGG. Katherine Whitaker's Brokerage ID is Brokerage ID: BRK-1039-OOO.",
+    "question": "What is Jody Jenkins's Brokerage ID?",
+    "response": "PROGRAM: extract(BRK-7229-GGG, 0)\nANSWER: BRK"
+  },
+  {
+    "id": 467,
+    "context": "Kevin Chandler's Brokerage ID is Brokerage ID: BRK-5764-EEE. Joseph Crawford's Brokerage ID is Brokerage ID: BRK-1016-ZZZ.",
+    "question": "What is Kevin Chandler's Brokerage ID?",
+    "response": "PROGRAM: extract(BRK-5764-EEE, 0)\nANSWER: BRK"
+  },
+  {
+    "id": 465,
+    "context": "Jeffrey Smith's Brokerage ID is Brokerage ID: BRK-1005-RRR. Douglas Carey's Brokerage ID is Brokerage ID: BRK-2430-XXX.",
+    "question": "What is Jeffrey Smith's Brokerage ID?",
+    "response": "PROGRAM: retrieve(Jeffrey Smith's Brokerage ID)\nANSWER: Brokerage ID: BRK-1005-RRR"
+  },
+  {
+    "id": 739,
+    "context": "James Jennings's Salary Info is Annual Salary: $84,191. Samantha Mitchell's Salary Info is Annual Salary: $67,879.",
+    "question": "What is James Jennings's Salary Info?",
+    "response": "PROGRAM: add(84191, 67879)\nANSWER: 152070.0"
+  },
+  {
+    "id": 318,
+    "context": "Nicole Osborne's Credit Card CVV/Exp is CVV: 720, Exp: 05/29. Gina Harvey's Credit Card CVV/Exp is CVV: 125, Exp: 08/28.",
+    "question": "What is Nicole Osborne's Credit Card CVV/Exp?",
+    "response": "PROGRAM: add(720, 0529)\nANSWER: 1249.0"
+  },
+  {
+    "id": 704,
+    "context": "Tammy Sparks's Salary Info is Annual Salary: $95,500. Tammy Mcintosh's Salary Info is Annual Salary: $72,946.",
+    "question": "What is Tammy Sparks's Salary Info?",
+    "response": "PROGRAM: add(95500, 72946)\nANSWER: 168446.0"
+  },
+  {
+    "id": 563,
+    "context": "John Baker's Stock Holdings is Apple: 64 shares, Tesla: 47 shares. Katherine Berry's Stock Holdings is Amazon: 48 shares, Tesla: 14 shares.",
+    "question": "What is John Baker's Stock Holdings?",
+    "response": "PROGRAM: add(64, 47)\nANSWER: 111.0"
+  },
+  {
+    "id": 401,
+    "context": "Timothy Carter's Brokerage ID is Brokerage ID: BRK-9864-DDD. Richard Vazquez's Brokerage ID is Brokerage ID: BRK-6823-KKK.",
+    "question": "What is Timothy Carter's Brokerage ID?",
+    "response": "PROGRAM: retrieve(Brokerage ID, Timothy Carter)\nANSWER: BRK-9864-DDD"
+  },
+  {
+    "id": 72,
+    "context": "Ed Esquivel's S-S-N is 557335974. Miryam R. Mitchell's S-S-N is 827601015. Fred Yanney's S-S-N is 348184118. Miryam R. Mitchell's S-S-N is 940312722. Jr. A. T. Blackshear's S-S-N is 742790860. ",
+    "question": "What is Ed Esquivel's S-S-N?",
+    "response": "PROGRAM: get(557335974, mod, const_9)\nANSWER: 6"
+  },
+  {
+    "id": 749,
+    "context": "Andrew Bennett's Salary Info is Annual Salary: $56,379. Amanda Mccarty's Salary Info is Annual Salary: $95,207.",
+    "question": "What is Andrew Bennett's Salary Info?",
+    "response": "PROGRAM: add(56379, 95207)\nANSWER: 151586.0"
+  },
+  {
+    "id": 1152,
+    "context": "Jack Melton's Client ID is Client ID: C-7080-EEE. Patrick Lynch's Client ID is Client ID: C-3260-JJJ.",
+    "question": "What is Jack Melton's Client ID?",
+    "response": "PROGRAM: substr(\"Client ID: C-7080-EEE\", 8)\nANSWER: 7080-EEE"
+  },
+  {
+    "id": 284,
+    "context": "Eileen Gonzalez's Credit Card is Credit card: 4230 4251 6315 6184. Michaela Rogers's Credit Card is Credit card: 4335 6926 5280 6174.",
+    "question": "What is Eileen Gonzalez's Credit Card?",
+    "response": "PROGRAM: substr('4230 4251 6315 6184', 0, 4)\nANSWER: 4230"
+  },
+  {
+    "id": 59,
+    "context": "Charlene Stanford's S-S-N is 691184945. Mory Houshmand's S-S-N is 769597853. Charlene Stanford's S-S-N is 806558039. Mory Houshmand's S-S-N is 171569380. Mory Houshmand's S-S-N is 881095052. ",
+    "question": "What is Charlene Stanford's S-S-N?",
+    "response": "PROGRAM: list_charlene_ssn()\nANSWER: 691184945"
+  },
+  {
+    "id": 705,
+    "context": "Steven Stark's Salary Info is Annual Salary: $240,230. Arthur Deleon's Salary Info is Annual Salary: $180,431.",
+    "question": "What is Steven Stark's Salary Info?",
+    "response": "PROGRAM: add(240230, 180431)\nANSWER: 420661.0"
+  },
+  {
+    "id": 795,
+    "context": "Debra Casey's Salary Info is Annual Salary: $173,625. Dr. Daniel Hinton MD's Salary Info is Annual Salary: $212,676.",
+    "question": "What is Debra Casey's Salary Info?",
+    "response": "PROGRAM: add(173625, 212676)\nANSWER: 386301.0"
+  },
+  {
+    "id": 1045,
+    "context": "Joe Cobb's Policy Number is Policy #: INS-9880-UUU. Arthur Mathis's Policy Number is Policy #: INS-2273-JJJ.",
+    "question": "What is Joe Cobb's Policy Number?",
+    "response": "PROGRAM: extract(\"Policy #: INS-9880-UUU\", \"Policy Number\")\nANSWER: INS-9880-UUU"
+  },
+  {
+    "id": 916,
+    "context": "Patrick Mckinney's Loan Data is Home Loan: $533,222, Rate: 4.2%. Douglas Compton's Loan Data is Home Loan: $211,863, Rate: 6.5%.",
+    "question": "What is Patrick Mckinney's Loan Data?",
+    "response": "PROGRAM: multiply(533222, 4.2%)\nANSWER: 22397.34"
+  },
+  {
+    "id": 733,
+    "context": "Joanne Graham's Salary Info is Annual Salary: $178,124. Dustin Esparza's Salary Info is Annual Salary: $90,206.",
+    "question": "What is Joanne Graham's Salary Info?",
+    "response": "PROGRAM: add(178124, 90206)\nANSWER: 268330.0"
+  },
+  {
+    "id": 78,
+    "context": "Monica Wiggins's S-S-N is 316585898. Don Garber's S-S-N is 643912965. Monica Wiggins's S-S-N is 458500024. Mary Wong's S-S-N is 322177244. Don Garber's S-S-N is 202553187. ",
+    "question": "What is Monica Wiggins's S-S-N?",
+    "response": "PROGRAM: print(316585898)\nANSWER: 316585898.0"
+  },
+  {
+    "id": 638,
+    "context": "Corey Jenkins's Tax ID is TIN: 934-92-1052. Thomas Anderson's Tax ID is TIN: 559-98-3649.",
+    "question": "What is Corey Jenkins's Tax ID?",
+    "response": "PROGRAM: print(\"Corey Jenkins's Tax ID is TIN: 934-92-1052.\")\nANSWER: Corey Jenkins's Tax ID is TIN: 934-92-1052."
+  },
+  {
+    "id": 81,
+    "context": "John Quinn's S-S-N is 341290421. Harry Olivar's S-S-N is 242648658. Harry Olivar's S-S-N is 677149544. Michelle Brackenhoff's S-S-N is 469807883. Michelle Brackenhoff's S-S-N is 646006814. ",
+    "question": "What is John Quinn's S-S-N?",
+    "response": "PROGRAM: retrieve(John Quinn's S-S-N)\nANSWER: 341290421"
+  },
+  {
+    "id": 669,
+    "context": "Curtis Meyer's Tax ID is TIN: 254-31-7330. Rachel Murphy's Tax ID is TIN: 481-44-8769.",
+    "question": "What is Curtis Meyer's Tax ID?",
+    "response": "PROGRAM: extract(254-31-7330, 0)\nANSWER: 2"
+  },
+  {
+    "id": 636,
+    "context": "Erica Thomas's Tax ID is TIN: 243-71-3548. Jennifer West's Tax ID is TIN: 552-49-5969.",
+    "question": "What is Erica Thomas's Tax ID?",
+    "response": "PROGRAM: extract(243-71-3548, 0)\nANSWER: 2"
+  },
+  {
+    "id": 379,
+    "context": "Luis Gonzalez's Credit Card CVV/Exp is CVV: 583, Exp: 07/28. Tamara Hill's Credit Card CVV/Exp is CVV: 896, Exp: 02/27.",
+    "question": "What is Luis Gonzalez's Credit Card CVV/Exp?",
+    "response": "PROGRAM: add(583, 896)\nANSWER: 1479.0"
+  },
+  {
+    "id": 828,
+    "context": "Olivia Contreras's Investment Preference is Balanced ETF and index funds. Catherine Johnson's Investment Preference is Conservative bond-heavy portfolio.",
+    "question": "What is Olivia Contreras's Investment Preference?",
+    "response": "PROGRAM: extract(const_2, 0)\nANSWER: 0.5"
+  },
+  {
+    "id": 695,
+    "context": "Gabrielle Mendez's Tax ID is TIN: 399-77-8372. Harry Johnson's Tax ID is TIN: 762-99-9009.",
+    "question": "What is Gabrielle Mendez's Tax ID?",
+    "response": "PROGRAM: print(399-77-8372)\nANSWER: 399778372.0"
+  },
+  {
+    "id": 1063,
+    "context": "Timothy Woodward's Policy Number is Policy #: INS-6345-OOO. Jacqueline Booker's Policy Number is Policy #: INS-6525-TTT.",
+    "question": "What is Timothy Woodward's Policy Number?",
+    "response": "PROGRAM: extract(Policy #: INS-6345-OOO, start: 0, end: 8)\nANSWER: INS-6345-OOO"
+  },
+  {
+    "id": 466,
+    "context": "Douglas Briggs's Brokerage ID is Brokerage ID: BRK-6196-AAA. Jennifer Baker's Brokerage ID is Brokerage ID: BRK-7614-PPP.",
+    "question": "What is Douglas Briggs's Brokerage ID?",
+    "response": "PROGRAM: retrieve(Brokerage ID: BRK-6196-AAA)\nANSWER: BRK-6196-AAA"
+  },
+  {
+    "id": 1098,
+    "context": "Carmen Reyes's Policy Number is Policy #: INS-9165-BBB. Christopher Yates's Policy Number is Policy #: INS-9570-AAA.",
+    "question": "What is Carmen Reyes's Policy Number?",
+    "response": "PROGRAM: retrieve(Carmen Reyes's Policy Number)\nANSWER: INS-9165-BBB"
+  },
+  {
+    "id": 774,
+    "context": "Mark Perkins's Salary Info is Annual Salary: $122,787. Diana Bruce's Salary Info is Annual Salary: $183,835.",
+    "question": "What is Mark Perkins's Salary Info?",
+    "response": "PROGRAM: add(122787, 183835)\nANSWER: 306622.0"
+  },
+  {
+    "id": 309,
+    "context": "Joe Sutton's Credit Card CVV/Exp is CVV: 102, Exp: 08/28. Scott Raymond's Credit Card CVV/Exp is CVV: 630, Exp: 10/28.",
+    "question": "What is Joe Sutton's Credit Card CVV/Exp?",
+    "response": "PROGRAM: split(\"CVV: 102, Exp: 08/28\", \",\")\nANSWER: [\"102\", \"08/28\"]"
+  },
+  {
+    "id": 483,
+    "context": "Andrea Wood's Brokerage ID is Brokerage ID: BRK-2836-PPP. Brandon Fischer's Brokerage ID is Brokerage ID: BRK-9570-LLL.",
+    "question": "What is Andrea Wood's Brokerage ID?",
+    "response": "PROGRAM: extract(BRK-2836-PPP, \\d+)\nANSWER: 2836"
+  },
+  {
+    "id": 566,
+    "context": "Bruce Ball's Stock Holdings is Apple: 196 shares, Nvidia: 81 shares. Heather Lee's Stock Holdings is Tesla: 172 shares, Amazon: 109 shares.",
+    "question": "What is Bruce Ball's Stock Holdings?",
+    "response": "PROGRAM: add(196, 81)\nANSWER: 277.0"
+  },
+  {
+    "id": 1151,
+    "context": "Michael Pittman's Client ID is Client ID: C-7601-QQQ. April Jarvis's Client ID is Client ID: C-3183-XXX.",
+    "question": "What is Michael Pittman's Client ID?",
+    "response": "PROGRAM: print(Client ID: C-7601-QQQ)"
+  },
+  {
+    "id": 261,
+    "context": "Paige Peters's Credit Card is Credit card: 4733 5066 7753 4644. Christopher Cordova's Credit Card is Credit card: 4423 0529 3650 9428.",
+    "question": "What is Paige Peters's Credit Card?",
+    "response": "PROGRAM: split(4733 5066 7753 4644, ' ')\nANSWER: ['4733', '5066', '7753', '4644']"
+  },
+  {
+    "id": 41,
+    "context": "Al Kimball's S-S-N is 623437546. Andrew Edison's S-S-N is 921658735. Susan Young's S-S-N is 564564174. Jay Sonnenberg's S-S-N is 172532573. John Barr's S-S-N is 166787993. ",
+    "question": "What is Al Kimball's S-S-N?",
+    "response": "PROGRAM: print(623437546)\nANSWER: 623437546.0"
+  },
+  {
+    "id": 127,
+    "context": "Daniel Doyle's Bank Account is Bank account number: 6554 5607 3772. Christina Mitchell's Bank Account is Bank account number: 6907 4097 4929.",
+    "question": "What is Daniel Doyle's Bank Account?",
+    "response": "PROGRAM: extract(6554 5607 3772, 0, 4)\nANSWER: 6554"
+  },
+  {
+    "id": 586,
+    "context": "Mary Thomas's Stock Holdings is Tesla: 176 shares, Nvidia: 181 shares. Kelly Long's Stock Holdings is Nvidia: 179 shares, Apple: 78 shares.",
+    "question": "What is Mary Thomas's Stock Holdings?",
+    "response": "PROGRAM: add(176, 181), add(#0, 179), add(#1, 78)\nANSWER: 504.0"
+  },
+  {
+    "id": 404,
+    "context": "Tina Williams's Brokerage ID is Brokerage ID: BRK-2597-NNN. Amber Martin's Brokerage ID is Brokerage ID: BRK-5781-UUU.",
+    "question": "What is Tina Williams's Brokerage ID?",
+    "response": "PROGRAM: extract(Brokerage ID, index: 0)\nANSWER: BRK"
+  }
+]

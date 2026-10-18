@@ -1,0 +1,100 @@
+{
+  "phase": "Phase-4",
+  "status": "FROZEN",
+  "method_name": "EVG-CAS",
+  "frozen_at_utc": "2026-10-12T10:53:12.279498+00:00",
+  "run_mode": "smoke",
+  "novelty_claims": {
+    "C1": "execution-verified generation: majority vote over officially executed candidate programs",
+    "C2": "cross-fitted calibrated abstention fitted on validation only",
+    "C3": "EVG agreement improves the calibrator over confidence alone"
+  },
+  "backbone": {
+    "experiment": "E5",
+    "model_id": "Qwen/Qwen3-1.7B",
+    "adapter_path": "/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E5",
+    "phase3_selection_score": 0.7445600516885907,
+    "changed_by_phase4": false
+  },
+  "prompt_policy": {
+    "FinQA": "canonical",
+    "FiQA": "explicit_schema",
+    "FOMC": "canonical"
+  },
+  "evg": {
+    "n": 2,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "selection_rule": "exec_verified",
+    "tie_break": "mean_token_logprob",
+    "uses_gold_answer": false,
+    "uses_gold_program": false,
+    "uses_only": "the input table, which is part of the model's own prompt"
+  },
+  "calibration": {
+    "split": "validation",
+    "folds": 5,
+    "selection_rule": "lowest out-of-fold e_AURC on validation among raw/platt/isotonic",
+    "finqa": {
+      "frame": "finqa_exec_verified",
+      "method": "raw_confidence",
+      "e_aurc": 0.10986284033304156,
+      "aurc": 0.18841900402658915,
+      "base_risk": 0.35
+    },
+    "fiqa": {
+      "frame": "fiqa_median_n",
+      "method": "platt_conf_full",
+      "e_aurc": 0.11916722166722174,
+      "aurc": 0.28478152007950774,
+      "base_risk": 0.5
+    }
+  },
+  "operating_points": {
+    "finqa": {
+      "coverage_0.80": {
+        "threshold": 0.8742204234503389,
+        "achieved_coverage": 0.8,
+        "validation_selective_risk": 0.25,
+        "validation_full_risk": 0.35
+      },
+      "coverage_0.90": {
+        "threshold": 0.8428788664535475,
+        "achieved_coverage": 0.9,
+        "validation_selective_risk": 0.3333333333333333,
+        "validation_full_risk": 0.35
+      }
+    },
+    "fiqa": {
+      "coverage_0.80": {
+        "threshold": 0.24113753529316315,
+        "achieved_coverage": 0.8,
+        "validation_selective_risk": 0.375,
+        "validation_full_risk": 0.5
+      },
+      "coverage_0.90": {
+        "threshold": 0.16845827605467942,
+        "achieved_coverage": 0.9,
+        "validation_selective_risk": 0.4444444444444444,
+        "validation_full_risk": 0.5
+      }
+    }
+  },
+  "validation_metrics": {
+    "finqa_exec_verified": 0.35,
+    "finqa_greedy_print_risk": 0.44999999999999996,
+    "finqa_greedy_exec_risk": 0.30000000000000004
+  },
+  "data": {
+    "phase2_1_registry": "/home/heet18/Downloads/Research Papers/artifacts/phase2_1/manifests/dataset_registry.json",
+    "registry_sha256": "e0c43a54add7323b60d139cac7be6a93694fad96d979b94539cb01968595e794",
+    "phase3_freeze_sha256": "6586a42de81bed2cc33b9a7fd860554f6484555f9c2b31d5bb3350686391e423"
+  },
+  "protected_tests_opened_at_freeze_time": false,
+  "important": [
+    "Phase-4 did not change the frozen backbone, adapter, prompt policy or selection rule.",
+    "Calibration and thresholds were fitted on validation only (5-fold cross-fitting).",
+    "Protected test sets were first opened only after this file said FROZEN.",
+    "No hyper-parameter (n, temperature, calibrator, coverage target) was chosen on test data."
+  ]
+}

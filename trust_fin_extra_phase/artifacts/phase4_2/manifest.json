@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "artifact": "phase4_2",
+  "generated_at_utc": "2026-10-12T00:00:00Z",
+  "task": "matched-coverage selective prediction and ablation (Phase-4.2, evaluation-improvement pass)",
+  "status": "derived analysis; descriptive",
+  "derived_note": "Post-hoc, descriptive pass. Matched-coverage thresholds are NOT new pre-registered operating points; the only pre-registered threshold remains the frozen validation-only Platt curve of phase4 (phase4_freeze.json, status FROZEN, SHA-256 701afd75dbc964dee852d36bdca9be4faad4b14730b532a9a82936bf4a03e079). Nothing in phase4/ was modified; phase4_2 is read-only evidence over frozen predictions.",
+  "split_protocol": {
+    "validation": "official FinQA dev, n=883 (split-sealed)",
+    "protected_test": "carve of official FinQA 1800-item test, n=1147; 653 records never opened",
+    "protected_opened_at_freeze_time": false
+  },
+  "inputs": [
+    {"path": "artifacts/phase4/predictions/P4-E8a_greedy_scored.csv", "sha256": "8736588f4618b2699282991a2ccba00bd86fee7f0182fb8acd1190bfde2b9aa3"},
+    {"path": "artifacts/phase4/predictions/P4-E8b.csv", "sha256": "1c2ac6b16b740fb9832125fa7fc1fe481132340e1f636dfb45fd48ce5075b230"},
+    {"path": "artifacts/phase4/analysis/P4-E8e_finqa_abstention_scores.csv", "sha256": "59dce9fda697c0438f5b55786ae91c1213fa918314fc5ae772e5cb7f065495e2"},
+    {"path": "artifacts/phase4/analysis/P4-E8c_fiqa_test.csv", "sha256": "bc621888fbfe2e4e18753d3b59932e1498fe8881adf74219f2a5a7e5681e5fec"},
+    {"path": "artifacts/phase4/analysis/P4-E8e_fiqa_abstention_scores.csv", "sha256": "2d12e75e90a11c93de90b1b0458b7d21edf0e289704d3bccf566866a62b2f964"}
+  ],
+  "params": {
+    "RNG": "numpy.default_rng(42)",
+    "B": 3000,
+    "alpha": 0.05,
+    "coverages": [0.50, 0.70, 0.80, 0.90, 0.95],
+    "answer_channel": "execution-correctness (official evaluator)",
+    "answer_selection_rule": "majority vote among executed candidates (same rule for all strategies)",
+    "matched_coverage_method": "stable_topk per strategy score, coverage matched by top-k count",
+    "print_channel_note": "print-channel rows (self_consistency_print, c0_print_confidence) recorded in CSV but EXCLUDED from headline paired comparisons (format-drift confound)"
+  },
+  "scripts": [
+    "scripts/eval_matched_coverage.py",
+    "notebooks/Phase4_2_Evaluation_Improvement.ipynb (15 cells, executed via jupyter nbconvert --execute, 0 errors)"
+  ],
+  "outputs": [
+    "artifacts/phase4_2/analysis/summary.json",
+    "artifacts/phase4_2/analysis/matched_coverage_finqa.csv",
+    "artifacts/phase4_2/analysis/matched_coverage_fiqa.csv",
+    "artifacts/phase4_2/analysis/fiqa_extra.json",
+    "artifacts/phase4_2/plots/fina_risk_coverage.png",
+    "artifacts/phase4_2/plots/fina_acc_coverage.png",
+    "artifacts/phase4_2/plots/fiqa_mae_coverage.png"
+  ],
+  "headline_results": {
+    "finaq_cov0.80": {
+      "greedy_conf_risk": 0.3152,
+      "best_of_n_risk": 0.3457,
+      "agree_only_risk": 0.2421,
+      "agree_x_exec_risk": 0.2421,
+      "frozen_pi_risk": 0.2465,
+      "bootstrap_frozen_pi_minus_greedy_conf": {"mean": -0.0703, "ci95": [-0.0894, -0.0502], "p_better": 1.0},
+      "bootstrap_agree_only_minus_greedy_conf": {"mean": -0.0736, "ci95": [-0.0927, -0.0545], "p_better": 1.0},
+      "bootstrap_frozen_pi_minus_agree_only": {"mean": 0.0033, "ci95": [-0.0033, 0.0098], "p_better": 0.097}
+    },
+    "roc_auc": {"greedy_conf": 0.578, "best_of_n": 0.535, "executable_rate": 0.510, "agreement": 0.758, "agree_x_exec": 0.757, "frozen_pi": 0.763},
+    "fiqa": {"agree_auc": 0.597, "greedy_auc": 0.521, "agree_mae_at_cov0.8": 0.1094, "greedy_mae_at_cov0.8": 0.1176, "agree_mae_at_cov0.5": 0.0919},
+    "taxonomy_6cell_greedy": {"parse": 0, "invalid": 3, "exec_and_print_correct": 399, "format_mismatch": 355, "exec_and_print_wrong": 388, "exec_wrong_print_correct": 2, "sum": 1147}
+  }
+}

@@ -1,0 +1,1036 @@
+system,record_id,pred,gold,correct,parse_success,confidence,raw_output
+e5_adapter,finben-fomc::fomc0,neutral,dovish,False,True,0.8818065490424487,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc1,neutral,dovish,False,True,0.8962139677979049,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc2,dovish,neutral,False,True,0.9497843487061729,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc3,neutral,neutral,True,True,0.9229576987935785,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc4,neutral,neutral,True,True,0.9838169416667389,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc5,neutral,neutral,True,True,0.9968938455793056,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc6,neutral,dovish,False,True,0.9376893361032589,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc7,dovish,dovish,True,True,0.9417399767434603,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc8,neutral,hawkish,False,True,0.9647137538397786,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc9,dovish,neutral,False,True,0.9399392644548499,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc10,neutral,neutral,True,True,0.9256412270418802,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc11,neutral,neutral,True,True,0.9353245649496419,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc12,neutral,hawkish,False,True,0.8113209726445919,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc13,dovish,dovish,True,True,0.959137180560871,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc14,neutral,hawkish,False,True,0.9145097894039053,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc15,neutral,dovish,False,True,0.9092070289865476,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc16,dovish,neutral,False,True,0.844065830794265,"PROGRAM: dovis
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc17,dovish,hawkish,False,True,0.9797152763497012,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc18,neutral,hawkish,False,True,0.9864238651966967,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc19,neutral,dovish,False,True,0.9019337748490713,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc20,hawkish,hawkish,True,True,0.9729995892962118,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc21,dovish,dovish,True,True,0.950020058945107,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc22,dovish,neutral,False,True,0.9974132485801548,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc23,neutral,neutral,True,True,0.9569724028334823,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc24,dovish,dovish,True,True,0.9118965992066255,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc25,neutral,hawkish,False,True,0.9840300187333074,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc26,neutral,dovish,False,True,0.8948205284606625,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc27,neutral,dovish,False,True,0.9969506754552251,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc28,hawkish,dovish,False,True,0.9633854985823883,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc29,neutral,dovish,False,True,0.9130497869939991,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc30,hawkish,hawkish,True,True,0.9641895121270633,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc31,neutral,neutral,True,True,0.9789653810079217,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc32,dovish,neutral,False,True,0.9496124880264009,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc33,neutral,neutral,True,True,0.953123898031488,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc34,neutral,neutral,True,True,0.9675615017982291,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc35,dovish,neutral,False,True,0.8471675580064413,"PROGRAM: dovis
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc36,neutral,hawkish,False,True,0.9332037183391878,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc37,neutral,dovish,False,True,0.9898765976172472,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc38,neutral,dovish,False,True,0.9303101505759216,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc39,neutral,neutral,True,True,0.9894653144321818,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc40,neutral,neutral,True,True,0.9558474514575303,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc41,neutral,hawkish,False,True,0.970580431785598,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc42,neutral,dovish,False,True,0.948419922580325,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc43,neutral,neutral,True,True,0.9706069442229747,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc44,unparsed,neutral,False,False,0.8732558581198031,"PROGRAM: compare(25, 7)
+ANSWER: greater_than"
+e5_adapter,finben-fomc::fomc45,neutral,neutral,True,True,0.9988083277199328,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc46,neutral,neutral,True,True,0.973650755342396,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc47,neutral,hawkish,False,True,0.9094552463061187,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc48,neutral,neutral,True,True,0.9382063692039027,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc49,neutral,neutral,True,True,0.9668061460106818,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc50,neutral,neutral,True,True,0.974469414691982,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc51,neutral,hawkish,False,True,0.9705749015975844,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc52,neutral,hawkish,False,True,0.9821343861857494,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc53,dovish,hawkish,False,True,0.9105058772788961,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc54,neutral,neutral,True,True,0.8754829373133982,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc55,dovish,hawkish,False,True,0.8906436272591075,DOVISH
+e5_adapter,finben-fomc::fomc56,neutral,neutral,True,True,0.9965640060915981,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc57,hawkish,hawkish,True,True,0.8920627367810676,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc58,neutral,neutral,True,True,0.9815644620488548,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc59,neutral,neutral,True,True,0.996923948511355,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc60,neutral,neutral,True,True,0.9589478661354895,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc61,neutral,neutral,True,True,0.9607138391306825,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc62,neutral,neutral,True,True,0.9944354044170349,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc63,hawkish,dovish,False,True,0.9176022068984693,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc64,dovish,neutral,False,True,0.9850258651269854,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc65,neutral,neutral,True,True,0.9962792015749986,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc66,neutral,neutral,True,True,0.9836335344915327,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc67,neutral,hawkish,False,True,0.9636804320972252,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc68,neutral,dovish,False,True,0.9684346981170414,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc69,neutral,neutral,True,True,0.9953391441357403,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc70,dovish,neutral,False,True,0.8842527164950782,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc71,unparsed,neutral,False,False,0.8366348076577842,"PROGRAM: dovis
+ANSWER: dovis"
+e5_adapter,finben-fomc::fomc72,neutral,dovish,False,True,0.9164400192366767,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc73,neutral,neutral,True,True,0.9972807989582191,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc74,neutral,hawkish,False,True,0.9429303636213237,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc75,dovish,neutral,False,True,0.8506403894331116,DOVISH
+e5_adapter,finben-fomc::fomc76,hawkish,hawkish,True,True,0.9143325840872364,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc77,dovish,dovish,True,True,0.9302572728038097,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc78,dovish,hawkish,False,True,0.9788759313664459,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc79,dovish,dovish,True,True,0.9789874524785172,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc80,neutral,neutral,True,True,0.958729516253644,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc81,neutral,neutral,True,True,0.9951803008652158,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc82,neutral,neutral,True,True,0.8871399996432174,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc83,neutral,neutral,True,True,0.9669855384095283,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc84,dovish,neutral,False,True,0.9763502184079509,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc85,neutral,neutral,True,True,0.9705320152366815,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc86,neutral,hawkish,False,True,0.8642068964004088,NEUTRAL
+e5_adapter,finben-fomc::fomc87,neutral,neutral,True,True,0.991643014227886,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc88,neutral,neutral,True,True,0.9937036030980971,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc89,neutral,neutral,True,True,0.9430021024917737,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc90,hawkish,neutral,False,True,0.9927007027932826,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc91,neutral,neutral,True,True,0.9439579843577721,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc92,neutral,dovish,False,True,0.9145891852540545,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc93,neutral,dovish,False,True,0.9906122780268569,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc94,neutral,neutral,True,True,0.9596178745694169,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc95,neutral,dovish,False,True,0.933100264780354,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc96,neutral,neutral,True,True,0.9575906094404644,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc97,neutral,dovish,False,True,0.9918225000580888,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc98,neutral,neutral,True,True,0.9752736464300116,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc99,dovish,dovish,True,True,0.9335061354588241,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc100,dovish,hawkish,False,True,0.9644123389575261,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc101,dovish,neutral,False,True,0.9307080743935215,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc102,neutral,dovish,False,True,0.9450835149476118,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc103,neutral,hawkish,False,True,0.9917560683745229,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc104,dovish,neutral,False,True,0.8545824206626509,DOVISH
+e5_adapter,finben-fomc::fomc105,neutral,neutral,True,True,0.858991177726944,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc106,dovish,dovish,True,True,0.96331559311776,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc107,dovish,dovish,True,True,0.8724250654375234,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc108,neutral,neutral,True,True,0.9058520512121335,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc109,neutral,neutral,True,True,0.9922156326958849,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc110,dovish,dovish,True,True,0.9663355162856442,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc111,neutral,hawkish,False,True,0.9381864683663309,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc112,neutral,neutral,True,True,0.996903978745127,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc113,neutral,neutral,True,True,0.9880411915891864,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc114,dovish,dovish,True,True,0.8617399687741462,DOVISH
+e5_adapter,finben-fomc::fomc115,neutral,neutral,True,True,0.969609577786875,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc116,neutral,dovish,False,True,0.9641179751908113,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc117,neutral,hawkish,False,True,0.9003070112756253,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc118,dovish,neutral,False,True,0.9037510460934332,"PROGRAM: dovesh
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc119,neutral,dovish,False,True,0.9900159914142606,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc120,dovish,hawkish,False,True,0.971191623980144,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc121,hawkish,neutral,False,True,0.9282457375047574,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc122,dovish,dovish,True,True,0.9753300404242481,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc123,neutral,neutral,True,True,0.923705340273016,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc124,hawkish,dovish,False,True,0.9577661439695495,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc125,neutral,neutral,True,True,0.9862392151782206,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc126,dovish,dovish,True,True,0.9531736015110324,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc127,hawkish,hawkish,True,True,0.992580244550277,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc128,neutral,hawkish,False,True,0.9977516610847224,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc129,dovish,neutral,False,True,0.9457693657182258,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc130,dovish,dovish,True,True,0.877136867549701,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc131,neutral,dovish,False,True,0.9600092866174003,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc132,neutral,neutral,True,True,0.9702024647193359,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc133,neutral,hawkish,False,True,0.9620705121525486,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc134,dovish,neutral,False,True,0.946043212407222,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc135,neutral,hawkish,False,True,0.8858112480561624,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc136,neutral,hawkish,False,True,0.9313875593178724,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc137,neutral,dovish,False,True,0.9067555950288149,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc138,neutral,dovish,False,True,0.8792518576421301,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc139,neutral,neutral,True,True,0.9159862055164392,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc140,neutral,neutral,True,True,0.9313945611766714,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc141,dovish,neutral,False,True,0.8995466132613357,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc142,neutral,hawkish,False,True,0.955165920641441,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc143,neutral,neutral,True,True,0.9657254967966691,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc144,neutral,neutral,True,True,0.9492356299053236,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc145,neutral,dovish,False,True,0.9924404744569428,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc146,neutral,dovish,False,True,0.8983677887950168,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc147,neutral,neutral,True,True,0.8998304469372718,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc148,hawkish,neutral,False,True,0.8679503209406095,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc149,neutral,dovish,False,True,0.9642582991943931,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc150,neutral,neutral,True,True,0.9636527823958068,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc151,neutral,neutral,True,True,0.99555057267034,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc152,dovish,hawkish,False,True,0.9755407705962577,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc153,neutral,neutral,True,True,0.9108008438562709,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc154,dovish,neutral,False,True,0.7942502009135407,"PROGRAM: dovis
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc155,neutral,neutral,True,True,0.999044856323521,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc156,neutral,hawkish,False,True,0.8634370122389096,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc157,neutral,neutral,True,True,0.9521158407464316,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc158,hawkish,neutral,False,True,0.9430058543368688,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc159,neutral,neutral,True,True,0.9696530970690348,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc160,neutral,hawkish,False,True,0.891398445406479,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc161,dovish,neutral,False,True,0.9250306549523775,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc162,neutral,dovish,False,True,0.9547681070424633,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc163,neutral,neutral,True,True,0.9690035036136347,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc164,hawkish,hawkish,True,True,0.9732174095665972,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc165,neutral,dovish,False,True,0.9957238793108963,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc166,neutral,dovish,False,True,0.8967158349913851,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc167,dovish,neutral,False,True,0.9244628376279214,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc168,neutral,dovish,False,True,0.9837526211218415,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc169,dovish,neutral,False,True,0.892625923138517,DOVISH
+e5_adapter,finben-fomc::fomc170,dovish,hawkish,False,True,0.9419336102133079,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc171,dovish,neutral,False,True,0.8834154569301462,"PROGRAM: dovis
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc172,neutral,hawkish,False,True,0.9421019227628844,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc173,neutral,neutral,True,True,0.9966222771854515,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc174,neutral,neutral,True,True,0.9818543352681032,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc175,neutral,hawkish,False,True,0.9168271194159527,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc176,neutral,hawkish,False,True,0.9852842470009863,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc177,dovish,hawkish,False,True,0.9289463820463794,DOVISH
+e5_adapter,finben-fomc::fomc178,neutral,neutral,True,True,0.9391629876662072,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc179,dovish,dovish,True,True,0.8615514204033297,DOVISH
+e5_adapter,finben-fomc::fomc180,neutral,dovish,False,True,0.9291102072127562,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc181,neutral,neutral,True,True,0.9556841204116067,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc182,neutral,neutral,True,True,0.8667285292611382,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc183,neutral,neutral,True,True,0.8484955843738405,NEUTRAL
+e5_adapter,finben-fomc::fomc184,neutral,dovish,False,True,0.986960211627046,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc185,neutral,neutral,True,True,0.9135125457156531,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc186,hawkish,dovish,False,True,0.9067404755499415,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc187,neutral,neutral,True,True,0.9627666425105417,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc188,dovish,hawkish,False,True,0.9040760348411112,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc189,neutral,neutral,True,True,0.9493737029549065,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc190,neutral,neutral,True,True,0.9594257596372905,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc191,neutral,neutral,True,True,0.9743349947143723,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc192,dovish,neutral,False,True,0.965330829945168,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc193,dovish,dovish,True,True,0.9656720090448321,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc194,neutral,dovish,False,True,0.8083482497896045,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc195,neutral,hawkish,False,True,0.9449215761425208,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc196,neutral,neutral,True,True,0.9571354334742989,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc197,dovish,neutral,False,True,0.9102069508396113,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc198,neutral,neutral,True,True,0.955838207641447,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc199,hawkish,dovish,False,True,0.9171061834194901,"PROGRAM: HAWKISH
+ANSWER: HAWKISH"
+e5_adapter,finben-fomc::fomc200,dovish,hawkish,False,True,0.8765495908652094,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc201,dovish,hawkish,False,True,0.9018588977741908,DOVISH
+e5_adapter,finben-fomc::fomc202,dovish,neutral,False,True,0.8050626440582195,"PROGRAM: dovis
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc203,neutral,neutral,True,True,0.9919841461958541,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc204,neutral,dovish,False,True,0.9903594146367184,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc205,neutral,neutral,True,True,0.9874196484837807,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc206,neutral,hawkish,False,True,0.8951996838794285,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc207,dovish,hawkish,False,True,0.9536057595772266,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc208,dovish,dovish,True,True,0.9777983574552632,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc209,unparsed,neutral,False,False,0.841123921289689,"PROGRAM: dovis
+ANSWER: dovis"
+e5_adapter,finben-fomc::fomc210,dovish,neutral,False,True,0.7890877094063509,DOVISH
+e5_adapter,finben-fomc::fomc211,dovish,hawkish,False,True,0.9152244297790847,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc212,neutral,neutral,True,True,0.9760158689681275,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc213,neutral,neutral,True,True,0.9581566472429422,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc214,unparsed,neutral,False,False,0.865072955261354,"PROGRAM: dovis
+ANSWER: dovis"
+e5_adapter,finben-fomc::fomc215,dovish,dovish,True,True,0.8836966500114765,DOVISH
+e5_adapter,finben-fomc::fomc216,neutral,dovish,False,True,0.9816587541609271,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc217,dovish,neutral,False,True,0.987529046300135,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc218,neutral,neutral,True,True,0.9697977997214625,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc219,neutral,dovish,False,True,0.9293239819930936,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc220,neutral,hawkish,False,True,0.9835381275425791,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc221,neutral,neutral,True,True,0.9188717924321324,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc222,dovish,hawkish,False,True,0.9852105210316661,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc223,neutral,dovish,False,True,0.9898567254605719,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc224,neutral,dovish,False,True,0.9982917528217344,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc225,neutral,hawkish,False,True,0.8770608536423573,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc226,neutral,hawkish,False,True,0.9565982508136855,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc227,neutral,hawkish,False,True,0.9219855477142013,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc228,neutral,dovish,False,True,0.9785511354613292,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc229,dovish,hawkish,False,True,0.8568703753566834,DOVISH
+e5_adapter,finben-fomc::fomc230,dovish,neutral,False,True,0.8746249762006271,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc231,neutral,neutral,True,True,0.9257290658556644,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc232,neutral,hawkish,False,True,0.9913827912448621,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc233,neutral,neutral,True,True,0.9593080561484306,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc234,dovish,neutral,False,True,0.7926933812776479,"PROGRAM: dovesh
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc235,neutral,neutral,True,True,0.9986545106325783,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc236,neutral,hawkish,False,True,0.9944035651548395,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc237,dovish,neutral,False,True,0.9764255838518562,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc238,neutral,dovish,False,True,0.8891251695399881,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc239,neutral,neutral,True,True,0.9965544824395278,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc240,dovish,neutral,False,True,0.9419656056011454,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc241,neutral,neutral,True,True,0.9214068099738623,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc242,neutral,hawkish,False,True,0.9821625917842717,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc243,neutral,hawkish,False,True,0.9355453458317271,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc244,neutral,neutral,True,True,0.9938596805274825,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc245,dovish,hawkish,False,True,0.9118297743062597,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc246,neutral,neutral,True,True,0.9838016385627749,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc247,dovish,neutral,False,True,0.961148087467762,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc248,dovish,dovish,True,True,0.9051041725016574,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc249,hawkish,hawkish,True,True,0.8768645235811202,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc250,neutral,neutral,True,True,0.9826603165427213,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc251,dovish,neutral,False,True,0.9839817963490367,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc252,dovish,neutral,False,True,0.9493158267439787,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc253,dovish,dovish,True,True,0.9641194010647435,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc254,dovish,dovish,True,True,0.863535264239487,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc255,neutral,neutral,True,True,0.8965941278170083,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc256,neutral,neutral,True,True,0.9032065465311778,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc257,neutral,neutral,True,True,0.9442329422184159,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc258,neutral,neutral,True,True,0.9312703397809423,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc259,neutral,neutral,True,True,0.9896983063879731,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc260,neutral,dovish,False,True,0.8779361178812213,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc261,neutral,neutral,True,True,0.9596517612197627,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc262,neutral,dovish,False,True,0.91299244840607,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc263,neutral,neutral,True,True,0.9181077468778908,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc264,neutral,neutral,True,True,0.9760262678189245,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc265,neutral,neutral,True,True,0.9133645909355514,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc266,neutral,dovish,False,True,0.9703994271443082,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc267,neutral,hawkish,False,True,0.9975788107245259,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc268,neutral,hawkish,False,True,0.9372940211247737,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc269,neutral,neutral,True,True,0.9781065193295486,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc270,neutral,neutral,True,True,0.9277041676461755,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc271,dovish,neutral,False,True,0.9331005220095224,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc272,dovish,hawkish,False,True,0.8295075712227259,DOVISH
+e5_adapter,finben-fomc::fomc273,dovish,dovish,True,True,0.8631382461178267,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc274,neutral,neutral,True,True,0.9851254587548275,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc275,neutral,neutral,True,True,0.9119314674977844,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc276,neutral,neutral,True,True,0.9847452355048787,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc277,neutral,neutral,True,True,0.9858895391681773,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc278,dovish,neutral,False,True,0.7956996120190765,DOVISH
+e5_adapter,finben-fomc::fomc279,neutral,neutral,True,True,0.9107543609760421,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc280,neutral,hawkish,False,True,0.978668385423561,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc281,neutral,neutral,True,True,0.9891079118289728,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc282,neutral,dovish,False,True,0.9785660433852339,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc283,hawkish,hawkish,True,True,0.9721307946682116,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc284,neutral,dovish,False,True,0.9711260106794019,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc285,dovish,hawkish,False,True,0.9756417967389573,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc286,neutral,dovish,False,True,0.9876709886123604,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc287,neutral,neutral,True,True,0.9833433026760108,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc288,hawkish,hawkish,True,True,0.9821482528919456,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc289,neutral,neutral,True,True,0.9701793516367724,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc290,neutral,dovish,False,True,0.9727469800896168,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc291,neutral,dovish,False,True,0.9730978908493242,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc292,dovish,hawkish,False,True,0.9032505646953141,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc293,neutral,dovish,False,True,0.9688173992015522,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc294,neutral,neutral,True,True,0.991234525423293,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc295,dovish,neutral,False,True,0.9502052108718607,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc296,neutral,dovish,False,True,0.9499808783713343,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc297,dovish,dovish,True,True,0.909937565706785,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc298,neutral,dovish,False,True,0.9614997157894575,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc299,neutral,neutral,True,True,0.9600823749377013,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc300,dovish,neutral,False,True,0.870362006308855,"PROGRAM: dovesh
+ANSWER: DOVISH"
+e5_adapter,finben-fomc::fomc301,dovish,neutral,False,True,0.9444899687995602,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc302,neutral,dovish,False,True,0.9791988780295314,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc303,neutral,hawkish,False,True,0.9772693990480182,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc304,neutral,neutral,True,True,0.9910828776798506,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc305,neutral,dovish,False,True,0.9347876335939959,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc306,unparsed,neutral,False,False,0.8658196554799529,"PROGRAM: greater(4.7, 4)
+ANSWER: YES"
+e5_adapter,finben-fomc::fomc307,neutral,hawkish,False,True,0.9085667140770534,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc308,dovish,neutral,False,True,0.9526064441671287,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc309,hawkish,neutral,False,True,0.9334072452386912,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc310,neutral,dovish,False,True,0.990938530045881,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc311,neutral,hawkish,False,True,0.9681716675468489,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc312,neutral,hawkish,False,True,0.9419474216446511,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc313,neutral,neutral,True,True,0.9392336071689682,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc314,dovish,neutral,False,True,0.8744782247141224,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc315,neutral,neutral,True,True,0.9047007957232341,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc316,neutral,dovish,False,True,0.8908596292249754,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc317,dovish,neutral,False,True,0.9598672495386612,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc318,neutral,neutral,True,True,0.9539485339233656,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc319,neutral,hawkish,False,True,0.9361860851010311,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc320,dovish,neutral,False,True,0.9376749024566218,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc321,neutral,neutral,True,True,0.949359071770178,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc322,neutral,dovish,False,True,0.9856529926591429,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc323,hawkish,hawkish,True,True,0.9359525799029772,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc324,neutral,neutral,True,True,0.9847852592372404,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc325,neutral,hawkish,False,True,0.991796309624565,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc326,neutral,neutral,True,True,0.9067537101470496,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc327,dovish,hawkish,False,True,0.9379027997639441,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc328,neutral,dovish,False,True,0.9917316087141613,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc329,neutral,dovish,False,True,0.9858808715759027,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc330,neutral,neutral,True,True,0.9884315661033428,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc331,neutral,neutral,True,True,0.9641812651924544,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc332,neutral,neutral,True,True,0.9983170872845862,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc333,dovish,dovish,True,True,0.9607776286593241,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc334,dovish,hawkish,False,True,0.7866361291061383,DOVISH
+e5_adapter,finben-fomc::fomc335,neutral,neutral,True,True,0.9514603425356329,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc336,dovish,neutral,False,True,0.9290373863083752,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc337,hawkish,neutral,False,True,0.8913524944954695,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc338,neutral,hawkish,False,True,0.9876154134257968,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc339,dovish,neutral,False,True,0.8790976359123073,DOVISH
+e5_adapter,finben-fomc::fomc340,dovish,hawkish,False,True,0.8620312887334721,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc341,neutral,neutral,True,True,0.9798477356053389,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc342,neutral,neutral,True,True,0.9608746363728704,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc343,hawkish,hawkish,True,True,0.9903129194407676,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc344,dovish,dovish,True,True,0.9751218114153438,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc345,neutral,neutral,True,True,0.9095415559263078,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc346,neutral,hawkish,False,True,0.9637125343168069,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc347,neutral,neutral,True,True,0.8613777381946957,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc348,neutral,neutral,True,True,0.9594337049822412,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc349,dovish,hawkish,False,True,0.9491094957346905,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc350,dovish,dovish,True,True,0.892003585912912,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc351,dovish,dovish,True,True,0.9331397676687608,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc352,neutral,neutral,True,True,0.997071239720037,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc353,neutral,neutral,True,True,0.9800381111022357,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc354,hawkish,hawkish,True,True,0.9035287140658091,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc355,neutral,dovish,False,True,0.9584409180853349,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc356,dovish,neutral,False,True,0.8561009674329653,DOVISH
+e5_adapter,finben-fomc::fomc357,neutral,dovish,False,True,0.9111100866372576,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc358,dovish,dovish,True,True,0.9239281695812205,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc359,neutral,neutral,True,True,0.9068764045307316,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc360,dovish,neutral,False,True,0.8916084590644544,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc361,hawkish,hawkish,True,True,0.9793065560645074,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc362,hawkish,hawkish,True,True,0.9851563669548508,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc363,neutral,hawkish,False,True,0.9558250293047525,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc364,neutral,neutral,True,True,0.8998557558719273,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc365,neutral,hawkish,False,True,0.9348916991272812,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc366,dovish,neutral,False,True,0.9775414652765657,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc367,hawkish,hawkish,True,True,0.8671424847239851,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc368,neutral,hawkish,False,True,0.9184024733058933,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc369,neutral,neutral,True,True,0.9621778479464835,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc370,neutral,dovish,False,True,0.9971302492646493,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc371,neutral,dovish,False,True,0.9818532196725459,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc372,neutral,hawkish,False,True,0.9860148008112296,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc373,neutral,dovish,False,True,0.9977595226223446,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc374,neutral,neutral,True,True,0.9857449068599016,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc375,dovish,hawkish,False,True,0.9707121387544436,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc376,dovish,dovish,True,True,0.9903868575203402,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc377,neutral,neutral,True,True,0.9032798126237961,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc378,neutral,hawkish,False,True,0.9522372094822338,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc379,neutral,hawkish,False,True,0.8539637082640891,"PROGRAM: NEUTRAL
+ANSWER: NEUTRAL"
+e5_adapter,finben-fomc::fomc380,neutral,dovish,False,True,0.9748642623777279,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc381,dovish,hawkish,False,True,0.921866764083831,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc382,neutral,hawkish,False,True,0.9957946740454323,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc383,neutral,neutral,True,True,0.898964894437653,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc384,neutral,neutral,True,True,0.9909250772655395,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc385,neutral,neutral,True,True,0.8242884811288795,NEUTRAL
+e5_adapter,finben-fomc::fomc386,neutral,neutral,True,True,0.961176120046699,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc387,neutral,neutral,True,True,0.8866277498022359,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc388,neutral,neutral,True,True,0.9716061835431217,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc389,neutral,dovish,False,True,0.9730080620832141,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc390,neutral,neutral,True,True,0.9644062205817052,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc391,neutral,neutral,True,True,0.9841897724907135,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc392,neutral,hawkish,False,True,0.9867955729471659,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc393,neutral,neutral,True,True,0.9975540235071406,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc394,hawkish,hawkish,True,True,0.9278816416305441,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc395,neutral,hawkish,False,True,0.9031931349103036,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc396,neutral,dovish,False,True,0.9709977725584402,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc397,neutral,neutral,True,True,0.9905616629140603,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc398,neutral,dovish,False,True,0.942369336314688,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc399,neutral,neutral,True,True,0.8101031446010493,PROGRAM: NEUTRAL
+e5_adapter,finben-fomc::fomc400,neutral,hawkish,False,True,0.9640467703753264,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc401,neutral,neutral,True,True,0.9705347847239746,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc402,neutral,neutral,True,True,0.9086975953375124,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc403,neutral,hawkish,False,True,0.9800727334494731,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc404,neutral,neutral,True,True,0.9203800877572533,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc405,dovish,hawkish,False,True,0.9247337325629258,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc406,neutral,neutral,True,True,0.9884439236254122,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc407,unparsed,dovish,False,False,0.8205494388146907,"PROGRAM: greater(1, 2)
+ANSWER: no"
+e5_adapter,finben-fomc::fomc408,neutral,hawkish,False,True,0.9665850850115731,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc409,dovish,dovish,True,True,0.9210171860285741,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc410,dovish,hawkish,False,True,0.8885277676711317,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc411,neutral,dovish,False,True,0.8689740131805617,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc412,dovish,dovish,True,True,0.9726326479675524,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc413,neutral,neutral,True,True,0.9040431777601222,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc414,neutral,neutral,True,True,0.8917588626411725,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc415,neutral,hawkish,False,True,0.9229150719160635,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc416,neutral,neutral,True,True,0.9909601635923431,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc417,dovish,neutral,False,True,0.8928592626771173,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc418,neutral,hawkish,False,True,0.9128001873649482,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc419,dovish,dovish,True,True,0.9519105643020196,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc420,neutral,neutral,True,True,0.9874531401902954,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc421,neutral,dovish,False,True,0.9161733969174197,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc422,neutral,neutral,True,True,0.8241662143709173,"PROGRAM: dovis
+ANSWER: NEUTRAL"
+e5_adapter,finben-fomc::fomc423,neutral,dovish,False,True,0.9489044468006206,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc424,neutral,dovish,False,True,0.961691919994543,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc425,neutral,neutral,True,True,0.9051555530795105,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc426,dovish,dovish,True,True,0.9538415085301957,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc427,neutral,hawkish,False,True,0.9778579446391928,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc428,neutral,dovish,False,True,0.9727326608880558,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc429,neutral,neutral,True,True,0.9513781605522967,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc430,neutral,dovish,False,True,0.9829111793761487,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc431,neutral,dovish,False,True,0.9859943532851805,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc432,dovish,neutral,False,True,0.968336404093288,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc433,neutral,neutral,True,True,0.9436283859784717,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc434,neutral,neutral,True,True,0.945242608117746,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc435,dovish,dovish,True,True,0.9743984000398738,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc436,dovish,neutral,False,True,0.9602750076988102,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc437,neutral,neutral,True,True,0.9786681356846598,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc438,dovish,hawkish,False,True,0.9257050638446521,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc439,dovish,hawkish,False,True,0.9333522164886279,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc440,neutral,neutral,True,True,0.9551842316761121,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc441,neutral,dovish,False,True,0.9365472921146194,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc442,neutral,dovish,False,True,0.9070584227673394,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc443,dovish,neutral,False,True,0.9616542319748275,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc444,hawkish,neutral,False,True,0.9642092748854632,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc445,neutral,hawkish,False,True,0.9465989862676786,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc446,neutral,neutral,True,True,0.9963671869778538,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc447,neutral,neutral,True,True,0.9672158934203899,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc448,neutral,hawkish,False,True,0.9785981693753703,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc449,dovish,dovish,True,True,0.9972895537723301,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc450,neutral,neutral,True,True,0.930270684301868,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc451,neutral,dovish,False,True,0.8953352302802777,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc452,dovish,hawkish,False,True,0.8822445463355144,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc453,dovish,dovish,True,True,0.9968545517254045,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc454,neutral,neutral,True,True,0.9971386282758382,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc455,dovish,dovish,True,True,0.9291147967822415,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc456,dovish,dovish,True,True,0.8972876013782927,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc457,neutral,hawkish,False,True,0.9865783623236996,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc458,hawkish,hawkish,True,True,0.926927777870604,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc459,neutral,hawkish,False,True,0.811479700761138,NEUTRAL
+e5_adapter,finben-fomc::fomc460,neutral,neutral,True,True,0.9541937802801653,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc461,neutral,neutral,True,True,0.9789077320322178,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc462,dovish,dovish,True,True,0.9388075426403685,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc463,dovish,dovish,True,True,0.9200164723386881,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc464,dovish,hawkish,False,True,0.9355410939242285,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc465,dovish,dovish,True,True,0.8972369214472334,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc466,dovish,neutral,False,True,0.9540974043991464,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc467,dovish,hawkish,False,True,0.9020585255415386,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc468,dovish,dovish,True,True,0.9547062173740815,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc469,neutral,neutral,True,True,0.9748668208801863,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc470,unparsed,neutral,False,False,0.7185517433612562,"PROGRAM: dovis
+ANSWER: dovis"
+e5_adapter,finben-fomc::fomc471,dovish,dovish,True,True,0.940173210884703,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc472,hawkish,hawkish,True,True,0.9752358094374096,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc473,dovish,neutral,False,True,0.9326239493738588,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc474,neutral,neutral,True,True,0.9517601594297949,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc475,dovish,neutral,False,True,0.9586519132766,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc476,neutral,neutral,True,True,0.983249200393805,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc477,dovish,dovish,True,True,0.9654743444821292,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc478,dovish,hawkish,False,True,0.8861984179882497,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc479,neutral,dovish,False,True,0.9943494683452293,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc480,hawkish,hawkish,True,True,0.8909415454092543,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc481,dovish,neutral,False,True,0.9654610009204438,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc482,neutral,neutral,True,True,0.9511583346300758,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc483,neutral,neutral,True,True,0.9827831679920589,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc484,neutral,neutral,True,True,0.9010609693701596,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc485,neutral,neutral,True,True,0.9374159868889899,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc486,neutral,neutral,True,True,0.9431008006587416,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc487,neutral,neutral,True,True,0.9030619901172517,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc488,neutral,neutral,True,True,0.9581711819974728,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc489,neutral,hawkish,False,True,0.9031816682333215,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc490,neutral,neutral,True,True,0.9179107908185217,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc491,neutral,dovish,False,True,0.9578230510050748,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc492,hawkish,hawkish,True,True,0.9458527862296363,ANSWER: HAWKISH
+e5_adapter,finben-fomc::fomc493,dovish,hawkish,False,True,0.9535310791711097,ANSWER: DOVISH
+e5_adapter,finben-fomc::fomc494,neutral,neutral,True,True,0.8916151020898867,ANSWER: NEUTRAL
+e5_adapter,finben-fomc::fomc495,dovish,neutral,False,True,0.8517313614374485,"PROGRAM: dovis
+ANSWER: DOVISH"
+base_model,finben-fomc::fomc0,neutral,dovish,False,True,0.9919150542438012,NEUTRAL
+base_model,finben-fomc::fomc1,neutral,dovish,False,True,0.9485192372659682,NEUTRAL
+base_model,finben-fomc::fomc2,neutral,neutral,True,True,0.976593389246906,NEUTRAL
+base_model,finben-fomc::fomc3,neutral,neutral,True,True,0.9979007130578521,NEUTRAL
+base_model,finben-fomc::fomc4,neutral,neutral,True,True,0.9976618732963108,NEUTRAL
+base_model,finben-fomc::fomc5,unparsed,neutral,False,False,0.8916836078549668,"The statement ""In this case, there may be no problem for monetary policy"""
+base_model,finben-fomc::fomc6,neutral,dovish,False,True,0.9406024881717705,NEUTRAL
+base_model,finben-fomc::fomc7,neutral,dovish,False,True,0.9568287940196158,NEUTRAL
+base_model,finben-fomc::fomc8,unparsed,hawkish,False,False,0.8574470353903058,"The statement indicates that inflation is likely to moderate in coming quarters, which suggests a"
+base_model,finben-fomc::fomc9,neutral,neutral,True,True,0.9408079371254942,NEUTRAL
+base_model,finben-fomc::fomc10,neutral,neutral,True,True,0.9999108194065829,NEUTRAL
+base_model,finben-fomc::fomc11,neutral,neutral,True,True,0.9754261210063843,NEUTRAL
+base_model,finben-fomc::fomc12,neutral,hawkish,False,True,0.9764881703262488,NEUTRAL
+base_model,finben-fomc::fomc13,neutral,dovish,False,True,0.9815767867388894,NEUTRAL
+base_model,finben-fomc::fomc14,neutral,hawkish,False,True,0.9098091088323005,NEUTRAL
+base_model,finben-fomc::fomc15,neutral,dovish,False,True,0.984710453597912,NEUTRAL
+base_model,finben-fomc::fomc16,unparsed,neutral,False,False,0.9300185527704479,The statement indicates that the Federal Reserve Committee has decided to keep the federal funds rate
+base_model,finben-fomc::fomc17,dovish,hawkish,False,True,0.8953113559224446,DOVISH
+base_model,finben-fomc::fomc18,neutral,hawkish,False,True,0.9987221574589047,NEUTRAL
+base_model,finben-fomc::fomc19,neutral,dovish,False,True,0.9971188893871604,NEUTRAL
+base_model,finben-fomc::fomc20,neutral,hawkish,False,True,0.9759627583838983,NEUTRAL
+base_model,finben-fomc::fomc21,neutral,dovish,False,True,0.9240851611222037,NEUTRAL
+base_model,finben-fomc::fomc22,unparsed,neutral,False,False,0.9210608575496236,"The statement suggests that when governments print money to finance spending, inflation rises and nominal"
+base_model,finben-fomc::fomc23,neutral,neutral,True,True,0.989755824831628,NEUTRAL
+base_model,finben-fomc::fomc24,neutral,dovish,False,True,0.9669947891649151,NEUTRAL
+base_model,finben-fomc::fomc25,neutral,hawkish,False,True,0.986081138123935,NEUTRAL
+base_model,finben-fomc::fomc26,neutral,dovish,False,True,0.8672141240906849,"The statement is **NEUTRAL**. 
+
+The statement discusses the conditions for"
+base_model,finben-fomc::fomc27,neutral,dovish,False,True,0.9954145518642684,NEUTRAL
+base_model,finben-fomc::fomc28,neutral,dovish,False,True,0.9579079593477371,NEUTRAL
+base_model,finben-fomc::fomc29,dovish,dovish,True,True,0.8032852716176226,DOVISH
+base_model,finben-fomc::fomc30,dovish,hawkish,False,True,0.8218946820024667,DOVISH
+base_model,finben-fomc::fomc31,neutral,neutral,True,True,0.9894027798813065,NEUTRAL
+base_model,finben-fomc::fomc32,neutral,neutral,True,True,0.9672632509114005,NEUTRAL
+base_model,finben-fomc::fomc33,neutral,neutral,True,True,0.964815928493055,NEUTRAL
+base_model,finben-fomc::fomc34,neutral,neutral,True,True,0.9950877404166831,NEUTRAL
+base_model,finben-fomc::fomc35,neutral,neutral,True,True,0.9700516902384588,NEUTRAL
+base_model,finben-fomc::fomc36,neutral,hawkish,False,True,0.9704063535465264,NEUTRAL
+base_model,finben-fomc::fomc37,dovish,dovish,True,True,0.8556055946001541,DOVISH
+base_model,finben-fomc::fomc38,neutral,dovish,False,True,0.8336063245840053,NEUTRAL
+base_model,finben-fomc::fomc39,neutral,neutral,True,True,0.9863991613140606,NEUTRAL
+base_model,finben-fomc::fomc40,neutral,neutral,True,True,0.9979228652418479,NEUTRAL
+base_model,finben-fomc::fomc41,neutral,hawkish,False,True,0.9892445283537488,NEUTRAL
+base_model,finben-fomc::fomc42,neutral,dovish,False,True,0.8750740888630519,NEUTRAL
+base_model,finben-fomc::fomc43,neutral,neutral,True,True,0.9577402052739583,NEUTRAL
+base_model,finben-fomc::fomc44,neutral,neutral,True,True,0.9916243976928891,NEUTRAL
+base_model,finben-fomc::fomc45,neutral,neutral,True,True,0.8828657778173168,NEUTRAL
+base_model,finben-fomc::fomc46,neutral,neutral,True,True,0.9995150412943151,NEUTRAL
+base_model,finben-fomc::fomc47,neutral,hawkish,False,True,0.988642783696199,NEUTRAL
+base_model,finben-fomc::fomc48,neutral,neutral,True,True,0.9621015392711266,NEUTRAL
+base_model,finben-fomc::fomc49,neutral,neutral,True,True,0.875634554664002,NEUTRAL
+base_model,finben-fomc::fomc50,neutral,neutral,True,True,0.998958477783352,NEUTRAL
+base_model,finben-fomc::fomc51,neutral,hawkish,False,True,0.9891823449332852,NEUTRAL
+base_model,finben-fomc::fomc52,neutral,hawkish,False,True,0.9951144403754365,NEUTRAL
+base_model,finben-fomc::fomc53,unparsed,hawkish,False,False,0.9608592588051368,The statement indicates that money growth was damped by a rise in the opportunity cost
+base_model,finben-fomc::fomc54,neutral,neutral,True,True,0.9967506216738867,NEUTRAL
+base_model,finben-fomc::fomc55,neutral,hawkish,False,True,0.9318272657393719,NEUTRAL
+base_model,finben-fomc::fomc56,neutral,neutral,True,True,0.9973792355998661,NEUTRAL
+base_model,finben-fomc::fomc57,unparsed,hawkish,False,False,0.8385706116916384,The statement suggests a potential risk of faster-than-expected inflationary pressures due to
+base_model,finben-fomc::fomc58,neutral,neutral,True,True,0.9823392308870998,NEUTRAL
+base_model,finben-fomc::fomc59,neutral,neutral,True,True,0.960100140002521,NEUTRAL
+base_model,finben-fomc::fomc60,neutral,neutral,True,True,0.9549353298627655,NEUTRAL
+base_model,finben-fomc::fomc61,dovish,neutral,False,True,0.9308203546682942,DOVISH
+base_model,finben-fomc::fomc62,neutral,neutral,True,True,0.9277825592091616,NEUTRAL
+base_model,finben-fomc::fomc63,hawkish,dovish,False,True,0.8274871328504614,"The statement is not clearly indicating a stance of HAWKISH, DOV"
+base_model,finben-fomc::fomc64,dovish,neutral,False,True,0.9703011361253848,DOVISH
+base_model,finben-fomc::fomc65,neutral,neutral,True,True,0.9963914454611326,NEUTRAL
+base_model,finben-fomc::fomc66,neutral,neutral,True,True,0.9938771690425032,NEUTRAL
+base_model,finben-fomc::fomc67,neutral,hawkish,False,True,0.9932344688834065,NEUTRAL
+base_model,finben-fomc::fomc68,neutral,dovish,False,True,0.9957072165392481,NEUTRAL
+base_model,finben-fomc::fomc69,neutral,neutral,True,True,0.9947610969488734,NEUTRAL
+base_model,finben-fomc::fomc70,neutral,neutral,True,True,0.967533993046152,NEUTRAL
+base_model,finben-fomc::fomc71,neutral,neutral,True,True,0.9436510176847694,NEUTRAL
+base_model,finben-fomc::fomc72,neutral,dovish,False,True,0.9970792414548638,NEUTRAL
+base_model,finben-fomc::fomc73,neutral,neutral,True,True,0.9426227373540822,NEUTRAL
+base_model,finben-fomc::fomc74,neutral,hawkish,False,True,0.8524380792983993,NEUTRAL
+base_model,finben-fomc::fomc75,neutral,neutral,True,True,0.9073848577478353,NEUTRAL
+base_model,finben-fomc::fomc76,unparsed,hawkish,False,False,0.8339854590184658,The statement indicates that the central bank is concerned about inflation risks and is open to
+base_model,finben-fomc::fomc77,neutral,dovish,False,True,0.9348739721335967,NEUTRAL
+base_model,finben-fomc::fomc78,unparsed,hawkish,False,False,0.9626135720492672,The statement indicates that the nominal deficit on U.S. trade in goods and services
+base_model,finben-fomc::fomc79,neutral,dovish,False,True,0.9824708828588051,NEUTRAL
+base_model,finben-fomc::fomc80,neutral,neutral,True,True,0.999242685097174,NEUTRAL
+base_model,finben-fomc::fomc81,neutral,neutral,True,True,0.9886421161560508,NEUTRAL
+base_model,finben-fomc::fomc82,neutral,neutral,True,True,0.9997106248886762,NEUTRAL
+base_model,finben-fomc::fomc83,neutral,neutral,True,True,0.990008660426655,NEUTRAL
+base_model,finben-fomc::fomc84,dovish,neutral,False,True,0.8848362410083028,DOVISH
+base_model,finben-fomc::fomc85,neutral,neutral,True,True,0.9989996006790336,NEUTRAL
+base_model,finben-fomc::fomc86,neutral,hawkish,False,True,0.9941769754425922,NEUTRAL
+base_model,finben-fomc::fomc87,neutral,neutral,True,True,0.9981082279988933,NEUTRAL
+base_model,finben-fomc::fomc88,dovish,neutral,False,True,0.8563871780125466,"DOVISH
+
+The statement indicates that there are favorable factors supporting business investment,"
+base_model,finben-fomc::fomc89,neutral,neutral,True,True,0.9980234623997374,NEUTRAL
+base_model,finben-fomc::fomc90,hawkish,neutral,False,True,0.855437891143105,"The statement is **HAWKISH**. 
+
+The statement suggests that increases"
+base_model,finben-fomc::fomc91,neutral,neutral,True,True,0.9840334957483621,NEUTRAL
+base_model,finben-fomc::fomc92,unparsed,dovish,False,False,0.9479251295063651,The statement indicates that the Federal Open Market Committee (FOMC) will continue
+base_model,finben-fomc::fomc93,unparsed,dovish,False,False,0.9069903508607423,"The statement expresses a firm stance that inflation being ""moderately above 2"
+base_model,finben-fomc::fomc94,neutral,neutral,True,True,0.9934407516364753,NEUTRAL
+base_model,finben-fomc::fomc95,neutral,dovish,False,True,0.9602311867348655,NEUTRAL
+base_model,finben-fomc::fomc96,neutral,neutral,True,True,0.9998674964636106,NEUTRAL
+base_model,finben-fomc::fomc97,neutral,dovish,False,True,0.998963440180053,NEUTRAL
+base_model,finben-fomc::fomc98,neutral,neutral,True,True,0.9956253751602576,NEUTRAL
+base_model,finben-fomc::fomc99,dovish,dovish,True,True,0.8944221079644447,DOVISH
+base_model,finben-fomc::fomc100,neutral,hawkish,False,True,0.8388118504156526,NEUTRAL
+base_model,finben-fomc::fomc101,neutral,neutral,True,True,0.996872748861383,NEUTRAL
+base_model,finben-fomc::fomc102,neutral,dovish,False,True,0.9385938380977686,NEUTRAL
+base_model,finben-fomc::fomc103,unparsed,hawkish,False,False,0.7382140510708954,The statement suggests that the Federal Reserve is cautious about the impact of changes in interest
+base_model,finben-fomc::fomc104,neutral,neutral,True,True,0.976725293609459,NEUTRAL
+base_model,finben-fomc::fomc105,neutral,neutral,True,True,0.9880087408755444,NEUTRAL
+base_model,finben-fomc::fomc106,dovish,dovish,True,True,0.9552776533063502,DOVISH
+base_model,finben-fomc::fomc107,neutral,dovish,False,True,0.9934203976040281,NEUTRAL
+base_model,finben-fomc::fomc108,neutral,neutral,True,True,0.9545943950761198,NEUTRAL
+base_model,finben-fomc::fomc109,neutral,neutral,True,True,0.9965900929416759,NEUTRAL
+base_model,finben-fomc::fomc110,neutral,dovish,False,True,0.8649098144290858,NEUTRAL
+base_model,finben-fomc::fomc111,neutral,hawkish,False,True,0.9837148949312642,NEUTRAL
+base_model,finben-fomc::fomc112,neutral,neutral,True,True,0.8347056738818511,NEUTRAL
+base_model,finben-fomc::fomc113,neutral,neutral,True,True,0.9872242754051052,NEUTRAL
+base_model,finben-fomc::fomc114,neutral,dovish,False,True,0.9431564779517692,"The statement ""U.S. inflation remains muted"" is a **NEUTRAL"
+base_model,finben-fomc::fomc115,neutral,neutral,True,True,0.9664995515537432,NEUTRAL
+base_model,finben-fomc::fomc116,neutral,dovish,False,True,0.9789234458553302,NEUTRAL
+base_model,finben-fomc::fomc117,neutral,hawkish,False,True,0.9928119117623307,NEUTRAL
+base_model,finben-fomc::fomc118,unparsed,neutral,False,False,0.815480309867632,"The statement is not complete or fully clear, but based on the partial information provided"
+base_model,finben-fomc::fomc119,neutral,dovish,False,True,0.8733965608883186,NEUTRAL
+base_model,finben-fomc::fomc120,neutral,hawkish,False,True,0.9861795048558301,NEUTRAL
+base_model,finben-fomc::fomc121,hawkish,neutral,False,True,0.8921507658513023,"The statement is **HAWKISH**. 
+
+The language suggests a strong"
+base_model,finben-fomc::fomc122,neutral,dovish,False,True,0.9286768961659722,NEUTRAL
+base_model,finben-fomc::fomc123,neutral,neutral,True,True,0.9646751927202785,NEUTRAL
+base_model,finben-fomc::fomc124,unparsed,dovish,False,False,0.793478609911328,The statement suggests that the availability of credit and the low prices of houses have allowed
+base_model,finben-fomc::fomc125,neutral,neutral,True,True,0.9241032274626334,NEUTRAL
+base_model,finben-fomc::fomc126,neutral,dovish,False,True,0.8881991894101257,NEUTRAL
+base_model,finben-fomc::fomc127,unparsed,hawkish,False,False,0.9869057986893623,The statement indicates that the real federal funds rate has risen above its historical average and
+base_model,finben-fomc::fomc128,neutral,hawkish,False,True,0.9937581154928701,NEUTRAL
+base_model,finben-fomc::fomc129,hawkish,neutral,False,True,0.886867642170589,HAWKISH
+base_model,finben-fomc::fomc130,dovish,dovish,True,True,0.9203157747684073,DOVISH
+base_model,finben-fomc::fomc131,neutral,dovish,False,True,0.9000651534331165,NEUTRAL
+base_model,finben-fomc::fomc132,neutral,neutral,True,True,0.999095851170084,NEUTRAL
+base_model,finben-fomc::fomc133,neutral,hawkish,False,True,0.9928863915037739,NEUTRAL
+base_model,finben-fomc::fomc134,neutral,neutral,True,True,0.9855139993156032,NEUTRAL
+base_model,finben-fomc::fomc135,neutral,hawkish,False,True,0.9958366692684194,NEUTRAL
+base_model,finben-fomc::fomc136,neutral,hawkish,False,True,0.8538940414524552,"The statement is **NEUTRAL**. 
+
+The statement discusses the purpose of"
+base_model,finben-fomc::fomc137,neutral,dovish,False,True,0.9611120033053321,NEUTRAL
+base_model,finben-fomc::fomc138,dovish,dovish,True,True,0.9467239685751987,DOVISH
+base_model,finben-fomc::fomc139,neutral,neutral,True,True,0.9793168531665648,NEUTRAL
+base_model,finben-fomc::fomc140,neutral,neutral,True,True,0.9137137046487436,NEUTRAL
+base_model,finben-fomc::fomc141,neutral,neutral,True,True,0.8639989596646974,NEUTRAL
+base_model,finben-fomc::fomc142,neutral,hawkish,False,True,0.9996825940376961,NEUTRAL
+base_model,finben-fomc::fomc143,neutral,neutral,True,True,0.8322835199039026,NEUTRAL
+base_model,finben-fomc::fomc144,neutral,neutral,True,True,0.9961016957857236,NEUTRAL
+base_model,finben-fomc::fomc145,neutral,dovish,False,True,0.9974969334932118,NEUTRAL
+base_model,finben-fomc::fomc146,neutral,dovish,False,True,0.9850072407187619,NEUTRAL
+base_model,finben-fomc::fomc147,neutral,neutral,True,True,0.9014474301077663,NEUTRAL
+base_model,finben-fomc::fomc148,neutral,neutral,True,True,0.8144811492928449,NEUTRAL
+base_model,finben-fomc::fomc149,neutral,dovish,False,True,0.9060133358797976,NEUTRAL
+base_model,finben-fomc::fomc150,neutral,neutral,True,True,0.990703896260496,NEUTRAL
+base_model,finben-fomc::fomc151,neutral,neutral,True,True,0.9776393206576264,NEUTRAL
+base_model,finben-fomc::fomc152,neutral,hawkish,False,True,0.9428335237494531,NEUTRAL
+base_model,finben-fomc::fomc153,neutral,neutral,True,True,0.9976290838426718,NEUTRAL
+base_model,finben-fomc::fomc154,neutral,neutral,True,True,0.9842221674357643,NEUTRAL
+base_model,finben-fomc::fomc155,neutral,neutral,True,True,0.9991332079862265,NEUTRAL
+base_model,finben-fomc::fomc156,neutral,hawkish,False,True,0.9479544573757205,NEUTRAL
+base_model,finben-fomc::fomc157,neutral,neutral,True,True,0.9991454318335505,NEUTRAL
+base_model,finben-fomc::fomc158,neutral,neutral,True,True,0.9400342136869224,"NEUTRAL
+
+The statement provides information about a study by Faust and Wright"
+base_model,finben-fomc::fomc159,unparsed,neutral,False,False,0.9246632456728662,The statement suggests that the approach can be applied equally well by different groups (in
+base_model,finben-fomc::fomc160,neutral,hawkish,False,True,0.9504004857647899,NEUTRAL
+base_model,finben-fomc::fomc161,neutral,neutral,True,True,0.9975989991046599,NEUTRAL
+base_model,finben-fomc::fomc162,neutral,dovish,False,True,0.9104103528548452,NEUTRAL
+base_model,finben-fomc::fomc163,neutral,neutral,True,True,0.9751801002304286,NEUTRAL
+base_model,finben-fomc::fomc164,neutral,hawkish,False,True,0.8547655208806905,NEUTRAL
+base_model,finben-fomc::fomc165,neutral,dovish,False,True,0.9929274008358506,NEUTRAL
+base_model,finben-fomc::fomc166,neutral,dovish,False,True,0.8783588815398742,"NEUTRAL
+
+The statement provides information about the growth of labor productivity but does"
+base_model,finben-fomc::fomc167,unparsed,neutral,False,False,0.8731139029970654,"The statement indicates that the P* model, without adjustments, would have predicted def"
+base_model,finben-fomc::fomc168,neutral,dovish,False,True,0.9993369362936861,NEUTRAL
+base_model,finben-fomc::fomc169,dovish,neutral,False,True,0.8561403999143848,DOVISH
+base_model,finben-fomc::fomc170,neutral,hawkish,False,True,0.8688588289856595,NEUTRAL
+base_model,finben-fomc::fomc171,neutral,neutral,True,True,0.8766624242858881,NEUTRAL
+base_model,finben-fomc::fomc172,neutral,hawkish,False,True,0.9725185194865061,NEUTRAL
+base_model,finben-fomc::fomc173,neutral,neutral,True,True,0.9953174122113326,NEUTRAL
+base_model,finben-fomc::fomc174,neutral,neutral,True,True,0.996384176066537,NEUTRAL
+base_model,finben-fomc::fomc175,neutral,hawkish,False,True,0.9991351012377362,NEUTRAL
+base_model,finben-fomc::fomc176,neutral,hawkish,False,True,0.9882087356063286,NEUTRAL
+base_model,finben-fomc::fomc177,neutral,hawkish,False,True,0.9149715292893758,NEUTRAL
+base_model,finben-fomc::fomc178,neutral,neutral,True,True,0.994710283749044,NEUTRAL
+base_model,finben-fomc::fomc179,neutral,dovish,False,True,0.8150971747784513,NEUTRAL
+base_model,finben-fomc::fomc180,dovish,dovish,True,True,0.9871297750675496,DOVISH
+base_model,finben-fomc::fomc181,neutral,neutral,True,True,0.9974974370066844,NEUTRAL
+base_model,finben-fomc::fomc182,neutral,neutral,True,True,0.9455317830195731,NEUTRAL
+base_model,finben-fomc::fomc183,neutral,neutral,True,True,0.9984565697275267,NEUTRAL
+base_model,finben-fomc::fomc184,neutral,dovish,False,True,0.9910331430335648,NEUTRAL
+base_model,finben-fomc::fomc185,neutral,neutral,True,True,0.9598840415679206,NEUTRAL
+base_model,finben-fomc::fomc186,neutral,dovish,False,True,0.9758344704787896,NEUTRAL
+base_model,finben-fomc::fomc187,neutral,neutral,True,True,0.7690184654986209,NEUTRAL
+base_model,finben-fomc::fomc188,dovish,hawkish,False,True,0.8316974346410658,DOVISH
+base_model,finben-fomc::fomc189,neutral,neutral,True,True,0.9986785439173835,NEUTRAL
+base_model,finben-fomc::fomc190,neutral,neutral,True,True,0.9983261252437465,NEUTRAL
+base_model,finben-fomc::fomc191,neutral,neutral,True,True,0.9943989836968068,NEUTRAL
+base_model,finben-fomc::fomc192,dovish,neutral,False,True,0.8559304501976027,DOVISH
+base_model,finben-fomc::fomc193,dovish,dovish,True,True,0.8217500064920922,DOVISH
+base_model,finben-fomc::fomc194,neutral,dovish,False,True,0.9032906883030859,NEUTRAL
+base_model,finben-fomc::fomc195,neutral,hawkish,False,True,0.9627292566719687,NEUTRAL
+base_model,finben-fomc::fomc196,neutral,neutral,True,True,0.9767070026126229,NEUTRAL
+base_model,finben-fomc::fomc197,dovish,neutral,False,True,0.9242493960425767,DOVISH
+base_model,finben-fomc::fomc198,neutral,neutral,True,True,0.9923954116383653,NEUTRAL
+base_model,finben-fomc::fomc199,unparsed,dovish,False,False,0.7327737618920217,The statement is not clear on the exact economic growth rate or the implications of the
+base_model,finben-fomc::fomc200,neutral,hawkish,False,True,0.8010376768443682,NEUTRAL
+base_model,finben-fomc::fomc201,dovish,hawkish,False,True,0.962615616079988,DOVISH
+base_model,finben-fomc::fomc202,neutral,neutral,True,True,0.9975816374169058,NEUTRAL
+base_model,finben-fomc::fomc203,neutral,neutral,True,True,0.9958825315607056,NEUTRAL
+base_model,finben-fomc::fomc204,neutral,dovish,False,True,0.9635261754215321,NEUTRAL
+base_model,finben-fomc::fomc205,neutral,neutral,True,True,0.9997418807125511,NEUTRAL
+base_model,finben-fomc::fomc206,neutral,hawkish,False,True,0.9189683142187318,NEUTRAL
+base_model,finben-fomc::fomc207,neutral,hawkish,False,True,0.9398678216128028,NEUTRAL
+base_model,finben-fomc::fomc208,unparsed,dovish,False,False,0.8092910931510193,The statement is a critique of the Federal Reserve's approach to the liftoff
+base_model,finben-fomc::fomc209,neutral,neutral,True,True,0.9875075713496444,NEUTRAL
+base_model,finben-fomc::fomc210,neutral,neutral,True,True,0.9555266692628559,NEUTRAL
+base_model,finben-fomc::fomc211,unparsed,hawkish,False,False,0.8278841968177882,"The statement ""And productivity’s been very low"" is not a complete statement on"
+base_model,finben-fomc::fomc212,neutral,neutral,True,True,0.9845422914299033,NEUTRAL
+base_model,finben-fomc::fomc213,dovish,neutral,False,True,0.8295914423101372,DOVISH
+base_model,finben-fomc::fomc214,neutral,neutral,True,True,0.9016009779554421,NEUTRAL
+base_model,finben-fomc::fomc215,dovish,dovish,True,True,0.9581685834298878,DOVISH
+base_model,finben-fomc::fomc216,unparsed,dovish,False,False,0.7802409285528733,The statement is a continuation of the Federal Open Market Committee's (FOMC
+base_model,finben-fomc::fomc217,neutral,neutral,True,True,0.8758285081437994,NEUTRAL
+base_model,finben-fomc::fomc218,neutral,neutral,True,True,0.9759917975079937,NEUTRAL
+base_model,finben-fomc::fomc219,neutral,dovish,False,True,0.9855176155780926,NEUTRAL
+base_model,finben-fomc::fomc220,neutral,hawkish,False,True,0.997575183186418,NEUTRAL
+base_model,finben-fomc::fomc221,neutral,neutral,True,True,0.8230048300954277,The statement is **NEUTRAL**. It does not express a clear stance
+base_model,finben-fomc::fomc222,neutral,hawkish,False,True,0.9843867709802372,NEUTRAL
+base_model,finben-fomc::fomc223,neutral,dovish,False,True,0.9949740599929912,NEUTRAL
+base_model,finben-fomc::fomc224,neutral,dovish,False,True,0.9835574130116665,NEUTRAL
+base_model,finben-fomc::fomc225,neutral,hawkish,False,True,0.9975990541530346,NEUTRAL
+base_model,finben-fomc::fomc226,neutral,hawkish,False,True,0.997286713743449,NEUTRAL
+base_model,finben-fomc::fomc227,neutral,hawkish,False,True,0.9800139605212239,NEUTRAL
+base_model,finben-fomc::fomc228,neutral,dovish,False,True,0.9990584783048266,NEUTRAL
+base_model,finben-fomc::fomc229,neutral,hawkish,False,True,0.8824179915910128,NEUTRAL
+base_model,finben-fomc::fomc230,unparsed,neutral,False,False,0.8472032588094621,The statement expresses concern about a specific issue more than about a potential outcome. Since
+base_model,finben-fomc::fomc231,neutral,neutral,True,True,0.9821719548024429,NEUTRAL
+base_model,finben-fomc::fomc232,neutral,hawkish,False,True,0.9707111985469256,NEUTRAL
+base_model,finben-fomc::fomc233,neutral,neutral,True,True,0.9932176956068643,NEUTRAL
+base_model,finben-fomc::fomc234,neutral,neutral,True,True,0.8865563760174363,The statement is neutral (NEUTRAL) because it discusses productivity and technology developments
+base_model,finben-fomc::fomc235,neutral,neutral,True,True,0.9170348841123298,NEUTRAL
+base_model,finben-fomc::fomc236,neutral,hawkish,False,True,0.9970343693783671,NEUTRAL
+base_model,finben-fomc::fomc237,neutral,neutral,True,True,0.854313858905085,NEUTRAL
+base_model,finben-fomc::fomc238,neutral,dovish,False,True,0.901736888944474,NEUTRAL
+base_model,finben-fomc::fomc239,neutral,neutral,True,True,0.9807617781978852,NEUTRAL
+base_model,finben-fomc::fomc240,dovish,neutral,False,True,0.8350885810241674,"The statement is **DOVISH**. 
+
+Explanation: The statement indicates that"
+base_model,finben-fomc::fomc241,neutral,neutral,True,True,0.9952383353338683,NEUTRAL
+base_model,finben-fomc::fomc242,neutral,hawkish,False,True,0.9853211111368864,NEUTRAL
+base_model,finben-fomc::fomc243,neutral,hawkish,False,True,0.999693622665755,NEUTRAL
+base_model,finben-fomc::fomc244,neutral,neutral,True,True,0.9803106431872507,NEUTRAL
+base_model,finben-fomc::fomc245,neutral,hawkish,False,True,0.9009084397847346,NEUTRAL
+base_model,finben-fomc::fomc246,neutral,neutral,True,True,0.7998564758031677,NEUTRAL
+base_model,finben-fomc::fomc247,neutral,neutral,True,True,0.9280622957054867,NEUTRAL
+base_model,finben-fomc::fomc248,neutral,dovish,False,True,0.8591736734254699,NEUTRAL
+base_model,finben-fomc::fomc249,unparsed,hawkish,False,False,0.8185556378092385,The statement indicates that the central bank is acknowledging that inflation pressures remain a concern and
+base_model,finben-fomc::fomc250,neutral,neutral,True,True,0.9958547643518213,NEUTRAL
+base_model,finben-fomc::fomc251,neutral,neutral,True,True,0.8346435728396919,NEUTRAL
+base_model,finben-fomc::fomc252,neutral,neutral,True,True,0.9117184126186625,NEUTRAL
+base_model,finben-fomc::fomc253,unparsed,dovish,False,False,0.8819249347218231,The statement suggests that **inflation that's too low** will lead to **
+base_model,finben-fomc::fomc254,neutral,dovish,False,True,0.9762065345953668,NEUTRAL
+base_model,finben-fomc::fomc255,unparsed,neutral,False,False,0.9179463473035038,The statement describes a decline in the midpoint of real GDP growth projections from 2
+base_model,finben-fomc::fomc256,neutral,neutral,True,True,0.9906071134398465,NEUTRAL
+base_model,finben-fomc::fomc257,neutral,neutral,True,True,0.954733140896325,NEUTRAL
+base_model,finben-fomc::fomc258,neutral,neutral,True,True,0.9951741782194388,NEUTRAL
+base_model,finben-fomc::fomc259,neutral,neutral,True,True,0.9989681647776918,NEUTRAL
+base_model,finben-fomc::fomc260,neutral,dovish,False,True,0.9769472233988793,NEUTRAL
+base_model,finben-fomc::fomc261,neutral,neutral,True,True,0.9265704742033045,NEUTRAL
+base_model,finben-fomc::fomc262,neutral,dovish,False,True,0.9988682159140538,NEUTRAL
+base_model,finben-fomc::fomc263,neutral,neutral,True,True,0.9740329849466746,NEUTRAL
+base_model,finben-fomc::fomc264,neutral,neutral,True,True,0.9968874812137339,NEUTRAL
+base_model,finben-fomc::fomc265,neutral,neutral,True,True,0.9708834977402837,NEUTRAL
+base_model,finben-fomc::fomc266,neutral,dovish,False,True,0.9992721233979258,NEUTRAL
+base_model,finben-fomc::fomc267,neutral,hawkish,False,True,0.9637354682056885,NEUTRAL
+base_model,finben-fomc::fomc268,neutral,hawkish,False,True,0.9838439567799763,NEUTRAL
+base_model,finben-fomc::fomc269,neutral,neutral,True,True,0.9885901110998213,NEUTRAL
+base_model,finben-fomc::fomc270,neutral,neutral,True,True,0.9159726314298378,NEUTRAL
+base_model,finben-fomc::fomc271,dovish,neutral,False,True,0.9155909741708205,DOVISH
+base_model,finben-fomc::fomc272,neutral,hawkish,False,True,0.9911189461819474,NEUTRAL
+base_model,finben-fomc::fomc273,dovish,dovish,True,True,0.9185781062387885,DOVISH
+base_model,finben-fomc::fomc274,neutral,neutral,True,True,0.9823415802881431,NEUTRAL
+base_model,finben-fomc::fomc275,neutral,neutral,True,True,0.9907846198107697,NEUTRAL
+base_model,finben-fomc::fomc276,unparsed,neutral,False,False,0.8527941360790762,The statement indicates that the Federal Reserve will aim for inflation to average 2%
+base_model,finben-fomc::fomc277,neutral,neutral,True,True,0.9893722157526059,NEUTRAL
+base_model,finben-fomc::fomc278,neutral,neutral,True,True,0.9906763126545501,NEUTRAL
+base_model,finben-fomc::fomc279,neutral,neutral,True,True,0.9646478343071563,NEUTRAL
+base_model,finben-fomc::fomc280,neutral,hawkish,False,True,0.9976233591201862,NEUTRAL
+base_model,finben-fomc::fomc281,neutral,neutral,True,True,0.9354764394300306,NEUTRAL
+base_model,finben-fomc::fomc282,neutral,dovish,False,True,0.984917807733919,NEUTRAL
+base_model,finben-fomc::fomc283,unparsed,hawkish,False,False,0.94101686990301,The statement indicates that economic activity has more forward momentum than previously perceived and that inflation
+base_model,finben-fomc::fomc284,neutral,dovish,False,True,0.9887984405828325,NEUTRAL
+base_model,finben-fomc::fomc285,neutral,hawkish,False,True,0.7538768039891571,The statement is neutral because it describes an expected outcome without indicating a strong stance on
+base_model,finben-fomc::fomc286,neutral,dovish,False,True,0.9992224789250165,NEUTRAL
+base_model,finben-fomc::fomc287,neutral,neutral,True,True,0.9899579267963867,NEUTRAL
+base_model,finben-fomc::fomc288,neutral,hawkish,False,True,0.9609889628456294,NEUTRAL
+base_model,finben-fomc::fomc289,neutral,neutral,True,True,0.9955623173124939,NEUTRAL
+base_model,finben-fomc::fomc290,neutral,dovish,False,True,0.9994052547061474,NEUTRAL
+base_model,finben-fomc::fomc291,neutral,dovish,False,True,0.7436898099150132,The statement is neutral because it describes a factual observation about consumer inflation but does not
+base_model,finben-fomc::fomc292,unparsed,hawkish,False,False,0.9534218239237662,"The statement indicates that the Fed raised interest rates in response to high inflation, which"
+base_model,finben-fomc::fomc293,neutral,dovish,False,True,0.9992694421560153,NEUTRAL
+base_model,finben-fomc::fomc294,neutral,neutral,True,True,0.9195633129377905,NEUTRAL
+base_model,finben-fomc::fomc295,neutral,neutral,True,True,0.9058896986065188,NEUTRAL
+base_model,finben-fomc::fomc296,neutral,dovish,False,True,0.9913129702781939,NEUTRAL
+base_model,finben-fomc::fomc297,neutral,dovish,False,True,0.9823742638938491,NEUTRAL
+base_model,finben-fomc::fomc298,unparsed,dovish,False,False,0.8630441674552615,The statement indicates that the Federal Reserve Committee anticipates that the federal funds rate may
+base_model,finben-fomc::fomc299,neutral,neutral,True,True,0.9823153053752676,NEUTRAL
+base_model,finben-fomc::fomc300,unparsed,neutral,False,False,0.7976782251637358,"The statement is unclear and contains incomplete or ambiguous information. Therefore, the classification cannot"
+base_model,finben-fomc::fomc301,neutral,neutral,True,True,0.7781801146784744,The statement is **NEUTRAL**. It discusses economic concepts and theories related
+base_model,finben-fomc::fomc302,neutral,dovish,False,True,0.991548282068594,NEUTRAL
+base_model,finben-fomc::fomc303,unparsed,hawkish,False,False,0.8570445152235303,"The statement indicates that the unemployment rate declined, which is a positive economic development."
+base_model,finben-fomc::fomc304,neutral,neutral,True,True,0.9348903269275554,NEUTRAL
+base_model,finben-fomc::fomc305,neutral,dovish,False,True,0.9900923951350515,NEUTRAL
+base_model,finben-fomc::fomc306,neutral,neutral,True,True,0.9435377626473266,NEUTRAL
+base_model,finben-fomc::fomc307,unparsed,hawkish,False,False,0.8883325903831252,The statement suggests that lower inflation expectations lead to lower actual inflation. This is consistent
+base_model,finben-fomc::fomc308,dovish,neutral,False,True,0.9094993724906838,DOVISH
+base_model,finben-fomc::fomc309,neutral,neutral,True,True,0.9925819736651564,NEUTRAL
+base_model,finben-fomc::fomc310,neutral,dovish,False,True,0.8677962323530858,NEUTRAL
+base_model,finben-fomc::fomc311,neutral,hawkish,False,True,0.9975042790553549,NEUTRAL
+base_model,finben-fomc::fomc312,neutral,hawkish,False,True,0.9949872647263093,NEUTRAL
+base_model,finben-fomc::fomc313,neutral,neutral,True,True,0.9950337347346536,NEUTRAL
+base_model,finben-fomc::fomc314,dovish,neutral,False,True,0.9040291744593802,DOVISH
+base_model,finben-fomc::fomc315,neutral,neutral,True,True,0.9462205111575926,NEUTRAL
+base_model,finben-fomc::fomc316,neutral,dovish,False,True,0.91671844632801,NEUTRAL
+base_model,finben-fomc::fomc317,neutral,neutral,True,True,0.9736580513451726,NEUTRAL
+base_model,finben-fomc::fomc318,neutral,neutral,True,True,0.9904872754590884,NEUTRAL
+base_model,finben-fomc::fomc319,neutral,hawkish,False,True,0.9794244657289555,NEUTRAL
+base_model,finben-fomc::fomc320,unparsed,neutral,False,False,0.8751153863142117,The statement describes a currency board and dollarization as tighter versions of a fixed exchange
+base_model,finben-fomc::fomc321,neutral,neutral,True,True,0.916698195350649,NEUTRAL
+base_model,finben-fomc::fomc322,neutral,dovish,False,True,0.8337229973752946,"NEUTRAL
+
+The statement is neutral because it describes a perspective that is not"
+base_model,finben-fomc::fomc323,unparsed,hawkish,False,False,0.8918927052191961,The statement suggests that the expansion of monetary aggregates was supported by increased demand for currency
+base_model,finben-fomc::fomc324,neutral,neutral,True,True,0.9545200248354057,NEUTRAL
+base_model,finben-fomc::fomc325,neutral,hawkish,False,True,0.9948975635563874,NEUTRAL
+base_model,finben-fomc::fomc326,neutral,neutral,True,True,0.9970212758310989,NEUTRAL
+base_model,finben-fomc::fomc327,neutral,hawkish,False,True,0.9924246624248652,NEUTRAL
+base_model,finben-fomc::fomc328,neutral,dovish,False,True,0.9379680622230622,NEUTRAL
+base_model,finben-fomc::fomc329,unparsed,dovish,False,False,0.8681955611935249,"The statement suggests that when short-term interest rates reach zero, the traditional tools of"
+base_model,finben-fomc::fomc330,dovish,neutral,False,True,0.9153192590572042,DOVISH
+base_model,finben-fomc::fomc331,neutral,neutral,True,True,0.996399022530408,NEUTRAL
+base_model,finben-fomc::fomc332,neutral,neutral,True,True,0.9992590618851124,NEUTRAL
+base_model,finben-fomc::fomc333,dovish,dovish,True,True,0.9438731064740551,DOVISH
+base_model,finben-fomc::fomc334,neutral,hawkish,False,True,0.9973796893587273,NEUTRAL
+base_model,finben-fomc::fomc335,neutral,neutral,True,True,0.9977262837085271,NEUTRAL
+base_model,finben-fomc::fomc336,neutral,neutral,True,True,0.9827261819734565,NEUTRAL
+base_model,finben-fomc::fomc337,neutral,neutral,True,True,0.9192707412970544,NEUTRAL
+base_model,finben-fomc::fomc338,neutral,hawkish,False,True,0.9547261520887237,NEUTRAL
+base_model,finben-fomc::fomc339,neutral,neutral,True,True,0.9470602613551041,NEUTRAL
+base_model,finben-fomc::fomc340,neutral,hawkish,False,True,0.9303452100086543,NEUTRAL
+base_model,finben-fomc::fomc341,neutral,neutral,True,True,0.9744413991693139,NEUTRAL
+base_model,finben-fomc::fomc342,neutral,neutral,True,True,0.9841587571311312,NEUTRAL
+base_model,finben-fomc::fomc343,neutral,hawkish,False,True,0.9897921243483926,NEUTRAL
+base_model,finben-fomc::fomc344,unparsed,dovish,False,False,0.8691489162172544,The statement indicates that the prices of exports are lower than they would be under more
+base_model,finben-fomc::fomc345,neutral,neutral,True,True,0.97841473276281,NEUTRAL
+base_model,finben-fomc::fomc346,neutral,hawkish,False,True,0.9639555327511939,NEUTRAL
+base_model,finben-fomc::fomc347,neutral,neutral,True,True,0.7997293481710533,The statement is neutral (NEUTRAL) because it describes a conflict between two
+base_model,finben-fomc::fomc348,neutral,neutral,True,True,0.9989759891494164,NEUTRAL
+base_model,finben-fomc::fomc349,dovish,hawkish,False,True,0.9470860307611336,DOVISH
+base_model,finben-fomc::fomc350,dovish,dovish,True,True,0.8822265227117232,The statement is **DOVISH** (dovish) because it expresses
+base_model,finben-fomc::fomc351,neutral,dovish,False,True,0.9854836902342012,NEUTRAL
+base_model,finben-fomc::fomc352,neutral,neutral,True,True,0.9938925853672281,NEUTRAL
+base_model,finben-fomc::fomc353,neutral,neutral,True,True,0.9993454238944186,NEUTRAL
+base_model,finben-fomc::fomc354,dovish,hawkish,False,True,0.9405641760266277,DOVISH
+base_model,finben-fomc::fomc355,neutral,dovish,False,True,0.9703740265417299,NEUTRAL
+base_model,finben-fomc::fomc356,neutral,neutral,True,True,0.9817279756128164,NEUTRAL
+base_model,finben-fomc::fomc357,neutral,dovish,False,True,0.9170966583038461,NEUTRAL
+base_model,finben-fomc::fomc358,neutral,dovish,False,True,0.9928957924855193,NEUTRAL
+base_model,finben-fomc::fomc359,unparsed,neutral,False,False,0.9021913798376763,"The statement indicates that participants expected ""no more than moderate growth in consumer spending over"
+base_model,finben-fomc::fomc360,dovish,neutral,False,True,0.9445132228478126,DOVISH
+base_model,finben-fomc::fomc361,dovish,hawkish,False,True,0.9489073808091163,DOVISH
+base_model,finben-fomc::fomc362,hawkish,hawkish,True,True,0.9957780610955627,HAWKISH
+base_model,finben-fomc::fomc363,neutral,hawkish,False,True,0.9976121020971721,NEUTRAL
+base_model,finben-fomc::fomc364,neutral,neutral,True,True,0.9878437423661595,NEUTRAL
+base_model,finben-fomc::fomc365,dovish,hawkish,False,True,0.9130427529765318,The statement is **DOVISH** (Dovish) because it suggests
+base_model,finben-fomc::fomc366,neutral,neutral,True,True,0.9636863843179736,NEUTRAL
+base_model,finben-fomc::fomc367,neutral,hawkish,False,True,0.9116089255420801,NEUTRAL
+base_model,finben-fomc::fomc368,neutral,hawkish,False,True,0.9848567208687706,NEUTRAL
+base_model,finben-fomc::fomc369,neutral,neutral,True,True,0.9700842468256471,NEUTRAL
+base_model,finben-fomc::fomc370,neutral,dovish,False,True,0.9995696116300482,NEUTRAL
+base_model,finben-fomc::fomc371,neutral,dovish,False,True,0.9977164253566643,NEUTRAL
+base_model,finben-fomc::fomc372,neutral,hawkish,False,True,0.9241545642357136,NEUTRAL
+base_model,finben-fomc::fomc373,neutral,dovish,False,True,0.9966296592351253,NEUTRAL
+base_model,finben-fomc::fomc374,neutral,neutral,True,True,0.9998377942265795,NEUTRAL
+base_model,finben-fomc::fomc375,neutral,hawkish,False,True,0.9037710649214818,NEUTRAL
+base_model,finben-fomc::fomc376,unparsed,dovish,False,False,0.8736954407729401,The statement indicates a negative forecast for U.S. real GDP and the unemployment rate
+base_model,finben-fomc::fomc377,neutral,neutral,True,True,0.9991834552736297,NEUTRAL
+base_model,finben-fomc::fomc378,neutral,hawkish,False,True,0.9977106341604612,NEUTRAL
+base_model,finben-fomc::fomc379,neutral,hawkish,False,True,0.8920794260107148,NEUTRAL
+base_model,finben-fomc::fomc380,neutral,dovish,False,True,0.8060860683803878,NEUTRAL
+base_model,finben-fomc::fomc381,dovish,hawkish,False,True,0.99545932994861,DOVISH
+base_model,finben-fomc::fomc382,dovish,hawkish,False,True,0.8623567721645132,DOVISH
+base_model,finben-fomc::fomc383,neutral,neutral,True,True,0.9985465536530302,NEUTRAL
+base_model,finben-fomc::fomc384,neutral,neutral,True,True,0.9966462112084044,NEUTRAL
+base_model,finben-fomc::fomc385,neutral,neutral,True,True,0.9971550103968221,NEUTRAL
+base_model,finben-fomc::fomc386,neutral,neutral,True,True,0.9928554381994565,NEUTRAL
+base_model,finben-fomc::fomc387,neutral,neutral,True,True,0.9135636616990577,NEUTRAL
+base_model,finben-fomc::fomc388,neutral,neutral,True,True,0.9368617236366725,NEUTRAL
+base_model,finben-fomc::fomc389,neutral,dovish,False,True,0.9592299846798187,NEUTRAL
+base_model,finben-fomc::fomc390,neutral,neutral,True,True,0.9931123897121967,NEUTRAL
+base_model,finben-fomc::fomc391,neutral,neutral,True,True,0.971553327392273,NEUTRAL
+base_model,finben-fomc::fomc392,neutral,hawkish,False,True,0.9620500083531224,NEUTRAL
+base_model,finben-fomc::fomc393,neutral,neutral,True,True,0.978243806518625,NEUTRAL
+base_model,finben-fomc::fomc394,neutral,hawkish,False,True,0.8664880933621665,NEUTRAL
+base_model,finben-fomc::fomc395,neutral,hawkish,False,True,0.9296874108787037,NEUTRAL
+base_model,finben-fomc::fomc396,neutral,dovish,False,True,0.9102443112768316,NEUTRAL
+base_model,finben-fomc::fomc397,neutral,neutral,True,True,0.9992772051961593,NEUTRAL
+base_model,finben-fomc::fomc398,unparsed,dovish,False,False,0.8633650287717638,"The statement ""and inflation rises slowly towards 2 percent"" is a **NE"
+base_model,finben-fomc::fomc399,neutral,neutral,True,True,0.9971226972800092,NEUTRAL
+base_model,finben-fomc::fomc400,neutral,hawkish,False,True,0.9682732020532094,NEUTRAL
+base_model,finben-fomc::fomc401,neutral,neutral,True,True,0.9354991683628907,NEUTRAL
+base_model,finben-fomc::fomc402,neutral,neutral,True,True,0.9762198084680851,NEUTRAL
+base_model,finben-fomc::fomc403,unparsed,hawkish,False,False,0.8079507674198719,"The statement expresses a sense of confidence in raising interest rates at the appropriate time,"
+base_model,finben-fomc::fomc404,neutral,neutral,True,True,0.9916176818622863,NEUTRAL
+base_model,finben-fomc::fomc405,neutral,hawkish,False,True,0.9599915268099194,NEUTRAL
+base_model,finben-fomc::fomc406,neutral,neutral,True,True,0.920987398078733,NEUTRAL
+base_model,finben-fomc::fomc407,neutral,dovish,False,True,0.9073834853584382,NEUTRAL
+base_model,finben-fomc::fomc408,neutral,hawkish,False,True,0.9906965149687668,NEUTRAL
+base_model,finben-fomc::fomc409,neutral,dovish,False,True,0.9227788015166305,NEUTRAL
+base_model,finben-fomc::fomc410,neutral,hawkish,False,True,0.9901664292540302,NEUTRAL
+base_model,finben-fomc::fomc411,neutral,dovish,False,True,0.9979416258138722,NEUTRAL
+base_model,finben-fomc::fomc412,neutral,dovish,False,True,0.9937161783090956,NEUTRAL
+base_model,finben-fomc::fomc413,neutral,neutral,True,True,0.9913259759347729,NEUTRAL
+base_model,finben-fomc::fomc414,neutral,neutral,True,True,0.9982247317632167,NEUTRAL
+base_model,finben-fomc::fomc415,neutral,hawkish,False,True,0.997866094720408,NEUTRAL
+base_model,finben-fomc::fomc416,neutral,neutral,True,True,0.9773268568789654,NEUTRAL
+base_model,finben-fomc::fomc417,neutral,neutral,True,True,0.9926058658947213,NEUTRAL
+base_model,finben-fomc::fomc418,neutral,hawkish,False,True,0.9940398656692729,NEUTRAL
+base_model,finben-fomc::fomc419,neutral,dovish,False,True,0.99115678832155,NEUTRAL
+base_model,finben-fomc::fomc420,neutral,neutral,True,True,0.9950375953634266,NEUTRAL
+base_model,finben-fomc::fomc421,neutral,dovish,False,True,0.9928682842422375,NEUTRAL
+base_model,finben-fomc::fomc422,neutral,neutral,True,True,0.945112015528433,NEUTRAL
+base_model,finben-fomc::fomc423,neutral,dovish,False,True,0.9924335123255574,NEUTRAL
+base_model,finben-fomc::fomc424,neutral,dovish,False,True,0.9977974068980862,NEUTRAL
+base_model,finben-fomc::fomc425,neutral,neutral,True,True,0.9490666085608345,NEUTRAL
+base_model,finben-fomc::fomc426,unparsed,dovish,False,False,0.8584438848047076,The statement indicates that central banks around the world eased policy sharply in response to a
+base_model,finben-fomc::fomc427,neutral,hawkish,False,True,0.9836238222580935,NEUTRAL
+base_model,finben-fomc::fomc428,neutral,dovish,False,True,0.9913251921007059,NEUTRAL
+base_model,finben-fomc::fomc429,neutral,neutral,True,True,0.9516924624778181,NEUTRAL
+base_model,finben-fomc::fomc430,neutral,dovish,False,True,0.9838782719178475,NEUTRAL
+base_model,finben-fomc::fomc431,neutral,dovish,False,True,0.9978296995965704,NEUTRAL
+base_model,finben-fomc::fomc432,dovish,neutral,False,True,0.7881336871220456,DOVISH
+base_model,finben-fomc::fomc433,neutral,neutral,True,True,0.9822874777885431,NEUTRAL
+base_model,finben-fomc::fomc434,neutral,neutral,True,True,0.9908197260791698,NEUTRAL
+base_model,finben-fomc::fomc435,unparsed,dovish,False,False,0.9144838366597148,"The statement ""The moderation reflected lower growth in most major expenditure sectors"" is **"
+base_model,finben-fomc::fomc436,dovish,neutral,False,True,0.9909854265538034,DOVISH
+base_model,finben-fomc::fomc437,neutral,neutral,True,True,0.9722179727780292,NEUTRAL
+base_model,finben-fomc::fomc438,neutral,hawkish,False,True,0.9935476528891566,NEUTRAL
+base_model,finben-fomc::fomc439,neutral,hawkish,False,True,0.9109523877326787,NEUTRAL
+base_model,finben-fomc::fomc440,neutral,neutral,True,True,0.984462787946606,NEUTRAL
+base_model,finben-fomc::fomc441,unparsed,dovish,False,False,0.9027185469678165,The statement indicates that the unemployment rate is expected to decline somewhat slower than previously projected
+base_model,finben-fomc::fomc442,neutral,dovish,False,True,0.9931438366191961,NEUTRAL
+base_model,finben-fomc::fomc443,unparsed,neutral,False,False,0.7611583409414561,The statement is not a clear statement of a central-bank stance. It is
+base_model,finben-fomc::fomc444,neutral,neutral,True,True,0.8551043539778082,NEUTRAL
+base_model,finben-fomc::fomc445,dovish,hawkish,False,True,0.7390782518806971,"The statement is **DOVISH**. 
+
+The language suggests a preference for"
+base_model,finben-fomc::fomc446,neutral,neutral,True,True,0.9566267351419846,NEUTRAL
+base_model,finben-fomc::fomc447,neutral,neutral,True,True,0.9975864007717007,NEUTRAL
+base_model,finben-fomc::fomc448,neutral,hawkish,False,True,0.9984049039723374,NEUTRAL
+base_model,finben-fomc::fomc449,dovish,dovish,True,True,0.9822671944647412,DOVISH
+base_model,finben-fomc::fomc450,neutral,neutral,True,True,0.982186853857113,NEUTRAL
+base_model,finben-fomc::fomc451,neutral,dovish,False,True,0.8106226381325679,NEUTRAL
+base_model,finben-fomc::fomc452,neutral,hawkish,False,True,0.9245867502938672,NEUTRAL
+base_model,finben-fomc::fomc453,dovish,dovish,True,True,0.9024183044044911,The statement is **DOVISH** (dovish) because it expresses
+base_model,finben-fomc::fomc454,dovish,neutral,False,True,0.8750077979457427,DOVISH
+base_model,finben-fomc::fomc455,neutral,dovish,False,True,0.9774929181485789,NEUTRAL
+base_model,finben-fomc::fomc456,neutral,dovish,False,True,0.999111481155193,NEUTRAL
+base_model,finben-fomc::fomc457,neutral,hawkish,False,True,0.9962752220029396,NEUTRAL
+base_model,finben-fomc::fomc458,unparsed,hawkish,False,False,0.8923174094413658,"The statement indicates that inflation is expected to remain high, and people are building that"
+base_model,finben-fomc::fomc459,neutral,hawkish,False,True,0.9786432532596108,NEUTRAL
+base_model,finben-fomc::fomc460,neutral,neutral,True,True,0.9996525251119567,NEUTRAL
+base_model,finben-fomc::fomc461,neutral,neutral,True,True,0.9987389216100199,NEUTRAL
+base_model,finben-fomc::fomc462,neutral,dovish,False,True,0.9783064129580085,NEUTRAL
+base_model,finben-fomc::fomc463,neutral,dovish,False,True,0.9692868111551822,NEUTRAL
+base_model,finben-fomc::fomc464,neutral,hawkish,False,True,0.9930356438129236,NEUTRAL
+base_model,finben-fomc::fomc465,unparsed,dovish,False,False,0.9135455699893781,The statement indicates that the FOMC is aligning its policy guidance with a
+base_model,finben-fomc::fomc466,unparsed,neutral,False,False,0.876097201340923,"The statement is not a central-bank statement, and it does not express a"
+base_model,finben-fomc::fomc467,dovish,hawkish,False,True,0.9635170116893449,DOVISH
+base_model,finben-fomc::fomc468,neutral,dovish,False,True,0.838620670863225,The statement is neutral because it describes a condition of the market-based measures of inflation
+base_model,finben-fomc::fomc469,neutral,neutral,True,True,0.7771121340590812,The statement is neutral (NEUTRAL) because it does not express a clear
+base_model,finben-fomc::fomc470,unparsed,neutral,False,False,0.8915136485569404,The statement is asking about how long it will take for something to become a factor
+base_model,finben-fomc::fomc471,unparsed,dovish,False,False,0.9443710826720398,The statement indicates that participants expected economic activity to contract sharply in the fourth quarter of
+base_model,finben-fomc::fomc472,hawkish,hawkish,True,True,0.999342077928784,HAWKISH
+base_model,finben-fomc::fomc473,neutral,neutral,True,True,0.9948808817198754,NEUTRAL
+base_model,finben-fomc::fomc474,neutral,neutral,True,True,0.9923632698557144,NEUTRAL
+base_model,finben-fomc::fomc475,neutral,neutral,True,True,0.9923048466962475,NEUTRAL
+base_model,finben-fomc::fomc476,hawkish,neutral,False,True,0.8257371151439545,"The statement is **HAWKISH**. 
+
+The statement asserts that there"
+base_model,finben-fomc::fomc477,neutral,dovish,False,True,0.8713667029847989,NEUTRAL
+base_model,finben-fomc::fomc478,neutral,hawkish,False,True,0.952911499723654,NEUTRAL
+base_model,finben-fomc::fomc479,neutral,dovish,False,True,0.9913317886976769,NEUTRAL
+base_model,finben-fomc::fomc480,unparsed,hawkish,False,False,0.8425267988194571,"The statement indicates that rents are growing dramatically and that home prices are increasing, which"
+base_model,finben-fomc::fomc481,neutral,neutral,True,True,0.9625565632709588,NEUTRAL
+base_model,finben-fomc::fomc482,neutral,neutral,True,True,0.9825749217314129,NEUTRAL
+base_model,finben-fomc::fomc483,neutral,neutral,True,True,0.9908808026006473,NEUTRAL
+base_model,finben-fomc::fomc484,neutral,neutral,True,True,0.9828470187369274,NEUTRAL
+base_model,finben-fomc::fomc485,neutral,neutral,True,True,0.9935286323298356,NEUTRAL
+base_model,finben-fomc::fomc486,neutral,neutral,True,True,0.9942610585392292,NEUTRAL
+base_model,finben-fomc::fomc487,neutral,neutral,True,True,0.9992147993652921,NEUTRAL
+base_model,finben-fomc::fomc488,unparsed,neutral,False,False,0.9486564639665228,"The statement ""not to target asset prices (or exchange rates)"" is a **"
+base_model,finben-fomc::fomc489,neutral,hawkish,False,True,0.9811640605590466,NEUTRAL
+base_model,finben-fomc::fomc490,neutral,neutral,True,True,0.8724549792875218,NEUTRAL
+base_model,finben-fomc::fomc491,neutral,dovish,False,True,0.989962874100655,NEUTRAL
+base_model,finben-fomc::fomc492,hawkish,hawkish,True,True,0.8494191304163478,"The statement is **HAWKISH**. 
+
+The statement suggests that GDP"
+base_model,finben-fomc::fomc493,neutral,hawkish,False,True,0.9218836468703955,NEUTRAL
+base_model,finben-fomc::fomc494,neutral,neutral,True,True,0.9550717876801633,NEUTRAL
+base_model,finben-fomc::fomc495,neutral,neutral,True,True,0.950118674020511,NEUTRAL

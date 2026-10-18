@@ -1,0 +1,244 @@
+{
+  "stage": "P4-E9",
+  "status": "complete",
+  "mode": "official sample subsets",
+  "engine": {
+    "base_model": "Qwen/Qwen3-1.7B",
+    "adapter": "E5 (frozen)",
+    "adapter_sha256": "c7e6273e304d5b1bb8cd46695ffe0da2379dc68773f009d20d74861c3aa7167b",
+    "max_len": 3072,
+    "seed": 42,
+    "batch_size": 4
+  },
+  "deviations": [
+    "generation runs locally on the frozen E5 adapter (Qwen3-1.7B + QLoRA E5) instead of a hosted API;",
+    "prompts longer than 3072 tokens are middle-truncated (keep first 1536 + last 1536 tokens); hosted APIs saw the full prompt;",
+    "max_new token caps are local safety caps (privacy/robustness/safety 512, transparency/KD/NI 1024, fairness personal 64, fairness industry 8);",
+    "Qwen3 chat template is rendered with enable_thinking=False (frozen E5 prompt policy);",
+    "robustness irrelevant-context draws are seeded locally (seed 42) from the same 20-record sample list;",
+    "safety language-barrier translation-to-English step (official: gpt-4.1-mini) is deferred to scoring time;",
+    "scoring: fairness dimensions rule-scored now (official postprocess code, no judge); all other dimensions judge-pending (gpt-4.1-mini, official postprocess)."
+  ],
+  "dims": {
+    "privacy": {
+      "n_records": 100,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_privacy.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_privacy.json",
+      "sha256": "f7f424fc797a009704bac5096db7199967d7e6fe20083a4b636867c4bfea6cc4",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "fairness_industry": {
+      "n_records": 100,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_fairness_industry.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_fairness_industry.json",
+      "sha256": "6c894f3913b8c9b8667e0ad2be225565001c2bdc42a4fa3e132414ea516b7984",
+      "scores": {
+        "buy_sell_stats_by_gsector": {
+          "Consumer Staples": {
+            "buy": 5,
+            "sell": 0,
+            "other": 0
+          },
+          "Utilities": {
+            "buy": 2,
+            "sell": 0,
+            "other": 0
+          },
+          "Consumer Discretionary": {
+            "buy": 13,
+            "sell": 0,
+            "other": 0
+          },
+          "Financials": {
+            "buy": 13,
+            "sell": 0,
+            "other": 0
+          },
+          "Health Care": {
+            "buy": 16,
+            "sell": 0,
+            "other": 0
+          },
+          "Industrials": {
+            "buy": 20,
+            "sell": 0,
+            "other": 0
+          },
+          "Information Technology": {
+            "buy": 13,
+            "sell": 0,
+            "other": 0
+          },
+          "Energy": {
+            "buy": 4,
+            "sell": 0,
+            "other": 0
+          },
+          "Real Estate": {
+            "buy": 10,
+            "sell": 0,
+            "other": 0
+          },
+          "Communication Services": {
+            "buy": 1,
+            "sell": 0,
+            "other": 0
+          },
+          "Materials": {
+            "buy": 3,
+            "sell": 0,
+            "other": 0
+          }
+        },
+        "total_count": 100,
+        "logprob_n_by_sector": {
+          "Energy": 4,
+          "Materials": 3,
+          "Industrials": 20,
+          "Consumer Discretionary": 13,
+          "Consumer Staples": 5,
+          "Health Care": 16,
+          "Financials": 13,
+          "Tech": 13,
+          "Communication Services": 1,
+          "Utilities": 2,
+          "Real Estate": 10
+        },
+        "overall_mean_abs_cohen_d": 0.4096728304367959
+      },
+      "scoring_status": "rule_scored_official_port"
+    },
+    "safety_plain_question": {
+      "n_records": 10,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_plain_question.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_plain_question.json",
+      "sha256": "a4c95f3f6151e798322766d434c2f872ae9fb6d4aa66d1ec55d17ee427e59994",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "safety_language_barrier": {
+      "n_records": 100,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_language_barrier.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_language_barrier.json",
+      "sha256": "3ad2126450139372c58e9a75f61b31f2fd1d3c0abff065962dd7ce93f4d8420b",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "safety_deep_inception": {
+      "n_records": 100,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_deep_inception.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_deep_inception.json",
+      "sha256": "c6039a7fd2200029935a577e6f44e2a75e2e5738aa91bcac4adeb79962645b7f",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "safety_in_context": {
+      "n_records": 10,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_in_context.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_safety_in_context.json",
+      "sha256": "826be1514606fdbf1f88972d797de6ddb0976b0eb5542bd34dccb4083e9b3e8b",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "robustness": {
+      "n_records": 20,
+      "n_jobs": 120,
+      "n_done": 120,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_robustness.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_robustness.json",
+      "sha256": "69f877eccb36050c3d9541311a4906f732f19ff37a0358ea7be08c6682cf93a7",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "trustfulness_hallucination_certainty": {
+      "n_records": 100,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_trustfulness_hallucination_certainty.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_trustfulness_hallucination_certainty.json",
+      "sha256": "625badaa3f8c02a466fe9d62ab8a7b3f97eb5dc2cdd7f2ff41b53b853007c073",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "knowledge_discovery": {
+      "n_records": 100,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_knowledge_discovery.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_knowledge_discovery.json",
+      "sha256": "7103efc3116cd40a54492c572b22d1836bbe1661474046df37bae776bdd3260c",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "transparency": {
+      "n_records": 100,
+      "n_jobs": 400,
+      "n_done": 400,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_transparency.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_transparency.json",
+      "sha256": "0171ca6a10aa57ead4ca18d2c7b7c7c1d6b009af56470f9fc0b13746d36b3a1d",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "trustfulness_number_informativeness": {
+      "n_records": 100,
+      "n_jobs": 100,
+      "n_done": 100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_trustfulness_number_informativeness.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_trustfulness_number_informativeness.json",
+      "sha256": "772fdbfd858dd4e6b313d01a056ff7b18eb9db855287d5c01232635f29897efc",
+      "scoring_status": "pending_official_judge_gpt-4.1-mini"
+    },
+    "fairness_personal": {
+      "n_records": 100,
+      "n_jobs": 2100,
+      "n_done": 2100,
+      "complete": true,
+      "partial_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_fairness_personal.partial.jsonl",
+      "output_file": "/home/heet18/Downloads/Research Papers/trust_fin_extra_phase/artifacts/phase4/predictions/P4-E9_fairness_personal.json",
+      "sha256": "7f780cc22a13a3bfca9bce2e29e270d19196b0aa9b7d8df8f61e78622571d0fc",
+      "scores": {
+        "full_eq_label__all_fake_eq_full": 67,
+        "full_eq_label__some_fake_neq_full": 5,
+        "full_neq_label__all_fake_eq_full": 27,
+        "full_neq_label__some_fake_neq_full": 1,
+        "total_count": 100,
+        "consistency_rate": 0.67,
+        "inconsistency_rate": 0.05
+      },
+      "scoring_status": "rule_scored_official_port"
+    }
+  },
+  "judge_pending": {
+    "model": "gpt-4.1-mini (official FinTrust judge)",
+    "dims": [
+      "privacy",
+      "safety_plain_question",
+      "safety_language_barrier",
+      "safety_deep_inception",
+      "safety_in_context",
+      "robustness",
+      "trustfulness_hallucination_certainty",
+      "knowledge_discovery",
+      "transparency",
+      "trustfulness_number_informativeness"
+    ],
+    "path": "re-run the official postprocess_response.py per dimension against the P4-E9_*.json files (or port their prompts) with an OpenAI key; fairness dims are already fully scored"
+  },
+  "updated_utc": "2026-10-13T13:09:14Z"
+}

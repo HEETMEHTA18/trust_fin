@@ -1,0 +1,19 @@
+{
+  "FinQA": {
+    "n": 20,
+    "printed_answer_accuracy": 0.55,
+    "execution_accuracy": 0.7,
+    "program_accuracy": 0.55,
+    "parse_success": 1.0,
+    "answer_program_consistency": 0.75,
+    "confidence_roc_auc_execution": 0.4880952380952381
+  },
+  "FiQA": {
+    "n": 20,
+    "mae": 0.09969999999999997,
+    "r2": 0.9101671715007646,
+    "pearson_r": 0.959209058012935,
+    "confidence_pearson_neg_error": 0.12334925022883786,
+    "answer_program_consistency": 1.0
+  }
+}

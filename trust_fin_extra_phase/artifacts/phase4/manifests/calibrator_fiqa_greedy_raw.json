@@ -1,0 +1,7 @@
+{
+  "features": [
+    0
+  ],
+  "frame": "fiqa_greedy",
+  "method": "raw_confidence"
+}

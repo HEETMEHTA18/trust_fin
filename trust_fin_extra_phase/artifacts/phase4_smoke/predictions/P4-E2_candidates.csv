@@ -1,0 +1,81 @@
+experiment,record_id,source_id,dataset,split,candidate_index,raw_output,mean_logprob,confidence,latency_seconds,program,parsed_answer,parse_success,program_executable,executed_answer
+P4-E2,finqa::IPG/2008/page_21.pdf-1,IPG/2008/page_21.pdf-1,FinQA,validation,0,"PROGRAM: subtract(5.99, 3.24), divide(#0, 3.24), subtract(5.18, 3.24), divide(#2, 3.24), subtract(#1, #3)
+ANSWER: 0.32092",-0.18410027027130127,0.8318523895799712,2.6564090939996277,"subtract(5.99, 3.24), divide(#0, 3.24), subtract(5.18, 3.24), divide(#2, 3.24), subtract(#1, #3)",0.32092,True,True,0.25
+P4-E2,finqa::IPG/2008/page_21.pdf-1,IPG/2008/page_21.pdf-1,FinQA,validation,1,"PROGRAM: multiply(5.99, const_1000), subtract(#0, 4468), divide(#1, 4468), subtract(#2, 3.24), divide(#3, 3.24), subtract(#4, #5)
+ANSWER: 0.47845",-0.25241902470588684,0.7769191215466228,2.6564090939996277,"multiply(5.99, const_1000), subtract(#0, 4468), divide(#1, 4468), subtract(#2, 3.24), divide(#3, 3.24), subtract(#4, #5)",0.47845,True,False,-0.8948627828066802
+P4-E2,finqa::UNP/2008/page_27.pdf-1,UNP/2008/page_27.pdf-1,FinQA,validation,0,"PROGRAM: divide(852, 17970)
+ANSWER: 0.04738",-0.11931398510932922,0.8875290860909825,0.7567235914998491,"divide(852, 17970)",0.04738,True,True,0.04741
+P4-E2,finqa::UNP/2008/page_27.pdf-1,UNP/2008/page_27.pdf-1,FinQA,validation,1,"PROGRAM: divide(852, 17970)
+ANSWER: 0.04732",-0.14576904475688934,0.8643573079860681,0.7567235914998491,"divide(852, 17970)",0.04732,True,True,0.04741
+P4-E2,finqa::MRO/2007/page_134.pdf-4,MRO/2007/page_134.pdf-4,FinQA,validation,0,"PROGRAM: divide(0.96, 0.66), subtract(#0, const_1)
+ANSWER: 0.45455",-0.025359395891427994,0.9749594526336862,0.9245705530001942,"divide(0.96, 0.66), subtract(#0, const_1)",0.45455,True,True,0.45455
+P4-E2,finqa::MRO/2007/page_134.pdf-4,MRO/2007/page_134.pdf-4,FinQA,validation,1,"PROGRAM: divide(0.96, 0.66), subtract(#0, const_1)
+ANSWER: 0.45455",-0.025359395891427994,0.9749594526336862,0.9245705530001942,"divide(0.96, 0.66), subtract(#0, const_1)",0.45455,True,True,0.45455
+P4-E2,finqa::CME/2017/page_97.pdf-3,CME/2017/page_97.pdf-3,FinQA,validation,0,"PROGRAM: add(339235, 338240)
+ANSWER: 677475.0",-0.033563729375600815,0.9669932833895112,0.8621939914996801,"add(339235, 338240)",677475.0,True,True,677475.0
+P4-E2,finqa::CME/2017/page_97.pdf-3,CME/2017/page_97.pdf-3,FinQA,validation,1,"PROGRAM: add(339235, 338240)
+ANSWER: 677475.0",-0.033563729375600815,0.9669932833895112,0.8621939914996801,"add(339235, 338240)",677475.0,True,True,677475.0
+P4-E2,finqa::GS/2014/page_136.pdf-2,GS/2014/page_136.pdf-2,FinQA,validation,0,"PROGRAM: table_min(interest rate hedges, none)
+ANSWER: -8683.0",0.0,1.0,0.6794047210000826,"table_min(interest rate hedges, none)",-8683.0,True,True,-8683.0
+P4-E2,finqa::GS/2014/page_136.pdf-2,GS/2014/page_136.pdf-2,FinQA,validation,1,"PROGRAM: table_min(interest rate hedges, none)
+ANSWER: -8683.0",0.0,1.0,0.6794047210000826,"table_min(interest rate hedges, none)",-8683.0,True,True,-8683.0
+P4-E2,finqa::PM/2015/page_127.pdf-4,PM/2015/page_127.pdf-4,FinQA,validation,0,"PROGRAM: add(6129, 3929), add(#0, 2207), divide(#1, const_3)
+ANSWER: 4309.0",-0.1584911197423935,0.8534305424403499,1.2018936549998216,"add(6129, 3929), add(#0, 2207), divide(#1, const_3)",4309.0,True,True,4088.33333
+P4-E2,finqa::PM/2015/page_127.pdf-4,PM/2015/page_127.pdf-4,FinQA,validation,1,"PROGRAM: add(6129, 3929), add(#0, 2207), divide(#1, const_3)
+ANSWER: 4341.66667",-0.13442273437976837,0.8742204234503389,1.2018936549998216,"add(6129, 3929), add(#0, 2207), divide(#1, const_3)",4341.66667,True,True,4088.33333
+P4-E2,finqa::AMT/2010/page_34.pdf-3,AMT/2010/page_34.pdf-3,FinQA,validation,0,"PROGRAM: divide(397612895, 463)
+ANSWER: 857002.82417",-0.5238782167434692,0.5922193336150374,0.9277708939998774,"divide(397612895, 463)",857002.82417,True,True,858775.15119
+P4-E2,finqa::AMT/2010/page_34.pdf-3,AMT/2010/page_34.pdf-3,FinQA,validation,1,"PROGRAM: divide(397612895, 463)
+ANSWER: 858951.63521",-0.49061620235443115,0.6122490086428038,0.9277708939998774,"divide(397612895, 463)",858951.63521,True,True,858775.15119
+P4-E2,finqa::GS/2017/page_143.pdf-1,GS/2017/page_143.pdf-1,FinQA,validation,0,"PROGRAM: subtract(1249, 3416), divide(#0, 3416)
+ANSWER: -0.56085",-0.32033467292785645,0.7259060553113702,0.9683105874996727,"subtract(1249, 3416), divide(#0, 3416)",-0.56085,True,True,-0.63437
+P4-E2,finqa::GS/2017/page_143.pdf-1,GS/2017/page_143.pdf-1,FinQA,validation,1,"PROGRAM: subtract(-181, -181), divide(#0, 181)
+ANSWER: 0.0",-0.17093202471733093,0.8428788664535475,0.9683105874996727,"subtract(-181, -181), divide(#0, 181)",0.0,True,True,0.0
+P4-E2,finqa::BLL/2010/page_28.pdf-1,BLL/2010/page_28.pdf-1,FinQA,validation,0,"PROGRAM: subtract(178.93, const_100), divide(#0, const_100)
+ANSWER: 0.7893",0.0,1.0,0.9905870725001478,"subtract(178.93, const_100), divide(#0, const_100)",0.7893,True,True,0.7893
+P4-E2,finqa::BLL/2010/page_28.pdf-1,BLL/2010/page_28.pdf-1,FinQA,validation,1,"PROGRAM: subtract(178.93, const_100), divide(#0, const_100)
+ANSWER: 0.7893",0.0,1.0,0.9905870725001478,"subtract(178.93, const_100), divide(#0, const_100)",0.7893,True,True,0.7893
+P4-E2,finqa::CME/2012/page_70.pdf-1,CME/2012/page_70.pdf-1,FinQA,validation,0,"PROGRAM: subtract(10973.1, 100.0), divide(100.0, #0)
+ANSWER: 0.00973",-0.13920308649539948,0.8700513148424355,1.0703225100000964,"subtract(10973.1, 100.0), divide(100.0, #0)",0.00973,True,True,0.0092
+P4-E2,finqa::CME/2012/page_70.pdf-1,CME/2012/page_70.pdf-1,FinQA,validation,1,"PROGRAM: divide(10973.1, 86.8)
+ANSWER: 126.1951",-0.3334529995918274,0.7164455710829234,1.0703225100000964,"divide(10973.1, 86.8)",126.1951,True,True,126.4182
+P4-E2,finqa::UNP/2011/page_76.pdf-2,UNP/2011/page_76.pdf-2,FinQA,validation,0,"PROGRAM: greater(284, 197)
+ANSWER: yes",0.0,1.0,0.5667742374998852,"greater(284, 197)",yes,True,True,yes
+P4-E2,finqa::UNP/2011/page_76.pdf-2,UNP/2011/page_76.pdf-2,FinQA,validation,1,"PROGRAM: greater(284, 197)
+ANSWER: yes",0.0,1.0,0.5667742374998852,"greater(284, 197)",yes,True,True,yes
+P4-E2,finqa::BDX/2018/page_82.pdf-2,BDX/2018/page_82.pdf-2,FinQA,validation,0,"PROGRAM: divide(136, 90)
+ANSWER: 1.51111",0.0,1.0,0.6464851830000953,"divide(136, 90)",1.51111,True,True,1.51111
+P4-E2,finqa::BDX/2018/page_82.pdf-2,BDX/2018/page_82.pdf-2,FinQA,validation,1,"PROGRAM: divide(136, 90)
+ANSWER: 1.51111",0.0,1.0,0.6464851830000953,"divide(136, 90)",1.51111,True,True,1.51111
+P4-E2,finqa::PM/2018/page_24.pdf-1,PM/2018/page_24.pdf-1,FinQA,validation,0,"PROGRAM: subtract(97.90, 100), divide(#0, 100)
+ANSWER: -0.021",-0.027320727705955505,0.9730491076639408,0.9306332695000492,"subtract(97.90, 100), divide(#0, 100)",-0.021,True,True,-0.021
+P4-E2,finqa::PM/2018/page_24.pdf-1,PM/2018/page_24.pdf-1,FinQA,validation,1,"PROGRAM: subtract(97.90, const_100), divide(#0, const_100)
+ANSWER: -0.021",-0.030909786000847816,0.9695630372897425,0.9306332695000492,"subtract(97.90, const_100), divide(#0, const_100)",-0.021,True,True,-0.021
+P4-E2,finqa::LMT/2016/page_48.pdf-2,LMT/2016/page_48.pdf-2,FinQA,validation,0,"PROGRAM: add(1.7, 290), add(55, #0)
+ANSWER: 376.7",-0.1754503846168518,0.8390790273681408,0.8456473269998241,"add(1.7, 290), add(55, #0)",376.7,True,True,346.7
+P4-E2,finqa::LMT/2016/page_48.pdf-2,LMT/2016/page_48.pdf-2,FinQA,validation,1,"PROGRAM: divide(2.2, 1.7)
+ANSWER: 1.29412",-0.10460834205150604,0.9006772109038436,0.8456473269998241,"divide(2.2, 1.7)",1.29412,True,True,1.29412
+P4-E2,finqa::INTC/2013/page_29.pdf-4,INTC/2013/page_29.pdf-4,FinQA,validation,0,"PROGRAM: divide(29.9, 32.2)
+ANSWER: 0.92776",-0.23407869040966034,0.7912995457601648,0.7394260929995653,"divide(29.9, 32.2)",0.92776,True,True,0.92857
+P4-E2,finqa::INTC/2013/page_29.pdf-4,INTC/2013/page_29.pdf-4,FinQA,validation,1,"PROGRAM: divide(29.9, 32.2)
+ANSWER: 0.929",-0.11865533888339996,0.8881138463278605,0.7394260929995653,"divide(29.9, 32.2)",0.929,True,True,0.92857
+P4-E2,finqa::BKR/2017/page_103.pdf-1,BKR/2017/page_103.pdf-1,FinQA,validation,0,"PROGRAM: divide(15, 37)
+ANSWER: 0.40537",-0.01280639972537756,0.9872752532795798,0.6723517350001202,"divide(15, 37)",0.40537,True,True,0.40541
+P4-E2,finqa::BKR/2017/page_103.pdf-1,BKR/2017/page_103.pdf-1,FinQA,validation,1,"PROGRAM: divide(15, 37)
+ANSWER: 0.40537",-0.01280639972537756,0.9872752532795798,0.6723517350001202,"divide(15, 37)",0.40537,True,True,0.40541
+P4-E2,finqa::MAS/2018/page_35.pdf-2,MAS/2018/page_35.pdf-2,FinQA,validation,0,"PROGRAM: subtract(15.1%, 15.7%)
+ANSWER: -0.006",-0.022657476365566254,0.9775972766049704,0.7396706425006414,"subtract(15.1%, 15.7%)",-0.006,True,True,-0.006
+P4-E2,finqa::MAS/2018/page_35.pdf-2,MAS/2018/page_35.pdf-2,FinQA,validation,1,"PROGRAM: subtract(15.1%, 15.7%)
+ANSWER: -0.006",-0.022657476365566254,0.9775972766049704,0.7396706425006414,"subtract(15.1%, 15.7%)",-0.006,True,True,-0.006
+P4-E2,finqa::AON/2009/page_46.pdf-2,AON/2009/page_46.pdf-2,FinQA,validation,0,"PROGRAM: table_min(segment operating income, none)
+ANSWER: 846.0",0.0,1.0,0.6103511369992702,"table_min(segment operating income, none)",846.0,True,True,846.0
+P4-E2,finqa::AON/2009/page_46.pdf-2,AON/2009/page_46.pdf-2,FinQA,validation,1,"PROGRAM: table_min(segment operating income, none)
+ANSWER: 846.0",0.0,1.0,0.6103511369992702,"table_min(segment operating income, none)",846.0,True,True,846.0
+P4-E2,finqa::UNP/2013/page_44.pdf-3,UNP/2013/page_44.pdf-3,FinQA,validation,0,"PROGRAM: subtract(268, 284)
+ANSWER: -16.0",0.0,1.0,0.6524446439998428,"subtract(268, 284)",-16.0,True,True,-16.0
+P4-E2,finqa::UNP/2013/page_44.pdf-3,UNP/2013/page_44.pdf-3,FinQA,validation,1,"PROGRAM: subtract(268, 284)
+ANSWER: -16.0",0.0,1.0,0.6524446439998428,"subtract(268, 284)",-16.0,True,True,-16.0
+P4-E2,finqa::CME/2012/page_70.pdf-2,CME/2012/page_70.pdf-2,FinQA,validation,0,"PROGRAM: divide(7973.6, 10973.1)
+ANSWER: 0.7295",-0.10999295860528946,0.8958404432404784,0.8370463260007455,"divide(7973.6, 10973.1)",0.7295,True,True,0.72665
+P4-E2,finqa::CME/2012/page_70.pdf-2,CME/2012/page_70.pdf-2,FinQA,validation,1,"PROGRAM: divide(7973.6, 10973.1)
+ANSWER: 0.7314",-0.16187170147895813,0.8505503218886561,0.8370463260007455,"divide(7973.6, 10973.1)",0.7314,True,True,0.72665

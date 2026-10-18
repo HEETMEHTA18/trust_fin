@@ -1,0 +1,100 @@
+{"job_id": "kd/205", "text": "PROGRAM: multiply(21, const_1000000), multiply(375, const_1000000), divide(#1, #0)\nANSWER: 1.66667", "n_prompt": 2500, "n_gen": 52, "latency_s": 1.9492113207500097}
+{"job_id": "kd/192", "text": "PROGRAM: divide(500, const_100), multiply(#0, const_1000000)\nANSWER: 500000000.0", "n_prompt": 2547, "n_gen": 52, "latency_s": 1.9492113207500097}
+{"job_id": "kd/238", "text": "PROGRAM: subtract(10, 671), multiply(#0, const_1000000)\nANSWER: -599000000.0", "n_prompt": 2629, "n_gen": 52, "latency_s": 1.9492113207500097}
+{"job_id": "kd/237", "text": "PROGRAM: multiply(671, const_1000000)\nANSWER: 671000000.0", "n_prompt": 2635, "n_gen": 52, "latency_s": 1.9492113207500097}
+{"job_id": "kd/253", "text": "PROGRAM: subtract(10, 2.1)\nANSWER: 7.9", "n_prompt": 2647, "n_gen": 34, "latency_s": 1.8372258622499942}
+{"job_id": "kd/232", "text": "PROGRAM: multiply(231, 40.38)\nANSWER: 9316.98", "n_prompt": 2789, "n_gen": 34, "latency_s": 1.8372258622499942}
+{"job_id": "kd/231", "text": "PROGRAM: divide(500, const_1000)\nANSWER: 0.5", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.8372258622499942}
+{"job_id": "kd/326", "text": "PROGRAM: multiply(120, 1000000)\nANSWER: 1200000000.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.8372258622499942}
+{"job_id": "kd/760", "text": "PROGRAM: subtract(1.9, 1.0)\nANSWER: 0.9", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.3981496262499888}
+{"job_id": "kd/816", "text": "PROGRAM: subtract(75, 1)\nANSWER: 74.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.3981496262499888}
+{"job_id": "kd/556", "text": "PROGRAM: subtract(338, 625), divide(#0, 625)\nANSWER: -0.5408", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.3981496262499888}
+{"job_id": "kd/606", "text": "PROGRAM: subtract(38, 25), multiply(#0, const_1000)\nANSWER: 13000.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.3981496262499888}
+{"job_id": "kd/561", "text": "PROGRAM: subtract(1, 0.7)\nANSWER: 0.3", "n_prompt": 3072, "n_gen": 35, "latency_s": 1.4266317432499989}
+{"job_id": "kd/269", "text": "PROGRAM: subtract(65, 67), subtract(7.4, 7.0)\nANSWER: -2.0, -0.4", "n_prompt": 3072, "n_gen": 35, "latency_s": 1.4266317432499989}
+{"job_id": "kd/346", "text": "PROGRAM: add(771, 287)\nANSWER: 1058.0", "n_prompt": 3072, "n_gen": 35, "latency_s": 1.4266317432499989}
+{"job_id": "kd/722", "text": "PROGRAM: subtract(143, 127)\nANSWER: 16.0", "n_prompt": 3072, "n_gen": 35, "latency_s": 1.4266317432499989}
+{"job_id": "kd/898", "text": "PROGRAM: add(1.6, 4.4)\nANSWER: 6.0", "n_prompt": 2917, "n_gen": 40, "latency_s": 1.9602892957499876}
+{"job_id": "kd/523", "text": "PROGRAM: subtract(285, 202), divide(83, 202)\nANSWER: 0.31313", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.9602892957499876}
+{"job_id": "kd/138", "text": "PROGRAM: subtract(170.9, 101.7), divide(#0, 101.7)\nANSWER: 0.68721", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.9602892957499876}
+{"job_id": "kd/723", "text": "PROGRAM: subtract(143, 127)\nANSWER: 16.0", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.9602892957499876}
+{"job_id": "kd/799", "text": "PROGRAM: add(3, 1), divide(#0, 5)\nANSWER: 0.8", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4472661329999994}
+{"job_id": "kd/800", "text": "PROGRAM: divide(5.4, 1.8)\nANSWER: 3.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4472661329999994}
+{"job_id": "kd/99", "text": "PROGRAM: subtract(18, 9)\nANSWER: 9.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4472661329999994}
+{"job_id": "kd/694", "text": "PROGRAM: subtract(757, 564), divide(#0, 564)\nANSWER: 0.31151", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4472661329999994}
+{"job_id": "kd/555", "text": "PROGRAM: subtract(3.8, 2.8)\nANSWER: 1.0", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4733507665000047}
+{"job_id": "kd/642", "text": "PROGRAM: divide(41, 53)\nANSWER: 0.78261", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4733507665000047}
+{"job_id": "kd/483", "text": "PROGRAM: divide(54, 50), divide(59, 44), subtract(#1, #0)\nANSWER: 0.20273", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4733507665000047}
+{"job_id": "kd/698", "text": "PROGRAM: subtract(541, 564)\nANSWER: -23.0", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4733507665000047}
+{"job_id": "kd/114", "text": "PROGRAM: subtract(146.9, 142.2), divide(#0, 142.2)\nANSWER: 0.03311", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4745730142500122}
+{"job_id": "kd/18", "text": "PROGRAM: subtract(365.0, 82.0)\nANSWER: 283.0", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4745730142500122}
+{"job_id": "kd/154", "text": "PROGRAM: add(39, 38)\nANSWER: 77.0", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4745730142500122}
+{"job_id": "kd/78", "text": "PROGRAM: subtract(429, 246)\nANSWER: 183.0", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4745730142500122}
+{"job_id": "kd/155", "text": "PROGRAM: subtract(30, 35)\nANSWER: -5.0", "n_prompt": 3072, "n_gen": 64, "latency_s": 1.8056462987499913}
+{"job_id": "kd/747", "text": "PROGRAM: subtract(51.889, 23.489)\nANSWER: 28.4", "n_prompt": 3072, "n_gen": 64, "latency_s": 1.8056462987499913}
+{"job_id": "kd/581", "text": "PROGRAM: subtract(365.1, 389.9), subtract(365.1, 389.9), subtract(#0, 365.1)\nANSWER: -38.9, -36.8, -75.7", "n_prompt": 3072, "n_gen": 64, "latency_s": 1.8056462987499913}
+{"job_id": "kd/69", "text": "PROGRAM: subtract(378602, 290175), divide(#0, 290175)\nANSWER: 0.2977", "n_prompt": 3072, "n_gen": 64, "latency_s": 1.8056462987499913}
+{"job_id": "kd/650", "text": "PROGRAM: subtract(15.7597, 13.7931)\nANSWER: 1.9666", "n_prompt": 3072, "n_gen": 32, "latency_s": 1.3739793864999967}
+{"job_id": "kd/135", "text": "PROGRAM: subtract(1, const_4)\nANSWER: -0.25", "n_prompt": 3072, "n_gen": 32, "latency_s": 1.3739793864999967}
+{"job_id": "kd/518", "text": "PROGRAM: subtract(306, 10)\nANSWER: 296.0", "n_prompt": 3072, "n_gen": 32, "latency_s": 1.3739793864999967}
+{"job_id": "kd/330", "text": "PROGRAM: subtract(27, 33)\nANSWER: -6.0", "n_prompt": 3072, "n_gen": 32, "latency_s": 1.3739793864999967}
+{"job_id": "kd/414", "text": "PROGRAM: subtract(12, const_1)\nANSWER: 11.0", "n_prompt": 3072, "n_gen": 22, "latency_s": 1.2936101432499925}
+{"job_id": "kd/1", "text": "PROGRAM: subtract(333, 48)\nANSWER: 285.0", "n_prompt": 3072, "n_gen": 22, "latency_s": 1.2936101432499925}
+{"job_id": "kd/795", "text": "PROGRAM: subtract(444, 430)\nANSWER: 14.0", "n_prompt": 3072, "n_gen": 22, "latency_s": 1.2936101432499925}
+{"job_id": "kd/725", "text": "PROGRAM: subtract(54, 99)\nANSWER: -45.0", "n_prompt": 3072, "n_gen": 22, "latency_s": 1.2936101432499925}
+{"job_id": "kd/516", "text": "PROGRAM: subtract(44.799, 47.045), divide(#0, 47.045)\nANSWER: -0.0391", "n_prompt": 3072, "n_gen": 42, "latency_s": 2.0039956589999974}
+{"job_id": "kd/966", "text": "PROGRAM: add(450.0, 100.0)\nANSWER: 550.0", "n_prompt": 3072, "n_gen": 42, "latency_s": 2.0039956589999974}
+{"job_id": "kd/291", "text": "PROGRAM: add(195, 7)\nANSWER: 202.0", "n_prompt": 3072, "n_gen": 42, "latency_s": 2.0039956589999974}
+{"job_id": "kd/541", "text": "PROGRAM: divide(2.3, 29.6)\nANSWER: 0.0775", "n_prompt": 2928, "n_gen": 42, "latency_s": 2.0039956589999974}
+{"job_id": "kd/542", "text": "PROGRAM: divide(8, 29.6)\nANSWER: 0.27156", "n_prompt": 2932, "n_gen": 34, "latency_s": 1.8522741249999797}
+{"job_id": "kd/507", "text": "PROGRAM: divide(89, 189)\nANSWER: 0.47222", "n_prompt": 2943, "n_gen": 34, "latency_s": 1.8522741249999797}
+{"job_id": "kd/417", "text": "PROGRAM: subtract(67, 49)\nANSWER: 18.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.8522741249999797}
+{"job_id": "kd/68", "text": "PROGRAM: subtract(311, 290), divide(#0, 290)\nANSWER: 0.05517", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.8522741249999797}
+{"job_id": "kd/736", "text": "PROGRAM: subtract(18, 10)\nANSWER: 8.0", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.61606751475}
+{"job_id": "kd/612", "text": "PROGRAM: subtract(57.2, 52.6), divide(#0, 52.6)\nANSWER: 0.09261", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.61606751475}
+{"job_id": "kd/797", "text": "PROGRAM: divide(112, 80), divide(60, 100)\nANSWER: 1.4, 0.6", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.61606751475}
+{"job_id": "kd/944", "text": "PROGRAM: subtract(280, 589), divide(#0, 589), subtract(47, 37), divide(#2, 37)\nANSWER: -0.56981", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.61606751475}
+{"job_id": "kd/418", "text": "PROGRAM: subtract(1, 0.94)\nANSWER: 0.06", "n_prompt": 3072, "n_gen": 43, "latency_s": 2.027762386500001}
+{"job_id": "kd/293", "text": "PROGRAM: subtract(80, 51)\nANSWER: 29.0", "n_prompt": 3072, "n_gen": 43, "latency_s": 2.027762386500001}
+{"job_id": "kd/463", "text": "PROGRAM: subtract(21.760, 21.355), divide(#0, 21.355)\nANSWER: 0.01826", "n_prompt": 3072, "n_gen": 43, "latency_s": 2.027762386500001}
+{"job_id": "kd/730", "text": "PROGRAM: subtract(15.3, 4.8)\nANSWER: 10.5", "n_prompt": 3040, "n_gen": 43, "latency_s": 2.027762386500001}
+{"job_id": "kd/784", "text": "PROGRAM: divide(77, const_100), multiply(#0, const_1000000), divide(#1, const_1000000)\nANSWER: 77.0", "n_prompt": 3072, "n_gen": 50, "latency_s": 1.6887394845000188}
+{"job_id": "kd/437", "text": "PROGRAM: subtract(242, 2.27)\nANSWER: 239.73", "n_prompt": 3072, "n_gen": 50, "latency_s": 1.6887394845000188}
+{"job_id": "kd/356", "text": "PROGRAM: subtract(2.4, 1.1), multiply(#0, const_1000000)\nANSWER: 1300000.0", "n_prompt": 3072, "n_gen": 50, "latency_s": 1.6887394845000188}
+{"job_id": "kd/743", "text": "PROGRAM: subtract(185.4, 178.4)\nANSWER: 7.0", "n_prompt": 3072, "n_gen": 50, "latency_s": 1.6887394845000188}
+{"job_id": "kd/586", "text": "PROGRAM: divide(2.0, 14)\nANSWER: 0.14286", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4069091502499873}
+{"job_id": "kd/973", "text": "PROGRAM: subtract(2.25, 1.75), add(1.75, #0)\nANSWER: 2.25", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4069091502499873}
+{"job_id": "kd/587", "text": "PROGRAM: divide(149.2, 149.0)\nANSWER: 0.99933", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4069091502499873}
+{"job_id": "kd/283", "text": "PROGRAM: divide(229, const_1000), subtract(20, 115)\nANSWER: -95.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4069091502499873}
+{"job_id": "kd/547", "text": "PROGRAM: divide(4.7, 100), greater(#0, 4.7)\nANSWER: yes", "n_prompt": 2902, "n_gen": 36, "latency_s": 1.8679342302500004}
+{"job_id": "kd/851", "text": "PROGRAM: add(122.1, 92.2), add(#0, 31.8)\nANSWER: 246.1", "n_prompt": 3072, "n_gen": 36, "latency_s": 1.8679342302500004}
+{"job_id": "kd/781", "text": "PROGRAM: subtract(115, 244), multiply(#0, const_100)\nANSWER: -129000.0", "n_prompt": 3072, "n_gen": 36, "latency_s": 1.8679342302500004}
+{"job_id": "kd/374", "text": "PROGRAM: divide(227, 680)\nANSWER: 0.33676", "n_prompt": 3072, "n_gen": 36, "latency_s": 1.8679342302500004}
+{"job_id": "kd/727", "text": "PROGRAM: subtract(4.9, 4.7), divide(#0, 4.7)\nANSWER: 0.04681", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.393081171250003}
+{"job_id": "kd/468", "text": "PROGRAM: divide(7, 10), divide(2, 3)\nANSWER: 0.7", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.393081171250003}
+{"job_id": "kd/522", "text": "PROGRAM: subtract(781, 515)\nANSWER: 266.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.393081171250003}
+{"job_id": "kd/369", "text": "PROGRAM: divide(11, 7)\nANSWER: 1.57143", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.393081171250003}
+{"job_id": "kd/469", "text": "PROGRAM: subtract(4.167, 2.739), divide(#0, 2.739)\nANSWER: 0.44627", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.475261354749989}
+{"job_id": "kd/710", "text": "PROGRAM: subtract(38,647, -202,081)\nANSWER: 240,438.0", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.475261354749989}
+{"job_id": "kd/472", "text": "PROGRAM: divide(4, 8.8)\nANSWER: 0.45455", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.475261354749989}
+{"job_id": "kd/476", "text": "PROGRAM: divide(9, 13)\nANSWER: 0.69231", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.475261354749989}
+{"job_id": "kd/603", "text": "PROGRAM: divide(11, 24)\nANSWER: 0.45833", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4620402917500144}
+{"job_id": "kd/361", "text": "PROGRAM: subtract(9.8, 9.7), add(#0, 0.3)\nANSWER: 0.8", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4620402917500144}
+{"job_id": "kd/276", "text": "PROGRAM: subtract(2.4, 2.7), divide(#0, 2.7)\nANSWER: -0.11111", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4620402917500144}
+{"job_id": "kd/596", "text": "PROGRAM: subtract(569, 574)\nANSWER: -5.0", "n_prompt": 3072, "n_gen": 34, "latency_s": 1.4620402917500144}
+{"job_id": "kd/821", "text": "PROGRAM: subtract(250, 448)\nANSWER: -198.0", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4739005562500154}
+{"job_id": "kd/839", "text": "PROGRAM: divide(441, 7225829)\nANSWER: 0.00059", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4739005562500154}
+{"job_id": "kd/841", "text": "PROGRAM: divide(3, 3.942595)\nANSWER: 0.76047", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4739005562500154}
+{"job_id": "kd/896", "text": "PROGRAM: subtract(670.4, 313.6), divide(356.8, #0)\nANSWER: 0.90918", "n_prompt": 3072, "n_gen": 40, "latency_s": 1.4739005562500154}
+{"job_id": "kd/87", "text": "PROGRAM: subtract(3.5, 2.4)\nANSWER: 1.1", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.6148030219999896}
+{"job_id": "kd/488", "text": "PROGRAM: divide(1, 12, 249)\nANSWER: 0.00807", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.6148030219999896}
+{"job_id": "kd/911", "text": "PROGRAM: subtract(824.8, 535.7), divide(#0, 535.7)\nANSWER: 0.48155", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.6148030219999896}
+{"job_id": "kd/822", "text": "PROGRAM: subtract(527, 471), divide(#0, 527), divide(267, 244), subtract(#2, #1)\nANSWER: 0.1257", "n_prompt": 3072, "n_gen": 51, "latency_s": 1.6148030219999896}
+{"job_id": "kd/921", "text": "PROGRAM: multiply(1.5, const_1000), divide(#0, const_1000), subtract(#1, 1.0), multiply(#2, const_1000)\nANSWER: 1460.0", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6904731959999992}
+{"job_id": "kd/300", "text": "PROGRAM: divide(4, 5)\nANSWER: 0.8", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6904731959999992}
+{"job_id": "kd/31", "text": "PROGRAM: divide(1, 1.8), divide(1, 1.8)\nANSWER: 0.55556", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6904731959999992}
+{"job_id": "kd/888", "text": "PROGRAM: greater(0.3, 0.2)\nANSWER: yes", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6904731959999992}
+{"job_id": "kd/892", "text": "PROGRAM: divide(7,149,552), divide(4,076,767, 2,949,982), divide(#0, #1)\nANSWER: 0.04313", "n_prompt": 3072, "n_gen": 56, "latency_s": 1.6828055307500165}
+{"job_id": "kd/493", "text": "PROGRAM: divide(12,249, 12,283)\nANSWER: 0.00995", "n_prompt": 3072, "n_gen": 56, "latency_s": 1.6828055307500165}
+{"job_id": "kd/496", "text": "PROGRAM: divide(1, 1), divide(1, 1)\nANSWER: 1.0", "n_prompt": 3072, "n_gen": 56, "latency_s": 1.6828055307500165}
+{"job_id": "kd/398", "text": "PROGRAM: subtract(2, 1)\nANSWER: 1.0", "n_prompt": 3072, "n_gen": 56, "latency_s": 1.6828055307500165}

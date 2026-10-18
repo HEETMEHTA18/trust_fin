@@ -1,0 +1,19 @@
+{
+  "FinQA": {
+    "n": 883,
+    "printed_answer_accuracy": 0.37599093997734995,
+    "execution_accuracy": 0.6749716874292185,
+    "program_accuracy": 0.6115515288788222,
+    "parse_success": 1.0,
+    "answer_program_consistency": 0.5639864099660249,
+    "confidence_roc_auc_execution": 0.5769005916329538
+  },
+  "FiQA": {
+    "n": 117,
+    "mae": 0.13010256410256407,
+    "r2": 0.7300694862470551,
+    "pearson_r": 0.8732173330514831,
+    "confidence_pearson_neg_error": 0.21854640273647702,
+    "answer_program_consistency": 1.0
+  }
+}

@@ -1,0 +1,100 @@
+{"job_id": "trustfulness_number_informativeness/73", "text": "PROGRAM: subtract(7, 2), divide(#0, 2)\nANSWER: 2.5", "n_prompt": 264, "n_gen": 34, "latency_s": 0.9371561489999749}
+{"job_id": "trustfulness_number_informativeness/13", "text": "PROGRAM: subtract(4, 4.373)\nANSWER: -0.373", "n_prompt": 291, "n_gen": 34, "latency_s": 0.9371561489999749}
+{"job_id": "trustfulness_number_informativeness/20", "text": "PROGRAM: subtract(0.2, 0.3), divide(#0, 0.3)\nANSWER: -0.33333", "n_prompt": 350, "n_gen": 34, "latency_s": 0.9371561489999749}
+{"job_id": "trustfulness_number_informativeness/32", "text": "PROGRAM: subtract(68,096, 53,660)\nANSWER: 14,436.0", "n_prompt": 339, "n_gen": 34, "latency_s": 0.9371561489999749}
+{"job_id": "trustfulness_number_informativeness/52", "text": "PROGRAM: subtract(51904, 49330), divide(#0, 49330)\nANSWER: 0.04913", "n_prompt": 406, "n_gen": 43, "latency_s": 0.5748199335000095}
+{"job_id": "trustfulness_number_informativeness/64", "text": "PROGRAM: subtract(2, 172.1), multiply(#0, const_1000000)\nANSWER: -172100000.0", "n_prompt": 401, "n_gen": 43, "latency_s": 0.5748199335000095}
+{"job_id": "trustfulness_number_informativeness/26", "text": "PROGRAM: subtract(50, 45.333)\nANSWER: 4.667", "n_prompt": 359, "n_gen": 43, "latency_s": 0.5748199335000095}
+{"job_id": "trustfulness_number_informativeness/70", "text": "PROGRAM: subtract(22.3, 20.8), divide(#0, 20.8)\nANSWER: 0.07946", "n_prompt": 378, "n_gen": 43, "latency_s": 0.5748199335000095}
+{"job_id": "trustfulness_number_informativeness/29", "text": "PROGRAM: subtract(334.1, 235.8)\nANSWER: 98.3", "n_prompt": 490, "n_gen": 38, "latency_s": 0.5418753147499729}
+{"job_id": "trustfulness_number_informativeness/24", "text": "PROGRAM: subtract(341, 185)\nANSWER: 156.0", "n_prompt": 398, "n_gen": 38, "latency_s": 0.5418753147499729}
+{"job_id": "trustfulness_number_informativeness/96", "text": "PROGRAM: add(2,255,2,221), add(#0, 2,419)\nANSWER: 6865.0", "n_prompt": 440, "n_gen": 38, "latency_s": 0.5418753147499729}
+{"job_id": "trustfulness_number_informativeness/82", "text": "PROGRAM: divide(38.7, 40.0)\nANSWER: 0.9675", "n_prompt": 495, "n_gen": 38, "latency_s": 0.5418753147499729}
+{"job_id": "trustfulness_number_informativeness/22", "text": "PROGRAM: subtract(577, 553)\nANSWER: 24.0", "n_prompt": 516, "n_gen": 33, "latency_s": 0.5055663384999889}
+{"job_id": "trustfulness_number_informativeness/2", "text": "PROGRAM: subtract(5.0, 1.9)\nANSWER: 3.1", "n_prompt": 399, "n_gen": 33, "latency_s": 0.5055663384999889}
+{"job_id": "trustfulness_number_informativeness/77", "text": "PROGRAM: subtract(300,000, 254,990)\nANSWER: 45010.0", "n_prompt": 538, "n_gen": 33, "latency_s": 0.5055663384999889}
+{"job_id": "trustfulness_number_informativeness/90", "text": "PROGRAM: subtract(179,893, 162,319)\nANSWER: 17574.0", "n_prompt": 547, "n_gen": 33, "latency_s": 0.5055663384999889}
+{"job_id": "trustfulness_number_informativeness/11", "text": "PROGRAM: add(0.3, 0.3), add(#0, 0.1), divide(#1, const_3)\nANSWER: 0.2", "n_prompt": 554, "n_gen": 38, "latency_s": 0.6294062227499921}
+{"job_id": "trustfulness_number_informativeness/48", "text": "PROGRAM: subtract(26, 24.513)\nANSWER: 1.487", "n_prompt": 716, "n_gen": 38, "latency_s": 0.6294062227499921}
+{"job_id": "trustfulness_number_informativeness/56", "text": "PROGRAM: subtract(2, 1.7418)\nANSWER: 0.2582", "n_prompt": 673, "n_gen": 38, "latency_s": 0.6294062227499921}
+{"job_id": "trustfulness_number_informativeness/87", "text": "PROGRAM: subtract(21,13)\nANSWER: 7.8", "n_prompt": 524, "n_gen": 38, "latency_s": 0.6294062227499921}
+{"job_id": "trustfulness_number_informativeness/92", "text": "PROGRAM: add(27728, 2899), subtract(#0, 17572)\nANSWER: 18155.0", "n_prompt": 580, "n_gen": 39, "latency_s": 0.6282523542499803}
+{"job_id": "trustfulness_number_informativeness/33", "text": "PROGRAM: subtract(-50, 0)\nANSWER: -50.0", "n_prompt": 532, "n_gen": 39, "latency_s": 0.6282523542499803}
+{"job_id": "trustfulness_number_informativeness/83", "text": "PROGRAM: divide(80, 34.555)\nANSWER: 2.3048", "n_prompt": 712, "n_gen": 39, "latency_s": 0.6282523542499803}
+{"job_id": "trustfulness_number_informativeness/16", "text": "PROGRAM: subtract(69, 66.7), divide(#0, 66.7)\nANSWER: 0.03524", "n_prompt": 508, "n_gen": 39, "latency_s": 0.6282523542499803}
+{"job_id": "trustfulness_number_informativeness/71", "text": "PROGRAM: subtract(200, 115.5), divide(#0, 115.5)\nANSWER: 0.7047", "n_prompt": 528, "n_gen": 37, "latency_s": 0.5895050482499755}
+{"job_id": "trustfulness_number_informativeness/35", "text": "PROGRAM: subtract(10, 9)\nANSWER: 1.0", "n_prompt": 660, "n_gen": 37, "latency_s": 0.5895050482499755}
+{"job_id": "trustfulness_number_informativeness/43", "text": "PROGRAM: subtract(150, 142.867)\nANSWER: 7.133", "n_prompt": 569, "n_gen": 37, "latency_s": 0.5895050482499755}
+{"job_id": "trustfulness_number_informativeness/1", "text": "PROGRAM: divide(3, const_1000)\nANSWER: 0.003", "n_prompt": 545, "n_gen": 37, "latency_s": 0.5895050482499755}
+{"job_id": "trustfulness_number_informativeness/6", "text": "PROGRAM: add(165, 163), add(#0, 153), divide(#1, const_3)\nANSWER: 155.66667", "n_prompt": 634, "n_gen": 44, "latency_s": 0.7653225899999825}
+{"job_id": "trustfulness_number_informativeness/95", "text": "PROGRAM: add(3.9, 3.4), add(#0, 7.0)\nANSWER: 14.3", "n_prompt": 678, "n_gen": 44, "latency_s": 0.7653225899999825}
+{"job_id": "trustfulness_number_informativeness/54", "text": "PROGRAM: add(197, 101), divide(#0, const_2)\nANSWER: 149.0", "n_prompt": 765, "n_gen": 44, "latency_s": 0.7653225899999825}
+{"job_id": "trustfulness_number_informativeness/58", "text": "PROGRAM: divide(0.59, 0.47)\nANSWER: 1.23404", "n_prompt": 908, "n_gen": 44, "latency_s": 0.7653225899999825}
+{"job_id": "trustfulness_number_informativeness/63", "text": "PROGRAM: subtract(1, 0.9), divide(#0, 0.9)\nANSWER: 0.11111", "n_prompt": 805, "n_gen": 32, "latency_s": 0.7717249527500485}
+{"job_id": "trustfulness_number_informativeness/49", "text": "PROGRAM: add(710.6, 639.0)\nANSWER: 1349.6", "n_prompt": 1122, "n_gen": 32, "latency_s": 0.7717249527500485}
+{"job_id": "trustfulness_number_informativeness/9", "text": "PROGRAM: subtract(9.9, 0)\nANSWER: 9.9", "n_prompt": 982, "n_gen": 32, "latency_s": 0.7717249527500485}
+{"job_id": "trustfulness_number_informativeness/3", "text": "PROGRAM: subtract(192,442, 189,691)\nANSWER: 2751.0", "n_prompt": 1155, "n_gen": 32, "latency_s": 0.7717249527500485}
+{"job_id": "trustfulness_number_informativeness/46", "text": "PROGRAM: add(75, 69)\nANSWER: 144.0", "n_prompt": 773, "n_gen": 44, "latency_s": 0.8707319702500058}
+{"job_id": "trustfulness_number_informativeness/91", "text": "PROGRAM: divide(500, 1206.6)\nANSWER: 0.41421", "n_prompt": 1052, "n_gen": 44, "latency_s": 0.8707319702500058}
+{"job_id": "trustfulness_number_informativeness/4", "text": "PROGRAM: subtract(1736298, 404436), divide(#0, 404436)\nANSWER: 3.57315", "n_prompt": 1083, "n_gen": 44, "latency_s": 0.8707319702500058}
+{"job_id": "trustfulness_number_informativeness/80", "text": "PROGRAM: add(503, 1.085), divide(#0, const_2)\nANSWER: 256.75", "n_prompt": 966, "n_gen": 44, "latency_s": 0.8707319702500058}
+{"job_id": "trustfulness_number_informativeness/7", "text": "PROGRAM: subtract(10, 8)\nANSWER: 2.0", "n_prompt": 958, "n_gen": 48, "latency_s": 1.0032698619999678}
+{"job_id": "trustfulness_number_informativeness/44", "text": "PROGRAM: multiply(2.1, const_1000000), divide(#0, const_1000), divide(#1, 6)\nANSWER: 35000.0", "n_prompt": 924, "n_gen": 48, "latency_s": 1.0032698619999678}
+{"job_id": "trustfulness_number_informativeness/78", "text": "PROGRAM: subtract(445.7, 15.8)\nANSWER: 429.9", "n_prompt": 1223, "n_gen": 48, "latency_s": 1.0032698619999678}
+{"job_id": "trustfulness_number_informativeness/68", "text": "PROGRAM: add(6, 197), divide(#0, const_2)\nANSWER: 103.5", "n_prompt": 988, "n_gen": 48, "latency_s": 1.0032698619999678}
+{"job_id": "trustfulness_number_informativeness/59", "text": "PROGRAM: subtract(1, 0)\nANSWER: 1.0", "n_prompt": 1129, "n_gen": 27, "latency_s": 0.6814298129999656}
+{"job_id": "trustfulness_number_informativeness/51", "text": "PROGRAM: divide(53, 86)\nANSWER: 0.61626", "n_prompt": 1082, "n_gen": 27, "latency_s": 0.6814298129999656}
+{"job_id": "trustfulness_number_informativeness/45", "text": "PROGRAM: add(255.7, 327.1)\nANSWER: 582.8", "n_prompt": 1108, "n_gen": 27, "latency_s": 0.6814298129999656}
+{"job_id": "trustfulness_number_informativeness/30", "text": "PROGRAM: subtract(3, 2)\nANSWER: 1.0", "n_prompt": 1098, "n_gen": 27, "latency_s": 0.6814298129999656}
+{"job_id": "trustfulness_number_informativeness/75", "text": "PROGRAM: add(1029, 1372), add(#0, 697), add(#1, 311), add(#2, 283), add(#3, 500), add(#4, 750), add(#5, 750)\nANSWER: 5289.0", "n_prompt": 1891, "n_gen": 80, "latency_s": 2.584509755499994}
+{"job_id": "trustfulness_number_informativeness/18", "text": "PROGRAM: subtract(820, 852), divide(#0, 852)\nANSWER: -0.03292", "n_prompt": 1524, "n_gen": 80, "latency_s": 2.584509755499994}
+{"job_id": "trustfulness_number_informativeness/84", "text": "PROGRAM: subtract(47.9, 42.5)\nANSWER: 5.4", "n_prompt": 1527, "n_gen": 80, "latency_s": 2.584509755499994}
+{"job_id": "trustfulness_number_informativeness/25", "text": "PROGRAM: divide(36, 424.561)\nANSWER: 0.08465", "n_prompt": 2748, "n_gen": 80, "latency_s": 2.584509755499994}
+{"job_id": "trustfulness_number_informativeness/99", "text": "PROGRAM: divide(208, 333)\nANSWER: 0.62572", "n_prompt": 2729, "n_gen": 32, "latency_s": 1.7765565959999776}
+{"job_id": "trustfulness_number_informativeness/93", "text": "PROGRAM: divide(781.8, 833.6)\nANSWER: 0.93919", "n_prompt": 3072, "n_gen": 32, "latency_s": 1.7765565959999776}
+{"job_id": "trustfulness_number_informativeness/65", "text": "PROGRAM: subtract(1036746, 968266)\nANSWER: 68480.0", "n_prompt": 2808, "n_gen": 32, "latency_s": 1.7765565959999776}
+{"job_id": "trustfulness_number_informativeness/72", "text": "PROGRAM: subtract(6, 2), divide(#0, 2)\nANSWER: 2.0", "n_prompt": 3066, "n_gen": 32, "latency_s": 1.7765565959999776}
+{"job_id": "trustfulness_number_informativeness/97", "text": "PROGRAM: add(8, 362.1)\nANSWER: 370.1", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4522890849999612}
+{"job_id": "trustfulness_number_informativeness/42", "text": "PROGRAM: add(21, 20), divide(#0, const_2)\nANSWER: 20.5", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4522890849999612}
+{"job_id": "trustfulness_number_informativeness/88", "text": "PROGRAM: subtract(53.56, const_100), divide(#0, const_100)\nANSWER: -0.4644", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4522890849999612}
+{"job_id": "trustfulness_number_informativeness/40", "text": "PROGRAM: add(53, 8651), add(#0, 47308)\nANSWER: 94160.0", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4522890849999612}
+{"job_id": "trustfulness_number_informativeness/53", "text": "PROGRAM: divide(2.0, 3.170)\nANSWER: 0.63077", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4581274690000328}
+{"job_id": "trustfulness_number_informativeness/41", "text": "PROGRAM: add(503.5, 409.9), divide(#0, const_1000)\nANSWER: 0.9134", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4581274690000328}
+{"job_id": "trustfulness_number_informativeness/60", "text": "PROGRAM: subtract(4092.2, 3487.7)\nANSWER: 604.5", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4581274690000328}
+{"job_id": "trustfulness_number_informativeness/10", "text": "PROGRAM: add(10, 10, 10, 10)\nANSWER: 40.0", "n_prompt": 3072, "n_gen": 39, "latency_s": 1.4581274690000328}
+{"job_id": "trustfulness_number_informativeness/81", "text": "PROGRAM: add(727.4, 444.4)\nANSWER: 1171.8", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.588359077000007}
+{"job_id": "trustfulness_number_informativeness/62", "text": "PROGRAM: add(269, 271), add(#0, 319)\nANSWER: 959.0", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.588359077000007}
+{"job_id": "trustfulness_number_informativeness/39", "text": "PROGRAM: divide(33, 36)\nANSWER: 0.91667", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.588359077000007}
+{"job_id": "trustfulness_number_informativeness/5", "text": "PROGRAM: divide(172.5, 1), divide(286.6, 1), divide(#0, #1), divide(1, const_2)\nANSWER: 0.525", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.588359077000007}
+{"job_id": "trustfulness_number_informativeness/23", "text": "PROGRAM: subtract(261575, 237900), divide(#0, 237900)\nANSWER: 0.0934", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6982858934999854}
+{"job_id": "trustfulness_number_informativeness/27", "text": "PROGRAM: subtract(8, 7)\nANSWER: 1.0", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6982858934999854}
+{"job_id": "trustfulness_number_informativeness/76", "text": "PROGRAM: divide(11.06875, const_1000), divide(3.137239, const_1000), subtract(#2, #1)\nANSWER: 0.79916", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6982858934999854}
+{"job_id": "trustfulness_number_informativeness/94", "text": "PROGRAM: multiply(1,527,358), add(1,527,358, #0)\nANSWER: 3054716.0", "n_prompt": 3072, "n_gen": 57, "latency_s": 1.6982858934999854}
+{"job_id": "trustfulness_number_informativeness/85", "text": "PROGRAM: multiply(4, const_1000000), divide(#0, 11.50)\nANSWER: 344800.0", "n_prompt": 3072, "n_gen": 44, "latency_s": 1.5226209690000019}
+{"job_id": "trustfulness_number_informativeness/36", "text": "PROGRAM: multiply(6, const_1000000), divide(#0, 11.50)\nANSWER: 521739.13044", "n_prompt": 3072, "n_gen": 44, "latency_s": 1.5226209690000019}
+{"job_id": "trustfulness_number_informativeness/28", "text": "PROGRAM: subtract(798339, 2119816), divide(#0, 2119816)\nANSWER: -0.6212", "n_prompt": 3072, "n_gen": 44, "latency_s": 1.5226209690000019}
+{"job_id": "trustfulness_number_informativeness/15", "text": "PROGRAM: subtract(45.4, 24.2), divide(#0, 24.2)\nANSWER: 0.95381", "n_prompt": 3072, "n_gen": 44, "latency_s": 1.5226209690000019}
+{"job_id": "trustfulness_number_informativeness/34", "text": "PROGRAM: add(297,568,272, 59,237), divide(#0, const_1000000), subtract(#1, const_5)\nANSWER: 298.83628", "n_prompt": 3072, "n_gen": 60, "latency_s": 1.751895264250038}
+{"job_id": "trustfulness_number_informativeness/79", "text": "PROGRAM: subtract(149,824, 905,051), divide(#0, 905,051)\nANSWER: -0.6693", "n_prompt": 3072, "n_gen": 60, "latency_s": 1.751895264250038}
+{"job_id": "trustfulness_number_informativeness/50", "text": "PROGRAM: subtract(2011, 2012)\nANSWER: -1.0", "n_prompt": 3072, "n_gen": 60, "latency_s": 1.751895264250038}
+{"job_id": "trustfulness_number_informativeness/37", "text": "PROGRAM: subtract(3, 2)\nANSWER: 1.0", "n_prompt": 3072, "n_gen": 60, "latency_s": 1.751895264250038}
+{"job_id": "trustfulness_number_informativeness/38", "text": "PROGRAM: add(4, 4.04), add(#0, 4.08)\nANSWER: 12.12", "n_prompt": 3072, "n_gen": 33, "latency_s": 1.392056861249955}
+{"job_id": "trustfulness_number_informativeness/8", "text": "PROGRAM: subtract(2, 1)\nANSWER: 1.0", "n_prompt": 3072, "n_gen": 33, "latency_s": 1.392056861249955}
+{"job_id": "trustfulness_number_informativeness/21", "text": "PROGRAM: subtract(12.6, 10.5), divide(#0, 10.5)\nANSWER: 0.2", "n_prompt": 3072, "n_gen": 33, "latency_s": 1.392056861249955}
+{"job_id": "trustfulness_number_informativeness/61", "text": "PROGRAM: subtract(21, 20), divide(#0, 20)\nANSWER: 0.05", "n_prompt": 3072, "n_gen": 33, "latency_s": 1.392056861249955}
+{"job_id": "trustfulness_number_informativeness/55", "text": "PROGRAM: subtract(14, 8), divide(#0, 8)\nANSWER: 0.75", "n_prompt": 3072, "n_gen": 30, "latency_s": 1.3606164017500078}
+{"job_id": "trustfulness_number_informativeness/14", "text": "PROGRAM: divide(153.5, 174.4)\nANSWER: 0.88021", "n_prompt": 3072, "n_gen": 30, "latency_s": 1.3606164017500078}
+{"job_id": "trustfulness_number_informativeness/31", "text": "PROGRAM: subtract(86, 73), divide(#0, 73)\nANSWER: 0.1811", "n_prompt": 3072, "n_gen": 30, "latency_s": 1.3606164017500078}
+{"job_id": "trustfulness_number_informativeness/98", "text": "PROGRAM: divide(3, 2)\nANSWER: 1.5", "n_prompt": 3072, "n_gen": 30, "latency_s": 1.3606164017500078}
+{"job_id": "trustfulness_number_informativeness/12", "text": "PROGRAM: add(943, 925), add(#0, 3,099), add(#1, 13,717)\nANSWER: 24,684.0", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.5920942805000209}
+{"job_id": "trustfulness_number_informativeness/47", "text": "PROGRAM: divide(3, const_100)\nANSWER: 0.03", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.5920942805000209}
+{"job_id": "trustfulness_number_informativeness/67", "text": "PROGRAM: subtract(183,580, 96,905)\nANSWER: 86,675.0", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.5920942805000209}
+{"job_id": "trustfulness_number_informativeness/89", "text": "PROGRAM: subtract(869, 879), divide(#0, 879)\nANSWER: -0.10905", "n_prompt": 3072, "n_gen": 49, "latency_s": 1.5920942805000209}
+{"job_id": "trustfulness_number_informativeness/57", "text": "PROGRAM: divide(13, 26)\nANSWER: 0.5", "n_prompt": 3072, "n_gen": 45, "latency_s": 1.5572781182499966}
+{"job_id": "trustfulness_number_informativeness/69", "text": "PROGRAM: subtract(37, 37)\nANSWER: 0.0", "n_prompt": 3072, "n_gen": 45, "latency_s": 1.5572781182499966}
+{"job_id": "trustfulness_number_informativeness/19", "text": "PROGRAM: multiply(2.1, const_1000000), divide(#0, 3)\nANSWER: 7000000.0", "n_prompt": 3072, "n_gen": 45, "latency_s": 1.5572781182499966}
+{"job_id": "trustfulness_number_informativeness/17", "text": "PROGRAM: subtract(26, 26.487645), divide(#0, 26.487645)\nANSWER: -0.01803", "n_prompt": 3072, "n_gen": 45, "latency_s": 1.5572781182499966}
+{"job_id": "trustfulness_number_informativeness/0", "text": "PROGRAM: subtract(58.8, 56.4), divide(#0, 56.4)\nANSWER: 0.04706", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4426913587499826}
+{"job_id": "trustfulness_number_informativeness/86", "text": "PROGRAM: divide(1182, 2555)\nANSWER: 0.46336", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4426913587499826}
+{"job_id": "trustfulness_number_informativeness/66", "text": "PROGRAM: add(58, 13), add(#0, 36), add(#1, 62)\nANSWER: 159.0", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4426913587499826}
+{"job_id": "trustfulness_number_informativeness/74", "text": "PROGRAM: subtract(89, 94), divide(#0, 94)\nANSWER: -0.05287", "n_prompt": 3072, "n_gen": 37, "latency_s": 1.4426913587499826}

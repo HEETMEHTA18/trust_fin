@@ -5,7 +5,7 @@
     "answer_accuracy": 0.37599093997734995,
     "program_accuracy": 0.6115515288788222,
     "execution_accuracy": 0.6749716874292185,
-    "invalid_program_rate": -1.9966024915062288
+    "invalid_program_rate": 0.0033975084937712
   },
   "FiQA": {
     "n": 117,

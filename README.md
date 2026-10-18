@@ -16,10 +16,17 @@ and multi-dimensional trust benchmarks (FinTrust).
 | **Phase-2.1** — Research validation & data contract | `notebooks/Phase2_1_TrustFin_Research_Validation_and_Data_Contract.ipynb` | `docs/exp_2.md` | **PASS** (68 gates, 0 failures) | `artifacts/phase2_1/` |
 | **Phase-3 (smoke)** — pipeline dry-run | `notebooks/Phase3_smoke_executed.ipynb` | `docs/exp_3(a).md` | PASS | `artifacts/phase3_smoke_16of16.tar.gz` |
 | **Phase-3 (full)** — baselines & failure analysis | `Phase3_TrustFin_SLM_Baselines_and_Failure_Analysis.ipynb` | **`docs/exp_3(b).md`** | **PASS · FROZEN** | `artifacts/phase3/` |
-| **Phase-4** — proposed method (upcoming) | — | — | Not started | — |
+| **Phase-4** — EVG-CAS (proposed method) | `trust_fin_extra_phase/notebooks/Phase4_TrustFin_Proposed_Method.ipynb` | **`docs/exp_4(a).md`**, **`docs/exp_4(b).md`** | **COMPLETE · FROZEN** (validation + protected) | `trust_fin_extra_phase/artifacts/phase4/` |
+| **Showcase** — paper & related work | `paper/TrustFin_Conference_Paper.tex`/`.md` | `docs/related_work.md`, `docs/literature_reading_matrix.md`, `docs/trustfin_references.bib` | draft v1 | — |
 
 Phase-3 selects the Phase-4 backbone on **validation data only**; the frozen winner is **E5**
 (`Qwen/Qwen3-1.7B` + balanced joint QLoRA). Contract: `artifacts/phase3/manifests/phase3_freeze.json`.
+
+Phase-4 headline (pre-registered, protected test): C1 rejected (accuracy ties the baseline),
+C2/C3 supported on FinQA — a frozen abstention threshold cuts protected-test answered-error
+by **31.0%** at 80% coverage (validation predicted 34.2%). Summary:
+`trust_fin_extra_phase/docs/exp_4(b).md` §7. Statistical rigor (paired McNemar, bootstrap CIs,
+error taxonomy, difficulty stratification): `trust_fin_extra_phase/docs/eval_rigor.md`.
 
 ---
 
@@ -35,7 +42,13 @@ Phase-3 selects the Phase-4 backbone on **validation data only**; the frozen win
 │   ├── exp_2.md                           #   Phase-2.1 walkthrough
 │   ├── exp_3(a).md                        #   Phase-3 smoke run
 │   ├── exp_3(b).md                        #   Phase-3 full run
+│   ├── trustfin_references.bib            #   29-entry bibliography (6 tagged families)
+│   ├── related_work.md                    #   related-work taxonomy + positioning gap
+│   ├── literature_reading_matrix.md       #   CORE-read matrix (15 rows) + claimed mappings
 │   └── Research_Paper_Reading_and_Conference_Drafting_Guide.docx
+│
+├── paper/                                 # conference paper draft (LaTeX + markdown mirror)
+│   └── TrustFin_Conference_Paper.tex / .md
 │
 ├── phases/                                # per-phase run archives (phase-wise grouping)
 │   └── phase3/
@@ -57,7 +70,12 @@ Phase-3 selects the Phase-4 backbone on **validation data only**; the frozen win
 │   └── phase3/                            #   Phase-3 metrics, analysis, plots, checkpoints
 ├── data/raw/                              # downloaded raw data (re-runnable)
 ├── papers/                                # reference research papers (PDFs)
-└── trustfin_slm_workspace/                # symlink shim → artifacts/, data/ (absolute-path contract)
+└── trust_fin_extra_phase/                 # Phase-4 EVG-CAS (notebooks, artifacts, analysis)
+    ├── docs/                              #   exp_4(a).md, exp_4(b).md, eval_rigor.md
+    ├── scripts/                           #   eval_rigor.py (statistical rigor on frozen artifacts)
+    └── artifacts/phase4/                  #   frozen predictions, metrics, freeze manifest
+```
+And `trustfin_slm_workspace/` is the symlink shim → `artifacts/`, `data/` (absolute-path contract).
 ```
 
 > **Note on the frozen contract.** `artifacts/phase2_1/manifests/dataset_registry.json` stores
