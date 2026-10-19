@@ -1,0 +1,170 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\citation{phogat2024finetuning,chen2021finqa}
+\citation{hu2025fintrust}
+\citation{chen2021finqa}
+\citation{wang2023selfconsistency}
+\citation{lightman2024verify,wang2024mathshepherd}
+\citation{subramanian2025slms,abdin2024phi3,zhang2024tinyllama}
+\citation{hu2022lora,dettmers2023qlora}
+\citation{phogat2024finetuning,yang2023fingpt,yang2023investlm,wu2023bloomberg,huang2020finbert,shi2025kronos}
+\citation{phogat2024finetuning}
+\citation{chen2021finqa}
+\citation{chen2022convfinqa}
+\citation{zhu2021tatqa}
+\citation{xie2024finben}
+\citation{hu2025fintrust}
+\citation{wang2023selfconsistency}
+\citation{lightman2024verify,wang2024mathshepherd}
+\citation{chen2019execution}
+\citation{eliyaniv2010selective,geifman2017selective,geifman2019selectivenet}
+\citation{platt1999platt,zadrozny2002isotonic,guo2017calibration}
+\citation{lin2022uncertainty}
+\citation{fritzmorgenthal2022risk}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:intro}{{I}{1}{Introduction}{section.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related work}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Small financial models and adaptation.}{1}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Programmatic financial reasoning.}{1}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Consistency and verification.}{1}{subsection.2.3}\protected@file@percent }
+\citation{secondguess2025}
+\citation{cisc2025}
+\citation{sconu2025,lec2025}
+\citation{aspire2023}
+\citation{finman2025}
+\citation{finchain2025}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}Selective prediction and calibration.}{2}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}Positioning against 2024--2026 selective-abstention work.}{2}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Problem statement and protocol}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Setup.}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Guardrails (integrity before novelty).}{2}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Phase-2.1 architecture. Raw benchmark sources are normalized into a shared record contract, passed through integrity gates, and exported into explicit training, validation, and protected-evaluation roles. FinBen--FOMC and FinTrust never enter the training pool.}}{2}{figure.1}\protected@file@percent }
+\newlabel{fig:phase2-architecture}{{1}{2}{Phase-2.1 architecture. Raw benchmark sources are normalized into a shared record contract, passed through integrity gates, and exported into explicit training, validation, and protected-evaluation roles. FinBen--FOMC and FinTrust never enter the training pool}{figure.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Phase-2.1 gate lifecycle. Warnings remain visible in the validation report but do not override a PASS when no ERROR-severity gate fails.}}{2}{figure.2}\protected@file@percent }
+\newlabel{fig:phase2-gates}{{2}{2}{Phase-2.1 gate lifecycle. Warnings remain visible in the validation report but do not override a PASS when no ERROR-severity gate fails}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Phase-2.1 gate architecture and methodology}{2}{section.4}\protected@file@percent }
+\newlabel{sec:phase2}{{IV}{2}{Phase-2.1 gate architecture and methodology}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Data contract and gate procedure}{2}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Phase-2.1 artifact and figure inventory}{2}{subsection.4.2}\protected@file@percent }
+\citation{eliyaniv2010selective}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Phase-2.1 gate evidence and downstream roles.}}{3}{table.1}\protected@file@percent }
+\newlabel{tab:phase2-gates}{{I}{3}{Phase-2.1 gate evidence and downstream roles}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Method: EVG-CAS{}}{3}{section.5}\protected@file@percent }
+\newlabel{sec:method}{{V}{3}{Method: \ourmethod {}}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Sampling and execution verification}{3}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Trust features from the sample population}{3}{subsection.5.2}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces EVG-CAS{} decision pipeline (fit once on validation; frozen thereafter)}}{3}{algorithm.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Calibration (C2)}{3}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Freeze and abstention rule (C2)}{3}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Experimental setup}{3}{section.6}\protected@file@percent }
+\newlabel{sec:setup}{{VI}{3}{Experimental setup}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Data and aligned evaluation.}{3}{subsection.6.1}\protected@file@percent }
+\citation{qwen2025qwen3}
+\citation{dettmers2023qlora}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Dataset roles and split sizes fixed by the Phase-2.1 contract.}}{4}{table.2}\protected@file@percent }
+\newlabel{tab:data-contract}{{II}{4}{Dataset roles and split sizes fixed by the Phase-2.1 contract}{table.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Validation baseline matrix. These values are development results and are not protected-test measurements. E8 is a secondary model-family comparison, not a controlled architecture comparison.}}{4}{table.3}\protected@file@percent }
+\newlabel{tab:validation-baselines}{{III}{4}{Validation baseline matrix. These values are development results and are not protected-test measurements. E8 is a secondary model-family comparison, not a controlled architecture comparison}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Data contract and split policy.}{4}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-C}}Model.}{4}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-D}}Metrics.}{4}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces  C1 evidence. \textbf  {(top)} FinQA held-out test, execution accuracy per rule ($n{=}8$); \textbf  {(bottom)} FiQA test regression. EVG neither beats nor loses to the frozen greedy baseline on either task; per-record, 18 questions are won and 20 lost.}}{4}{table.4}\protected@file@percent }
+\newlabel{tab:c1}{{IV}{4}{C1 evidence. \textbf {(top)} FinQA held-out test, execution accuracy per rule ($n{=}8$); \textbf {(bottom)} FiQA test regression. EVG neither beats nor loses to the frozen greedy baseline on either task; per-record, 18 questions are won and 20 lost}{table.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces FiQA validation aggregation over sampled predictions. Lower MAE is better; median and mean aggregation improve on greedy decoding in this validation diagnostic, while the frozen protected-test policy remains the pre-registered greedy baseline.}}{4}{figure.3}\protected@file@percent }
+\newlabel{fig:fiqa-sampling}{{3}{4}{FiQA validation aggregation over sampled predictions. Lower MAE is better; median and mean aggregation improve on greedy decoding in this validation diagnostic, while the frozen protected-test policy remains the pre-registered greedy baseline}{figure.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Results}{4}{section.7}\protected@file@percent }
+\newlabel{sec:results}{{VII}{4}{Results}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-A}}C1 is rejected --- and that is a result.}{4}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-B}}Agreement is the trust signal (C3 evidence at the decision level).}{4}{subsection.7.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces  Agreement bins vs.\ correctness on the protected test. Agreement is steeply and monotonically predictive, while the model's log-probability cannot separate correct from incorrect answers (ROC-AUC 0.58).}}{5}{table.5}\protected@file@percent }
+\newlabel{tab:agreement}{{V}{5}{Agreement bins vs.\ correctness on the protected test. Agreement is steeply and monotonically predictive, while the model's log-probability cannot separate correct from incorrect answers (ROC-AUC 0.58)}{table.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Out-of-fold risk--coverage curves for FinQA and FiQA validation. The calibrated FinQA execution-verified policy lowers selective risk as coverage is reduced; FiQA shows weaker separation, consistent with its small regression validation split.}}{5}{figure.4}\protected@file@percent }
+\newlabel{fig:risk-coverage}{{4}{5}{Out-of-fold risk--coverage curves for FinQA and FiQA validation. The calibrated FinQA execution-verified policy lowers selective risk as coverage is reduced; FiQA shows weaker separation, consistent with its small regression validation split}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-C}}Calibration gives the threshold meaning (C2).}{5}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-D}}The frozen policy transfers (C2's operational payoff).}{5}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-E}}Rigor, error taxonomy, and depth (Table\nobreakspace  {}\ref  {tab:rigor}).}{5}{subsection.7.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces  C2/C3 calibration results on FinQA validation (out-of-fold). \emph  {Top:} ordering quality (e-AURC, lower better). Single-feature calibrators do not move the raw ranking (a monotone map cannot); the agreement-driven full vector does ($-$39.3\%). \emph  {Bottom:} probability quality of the frozen policy.}}{5}{table.6}\protected@file@percent }
+\newlabel{tab:calib}{{VI}{5}{C2/C3 calibration results on FinQA validation (out-of-fold). \emph {Top:} ordering quality (e-AURC, lower better). Single-feature calibrators do not move the raw ranking (a monotone map cannot); the agreement-driven full vector does ($-$39.3\%). \emph {Bottom:} probability quality of the frozen policy}{table.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces FinQA validation ablation over the number of sampled candidates. The horizontal lines show the frozen greedy answer and executor baselines; execution-verified selection does not produce a protected-test accuracy gain, motivating its use as a selective-risk signal rather than as an accuracy claim.}}{5}{figure.5}\protected@file@percent }
+\newlabel{fig:selection-ablation}{{5}{5}{FinQA validation ablation over the number of sampled candidates. The horizontal lines show the frozen greedy answer and executor baselines; execution-verified selection does not produce a protected-test accuracy gain, motivating its use as a selective-risk signal rather than as an accuracy claim}{figure.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-F}}The mechanism survives comparison at matched coverage (Table\nobreakspace  {}\ref  {tab:ablate}).}{5}{subsection.7.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces  Transferred abstention (frozen thresholds, protected test). The threshold and calibration were fixed on validation \emph  {before} the test opened; the realised behaviour is close to predicted ($-$31.0\% vs\ $-$34.2\%). FiQA, as pre-frozen on raw confidence, abstains to no effect ($-$2.9\%).}}{6}{table.7}\protected@file@percent }
+\newlabel{tab:transfer}{{VII}{6}{Transferred abstention (frozen thresholds, protected test). The threshold and calibration were fixed on validation \emph {before} the test opened; the realised behaviour is close to predicted ($-$31.0\% vs\ $-$34.2\%). FiQA, as pre-frozen on raw confidence, abstains to no effect ($-$2.9\%)}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces  Evaluation rigor on the protected test (n=1,147). \textbf  {(top)} Paired comparison: the C1 tie is statistically verified, not read off rounded means. \textbf  {(middle)} Error taxonomy: the only channel EVG fails to fix is the \emph  {printed} answer string. \textbf  {(bottom)} Reasoning-depth stratification: abstention concentrates on the deepest programs and delivers its largest relative gain there. Bootstrap CI: 10{,}000 resamples; McNemar exact (binomial).}}{6}{table.8}\protected@file@percent }
+\newlabel{tab:rigor}{{VIII}{6}{Evaluation rigor on the protected test (n=1,147). \textbf {(top)} Paired comparison: the C1 tie is statistically verified, not read off rounded means. \textbf {(middle)} Error taxonomy: the only channel EVG fails to fix is the \emph {printed} answer string. \textbf {(bottom)} Reasoning-depth stratification: abstention concentrates on the deepest programs and delivers its largest relative gain there. Bootstrap CI: 10{,}000 resamples; McNemar exact (binomial)}{table.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {IX}{\ignorespaces  Zero-shot out-of-domain robustness on FinBen-FOMC (test, 496): the frozen financial adapter improves the balanced metric and the rare classes that a neutral-majority model otherwise ignores.}}{6}{table.9}\protected@file@percent }
+\newlabel{tab:fomc}{{IX}{6}{Zero-shot out-of-domain robustness on FinBen-FOMC (test, 496): the frozen financial adapter improves the balanced metric and the rare classes that a neutral-majority model otherwise ignores}{table.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {X}{\ignorespaces  Abstention strategies compared at \emph  {matched} coverage on the protected test (n=1,147; each strategy answers the same $k{=}\lfloor \mathtt  {cov}\cdot n\rfloor $ questions, ranked by its own score, evaluated on the execution channel). Confidence-based abstention of the greedy baseline is a weak tool ($\le $8\%); agreement ranks and abstains, cutting answered-error 29.7\% at 80\% coverage. Ablation (right): agreement is necessary and sufficient.}}{6}{table.10}\protected@file@percent }
+\newlabel{tab:ablate}{{X}{6}{Abstention strategies compared at \emph {matched} coverage on the protected test (n=1,147; each strategy answers the same $k{=}\lfloor \mathtt {cov}\cdot n\rfloor $ questions, ranked by its own score, evaluated on the execution channel). Confidence-based abstention of the greedy baseline is a weak tool ($\le $8\%); agreement ranks and abstains, cutting answered-error 29.7\% at 80\% coverage. Ablation (right): agreement is necessary and sufficient}{table.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-G}}Out-of-domain robustness.}{6}{subsection.7.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VII-H}}Cost.}{6}{subsection.7.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Additional Validation Diagnostics}{6}{section.8}\protected@file@percent }
+\newlabel{sec:diagnostics}{{VIII}{6}{Additional Validation Diagnostics}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-A}}Failure channels}{6}{subsection.8.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces E5 validation failure overview generated from the Phase-3 analysis artifacts. Execution, program, and printed-answer channels are kept distinct.}}{7}{figure.6}\protected@file@percent }
+\newlabel{fig:validation-failures}{{6}{7}{E5 validation failure overview generated from the Phase-3 analysis artifacts. Execution, program, and printed-answer channels are kept distinct}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-B}}Confidence and error magnitude}{7}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VIII-C}}Reproducibility and resource accounting}{7}{subsection.8.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces E5 validation confidence by FinQA failure category. Individual observations, box summaries, medians, means, and category counts are shown. Raw generation confidence is not used as a calibrated probability without validation-only calibration.}}{7}{figure.7}\protected@file@percent }
+\newlabel{fig:confidence-failures}{{7}{7}{E5 validation confidence by FinQA failure category. Individual observations, box summaries, medians, means, and category counts are shown. Raw generation confidence is not used as a calibrated probability without validation-only calibration}{figure.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces E5 validation absolute-error distribution for FiQA sentiment regression.}}{7}{figure.8}\protected@file@percent }
+\newlabel{fig:fiqa-errors}{{8}{7}{E5 validation absolute-error distribution for FiQA sentiment regression}{figure.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IX}Discussion and limitations}{7}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IX-A}}Matched-coverage robustness.}{7}{subsection.9.1}\protected@file@percent }
+\bibcite{chen2021finqa}{{1}{}{{}}{{}}}
+\bibcite{chen2022convfinqa}{{2}{}{{}}{{}}}
+\bibcite{zhu2021tatqa}{{3}{}{{}}{{}}}
+\bibcite{phogat2024finetuning}{{4}{}{{}}{{}}}
+\bibcite{yang2023fingpt}{{5}{}{{}}{{}}}
+\bibcite{yang2023investlm}{{6}{}{{}}{{}}}
+\bibcite{wu2023bloomberg}{{7}{}{{}}{{}}}
+\bibcite{huang2020finbert}{{8}{}{{}}{{}}}
+\bibcite{shi2025kronos}{{9}{}{{}}{{}}}
+\bibcite{xie2024finben}{{10}{}{{}}{{}}}
+\bibcite{hu2025fintrust}{{11}{}{{}}{{}}}
+\bibcite{subramanian2025slms}{{12}{}{{}}{{}}}
+\bibcite{abdin2024phi3}{{13}{}{{}}{{}}}
+\bibcite{zhang2024tinyllama}{{14}{}{{}}{{}}}
+\bibcite{qwen2025qwen3}{{15}{}{{}}{{}}}
+\bibcite{hu2022lora}{{16}{}{{}}{{}}}
+\bibcite{dettmers2023qlora}{{17}{}{{}}{{}}}
+\bibcite{wang2023selfconsistency}{{18}{}{{}}{{}}}
+\bibcite{lightman2024verify}{{19}{}{{}}{{}}}
+\bibcite{wang2024mathshepherd}{{20}{}{{}}{{}}}
+\bibcite{chen2019execution}{{21}{}{{}}{{}}}
+\bibcite{eliyaniv2010selective}{{22}{}{{}}{{}}}
+\bibcite{geifman2017selective}{{23}{}{{}}{{}}}
+\bibcite{geifman2019selectivenet}{{24}{}{{}}{{}}}
+\bibcite{guo2017calibration}{{25}{}{{}}{{}}}
+\bibcite{platt1999platt}{{26}{}{{}}{{}}}
+\bibcite{zadrozny2002isotonic}{{27}{}{{}}{{}}}
+\bibcite{lin2022uncertainty}{{28}{}{{}}{{}}}
+\bibcite{fritzmorgenthal2022risk}{{29}{}{{}}{{}}}
+\bibcite{cisc2025}{{30}{}{{}}{{}}}
+\bibcite{secondguess2025}{{31}{}{{}}{{}}}
+\bibcite{sconu2025}{{32}{}{{}}{{}}}
+\bibcite{lec2025}{{33}{}{{}}{{}}}
+\@writefile{lot}{\contentsline {table}{\numberline {XI}{\ignorespaces Reproducibility checklist for the reported experiments.}}{8}{table.11}\protected@file@percent }
+\newlabel{tab:repro-check}{{XI}{8}{Reproducibility checklist for the reported experiments}{table.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {X}Conclusion}{8}{section.10}\protected@file@percent }
+\bibcite{aspire2023}{{34}{}{{}}{{}}}
+\bibcite{finman2025}{{35}{}{{}}{{}}}
+\bibcite{finchain2025}{{36}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{9}

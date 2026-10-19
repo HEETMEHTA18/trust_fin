@@ -72,74 +72,92 @@ LaTeX Font Warning: Font shape `TU/ptm/bx/it' undefined
 \IEEEPARstartletwidth=\dimen161
 \c@IEEEbiography=\count195
 \@IEEEtranrubishbin=\box51
-) (inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+) (fontspec.sty (xparse.sty (expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+ (l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+\c__kernel_sys_dvipdfmx_version_int=\count196
+\l__color_backend_stack_int=\count197
+\g__color_backend_stack_int=\count198
+\g__graphics_track_int=\count199
+\l__pdf_internal_box=\box52
+\g__pdf_backend_object_int=\count266
+\g__pdf_backend_annotation_int=\count267
+\g__pdf_backend_link_int=\count268
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (fontenc.sty
+(fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count269
+\l__fontspec_language_int=\count270
+\l__fontspec_strnum_int=\count271
+\l__fontspec_tmp_int=\count272
+\l__fontspec_tmpa_int=\count273
+\l__fontspec_tmpb_int=\count274
+\l__fontspec_tmpc_int=\count275
+\l__fontspec_em_int=\count276
+\l__fontspec_emdef_int=\count277
+\l__fontspec_strong_int=\count278
+\l__fontspec_strongdef_int=\count279
+\l__fontspec_tmpa_dim=\dimen162
+\l__fontspec_tmpb_dim=\dimen163
+\l__fontspec_tmpc_dim=\dimen164
+ (fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
-2.
- (t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-)) (lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (microtype.sty
+) (fontspec.cfg)))
+
+Package fontspec Info: Font family 'NimbusRoman(0)' created for font 'Nimbus
+(fontspec)             Roman' with options [Ligatures=TeX,Path =
+(fontspec)             /usr/share/fonts/opentype/urw-base35/,UprightFont =
+(fontspec)             NimbusRoman-Regular,BoldFont =
+(fontspec)             NimbusRoman-Bold,ItalicFont =
+(fontspec)             NimbusRoman-Italic,BoldItalicFont =
+(fontspec)             NimbusRoman-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/opentype/urw-base35/NimbusRoman-Re
+gular]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bo
+ld]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/opentype/urw-base35/NimbusRoman-It
+alic]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[/usr/share/fonts/opentype/urw-base35/NimbusRoman-Bo
+ldItalic]/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+ (microtype.sty
 Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
  (keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks17
 )
 (etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count280
 )
-\MT@toks=\toks20
-\MT@tempbox=\box52
-\MT@count=\count197
+\MT@toks=\toks18
+\MT@tempbox=\box53
+\MT@count=\count281
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
 LaTeX Info: Redefining \leftprotrusion on input line 1028.
 LaTeX Info: Redefining \rightprotrusion on input line 1036.
 LaTeX Info: Redefining \textls on input line 1195.
-\MT@outer@kern=\dimen162
+\MT@outer@kern=\dimen165
 LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count198
+\MT@listname@count=\count282
  (microtype-xetex.def
 File: microtype-xetex.def 2022/03/14 v3.0d Definitions specific to xetex (RS)
 LaTeX Info: Redefining \lsstyle on input line 236.
@@ -156,49 +174,49 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2021/08/26 v2.01 AMS text
  (amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen163
+\@emptytoks=\toks19
+\ex@=\dimen166
 )) (amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen164
+\pmbraise@=\dimen167
 ) (amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count199
+\inf@bad=\count283
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count266
-\leftroot@=\count267
+\uproot@=\count284
+\leftroot@=\count285
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count268
-\DOTSCASE@=\count269
+\classnum@=\count286
+\DOTSCASE@=\count287
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
-\big@size=\dimen165
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen168
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count270
-\c@MaxMatrixCols=\count271
+\macc@depth=\count288
+\c@MaxMatrixCols=\count289
 \dotsspace@=\muskip16
-\c@parentequation=\count272
-\dspbrk@lvl=\count273
-\tag@help=\toks22
-\row@=\count274
-\column@=\count275
-\maxfields@=\count276
-\andhelp@=\toks23
-\eqnshift@=\dimen166
-\alignsep@=\dimen167
-\tagshift@=\dimen168
-\tagwidth@=\dimen169
-\totwidth@=\dimen170
-\lineht@=\dimen171
-\@envbody=\toks24
+\c@parentequation=\count290
+\dspbrk@lvl=\count291
+\tag@help=\toks20
+\row@=\count292
+\column@=\count293
+\maxfields@=\count294
+\andhelp@=\toks21
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks22
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks25
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 ) (amssymb.sty
@@ -213,23 +231,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen172
-\lightrulewidth=\dimen173
-\cmidrulewidth=\dimen174
-\belowrulesep=\dimen175
-\belowbottomsep=\dimen176
-\aboverulesep=\dimen177
-\abovetopsep=\dimen178
-\cmidrulesep=\dimen179
-\cmidrulekern=\dimen180
-\defaultaddspace=\dimen181
-\@cmidla=\count277
-\@cmidlb=\count278
-\@aboverulesep=\dimen182
-\@belowrulesep=\dimen183
-\@thisruleclass=\count279
-\@lastruleclass=\count280
-\@thisrulewidth=\dimen184
+\heavyrulewidth=\dimen175
+\lightrulewidth=\dimen176
+\cmidrulewidth=\dimen177
+\belowrulesep=\dimen178
+\belowbottomsep=\dimen179
+\aboverulesep=\dimen180
+\abovetopsep=\dimen181
+\cmidrulesep=\dimen182
+\cmidrulekern=\dimen183
+\defaultaddspace=\dimen184
+\@cmidla=\count295
+\@cmidlb=\count296
+\@aboverulesep=\dimen185
+\@belowrulesep=\dimen186
+\@thisruleclass=\count297
+\@lastruleclass=\count298
+\@thisrulewidth=\dimen187
 ) (graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
  (graphics.sty
@@ -244,8 +262,8 @@ Package graphics Info: Driver file: xetex.def on input line 107.
  (xetex.def
 File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen185
-\Gin@req@width=\dimen186
+\Gin@req@height=\dimen188
+\Gin@req@width=\dimen189
 ) (xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
  (color.cfg
@@ -256,18 +274,18 @@ Package xcolor Info: Driver file: xetex.def on input line 227.
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
  (array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen187
-\ar@mcellbox=\box55
-\extrarowheight=\dimen188
-\NC@list=\toks26
+\col@sep=\dimen190
+\ar@mcellbox=\box56
+\extrarowheight=\dimen191
+\NC@list=\toks24
 \extratabsurround=\skip53
 \backup@length=\skip54
-\ar@cellbox=\box56
+\ar@cellbox=\box57
 )
-\everycr=\toks27
+\everycr=\toks25
 \minrowclearance=\skip55
 )
-\rownum=\count281
+\rownum=\count299
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1368.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
@@ -279,27 +297,27 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip56
-\enit@outerparindent=\dimen189
-\enit@toks=\toks28
-\enit@inbox=\box57
-\enit@count@id=\count282
-\enitdp@description=\count283
+\enit@outerparindent=\dimen192
+\enit@toks=\toks26
+\enit@inbox=\box58
+\enit@count@id=\count300
+\enitdp@description=\count301
 ) (algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
  (float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count284
-\float@exts=\toks29
-\float@box=\box58
-\@float@everytoks=\toks30
-\@floatcapt=\box59
+\c@float@type=\count302
+\float@exts=\toks27
+\float@box=\box59
+\@float@everytoks=\toks28
+\@floatcapt=\box60
 ) (ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks31
-\c@algorithm=\count285
+\@float@every@algorithm=\toks29
+\c@algorithm=\count303
 ) (algpseudocode.sty
 Package: algpseudocode 
 
@@ -307,24 +325,24 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count286
-\c@ALG@rem=\count287
-\c@ALG@nested=\count288
+\c@ALG@line=\count304
+\c@ALG@rem=\count305
+\c@ALG@nested=\count306
 \ALG@tlm=\skip57
 \ALG@thistlm=\skip58
-\c@ALG@Lnr=\count289
-\c@ALG@blocknr=\count290
-\c@ALG@storecount=\count291
-\c@ALG@tmpcounter=\count292
+\c@ALG@Lnr=\count307
+\c@ALG@blocknr=\count308
+\c@ALG@storecount=\count309
+\c@ALG@tmpcounter=\count310
 \ALG@tmplength=\skip59
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (tikz.sty (pgf.sty (pgfrcs.sty (pgfutil-common.tex
-\pgfutil@everybye=\toks32
-\pgfutil@tempdima=\dimen190
-\pgfutil@tempdimb=\dimen191
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
  (pgfutil-common-lists.tex)) (pgfutil-latex.def
-\pgfutil@abb=\box60
+\pgfutil@abb=\box61
 ) (pgfrcs.code.tex (pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
@@ -333,31 +351,31 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (pgfsys.sty (pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
  (pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks33
-\pgfkeys@temptoks=\toks34
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
  (pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks35
+\pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen192
-\pgf@y=\dimen193
-\pgf@xa=\dimen194
-\pgf@ya=\dimen195
-\pgf@xb=\dimen196
-\pgf@yb=\dimen197
-\pgf@xc=\dimen198
-\pgf@yc=\dimen199
-\pgf@xd=\dimen256
-\pgf@yd=\dimen257
+\pgf@x=\dimen195
+\pgf@y=\dimen196
+\pgf@xa=\dimen197
+\pgf@ya=\dimen198
+\pgf@xb=\dimen199
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
+\pgf@xd=\dimen259
+\pgf@yd=\dimen260
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count293
-\c@pgf@countb=\count294
-\c@pgf@countc=\count295
-\c@pgf@countd=\count296
-\t@pgf@toka=\toks36
-\t@pgf@tokb=\toks37
-\t@pgf@tokc=\toks38
-\pgf@sys@id@count=\count297
+\c@pgf@counta=\count311
+\c@pgf@countb=\count312
+\c@pgf@countc=\count313
+\c@pgf@countd=\count314
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+\pgf@sys@id@count=\count315
 
 (pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -370,12 +388,12 @@ File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
  (pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfsys@objnum=\count298
+\pgfsys@objnum=\count316
 )))
 (pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count299
-\pgfsyssoftpath@bigbuffer@items=\count300
+\pgfsyssoftpath@smallbuffer@items=\count317
+\pgfsyssoftpath@bigbuffer@items=\count318
 ) (pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )) (pgfcore.code.tex
@@ -383,60 +401,60 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
 (pgfmath.code.tex (pgfmathcalc.code.tex (pgfmathutil.code.tex)
 (pgfmathparser.code.tex
-\pgfmath@dimen=\dimen258
-\pgfmath@count=\count301
-\pgfmath@box=\box61
-\pgfmath@toks=\toks39
-\pgfmath@stack@operand=\toks40
-\pgfmath@stack@operation=\toks41
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count319
+\pgfmath@box=\box62
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
 ) (pgfmathfunctions.code.tex
 (pgfmathfunctions.basic.code.tex) (pgfmathfunctions.trigonometric.code.tex)
 (pgfmathfunctions.random.code.tex) (pgfmathfunctions.comparison.code.tex)
 (pgfmathfunctions.base.code.tex) (pgfmathfunctions.round.code.tex)
 (pgfmathfunctions.misc.code.tex) (pgfmathfunctions.integerarithmetics.code.tex)
 )) (pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count302
+\c@pgfmathroundto@lastzeros=\count320
 )) (pgfint.code.tex) (pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen259
-\pgf@picmaxx=\dimen260
-\pgf@picminy=\dimen261
-\pgf@picmaxy=\dimen262
-\pgf@pathminx=\dimen263
-\pgf@pathmaxx=\dimen264
-\pgf@pathminy=\dimen265
-\pgf@pathmaxy=\dimen266
-\pgf@xx=\dimen267
-\pgf@xy=\dimen268
-\pgf@yx=\dimen269
-\pgf@yy=\dimen270
-\pgf@zx=\dimen271
-\pgf@zy=\dimen272
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
 )
 (pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen273
-\pgf@path@lasty=\dimen274
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
 ) (pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen275
-\pgf@shorten@start@additional=\dimen276
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
 )
 (pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box62
-\pgf@hbox=\box63
-\pgf@layerbox@main=\box64
-\pgf@picture@serial@count=\count303
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count321
 ) (pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen277
+\pgflinewidth=\dimen280
 )
 (pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen278
-\pgf@pt@y=\dimen279
-\pgf@pt@temp=\dimen280
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
 ) (pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -447,18 +465,18 @@ File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen281
+\pgfarrowsep=\dimen284
 ) (pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen282
-\pgf@sys@shading@range@num=\count304
-\pgf@shadingcount=\count305
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count322
+\pgf@shadingcount=\count323
 ) (pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box65
+\pgfexternal@startupbox=\box66
 )) (pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -470,14 +488,14 @@ File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box66
+\pgfnodeparttextbox=\box67
 ) (pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen283
-\pgf@nodesepend=\dimen284
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
 ) (pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 )) (pgffor.sty (pgfkeys.sty (pgfkeys.code.tex)) (pgfmath.sty (pgfmath.code.tex)
@@ -485,50 +503,50 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (pgfmath.code.tex)
-\pgffor@iter=\dimen285
-\pgffor@skip=\dimen286
-\pgffor@stack=\toks42
-\pgffor@toks=\toks43
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 )) (tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count306
-\pgfplotmarksize=\dimen287
+\pgf@plot@mark@count=\count324
+\pgfplotmarksize=\dimen290
 )
-\tikz@lastx=\dimen288
-\tikz@lasty=\dimen289
-\tikz@lastxsaved=\dimen290
-\tikz@lastysaved=\dimen291
-\tikz@lastmovetox=\dimen292
-\tikz@lastmovetoy=\dimen293
-\tikzleveldistance=\dimen294
-\tikzsiblingdistance=\dimen295
-\tikz@figbox=\box67
-\tikz@figbox@bg=\box68
-\tikz@tempbox=\box69
-\tikz@tempbox@bg=\box70
-\tikztreelevel=\count307
-\tikznumberofchildren=\count308
-\tikznumberofcurrentchild=\count309
-\tikz@fig@count=\count310
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikz@lastmovetox=\dimen295
+\tikz@lastmovetoy=\dimen296
+\tikzleveldistance=\dimen297
+\tikzsiblingdistance=\dimen298
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count325
+\tikznumberofchildren=\count326
+\tikznumberofcurrentchild=\count327
+\tikz@fig@count=\count328
 
 (pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count311
-\pgfmatrixcurrentcolumn=\count312
-\pgf@matrix@numberofcolumns=\count313
+\pgfmatrixcurrentrow=\count329
+\pgfmatrixcurrentcolumn=\count330
+\pgf@matrix@numberofcolumns=\count331
 )
-\tikz@expandcount=\count314
+\tikz@expandcount=\count332
  (tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen296
-\pgfarrowlength=\dimen297
-\pgfarrowwidth=\dimen298
-\pgfarrowlinewidth=\dimen299
+\pgfarrowinset=\dimen299
+\pgfarrowlength=\dimen300
+\pgfarrowwidth=\dimen301
+\pgfarrowlinewidth=\dimen302
 ) (tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -547,7 +565,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip60
 \bibsep=\skip61
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count315
+\c@NAT@ctr=\count333
 ) (hyperref.sty
 Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
@@ -580,9 +598,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen300
-\Hy@linkcounter=\count316
-\Hy@pagecounter=\count317
+\@linkdim=\dimen303
+\Hy@linkcounter=\count334
+\Hy@pagecounter=\count335
  (pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 ) (intcalc.sty
@@ -590,7 +608,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count318
+\Hy@SavedSpaceFactor=\count336
  (puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 )
@@ -602,9 +620,9 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count319
+\c@Hy@tempcnt=\count337
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen301
+\XeTeXLinkMargin=\dimen304
 
 (bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -612,9 +630,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count320
-\Field@Width=\dimen302
-\Fld@charsize=\dimen303
+\Fld@menulength=\count338
+\Field@Width=\dimen305
+\Fld@charsize=\dimen306
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -628,9 +646,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count321
-\c@Item=\count322
-\c@Hfootnote=\count323
+\Hy@abspage=\count339
+\c@Item=\count340
+\c@Hfootnote=\count341
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (hxetex.def
@@ -639,11 +657,11 @@ File: hxetex.def 2022-02-21 v7.00n Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box71
-\c@Hy@AnnotLevel=\count324
-\HyField@AnnotCount=\count325
-\Fld@listcount=\count326
-\c@bookmark@seq@number=\count327
+\pdfm@box=\box72
+\c@Hy@AnnotLevel=\count342
+\HyField@AnnotCount=\count343
+\Fld@listcount=\count344
+\c@bookmark@seq@number=\count345
 
 (rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -659,368 +677,238 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip62
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 41
-.
- (t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-(l3backend-xetex.def
-File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
-\c__kernel_sys_dvipdfmx_version_int=\count328
-\l__color_backend_stack_int=\count329
-\g__color_backend_stack_int=\count330
-\g__graphics_track_int=\count331
-\l__pdf_internal_box=\box72
-\g__pdf_backend_object_int=\count332
-\g__pdf_backend_annotation_int=\count333
-\g__pdf_backend_link_int=\count334
-) (TrustFin_Conference_Paper.aux)
+(TrustFin_Conference_Paper.aux)
 \openout1 = `TrustFin_Conference_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-1.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+2.
  (ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 -- Lines per column: 56 (exact).
-LaTeX Info: Redefining \microtypecontext on input line 41.
-Package microtype Info: Applying patch `item' on input line 41.
-Package microtype Info: Applying patch `toc' on input line 41.
-Package microtype Info: Applying patch `eqnum' on input line 41.
-Package microtype Info: Applying patch `footnote' on input line 41.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 52.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 52.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 52.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 52.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 52.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 52.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 52.
+LaTeX Font Info:    Redeclaring math accent \check on input line 52.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 52.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 52.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 52.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 52.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/NimbusRoman(0)/m/n on input line 52.
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 52.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/NimbusRoman(0)/m/n on input line 52
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/NimbusRoman(0)/m/n --> TU/NimbusRoman(0)/m/n on inpu
+t line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/NimbusRoman(0)/m/it on input line 5
+2.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/NimbusRoman(0)/b/n on input line 52
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 52.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/NimbusRoman(0)/m/n --> TU/NimbusRoman(0)/b/n on inpu
+t line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/NimbusRoman(0)/b/it on input line 
+52.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 52.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 52.
+LaTeX Info: Redefining \microtypecontext on input line 52.
+Package microtype Info: Applying patch `item' on input line 52.
+Package microtype Info: Applying patch `toc' on input line 52.
+Package microtype Info: Applying patch `eqnum' on input line 52.
+Package microtype Info: Applying patch `footnote' on input line 52.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
-(mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
-Package hyperref Info: Link coloring ON on input line 41.
- (nameref.sty
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `NimbusRoman' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package hyperref Info: Link coloring ON on input line 52.
+(nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 
 (TrustFin_Conference_Paper.out) (TrustFin_Conference_Paper.out)
 \@outlinefile=\write4
 \openout4 = `TrustFin_Conference_Paper.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-3.
- (ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
-3.
-
-(omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-53.
- (omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-53.
- (omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 53.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 53.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 53.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
 
  (umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (mt-msa.cfg
+)
+(mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
 
  (umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(mt-msb.cfg
+) (mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) (mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
 )
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 80.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 80.
 
-Underfull \hbox (badness 1888) in paragraph at lines 90--96
-\T1/lmr/m/n/10 0.26$\OMS/lmsy/m/n/10 !$\T1/lmr/m/n/10 0.05. \T1/lmr/bx/n/10 (C3
-) \T1/lmr/m/n/10 A selective-prediction pol-icy whose
- []
+LaTeX Font Warning: Font shape `TU/NimbusRoman(0)/m/sc' undefined
+(Font)              using `TU/NimbusRoman(0)/m/n' instead on input line 78.
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 108--113
- \T1/lmr/m/it/10 b) Pro-gram-matic fi-nan-cial rea-son-ing.: [][] \T1/lmr/m/n/1
-0 FinQA [[]],
- []
-
-
-Underfull \hbox (badness 3989) in paragraph at lines 115--119
- \T1/lmr/m/it/10 c) Con-sis-tency and ver-i-fi-ca-tion.: [][] \T1/lmr/m/n/10 Se
-lf-consistency
+Underfull \hbox (badness 4291) in paragraph at lines 132--137
+[]\TU/NimbusRoman(0)/m/sc/10 The risk-coverage framework [[]–[]] defines absten
+-
  []
 
 [1
 
 
 ]
-Underfull \hbox (badness 4303) in paragraph at lines 121--126
-\T1/lmr/m/n/10 ver-balised un-cer-tainty [[]] pro-vide LLM con-fi-dence.
- []
-
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-42.
-(t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
+(microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 2772) in paragraph at lines 149--151
-\T1/lmr/m/n/10 the an-swer's execution-ground-truth ac-cu-racy over
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\TU/NimbusRoman(0)/m/n/9 FinQA
  []
 
 
-Overfull \hbox (176.19104pt too wide) in paragraph at lines 201--204
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/NimbusRoman(0)/m/n/9 6,251/883/1,147;
  []
 
 
-Overfull \hbox (150.63904pt too wide) in paragraph at lines 237--239
- [][] 
- []
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/8'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 downstream
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\TU/NimbusRoman(0)/m/n/9 required fields
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 FinQA
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/NimbusRoman(0)/m/n/9 present; 8,281
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 6,251/883/1,147;
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\TU/NimbusRoman(0)/m/n/9 official
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 FiQA
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\TU/NimbusRoman(0)/m/n/9 all FinQA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 822/117/234;
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+\TU/NimbusRoman(0)/m/n/9 gold programs
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 fixed train, val-i-da-tion,
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\TU/NimbusRoman(0)/m/n/9 train–protected-test
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 schema and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 required fields
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 present; 8,281
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 FinQA IDs
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 official
- []
-
-
-Underfull \hbox (badness 4582) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 all FinQA gold
- []
-
-
-Underfull \hbox (badness 4752) in paragraph at lines 261--261
-\T1/lmr/m/n/9 and match ex-e-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 official ex-ecu-tor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 re-quired for model
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 zero cross-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 split full-input
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 source and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 ar-ti-fact SHA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 256 man-i-fests
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 train--protected-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 test au-dit
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 ex-ported for
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]|\T1/lmr/m/n/9 PASS; two
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-\T1/lmr/m/n/9 non-blocking
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\TU/NimbusRoman(0)/m/n/9 PASS; two non-
  []
 
 [2]
-Underfull \hbox (badness 1694) in paragraph at lines 273--279
-[]\T1/lmr/m/n/10 Phase 2.1 pro-duces in-tegrity ev-i-dence rather than
- []
-
-
-Underfull \hbox (badness 3547) in paragraph at lines 273--279
-\T1/lmr/m/n/10 ac-cu-racy curves. The source paths and hashes for
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 273--279
-\T1/lmr/m/n/10 the data reg-istry, val-i-da-tion re-port, source fin-ger-
- []
-
-
-Underfull \hbox (badness 7081) in paragraph at lines 273--279
-\T1/lmr/m/n/10 prints, official-execution au-dit, near-duplicate au-dit,
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 273--279
-\T1/lmtt/m/n/10 docs/phase2_figure_inventory.md\T1/lmr/m/n/10 . The re-sult plo
-ts
- []
-
-
-Underfull \hbox (badness 4279) in paragraph at lines 315--316
-[]\T1/lmr/m/n/10 For cov-er-age tar-get $\OT1/lmr/m/n/10 1 \OMS/lmsy/m/n/10 ^^@
- \OML/lmm/m/it/10 ^^K$ \T1/lmr/m/n/10 (pre-registered $\OML/lmm/m/it/10 ^^K \OM
-S/lmsy/m/n/10 2
- []
-
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 333.
+put line 345.
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-[]\T1/lmr/m/n/10 write \T1/lmtt/m/n/10 phase4_freeze.json \T1/lmr/m/n/10 (FROZE
-N, $\OML/lmm/m/it/10 w; b; ^^R; ^^K$\T1/lmr/m/n/10 ,
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+[]\TU/NimbusRoman(0)/m/sc/10 write \TU/lmtt/m/n/10 phase4_freeze.json \TU/Nimbu
+sRoman(0)/m/sc/10 (FROZEN, $\OML/cmm/m/it/10 w; b; ^^R; ^^K$\TU/NimbusRoman(0)/
+m/sc/10 ,
  []
 
 [3]
-Underfull \hbox (badness 3942) in paragraph at lines 392--396
-\T1/lmr/m/n/10 FinQA and explicit-schema on FiQA; ex-act hyper-
+Underfull \hbox (badness 2460) in paragraph at lines 404--408
+[]\TU/NimbusRoman(0)/m/sc/10 Frozen Phase-3 winner: \TU/lmtt/m/n/10 Qwen/Qwen3-
+1.7B \TU/NimbusRoman(0)/m/sc/10 [[]] with
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 396--400
- \T1/lmr/m/it/10 d) Met-rics.: [][] \T1/lmr/m/n/10 Brier, ECE-10, ex-pected AUR
-C (e-
+Underfull \hbox (badness 1789) in paragraph at lines 404--408
+\TU/NimbusRoman(0)/m/sc/10 explicit-schema on FiQA; exact hyper-parameters are 
+in
  []
 
 
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 428.
+LaTeX Font Warning: Font shape `TU/NimbusRoman(0)/b/sc' undefined
+(Font)              using `TU/NimbusRoman(0)/b/n' instead on input line 440.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 428.
 File: ../../paper/figures//fig_phase4_fiqa_aggregation.png Graphic file (type b
 mp)
 <../../paper/figures//fig_phase4_fiqa_aggregation.png>
@@ -1028,38 +916,38 @@ File: ../../paper/figures//fig_phase4_risk_coverage.png Graphic file (type bmp)
 
 <../../paper/figures//fig_phase4_risk_coverage.png>
 
-LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 494.
+LaTeX Font Warning: Font shape `TU/NimbusRoman(0)/m/scit' undefined
+(Font)              using `TU/NimbusRoman(0)/m/it' instead on input line 506.
 
 
-LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 494.
+LaTeX Font Warning: Font shape `TU/NimbusRoman(0)/m/scit' undefined
+(Font)              using `TU/NimbusRoman(0)/m/it' instead on input line 506.
 
 File: ../../paper/figures//fig_phase4_selection_ablation.png Graphic file (type
  bmp)
 <../../paper/figures//fig_phase4_selection_ablation.png>
 
-LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 529.
+LaTeX Font Warning: Font shape `TU/NimbusRoman(0)/m/scit' undefined
+(Font)              using `TU/NimbusRoman(0)/m/it' instead on input line 541.
 
 
-LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 563.
+LaTeX Font Warning: Font shape `TU/NimbusRoman(0)/m/scit' undefined
+(Font)              using `TU/NimbusRoman(0)/m/it' instead on input line 575.
 
 
-LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 632.
+LaTeX Font Warning: Font shape `TU/NimbusRoman(0)/m/scit' undefined
+(Font)              using `TU/NimbusRoman(0)/m/it' instead on input line 644.
 
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-632.
-(ot1lmtt.fd
-File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [4] [5] [6]
+
+Underfull \hbox (badness 4479) in paragraph at lines 675--686
+\TU/NimbusRoman(0)/m/sc/10 verified selection is 0.6556 vs. frozen greedy 0.657
+4
+ []
+
+[4] [5]
+Underfull \vbox (badness 2359) has occurred while \output is active []
+
+ [6]
 File: ../../paper/figures//fig6_finqa_failure_overview.png Graphic file (type b
 mp)
 <../../paper/figures//fig6_finqa_failure_overview.png>
@@ -1069,32 +957,29 @@ ype bmp)
 File: ../../paper/figures//fig5_finqa_error_magnitude.png Graphic file (type bm
 p)
 <../../paper/figures//fig5_finqa_error_magnitude.png>
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 827--827
-[]|\T1/lmr/m/n/9 checkpoint, QLoRA con-fig-u-ra-tion,
+
+[7]
+Underfull \hbox (badness 1902) in paragraph at lines 882--883
+[]\TU/NimbusRoman(0)/m/n/9 A. Huang, H. Wang, Y. Yang, “FinBERT: A Pretrained
  []
 
 
-Underfull \hbox (badness 2671) in paragraph at lines 863--864
-[]\T1/lmr/m/n/9 A. Huang, H. Wang, Y. Yang, ``Fin-BERT: A Pre-
+Underfull \hbox (badness 10000) in paragraph at lines 882--883
+\TU/NimbusRoman(0)/m/n/9 Language Model for Financial Communications,”
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 868--869
-[]\T1/lmr/m/n/9 M. Ab-din \T1/lmr/m/it/9 et al.\T1/lmr/m/n/9 , ``Phi-3 Tech-ni-
-cal Re-port,''
+Underfull \hbox (badness 10000) in paragraph at lines 904--905
+[]\TU/NimbusRoman(0)/m/n/9 A. Taubenfeld \TU/NimbusRoman(0)/m/it/9 et al.\TU/Ni
+mbusRoman(0)/m/n/9 , “Confidence Improves Self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 870--871
-[]\T1/lmr/m/n/9 Qwen Team, ``Qwen3 Tech-ni-cal Re-port,''
+Underfull \hbox (badness 10000) in paragraph at lines 904--905
+\TU/NimbusRoman(0)/m/n/9 Consistency in LLMs,” Findings of ACL, 2025
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 888--889
-[]\T1/lmr/m/n/9 ``Linear Ex-pec-ta-tion Con-straints for Selection-
- []
-
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -1114,6 +999,6 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `TrustFin_Conference_Paper.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 83537C8F116F4CB31D7FFE485DCFD3B1;3517.
+(rerunfilecheck)             Checksum: 7697D3746590FABEEFB721FF02086B38;8334.
  )
-Output written on TrustFin_Conference_Paper.xdv (9 pages, 107420 bytes).
+Output written on TrustFin_Conference_Paper.xdv (9 pages, 434284 bytes).

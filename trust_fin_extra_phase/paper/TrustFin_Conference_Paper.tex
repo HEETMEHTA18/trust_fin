@@ -9,9 +9,13 @@
 %  docs/exp_4(a).md, docs/exp_4(b).md and the phase-4 freeze manifests.
 % ============================================================================
 \documentclass[conference]{IEEEtran}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
+\usepackage{fontspec}
+\setmainfont{Nimbus Roman}[
+  Path = /usr/share/fonts/opentype/urw-base35/,
+  UprightFont = NimbusRoman-Regular,
+  BoldFont = NimbusRoman-Bold,
+  ItalicFont = NimbusRoman-Italic,
+  BoldItalicFont = NimbusRoman-BoldItalic]
 \usepackage{microtype}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
@@ -32,9 +36,16 @@
 \newcommand{\CC}{\mathcal{C}}
 \newcommand{\p}{\hat p}
 \title{\textbf{FinTrust: Trustworthy Small Language Models for Financial Tasks}}
-\author{\IEEEauthorblockN{Heet Mehta, Krish Patel, and Aryan Patel}
-\IEEEauthorblockA{\href{mailto:heetmehta.work@gmail.com}{heetmehta.work@gmail.com}\\
-\href{mailto:krishpatel19.tech@gmail.com}{krishpatel19.tech@gmail.com}\\
+\author{\IEEEauthorblockN{Heet Mehta}
+\IEEEauthorblockA{TrustFin-SLM Research Project\\
+\href{mailto:heetmehta.work@gmail.com}{heetmehta.work@gmail.com}}
+\and
+\IEEEauthorblockN{Krish Patel}
+\IEEEauthorblockA{TrustFin-SLM Research Project\\
+\href{mailto:krishpatel19.tech@gmail.com}{krishpatel19.tech@gmail.com}}
+\and
+\IEEEauthorblockN{Aryan Patel}
+\IEEEauthorblockA{TrustFin-SLM Research Project\\
 \href{mailto:aryanpatel26.ce@gmail.com}{aryanpatel26.ce@gmail.com}}}
 \date{}
 
@@ -95,7 +106,7 @@ policy whose threshold is fixed on validation and whose benefit transfers to a p
 test ($-$31.0\% test answered-error reduction at coverage 0.8, predicted $-$34.2\%).
 
 \section{Related work}
-\paragraph{Small financial models and adaptation.}
+\subsection{Small financial models and adaptation.}
 Survey evidence shows 1--3B models are a deliberate performance/efficiency point
 \citep{subramanian2025slms,abdin2024phi3,zhang2024tinyllama}, and LoRA/QLoRA make domain
 adaptation cheap \citep{hu2022lora,dettmers2023qlora}. Financial-domain adaptation builds
@@ -104,27 +115,27 @@ The closest comparable work, fine-tuning smaller models on FinQA \citep{phogat20
 also operates in our compute regime and reports accuracy only --- as we do, but we add the
 trust layer it omits.
 
-\paragraph{Programmatic financial reasoning.}
+\subsection{Programmatic financial reasoning.}
 FinQA \citep{chen2021finqa}, ConvFinQA \citep{chen2022convfinqa} and TAT-QA
 \citep{zhu2021tatqa} establish that execution (running the program) is the ground truth of
 the answer. FinBen \citep{xie2024finben} supplies the benchmarking context including the
 FiQA and FOMC tasks we use; FinTrust \citep{hu2025fintrust} establishes abstention as a
 measured trust deficit.
 
-\paragraph{Consistency and verification.}
+\subsection{Consistency and verification.}
 Self-consistency votes over sampled paths \citep{wang2023selfconsistency}; process-supervised
 verifiers rerank candidates with a learned model \citep{lightman2024verify,wang2024mathshepherd};
 execution-guided synthesis filters decoding by the runtime \citep{chen2019execution}.
 All are accuracy-centric. Ours re-purposes their machinery as a \emph{decision signal}.
 
-\paragraph{Selective prediction and calibration.}
+\subsection{Selective prediction and calibration.}
 The risk-coverage framework \citep{eliyaniv2010selective,geifman2017selective,geifman2019selectivenet}
 defines abstention evaluation; Platt/isotonic/temperature calibration
 \citep{platt1999platt,zadrozny2002isotonic,guo2017calibration} and verbalised uncertainty
 \citep{lin2022uncertainty} provide LLM confidence. Responsible-AI guidance in finance
 \citep{fritzmorgenthal2022risk} is the regulatory motivation.
 
-\paragraph{Positioning against 2024--2026 selective-abstention work.}
+\subsection{Positioning against 2024--2026 selective-abstention work.}
 The field now targets trust for budget models through several adjacent mechanisms: two-pass
 prompt perturbation with answer-consistency abstention for 2--8B models on MCQ
 \citep{secondguess2025}; confidence-weighted majority voting, whose authors also observe that
@@ -132,8 +143,7 @@ the \emph{most-calibrated} confidence is the \emph{least} useful for selection
 \citep{cisc2025}; distribution-free conformal selective prediction with coverage guarantees
 \citep{sconu2025,lec2025}; self-evaluative adaptation for selective prediction
 \citep{aspire2023}; and, in finance, a multi-agent program-execution cascade without any
-per-record calibrated abstention \citep{finman2025} and a knowledge-graph-constrained
-abstention policy for unanswerable queries \citep{gbfr2026}; verifiable chain-of-thought for
+per-record calibrated abstention \citep{finman2025}; verifiable chain-of-thought for
 finance is benchmarked without a model-side abstention rule \citep{finchain2025}. None combines the mechanism we
 measure: \emph{agreement across evaluator-executed candidate programs}, Platt-calibrated to a
 coverage target, threshold frozen on validation, and transferred to a protected test for a
@@ -142,7 +152,7 @@ selection-over-generation views but do not give their score a probability-meanin
 pre-declared decision rule. A dated novelty audit with sources is in \texttt{docs/novelty\_check.md}.
 
 \section{Problem statement and protocol}
-\paragraph{Setup.} A question $q$ maps to a program $p$; the answer is $a=\text{exec}(p)$
+\subsection{Setup.} A question $q$ maps to a program $p$; the answer is $a=\text{exec}(p)$
 if $p$ is valid. The model is a frozen, domain-adapted SLM $\pi_{\theta}$. We pre-declare
 three claims (fixated in \texttt{PLAN.md} before any protected-test access):
 \begin{itemize}[nosep,leftmargin=1.2em]
@@ -154,13 +164,13 @@ ECE and makes a coverage threshold carry probability meaning.
 executability) improve the calibrator's ordering, measurable as a drop in expected AURC,
 whenever the features are non-monotone with the raw confidence.
 \end{itemize}
-\paragraph{Guardrails (integrity before novelty).} All selection of the model, the method
+\subsection{Guardrails (integrity before novelty).} All selection of the model, the method
 and the hyper-parameters ($n=8$, temperature 0.7, top-$p$ 0.9, 5-fold out-of-fold
 calibration, coverage targets \{0.80, 0.90\}) happened on \emph{validation} data only. The
 protected test sets were opened exactly once, after a freeze manifest registered status
 \texttt{FROZEN} and the run set an explicit protected flag; a SHA-256 of the freeze was
 recorded before and after the test run and is unchanged. The full integrity protocol is
-documented in \$6 of \texttt{docs/exp\_4(a).md}.
+documented in \S6 of \texttt{docs/exp\_4(a).md}.
 
 \section{Phase-2.1 gate architecture and methodology}\label{sec:phase2}
 Phase 2.1 is the data and evaluation gate that precedes model training. It supersedes the
@@ -172,6 +182,7 @@ consume without re-downloading or reshaping protected data.
 
 \begin{figure}[t]
 \centering
+\resizebox{\columnwidth}{!}{%
 \begin{tikzpicture}[node distance=3pt and 5pt, >=Latex,
   source/.style={draw, rounded corners=1pt, fill=gray!10, align=center,
     minimum width=1.45cm, minimum height=0.62cm, font=\scriptsize},
@@ -198,7 +209,7 @@ consume without re-downloading or reshaping protected data.
 \draw[arrow] (exports) -- (p3);
 \draw[arrow] (p3) -- (p4);
 \node[below=3pt of checks, align=center, font=\scriptsize] {counts, schema, leakage,\\executor, provenance};
-\end{tikzpicture}
+\end{tikzpicture}}
 \caption{Phase-2.1 architecture. Raw benchmark sources are normalized into a shared record
 contract, passed through integrity gates, and exported into explicit training, validation,
 and protected-evaluation roles. FinBen--FOMC and FinTrust never enter the training pool.}
@@ -217,6 +228,7 @@ silently deleting legitimate financial-report reuse.
 
 \begin{figure}[t]
 \centering
+\resizebox{\columnwidth}{!}{%
 \begin{tikzpicture}[node distance=4pt and 6pt, >=Latex,
   gstep/.style={draw, rounded corners=1pt, fill=orange!10, align=center,
     minimum width=1.45cm, minimum height=0.7cm, font=\scriptsize},
@@ -234,7 +246,7 @@ silently deleting legitimate financial-report reuse.
 \draw[arrow] (leak) -- (pass);
 \draw[arrow] (pass) -- node[above, font=\scriptsize]{yes} (freeze);
 \draw[arrow] (pass.south) |- node[pos=0.25, below, font=\scriptsize]{no: stop} (leak.south);
-\end{tikzpicture}
+\end{tikzpicture}}
 \caption{Phase-2.1 gate lifecycle. Warnings remain visible in the validation report but do
 not override a PASS when no ERROR-severity gate fails.}
 \label{fig:phase2-gates}
@@ -349,7 +361,7 @@ Selective risk and coverage follow \citep{eliyaniv2010selective}:
 \end{algorithm}
 
 \section{Experimental setup}\label{sec:setup}
-\paragraph{Data and aligned evaluation.}
+\subsection{Data and aligned evaluation.}
 FinQA (train 6\,251 / validation 883 / held-out test 1\,147) uses the official program
 evaluator; we report three aligned accuracies: \emph{printed} (the answer string the model
 emits), \emph{program} (does the parse succeed), and \emph{execution} (does the executed
@@ -361,7 +373,7 @@ therefore this study reports no inferred demographic distribution. The records a
 as financial-document and sentiment annotations, not as a human-subject sample. This
 distinction prevents demographic claims from being inferred from names, writing style, or
 model outputs.
-\paragraph{Data contract and split policy.}
+\subsection{Data contract and split policy.}
 The Phase-2.1 contract fixes the dataset roles before training. FinQA and FiQA training
 partitions may enter the training pool; validation partitions support model selection; and
 the FinQA and FiQA tests, FinBen-FOMC, and FinTrust resources remain protected. Source
@@ -389,11 +401,11 @@ FinTrust & -- & -- & protected & trust evaluation\\
 \bottomrule
 \end{tabular}}
 \end{table}
-\paragraph{Model.} Frozen Phase-3 winner: \texttt{Qwen/Qwen3-1.7B}
+\subsection{Model.} Frozen Phase-3 winner: \texttt{Qwen/Qwen3-1.7B}
 \citep{qwen2025qwen3} with balanced-joint QLoRA \citep{dettmers2023qlora} as canonical on
 FinQA and explicit-schema on FiQA; exact hyper-parameters are in
 \texttt{phase3\_freeze.json} and were fixed before this work began.
-\paragraph{Metrics.} Brier, ECE-10, expected AURC (e-AURC; lower is better), coverage and
+\subsection{Metrics.} Brier, ECE-10, expected AURC (e-AURC; lower is better), coverage and
 selective risk. All numbers cited as ``validation'' are out-of-fold or tuned on
 validation; all ``test'' numbers were produced by the frozen system and are unchanged since
 the completed protected run (see \texttt{docs/exp\_4(b).md}).
@@ -659,7 +671,7 @@ E (full) & \checkmark & \checkmark & \checkmark \quad 0.246\\
 \end{table}
 
 \section{Results}\label{sec:results}
-\paragraph{C1 is rejected --- and that is a result.}
+\subsection{C1 is rejected --- and that is a result.}
 Table~\ref{tab:c1} and Figure~\ref{fig:fiqa-sampling}. On the protected test, execution-verified selection is 0.6556 vs.\
 frozen greedy 0.6574 ($-$0.18~pp; per-record 18 gained, 20 lost, exact McNemar $p=0.871$,
 bootstrap 95\% CI $[-0.0122,+0.0087]$), and the FiQA median-based
@@ -672,21 +684,21 @@ best of the tested scores (selective MAE 0.1094 vs.\ 0.1176 for greedy-confidenc
 coverage, n=234) --- a descriptive, small-sample hint that agreement transfers as a ranking
 signal to regression too (see \S~matched coverage, below).
 
-\paragraph{Agreement is the trust signal (C3 evidence at the decision level).}
+\subsection{Agreement is the trust signal (C3 evidence at the decision level).}
 Table~\ref{tab:agreement}. On protected data the model reports total
 \emph{disagreement} (agreement $\le 0.25$) on records that are 2.9\% correct and unanimous
 agreement (the top bin, $0.75$--$1.0$) on records that are 79.2\% correct; nothing in the
 model's own log-probability separates these regimes (ROC-AUC 0.58 vs.\ 0.76 for agreement).
 This is the signal that buys abstention.
 
-\paragraph{Calibration gives the threshold meaning (C2).}
+\subsection{Calibration gives the threshold meaning (C2).}
 Table~\ref{tab:calib}. Out-of-fold Platt on the agreement features cuts Brier 0.28
 $\rightarrow$ 0.16 and ECE 0.26 $\rightarrow$ 0.05. The ranking result is exactly what the
 monotonicity caveat predicts: the single-feature calibrators cannot move e-AURC
 (0.2029 $\rightarrow$ 0.2028), while the agreement-driven vector drops it to 0.1232
 ($-$39.3\% vs.\ raw, $-$35.1\% vs.\ the best baseline frame).
 
-\paragraph{The frozen policy transfers (C2's operational payoff).}
+\subsection{The frozen policy transfers (C2's operational payoff).}
 Table~\ref{tab:transfer} and Figure~\ref{fig:risk-coverage}. With the threshold fixed on validation, opening the protected test
 once yields: coverage 0.786 at the 0.80 target, selective risk 0.2375 (accuracy 0.7625)
 vs.\ 0.3444 at full coverage --- a \textbf{31.0\% relative error reduction}, against the
@@ -694,7 +706,7 @@ vs.\ 0.3444 at full coverage --- a \textbf{31.0\% relative error reduction}, aga
 (i.e.\ the transfer is significant, not a rounding effect). FiQA abstention is -2.9\%: as the frozen FiQA method (raw
 confidence on greedy) predicted, its errors are not rankable.
 
-\paragraph{Rigor, error taxonomy, and depth (Table~\ref{tab:rigor}).}
+\subsection{Rigor, error taxonomy, and depth (Table~\ref{tab:rigor}).}
 The protected test was opened once against the frozen manifest. Per-record significance
 testing formalises the C1 verdict; the remaining error is not parsing (0/1,147) and --
 for EVG -- not program validity (0/1,147), but 395 genuine arithmetic slips (34.4\%).
@@ -710,7 +722,7 @@ where reasoning is deepest. All numbers carry bootstrap CIs in the annexed rigor
 calibration threshold used here was frozen on validation and never touched after the test
 opened.
 
-\paragraph{The mechanism survives comparison at matched coverage (Table~\ref{tab:ablate}).}
+\subsection{The mechanism survives comparison at matched coverage (Table~\ref{tab:ablate}).}
 Figure~\ref{fig:selection-ablation} shows the corresponding validation ablation. Review pressure asks how agreement-abstention compares with standard alternatives when
 they answer the \emph{same number of questions}. Table~\ref{tab:ablate} selects $k =
 \lfloor \mathtt{cov}\cdot 1147\rfloor$ records by each score and measures selective risk on
@@ -723,12 +735,12 @@ ablation is sharp: agreement is necessary and sufficient; the executability feat
 uninformative (AUC 0.51) and the frozen Platt vector adds no ranking over agreement
 ($P{=}0.097$), though it supplies the pre-registered threshold its probability meaning.
 
-\paragraph{Out-of-domain robustness.}
+\subsection{Out-of-domain robustness.}
 Table~\ref{tab:fomc}. Without any FOMC data in training, the frozen adapter raises macro-F1
 0.21 $\rightarrow$ 0.30 and parse success 0.90 $\rightarrow$ 0.99, with the gain in the
 rare classes (dovish F1 0.16 $\rightarrow$ 0.33; hawkish 0.05 $\rightarrow$ 0.26).
 
-\paragraph{Cost.} EVG at $n=8$ runs at 4.8~s/question vs.\ 1.3~s greedy (3.7$\times$,
+\subsection{Cost.} EVG at $n=8$ runs at 4.8~s/question vs.\ 1.3~s greedy (3.7$\times$,
 shared prefill), peak VRAM 3.1~GB / 6~GB. The offered trade is therefore 31\% fewer
 answered errors at $\approx$80\% coverage in exchange for 3.7$\times$ latency on a laptop-class
 model; whether that is \emph{worth} it is a deployment decision, not a claim we make.
@@ -828,6 +840,13 @@ artifacts & predictions, metrics, plots, and analysis summaries\\
 \end{table}
 
 \section{Discussion and limitations}
+\subsection{Matched-coverage robustness.}
+At matched coverage, the selective gain survives comparison with simpler abstention rules
+based on model confidence. Using 3{,}000 bootstrap resamples, the confidence-based
+comparison has a confidence interval that excludes zero, while the ablation removes the
+agreement feature and loses the observed advantage. This result supports the interpretation
+that agreement among executable candidates, rather than confidence alone, supplies the
+useful decision-level trust signal.
 \textbf{What we did not claim.} EVG-CAS does not raise accuracy; reporting a tie, rather
 than a $p$-value-won headline, is the point of the pre-registration. \textbf{Domain limits.}
 On FiQA (117 validation / 234 test records, regression), the EVG features carry no signal
@@ -882,14 +901,13 @@ the declared next step.
 \bibitem{zadrozny2002isotonic} B.~Zadrozny, C.~Elkan, ``Transforming Classifier Scores into Accurate Multiclass Probability Estimates,'' KDD, 2002.
 \bibitem{lin2022uncertainty} S.~Lin, J.~Hilton, O.~Evans, ``Teaching Models to Express Their Uncertainty in Words,'' TMLR, 2022.
 \bibitem{fritzmorgenthal2022risk} S.~Fritz-Morgenthal, B.~Hein, J.~Papenbrock, ``Financial Risk Management and Explainable, Trustworthy, Responsible AI,'' SSRN 3873768, 2022.
-\bibitem{cisc2025} ``Confidence Improves Self-Consistency in LLMs,'' Findings of ACL, 2025 (https://aclanthology.org/2025.findings-acl.1030/).
-\bibitem{secondguess2025} ``Second Guess: Two-Pass Answer-Stability Abstention for Small-Language-Model MCQ,'' arXiv:2605.25394, 2026.
-\bibitem{sconu2025} ``SConU: Selective Conformal Uncertainty Estimation for Language Models,'' ACL, 2025.
-\bibitem{lec2025} ``Linear Expectation Constraints for Selection-Conditioned Risk Control,'' arXiv:2512.01556, 2025.
-\bibitem{aspire2023} ``ASPIRE: Adaptation with Self-Evaluation for Selective Prediction of LLMs,'' arXiv:2310.11689, 2023.
-\bibitem{finman2025} ``David vs. Goliath: Cost-Efficient Financial QA via Cascaded Multi-Agent Reasoning,'' Findings of EMNLP, 2025 (https://aclanthology.org/2025.findings-emnlp.225/).
-\bibitem{gbfr2026} ``Graph-Bounded Financial Reasoning with Safe Abstention,'' 2026.
-\bibitem{finchain2025} ``FinChain: Verifiable Chain-of-Thought Reasoning in Finance,'' arXiv:2506.02515, 2025.
+\bibitem{cisc2025} A.~Taubenfeld \emph{et al.}, ``Confidence Improves Self-Consistency in LLMs,'' Findings of ACL, 2025 (https://aclanthology.org/2025.findings-acl.1030/).
+\bibitem{secondguess2025} A.~V.~Aravindan and M.~Kejriwal, ``Second Guess: Detecting Uncertainty Through Abstention and Answer Stability in Small Language Models,'' arXiv:2605.25394, 2026.
+\bibitem{sconu2025} Z.~Wang \emph{et al.}, ``SConU: Selective Conformal Uncertainty in Large Language Models,'' ACL, 2025.
+\bibitem{lec2025} Z.~Wang \emph{et al.}, ``LEC: Linear Expectation Constraints for Selection-Conditioned Risk Control in Selective Prediction and Routing Systems,'' arXiv:2512.01556, 2025.
+\bibitem{aspire2023} J.~Chen \emph{et al.}, ``Adaptation with Self-Evaluation to Improve Selective Prediction in LLMs,'' Findings of EMNLP, 2023 (arXiv:2310.11689).
+\bibitem{finman2025} C.~Liu \emph{et al.}, ``David vs. Goliath: Cost-Efficient Financial QA via Cascaded Multi-Agent Reasoning,'' Findings of EMNLP, 2025 (https://aclanthology.org/2025.findings-emnlp.225/).
+\bibitem{finchain2025} Z.~Xie \emph{et al.}, ``FinChain: A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning,'' arXiv:2506.02515, 2025.
 \end{thebibliography}
 
 \end{document}
