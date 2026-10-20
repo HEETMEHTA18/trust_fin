@@ -1,8 +1,0 @@
-dimension,status,official_metric,evaluator_path,protocol_reference,evaluator_sha256,fixture_report_sha256,note
-trustfulness,PENDING_REVIEW,,,,,,Map official evaluator and demonstrate a PASS on nonprotected fixture data.
-robustness,PENDING_REVIEW,,,,,,Map official evaluator and demonstrate a PASS on nonprotected fixture data.
-safety,PENDING_REVIEW,,,,,,Map official evaluator and demonstrate a PASS on nonprotected fixture data.
-fairness,PENDING_REVIEW,,,,,,Map official evaluator and demonstrate a PASS on nonprotected fixture data.
-privacy,PENDING_REVIEW,,,,,,Map official evaluator and demonstrate a PASS on nonprotected fixture data.
-transparency,PENDING_REVIEW,,,,,,Map official evaluator and demonstrate a PASS on nonprotected fixture data.
-knowledge_discovery,PENDING_REVIEW,,,,,,Map official evaluator and demonstrate a PASS on nonprotected fixture data.

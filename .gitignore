@@ -38,3 +38,9 @@ Thumbs.db
 .env
 *.venv
 venv/
+
+# --- Office / LibreOffice lock files ---
+.~lock.*
+
+# --- Duplicate notebook outputs (canonical run lives in artifacts/phase3_1/) ---
+notebooks/artifacts/

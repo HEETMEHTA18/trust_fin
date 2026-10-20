@@ -1,5 +1,0 @@
-experiment,n,cap,at_cap_n,at_cap_fraction,execution_accuracy_at_cap,execution_accuracy_below_cap,train_max_seq_length,note
-E3,883,1024,460,0.5209513023782559,0.6630434782608695,0.6997635933806147,1024,All listed evaluation predictions used the 1024-token cap; E8 training used a shorter cap.
-E5,883,1024,460,0.5209513023782559,0.6369565217391304,0.7163120567375887,1024,All listed evaluation predictions used the 1024-token cap; E8 training used a shorter cap.
-E8,883,1024,325,0.36806342015855037,0.7015384615384616,0.7007168458781362,768,All listed evaluation predictions used the 1024-token cap; E8 training used a shorter cap.
-E11,883,1024,460,0.5209513023782559,0.508695652173913,0.7304964539007093,1024,All listed evaluation predictions used the 1024-token cap; E8 training used a shorter cap.

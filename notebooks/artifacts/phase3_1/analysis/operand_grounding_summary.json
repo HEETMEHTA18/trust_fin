@@ -1,8 +1,0 @@
-{
-  "status": "HEURISTIC_AUDIT_COMPLETED",
-  "n": 883,
-  "any_unmatched_count": 19,
-  "unmatched_literal_total": 28,
-  "method": "literal number appears anywhere in original Phase-2.1 validation evidence",
-  "caution": "Neither numerically present nor missing literals prove semantic correctness."
-}
