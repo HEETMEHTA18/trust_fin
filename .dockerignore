@@ -1,0 +1,25 @@
+# Context trim for the offline test image (Dockerfile).
+# Everything listed stays on the workstation; the container runs pure-code tests.
+.git
+**/__pycache__/
+**/*.pyc
+
+# large / irrelevant top-level trees
+phases/
+papers/
+paper/
+data/
+docs/
+deliverables/
+artifacts/
+session-*.md
+*.deb
+*.pdf
+
+# workspace trees not needed in the container (frozen artifacts, notebooks,
+# paper sources, deep-dive docs) — hash/protected tests skip gracefully
+trust_fin_extra_phase/artifacts/
+trust_fin_extra_phase/paper/
+trust_fin_extra_phase/notebooks/
+trust_fin_extra_phase/docs/
+trust_fin_extra_phase/*.deb

@@ -1,0 +1,3 @@
+# Offline test dependencies (trusted computing base for `make test`).
+pytest==9.1.1
+jsonschema==4.26.0

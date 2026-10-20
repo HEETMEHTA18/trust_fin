@@ -35,7 +35,12 @@ from pathlib import Path
 WORKSPACE = Path(__file__).resolve().parents[1]          # .../trust_fin_extra_phase
 OUTER = WORKSPACE.parent                                 # .../Research Papers
 NOTEBOOK = WORKSPACE / "notebooks" / "Phase4_TrustFin_Proposed_Method.ipynb"
-VENV_PY = Path(os.environ.get("TRUSTFIN_PYTHON", "/home/heet18/trustfin-slm/.venv/bin/python"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import find_python, using_fallback_python         # noqa: E402
+
+# Phase-5A: no hard-coded machine paths. Resolution order:
+#   $TRUSTFIN_PYTHON  >  ~/trustfin-slm/.venv/bin/python  >  current interpreter
+VENV_PY = find_python()
 P4_DIR = WORKSPACE / "artifacts" / "phase4"
 FREEZE = P4_DIR / "manifests" / "phase4_freeze.json"
 PHASE3_FREEZE = OUTER / "artifacts" / "phase3" / "manifests" / "phase3_freeze.json"
@@ -138,6 +143,9 @@ def preflight() -> list[str]:
             problems.append("Phase-3 freeze unreadable")
     if not (VENV_PY.exists() or shutil.which(str(VENV_PY))):
         problems.append(f"venv python missing: {VENV_PY}")
+    elif not os.environ.get("TRUSTFIN_PYTHON") and using_fallback_python():
+        problems.append("no project venv found (set TRUSTFIN_PYTHON); "
+                        "using the current interpreter")
     cache = Path.home() / ".cache/huggingface/hub"
     if not (cache / "models--Qwen--Qwen3-1.7B").exists():
         problems.append("model not cached: Qwen/Qwen3-1.7B")

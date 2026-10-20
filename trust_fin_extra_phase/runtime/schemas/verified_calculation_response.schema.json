@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "trustfin/verified_calculation_response.schema.json",
+  "title": "TrustFin verified financial response",
+  "description": "Structured response returned by the verified financial runtime (roadmap §8). A non-answered status is a first-class result, not an error.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "answer", "evidence", "calculation", "confidence",
+               "limitations", "model_version", "policy_version"],
+  "properties": {
+    "status": {
+      "enum": ["answered", "clarify", "abstain", "refused", "escalate"],
+      "description": "answer | clarify | abstain | refused | escalate"
+    },
+    "answer": {
+      "type": ["string", "null"],
+      "description": "Final user-visible answer. When a calculation was involved this must be the rendered verified result, never the model's printed string."
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_id", "quote", "as_of"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "quote": {"type": ["string", "null"]},
+          "as_of": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "calculation": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["inputs", "operation", "verified_result", "rendered", "source"],
+          "properties": {
+            "inputs": {"type": "array"},
+            "operation": {"type": ["string", "null"]},
+            "verified_result": {"type": ["number", "string", "null"]},
+            "rendered": {"type": ["string", "null"]},
+            "source": {"enum": ["verified_tool", "model_printed", null]}
+          }
+        }
+      ]
+    },
+    "confidence": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Calibrated confidence when available; null when no validation-backed calibrator exists for the task family."
+    },
+    "limitations": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Machine-readable limitations attached to this response."
+    },
+    "risk_flags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Flags raised by the input router (injection, pii, harmful_advice, ...)."
+    },
+    "model_version": {"type": "string"},
+    "policy_version": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "answered"}}},
+      "then": {"properties": {"answer": {"type": "string", "minLength": 1}}}
+    },
+    {
+      "if": {"properties": {"status": {"const": "answered"}},
+             "required": ["calculation"]},
+      "then": {}
+    }
+  ]
+}

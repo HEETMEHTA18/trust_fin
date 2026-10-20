@@ -1,0 +1,73 @@
+{
+  "schema_version": "trustfin.phase3_1.v1",
+  "frozen_experiment": "E5",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "adapter_path": "/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E5",
+  "adapter_sha256_files": [
+    {
+      "relative_path": "README.md",
+      "size_bytes": 5184,
+      "sha256": "9c16b7d5cbcd4e4f5060780db5dd68a18c3a3668fabcd564cf3fe34286d3310e"
+    },
+    {
+      "relative_path": "adapter_config.json",
+      "size_bytes": 1148,
+      "sha256": "6f9b3fb596ed41292e0d3ce0a927f111a1ab2533d0ce237963e0934b706cc6b9"
+    },
+    {
+      "relative_path": "adapter_model.safetensors",
+      "size_bytes": 69782384,
+      "sha256": "c7e6273e304d5b1bb8cd46695ffe0da2379dc68773f009d20d74861c3aa7167b"
+    },
+    {
+      "relative_path": "chat_template.jinja",
+      "size_bytes": 4168,
+      "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+    },
+    {
+      "relative_path": "tokenizer.json",
+      "size_bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+    },
+    {
+      "relative_path": "tokenizer_config.json",
+      "size_bytes": 665,
+      "sha256": "47bfa3e7727312946b29ac10d6dd0672d63cf7815b2a160b9523872040d2e536"
+    }
+  ],
+  "model_frozen_before_test": true,
+  "prompts": {
+    "FinQA": "canonical",
+    "FiQA": "explicit_schema"
+  },
+  "calibration_source": "Phase-2.1 validation only",
+  "risk_features": "/home/heet18/Downloads/Research Papers/notebooks/artifacts/phase3_1/phase4_interface/phase4_validation_features.jsonl",
+  "calibration_subfold_rule": "sha256(record_id) first 8 hex chars modulo 5; 0 is holdout, others fit",
+  "phase4_baselines": [
+    "E5 written output",
+    "E5 executed output",
+    "E5 likelihood-only selective prediction",
+    "E5 verifier-aware calibrated risk",
+    "E8 cross-family comparison"
+  ],
+  "recommended_validation_metrics": {
+    "FinQA": [
+      "execution accuracy",
+      "corrected answer accuracy",
+      "risk vs coverage",
+      "AURC"
+    ],
+    "FiQA": [
+      "MAE",
+      "MSE",
+      "R2",
+      "selective MAE"
+    ],
+    "FinTrust": [
+      "official seven-dimension, task-specific metrics only"
+    ]
+  },
+  "protected_test_policy": "No protected test used in Phase-3.1. Freeze all verifier/threshold settings before Phase-4 test.",
+  "source_provenance": "/home/heet18/Downloads/Research Papers/notebooks/artifacts/phase3_1/manifests/source_validation.json",
+  "phase4_research_readiness": "CONDITIONAL_HOLD"
+}

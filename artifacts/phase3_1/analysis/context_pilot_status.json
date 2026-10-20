@@ -1,0 +1,4 @@
+{
+  "status": "NOT_RUN",
+  "reason": "Optional GPU validation pilot; set RUN_CONTEXT_PILOT=True with local model/evaluator."
+}

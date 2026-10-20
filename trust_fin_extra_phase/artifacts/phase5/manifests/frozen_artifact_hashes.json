@@ -1,0 +1,96 @@
+{
+  "schema": "trustfin-frozen-hashes-v1",
+  "created_at_utc": "2026-10-19T12:36:25.186098+00:00",
+  "git_commit": "3042de5caf43626f573d50bc1365117210cadafd",
+  "files": {
+    "artifacts/phase2_1/manifests/dataset_registry.json": {
+      "sha256": "e0c43a54add7323b60d139cac7be6a93694fad96d979b94539cb01968595e794",
+      "bytes": 4123
+    },
+    "artifacts/phase2_1/manifests/phase3_data_config.json": {
+      "sha256": "b3f7b4173885555f5de37f3dc4e4e93a86679cf4cb511d6e8ef3d95606ed022a",
+      "bytes": 953
+    },
+    "artifacts/phase3/manifests/phase3_freeze.json": {
+      "sha256": "6586a42de81bed2cc33b9a7fd860554f6484555f9c2b31d5bb3350686391e423",
+      "bytes": 2539
+    },
+    "artifacts/phase3/manifests/phase3_completion_report.json": {
+      "sha256": "edf8ee70deb7bbd44ed5d4ec12797e99b67db0d2958f927b561ee895e0a88911",
+      "bytes": 3187
+    },
+    "artifacts/phase3/manifests/environment.json": {
+      "sha256": "b90004049f8380fc70f9841816d9d23f5831f21b9feb5f0070020f5b7912e8ea",
+      "bytes": 1209
+    },
+    "artifacts/phase2_1/eval/finben_fomc_test.jsonl": {
+      "sha256": "8d7f49e25032e9aac430d7abef64fb343f3c0d45e1f34c9d119582e5f15b0067",
+      "bytes": 676641,
+      "role": "protected_external_test",
+      "matches_registry": true
+    },
+    "artifacts/phase2_1/audits/finqa_official_gold_execution_audit.csv": {
+      "sha256": "35fea75807f088326c773bd74eb3725b4143fe5f15227f9497a82b3b448c4faf",
+      "bytes": 695800,
+      "role": "research_integrity_audit",
+      "matches_registry": true
+    },
+    "artifacts/phase2_1/eval/finqa_test.jsonl": {
+      "sha256": "0250d11a6129b057cea661b463e5db1a8735eee2ff62a79bdfd4aed84c5c2c36",
+      "bytes": 6049359,
+      "role": "protected_test",
+      "matches_registry": true
+    },
+    "artifacts/phase2_1/eval/fintrust_registry.json": {
+      "sha256": "e714a336739bd05b664ca46eed28a072134d9e6228e842886a9dc59202e01a05",
+      "bytes": 26849,
+      "role": "protected_trust_evaluation",
+      "matches_registry": true
+    },
+    "artifacts/phase2_1/eval/fiqa_test.jsonl": {
+      "sha256": "015bac0f37a003ae8bcab90c2428b1b2a0fc59f288e7f84fc6816f9ad97fc209",
+      "bytes": 239318,
+      "role": "protected_test",
+      "matches_registry": true
+    },
+    "artifacts/phase2_1/audits/near_duplicate_train_vs_protected_test.csv": {
+      "sha256": "16e4cacb8e78618380023a663b6099cfb6145da0d8e7a7ac9b3f9e3296140304",
+      "bytes": 105,
+      "role": "research_integrity_audit",
+      "matches_registry": true
+    },
+    "artifacts/phase2_1/datasets/train.jsonl": {
+      "sha256": "9a62613461b70e2cf934ff22d60f2c868c1358c782ad1fb69ce6793776e79308",
+      "bytes": 34480405,
+      "role": "sft_train",
+      "matches_registry": true
+    },
+    "artifacts/phase2_1/datasets/validation.jsonl": {
+      "sha256": "354e8171eeb72d9e3ff20c667d7807d1803c4dcd68491c344d9e67edf050bc7b",
+      "bytes": 4816490,
+      "role": "validation_and_calibration",
+      "matches_registry": true
+    }
+  },
+  "dir_digests": {
+    "artifacts/phase3/checkpoints/E5": {
+      "sha256": "a98b62190bd21d0c59b9bb6f9cf7ac1b4a0d6b8405385407321d168e1875fdae",
+      "files": 6,
+      "bytes": 81216199
+    },
+    "trust_fin_extra_phase/artifacts/phase4": {
+      "sha256": "e192c94c35bfe84ee3fde691ab608ad6fe01f27f6428d76df3b2a1ac67f6f0a0",
+      "files": 77,
+      "bytes": 42933027
+    },
+    "trust_fin_extra_phase/artifacts/phase4_2": {
+      "sha256": "81f6cd6d31daade68ab49fb8f35297ec882c3a46c3cc481cfa36fa435b58f862",
+      "files": 8,
+      "bytes": 229294
+    }
+  },
+  "notes": [
+    "SHA-256 fingerprints of the frozen Phase-2.1/3/4 contract.",
+    "verify with: python3 trust_fin_extra_phase/tools/record_frozen_hashes.py --check"
+  ]
+}

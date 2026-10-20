@@ -1,0 +1,7 @@
+{
+  "status": "MEASURED",
+  "examples": 883,
+  "true_truncation_n": 459,
+  "true_truncation_rate": 0.5198187995469988,
+  "tokenizer": "Qwen/Qwen3-1.7B"
+}

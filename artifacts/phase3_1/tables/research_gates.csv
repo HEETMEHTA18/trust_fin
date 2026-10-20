@@ -1,0 +1,11 @@
+gate,status
+original E5 freeze preserved,PASS
+all E1–E11 + prompt ablation prediction IDs align,PASS
+all invalid-program rates repaired and bounded,PASS
+FinQA answer/program reconciliation exported,PASS
+frozen task-specific confidence analyzed,PASS
+"full 1,000-example validation used",PASS
+Phase-2.1 validation data fingerprint verified,PASS
+original official FinQA re-execution,PASS
+E5 checkpoint fingerprinted,PASS
+7 FinTrust evaluator protocols mapped,PENDING

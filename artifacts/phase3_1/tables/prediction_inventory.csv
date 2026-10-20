@@ -1,0 +1,16 @@
+experiment,n,datasets,input_sha256
+E1,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",ab252fed0d16a866609edf541f00c02bc8ab97b7f73f72832c762890fc1a08f2
+E2,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",5a722228f4f0648997b419d78cdf4a10afa3f60c995c7570f2e919d115b7db69
+E3,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",e38db9905820b45bfb44be08e30745110dd0d34b879ec99db4421996f1612cb4
+E4,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",9d5d48b7be3b71fddef95b13b743b22fcd1e353c8252180878b41a3b6ed2b4e5
+E5,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",0a3800c408b681d539855f4a369a924a4c7ddca782a3db1ad1872c7d340c69e5
+E6,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",928d01c14817e8203596e57c9b81e7f33dd46f5fb4506824166bc0485d58932f
+E7,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",5040fffb497f981c238ea5925c37e1348a51fbae41cebe0fe17874abadc0aab5
+E8,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",3295597c177f0725ebec986c994d63943f5e48a5711e78a8aac1472a814cc164
+E11,1000,"{'FinQA': np.int64(883), 'FiQA': np.int64(117)}",8de21e3296d547084aa82a33b9a33f7c06332f53c67855337c896db466565e32
+E9_canonical,883,{'FinQA': np.int64(883)},97742ef3e44f6fb2f5f3d0858b378effc42b4eacaa4a842582ce0f61f9289c8a
+E9_no_task_token,883,{'FinQA': np.int64(883)},f70291b2bb922ff8f16752661295d7550ad53b9c278c52a14596a50aa8ff9858
+E9_explicit_schema,883,{'FinQA': np.int64(883)},edc5ae88627c118b72287b9bbe82f331db3c5692d62b2d8084cb426a002390d3
+E10_canonical,117,{'FiQA': np.int64(117)},bae46ec46de27e2da05a96afbb330d4357aada72389293388d81def47b5c1426
+E10_no_task_token,117,{'FiQA': np.int64(117)},5345cf17d1bae948948c6b5dcff74aaf1eea471030c64601efee6d74dc8320b9
+E10_explicit_schema,117,{'FiQA': np.int64(117)},0f7d8b8e07a48a95d0bc703ee3169cf7f9cb7f282deab80e475ad2a13580432c

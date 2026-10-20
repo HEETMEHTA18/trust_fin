@@ -23,6 +23,8 @@ trust_fin_extra_phase/
 ├── docs/exp_4(c).md                     matched-coverage / ablations / CIs / taxonomy (Phase-4.2)
 ├── docs/paper_revisions.md              concrete prose+numbers corrections for the draft
 ├── docs/eval_rigor.md                   statistical rigor annex (McNemar, bootstrap CIs, depth)
+├── docs/next_phases_roadmap.md          Phase 5–9 implementation and release roadmap
+├── docs/exp_5(a).md                     Phase-5A hardening: hashes, path discovery, tests, safety set
 ├── docs/novelty_check.md                dated novelty audit vs 2024–2026 selective-abstention work
 ├── docs/p4_e9_plan.md                   FinTrust 7-dim run plan/implementation notes
 ├── docs/exp_4(d).md                     P4-E9 FinTrust results (generation complete; fairness scored)
@@ -30,9 +32,17 @@ trust_fin_extra_phase/
 ├── scripts/eval_matched_coverage.py     matched-coverage + ablation analyzer → artifacts/phase4_2/
 ├── scripts/eval_fintrust.py             P4-E9 resumable FinTrust generator (official sample subsets)
 ├── scripts/score_fintrust.py            P4-E9 judge-later scorer (runs official postprocessors)
+├── runtime/                             Phase-5A policy layer: response schema, answer rendering,
+│                                        PII redaction, input routing + frozen-threshold abstention
+├── data/safety/synthetic_safety_regression.jsonl   synthetic safety regression set (roadmap §6)
+├── tests/                               offline test suite — run via `make test` from the repo root
+├── requirements.txt / -dev / -test      pinned environment (requirements.lock.txt = full pip freeze)
 ├── paper/                               self-contained corrected paper copy (tex + md mirror)
 ├── tools/phase4_shard.py                stage launcher / verifier / freeze checker
+├── tools/paths.py                       repo/venv discovery — no hard-coded machine paths
+├── tools/record_frozen_hashes.py        SHA-256 record + `--check` of frozen Phase-2.1/3/4 artifacts
 ├── logs/                                run logs
+├── artifacts/phase5/manifests/          Phase-5A: frozen_artifact_hashes.json + release_manifest.json
 ├── artifacts/phase4_smoke/              RUN_MODE=smoke only
 ├── artifacts/phase4/                    RUN_MODE=full only (the deliverable, FROZEN)
 │   ├── manifests/phase4_e9_prereg.json  P4-E9 pre-registration (written before generation)
@@ -116,6 +126,23 @@ at 20 records/dataset, `EVG_N=2`, writes to `artifacts/phase4_smoke/`).
    opened read-only.
 5. Thresholds come from pre-declared coverage targets on validation, never from test risk.
 
+## Phase-5A hardening (offline gate)
+
+From the **repository root** (`../`):
+
+```bash
+make test           # 37 offline tests: schemas, frozen hashes, safety regression,
+                    # redaction, abstention, protected-test access, path hygiene
+make verify-hashes  # re-check frozen Phase-2.1/3/4 artifacts vs recorded SHA-256s
+make docker-test    # CPU-only container gate (28 passed, 9 skipped: needs workstation artifacts)
+```
+
+The interpreter and repo root are discovered by `tools/paths.py`
+(`$TRUSTFIN_REPO_ROOT`, `$TRUSTFIN_PYTHON` overrides); no runtime file contains a
+user-specific absolute path (enforced by `tests/test_no_absolute_paths.py`).
+Frozen manifests/notebooks/docs are exempt — they are immutable records.
+Details: `docs/exp_5(a).md`.
+
 ## Results index
 
 | Doc | Covers |
@@ -138,6 +165,13 @@ macro-F1 over the base model. **P4-E9 (FinTrust 7 dims): generation complete** o
 sample subsets (3,520 generations, `scripts/eval_fintrust.py`); fairness rule-scored
 (personal consistency 0.67; industry mean |Cohen's d| 0.41); other dims stored in the official
 schema and judge-pending (`scripts/score_fintrust.py`, needs an OpenAI key).
+
+**Next phases:** follow `docs/next_phases_roadmap.md`. **Phase 5A hardening is complete**
+(2026-10-19 — frozen-hash manifests, path discovery, pinned env + Docker + `make test`,
+response schemas, 37-record synthetic safety regression set; see `docs/exp_5(a).md`).
+Next up is Phase 6 (safety data curation + adapter training); the current adapter is not
+approved for direct client use because Phase-4 found unresolved privacy, harmful-prompt,
+grounding, and format-leakage risks.
 
 ## Environment
 

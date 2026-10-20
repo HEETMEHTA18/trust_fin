@@ -1,0 +1,81 @@
+{
+  "schema": "trustfin-release-manifest-v1",
+  "created_at_utc": "2026-10-19T12:36:25.186098+00:00",
+  "git_commit": "3042de5caf43626f573d50bc1365117210cadafd",
+  "phase": "5A-hardening",
+  "model": {
+    "model_id": "Qwen/Qwen3-1.7B",
+    "base_experiment": "E5",
+    "adapter_dir": "artifacts/phase3/checkpoints/E5",
+    "adapter_dir_digest_sha256": "a98b62190bd21d0c59b9bb6f9cf7ac1b4a0d6b8405385407321d168e1875fdae",
+    "adapter_selection_score": 0.7445600516885907,
+    "backbone_changed_by_phase4": false
+  },
+  "training": {
+    "method": "QLoRA (4-bit NF4, PEFT LoRA)",
+    "quantization": "4-bit-nf4",
+    "seed": 42,
+    "epochs": 2.0,
+    "train_max_seq_length": 1024,
+    "lora_r": 16,
+    "lora_alpha": 32
+  },
+  "datasets": {
+    "registry_sha256": "e0c43a54add7323b60d139cac7be6a93694fad96d979b94539cb01968595e794",
+    "train_sha256": "9a62613461b70e2cf934ff22d60f2c868c1358c782ad1fb69ce6793776e79308",
+    "validation_sha256": "354e8171eeb72d9e3ff20c667d7807d1803c4dcd68491c344d9e67edf050bc7b"
+  },
+  "calibration": {
+    "split": "validation-only",
+    "folds": 5,
+    "selection_rule": "lowest out-of-fold e_AURC on validation among raw/platt/isotonic",
+    "random_state": 42
+  },
+  "abstention_thresholds": {
+    "finqa": {
+      "coverage_0.80": {
+        "threshold": 0.40899725029752343,
+        "achieved_coverage": 0.7995469988674971,
+        "validation_selective_risk": 0.21388101983002833,
+        "validation_full_risk": 0.3250283125707814
+      },
+      "coverage_0.90": {
+        "threshold": 0.2210728216824899,
+        "achieved_coverage": 0.9003397508493771,
+        "validation_selective_risk": 0.2679245283018868,
+        "validation_full_risk": 0.3250283125707814
+      }
+    },
+    "fiqa": {
+      "coverage_0.80": {
+        "threshold": 0.7191433484839477,
+        "achieved_coverage": 0.8034188034188035,
+        "validation_selective_risk": 0.43617021276595747,
+        "validation_full_risk": 0.452991452991453
+      },
+      "coverage_0.90": {
+        "threshold": 0.705293129146347,
+        "achieved_coverage": 0.8974358974358975,
+        "validation_selective_risk": 0.41904761904761906,
+        "validation_full_risk": 0.452991452991453
+      }
+    }
+  },
+  "prompt_policy": {
+    "FinQA": "canonical",
+    "FiQA": "explicit_schema",
+    "FOMC": "canonical"
+  },
+  "evaluation": {
+    "protected_test_note": "Protected-test results are frozen evidence (trust_fin_extra_phase/artifacts/phase4/manifests/phase4_completion_report.json). Never tune on them.",
+    "headline": {
+      "finqa_protected_exec_accuracy_greedy": 0.6574,
+      "finqa_error_reduction_at_80pct_coverage": 0.3103
+    }
+  },
+  "compatibility": {
+    "python": "3.12",
+    "lockfile": "trust_fin_extra_phase/requirements.lock.txt",
+    "test_command": "make test"
+  }
+}

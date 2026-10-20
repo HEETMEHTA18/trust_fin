@@ -1,0 +1,19 @@
+{
+  "FinQA": {
+    "n": 883,
+    "parse_success": 1.0,
+    "answer_accuracy": 0.3725934314835787,
+    "program_accuracy": 0.608154020385051,
+    "execution_accuracy": 0.6704416761041903,
+    "invalid_program_rate": 0.0045300113250282825,
+    "invalid_program_count": 4
+  },
+  "Efficiency": {
+    "n": 883,
+    "mean_latency_seconds": 1.5048722255492692,
+    "median_latency_seconds": 1.3997023369997803,
+    "tokens_per_second": 20.724680102727824,
+    "mean_prompt_tokens": 923.8142695356738,
+    "mean_generated_tokens": 31.187995469988675
+  }
+}

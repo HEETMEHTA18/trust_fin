@@ -1,0 +1,28 @@
+# TrustFin-SLM pinned research environment (Phase-5A, roadmap §11 step 3).
+# Python 3.12.3 · CUDA 13.0 GPU stack for training/evaluation on the RTX 4050.
+# The complete, byte-exact environment (202 packages) is requirements.lock.txt
+# (`pip freeze` of the venv that produced the frozen Phase-3/4 results).
+#
+# Install:   pip install -r requirements.txt          (research / GPU)
+# Offline tests only need:  pip install -r requirements-test.txt
+#
+# NOTE — recorded environment discrepancy: artifacts/phase3/manifests/environment.json
+# claims torch 2.13 / transformers 5.15; the venv that actually ran Phase 3/4
+# (and this lock) has torch 2.11.0+cu130 / transformers 5.5.0. The lock is
+# authoritative; the stale environment.json is frozen evidence and not edited.
+
+torch==2.11.0
+transformers==5.5.0
+peft==0.20.0
+bitsandbytes==0.50.1
+accelerate==1.14.0
+datasets==4.3.0
+numpy==2.5.2
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+jupyter==1.1.1
+nbconvert==7.17.1
+jsonschema==4.26.0
+openai==3.29.0

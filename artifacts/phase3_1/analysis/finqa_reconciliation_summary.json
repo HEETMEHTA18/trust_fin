@@ -1,0 +1,22 @@
+{
+  "n": 883,
+  "written_correct": 332,
+  "written_accuracy": 0.37599093997734995,
+  "executed_correct": 596,
+  "executed_accuracy": 0.6749716874292185,
+  "absolute_gain_pp": 29.898074745186857,
+  "bootstrap_95pct_gain_pp": [
+    26.953567383918458,
+    32.955832389580976
+  ],
+  "outcome_counts": {
+    "both_correct": 331,
+    "execution_only_correct": 265,
+    "text_only_correct": 1,
+    "both_wrong": 286
+  },
+  "text_and_execution_agree": 498,
+  "text_and_execution_disagree": 385,
+  "changed_by_execution": 382,
+  "warning": "Correct execution of a predicted program does not establish that the chosen program is correct."
+}

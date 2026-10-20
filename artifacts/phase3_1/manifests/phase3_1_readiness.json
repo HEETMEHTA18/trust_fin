@@ -1,0 +1,64 @@
+{
+  "phase": "Phase-3.1",
+  "mode": "full",
+  "core_offline_audit": "PASS",
+  "phase4_research_readiness": "CONDITIONAL_HOLD",
+  "frozen_model": "E5",
+  "frozen_model_name": "Qwen/Qwen3-1.7B",
+  "frozen_prompts": {
+    "FinQA": "canonical",
+    "FiQA": "explicit_schema"
+  },
+  "original_phase3_freeze_sha256": "6586a42de81bed2cc33b9a7fd860554f6484555f9c2b31d5bb3350686391e423",
+  "source": "validation-only Phase-3 predictions",
+  "no_protected_test_access": true,
+  "gates": [
+    {
+      "gate": "original E5 freeze preserved",
+      "status": "PASS"
+    },
+    {
+      "gate": "all E1–E11 + prompt ablation prediction IDs align",
+      "status": "PASS"
+    },
+    {
+      "gate": "all invalid-program rates repaired and bounded",
+      "status": "PASS"
+    },
+    {
+      "gate": "FinQA answer/program reconciliation exported",
+      "status": "PASS"
+    },
+    {
+      "gate": "frozen task-specific confidence analyzed",
+      "status": "PASS"
+    },
+    {
+      "gate": "full 1,000-example validation used",
+      "status": "PASS"
+    },
+    {
+      "gate": "Phase-2.1 validation data fingerprint verified",
+      "status": "PASS"
+    },
+    {
+      "gate": "original official FinQA re-execution",
+      "status": "PASS"
+    },
+    {
+      "gate": "E5 checkpoint fingerprinted",
+      "status": "PASS"
+    },
+    {
+      "gate": "7 FinTrust evaluator protocols mapped",
+      "status": "PENDING"
+    }
+  ],
+  "actions_if_conditional_hold": [
+    "Supply frozen original Phase-2.1 validation/registry and verify recorded hashes.",
+    "Re-execute the saved E5 programs using the official FinQA evaluator and dev source.",
+    "Verify the exact E5 adapter files and base-model revision.",
+    "Verify official FinTrust task-specific metric/evaluator implementations before Phase-4 protected evaluations."
+  ],
+  "next_phase": "Phase-4A verifier then Phase-4B calibrated selective prediction, validation-only before protected test."
+}

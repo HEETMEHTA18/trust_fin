@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "path": "/home/heet18/Downloads/Research Papers/artifacts/phase3/checkpoints/E5",
+  "adapter_base_model": "Qwen/Qwen3-1.7B",
+  "expected_base_model": "Qwen/Qwen3-1.7B",
+  "weight_files_present": true,
+  "base_model_matches": true,
+  "files": [
+    {
+      "relative_path": "README.md",
+      "size_bytes": 5184,
+      "sha256": "9c16b7d5cbcd4e4f5060780db5dd68a18c3a3668fabcd564cf3fe34286d3310e"
+    },
+    {
+      "relative_path": "adapter_config.json",
+      "size_bytes": 1148,
+      "sha256": "6f9b3fb596ed41292e0d3ce0a927f111a1ab2533d0ce237963e0934b706cc6b9"
+    },
+    {
+      "relative_path": "adapter_model.safetensors",
+      "size_bytes": 69782384,
+      "sha256": "c7e6273e304d5b1bb8cd46695ffe0da2379dc68773f009d20d74861c3aa7167b"
+    },
+    {
+      "relative_path": "chat_template.jinja",
+      "size_bytes": 4168,
+      "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+    },
+    {
+      "relative_path": "tokenizer.json",
+      "size_bytes": 11422650,
+      "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+    },
+    {
+      "relative_path": "tokenizer_config.json",
+      "size_bytes": 665,
+      "sha256": "47bfa3e7727312946b29ac10d6dd0672d63cf7815b2a160b9523872040d2e536"
+    }
+  ],
+  "model_revision_note": "Pin underlying HF commit revision before final reproducibility release."
+}

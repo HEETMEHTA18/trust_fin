@@ -1,0 +1,4 @@
+# Minimal, platform-independent set for the offline test suite (`make test`
+# and the Dockerfile). No torch/GPU: every test in trust_fin_extra_phase/tests
+# is designed to run offline on CPU without model weights.
+-r requirements-test.txt
