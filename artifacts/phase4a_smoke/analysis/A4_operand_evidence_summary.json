@@ -1,0 +1,8 @@
+{
+  "n": 35,
+  "evidence_provenance": "RECOMPUTED_FROM_PHASE2_1_VALIDATION",
+  "unmatched_any_n": 0,
+  "unmatched_literals_total": 0,
+  "document_literal_presence_is_not_semantic_grounding": true,
+  "original_input_recomputed": true
+}

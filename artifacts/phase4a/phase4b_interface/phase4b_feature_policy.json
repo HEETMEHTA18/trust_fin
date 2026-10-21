@@ -1,0 +1,88 @@
+{
+  "schema_version": "trustfin.phase4a.v1",
+  "phase3_frozen_backbone": "E5",
+  "primary_model": "Qwen/Qwen3-1.7B",
+  "validation_only": true,
+  "fit_split": "calibration_fit",
+  "holdout_split": "calibration_holdout",
+  "forbidden_feature_names": [
+    "record_id",
+    "source_id",
+    "calibration_fold",
+    "gold_program",
+    "gold_answer",
+    "gold_sentiment",
+    "absolute_error",
+    "execution_correct",
+    "written_correct",
+    "corrected_correct",
+    "execution_correct_validation_label",
+    "program_exact_match_validation_label"
+  ],
+  "FinQA": {
+    "core_features": [
+      "source_likelihood",
+      "prompt_tokens",
+      "prompt_truncation_observed"
+    ],
+    "deterministic_rejection_gates": [
+      "official_executable_feature",
+      "program_structural_valid"
+    ],
+    "ablation_only_features": [
+      "generated_tokens",
+      "program_step_count",
+      "program_literal_count",
+      "program_reference_count",
+      "has_division",
+      "has_table_operation",
+      "answer_execution_agreement_feature"
+    ],
+    "grounding_features_conditional_on_recomputation": [
+      "any_literal_unmatched",
+      "unmatched_literal_count",
+      "literal_presence_fraction"
+    ],
+    "optional_full_evidence_features": [
+      "literal_in_table_count",
+      "max_question_local_overlap"
+    ],
+    "fit_only_findings": {
+      "source_likelihood_AUC_correctness": 0.5845067756832463,
+      "unmatched_literal_error_rate_fit": 0.875,
+      "agreement_is_weak_risk_predictor": true
+    },
+    "target": "execution_correct",
+    "recommended_baselines": [
+      "raw_token_confidence",
+      "execution_only",
+      "execution_plus_heuristic",
+      "simple_logistic_risk_calibrator"
+    ],
+    "caution": "Do not claim logical/semantic correctness from numeric presence or answer-program agreement."
+  },
+  "FiQA": {
+    "features": [
+      "source_likelihood",
+      "generated_tokens",
+      "prompt_tokens",
+      "sentiment_pred_clipped",
+      "score_near_boundary",
+      "parse_ok"
+    ],
+    "target": "absolute_error or well-calibrated residual interval",
+    "recommended_baselines": [
+      "constant_uncertainty",
+      "raw_likelihood",
+      "simple_regression_uncertainty"
+    ],
+    "caution": "FiQA is regression, not classification; evaluate selective MAE and interval coverage."
+  },
+  "feature_provenance": "RECOMPUTED_FROM_PHASE2_1_VALIDATION",
+  "grounding_parity_ready": true,
+  "finalization_scope": "Feature candidate policy frozen for Phase-4B fitting; no risk model or threshold fitted in Phase-4A.",
+  "no_gold_label_in_model_features": true,
+  "phase4b_model_fit_only_on_calibration_fit": true,
+  "phase4b_holdout_use": "one-pass evaluation after hyperparameters frozen",
+  "protected_test_sets": "never used by this notebook"
+}

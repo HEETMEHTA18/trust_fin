@@ -1,0 +1,15 @@
+{"record_id": "fiqa::valid::17425", "calibration_fold": "calibration_fit", "gold_sentiment": 0.457, "absolute_error": 0.751}
+{"record_id": "fiqa::valid::17431", "calibration_fold": "calibration_fit", "gold_sentiment": -0.267, "absolute_error": 0.07300000000000001}
+{"record_id": "fiqa::valid::17436", "calibration_fold": "calibration_fit", "gold_sentiment": 0.26, "absolute_error": 0.006000000000000005}
+{"record_id": "fiqa::valid::17437", "calibration_fold": "calibration_fit", "gold_sentiment": 0.279, "absolute_error": 0.11599999999999999}
+{"record_id": "fiqa::valid::17446", "calibration_fold": "calibration_holdout", "gold_sentiment": 0.571, "absolute_error": 0.15099999999999997}
+{"record_id": "fiqa::valid::17453", "calibration_fold": "calibration_fit", "gold_sentiment": -0.401, "absolute_error": 0.15700000000000003}
+{"record_id": "fiqa::valid::17455", "calibration_fold": "calibration_fit", "gold_sentiment": 0.358, "absolute_error": 0.062}
+{"record_id": "fiqa::valid::17457", "calibration_fold": "calibration_fit", "gold_sentiment": 0.598, "absolute_error": 0.07799999999999996}
+{"record_id": "fiqa::valid::17471", "calibration_fold": "calibration_fit", "gold_sentiment": -0.539, "absolute_error": 0.06900000000000006}
+{"record_id": "fiqa::valid::17477", "calibration_fold": "calibration_fit", "gold_sentiment": -0.374, "absolute_error": 0.02100000000000002}
+{"record_id": "fiqa::valid::17508", "calibration_fold": "calibration_fit", "gold_sentiment": -0.227, "absolute_error": 0.012999999999999984}
+{"record_id": "fiqa::valid::17512", "calibration_fold": "calibration_fit", "gold_sentiment": 0.525, "absolute_error": 0.13}
+{"record_id": "fiqa::valid::17514", "calibration_fold": "calibration_holdout", "gold_sentiment": 0.341, "absolute_error": 0.123}
+{"record_id": "fiqa::valid::17525", "calibration_fold": "calibration_holdout", "gold_sentiment": 0.504, "absolute_error": 0.10899999999999999}
+{"record_id": "fiqa::valid::17539", "calibration_fold": "calibration_fit", "gold_sentiment": 0.335, "absolute_error": 0.06}

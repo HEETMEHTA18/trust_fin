@@ -1,0 +1,12 @@
+feature,feature_value,n,execution_correct_n,execution_accuracy
+official_executable_feature,1,29,22,0.7586206896551724
+program_structural_valid,1,29,22,0.7586206896551724
+any_literal_unmatched,0,29,22,0.7586206896551724
+answer_execution_agreement_feature,0,10,6,0.6
+answer_execution_agreement_feature,1,19,16,0.8421052631578947
+prompt_truncation_observed,0,16,11,0.6875
+prompt_truncation_observed,1,13,11,0.8461538461538461
+has_division,0,11,9,0.8181818181818182
+has_division,1,18,13,0.7222222222222222
+has_table_operation,0,25,19,0.76
+has_table_operation,1,4,3,0.75

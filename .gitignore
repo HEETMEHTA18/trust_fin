@@ -44,3 +44,4 @@ venv/
 
 # --- Duplicate notebook outputs (canonical run lives in artifacts/phase3_1/) ---
 notebooks/artifacts/
+AGENTS.md

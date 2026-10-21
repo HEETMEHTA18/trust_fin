@@ -1,0 +1,102 @@
+[
+  {
+    "relative_path": "Phase4A_Student_Summary.md",
+    "sha256": "f9c4606203ef021a768b179ced6b2e6d47f0696685282627ebd736a69486de2d",
+    "size_bytes": 1469
+  },
+  {
+    "relative_path": "analysis/A1_A2_reconciliation.json",
+    "sha256": "6ee92ef1d8663faf4fea4f0b63843e9c77d153bcc7e630033a8a63ce00b506ee",
+    "size_bytes": 452
+  },
+  {
+    "relative_path": "analysis/A3_program_structure_cases.csv",
+    "sha256": "b2638a83bd71a9107cceb8e8c1a59080f8b570a42470727c802438339b772c6a",
+    "size_bytes": 2140
+  },
+  {
+    "relative_path": "analysis/A3_program_structure_summary.json",
+    "sha256": "52d61bf1c2561acd31de5220443cefcc8dd55a95d030fd0874bcedb74faf5e1b",
+    "size_bytes": 332
+  },
+  {
+    "relative_path": "analysis/A4_operand_evidence_cases.csv",
+    "sha256": "52c8c9409c09b9622bc744f26997885f91eeac9e474872c5d5c83686df5c9c44",
+    "size_bytes": 9189
+  },
+  {
+    "relative_path": "analysis/A4_operand_evidence_summary.json",
+    "sha256": "b22a5a9fe33c68075455fa883de37f707e0e7a2b3441fe050613c468e01f3e9c",
+    "size_bytes": 234
+  },
+  {
+    "relative_path": "labels/phase4b_finqa_labels.jsonl",
+    "sha256": "ea8e87930d89405669f74b8404b58be0147a9b06da714a89dea22c1f4c4d6f86",
+    "size_bytes": 5853
+  },
+  {
+    "relative_path": "labels/phase4b_fiqa_labels.jsonl",
+    "sha256": "afea19ad19a193d5b87979995584ccacffcc73a7dab7f09dc3c5700f77006047",
+    "size_bytes": 2031
+  },
+  {
+    "relative_path": "manifests/adapter_verification_status.json",
+    "sha256": "f20e093d8ce4e6bd0ddaf30ced1b392c4351963bcf54018009014e56e9a7cb01",
+    "size_bytes": 124
+  },
+  {
+    "relative_path": "manifests/artifact_inventory.json",
+    "sha256": "c6fc16311f6acbc34030716481610678c180d34030c302b6f1b44c11c5beba4c",
+    "size_bytes": 3169
+  },
+  {
+    "relative_path": "manifests/input_fingerprints.json",
+    "sha256": "7a3f58bac99bcbba6efd0b747dd73b0bd9b1366013d4dcc22491e1cc87bc6fa2",
+    "size_bytes": 368
+  },
+  {
+    "relative_path": "manifests/live_evaluator_status.json",
+    "sha256": "05ef4ffcb23e91fad58cffdd0f2014861af17cc803969945113cfc12c585d591",
+    "size_bytes": 112
+  },
+  {
+    "relative_path": "manifests/phase4a_readiness.json",
+    "sha256": "1f31b0fc31d871e0593b5391db5178f3308611045662e6b68576378e7f6d4573",
+    "size_bytes": 1060
+  },
+  {
+    "relative_path": "phase4b_interface/phase4b_feature_policy.json",
+    "sha256": "1fc47b5967ca25001dd59c7f2dd289c1989c1753a204fa3c9400ddfd48123add",
+    "size_bytes": 2787
+  },
+  {
+    "relative_path": "phase4b_interface/phase4b_finqa_features.jsonl",
+    "sha256": "7f714952b5ba052585b2fed2cb82b58352da56d92ce94ca3ae71e45b9e23b00f",
+    "size_bytes": 29379
+  },
+  {
+    "relative_path": "phase4b_interface/phase4b_fiqa_features.jsonl",
+    "sha256": "d92ccb1576ad02ae0e2be63c4258a8b0697aa8ae279cbe8f52762a528a565fe1",
+    "size_bytes": 4478
+  },
+  {
+    "relative_path": "plots/A1_A2_accuracy.png",
+    "sha256": "dde9434f31b863eee66ef1422f39a38f76b8c6fc23992e5608bb86bd4ed421ca",
+    "size_bytes": 35559
+  },
+  {
+    "relative_path": "plots/A5_feature_discrimination.png",
+    "sha256": "c1b460b5905f0524435b30d094cd7fa5b28abf8f1070ea84ae477144041538f2",
+    "size_bytes": 77711
+  },
+  {
+    "relative_path": "tables/A5_fit_feature_diagnostics.csv",
+    "sha256": "31b363a20cd165b76ed9948892f0bc45170c043f67eb762fef154fa70ab660bb",
+    "size_bytes": 1732
+  },
+  {
+    "relative_path": "tables/A5_fit_subgroup_accuracy.csv",
+    "sha256": "ea980a1a0135fba4c263074672e887441f1a48a2c64e59acf90dff30d8337ed8",
+    "size_bytes": 566
+  }
+]

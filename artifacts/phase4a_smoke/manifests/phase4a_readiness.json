@@ -1,0 +1,25 @@
+{
+  "phase": "Phase-4A",
+  "run_mode": "smoke",
+  "core_phase4a_status": "SMOKE_PASS",
+  "research_full_grounding_status": "PASS",
+  "independent_new_official_execution": "NOT_RUN",
+  "local_adapter_fingerprints": "NOT_AVAILABLE_LOCALLY",
+  "fintrust_protocol_status": "OUT_OF_SCOPE_PHASE4A_PRESERVE_PHASE3_1_HOLD",
+  "risk_feature_policy_status": "NOT_FROZEN",
+  "n_finqa": 35,
+  "n_fiqa": 15,
+  "source_fingerprint": {
+    "phase3_zip_sha256": "17fe3f9882219b7c8a7997c67554f5bcb62c5909e955e6d5dae8df5e9a4506fa",
+    "phase3_1_zip_sha256": "3d72d7edfbc3d847ecc98a4653a14264ceb70a97da17b8a9cd8f0e4a3487d616",
+    "phase3_freeze_sha256": "6586a42de81bed2cc33b9a7fd860554f6484555f9c2b31d5bb3350686391e423",
+    "handoff_sha256": "9ad66d6c83dcf966cb6c1ccb1ea918bb79969eb7d15c79cff5ae3ac47f6def5f"
+  },
+  "issues": [],
+  "notes": [
+    "All findings are validation-only.",
+    "Features and targets are stored separately.",
+    "Grounding literal presence does not establish semantic correctness.",
+    "No new training or protected-test evaluation was run."
+  ]
+}

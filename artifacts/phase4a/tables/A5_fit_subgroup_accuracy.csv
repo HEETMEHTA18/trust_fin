@@ -1,0 +1,15 @@
+feature,feature_value,n,execution_correct_n,execution_accuracy
+official_executable_feature,0,2,0,0.0
+official_executable_feature,1,696,476,0.6839080459770115
+program_structural_valid,0,2,0,0.0
+program_structural_valid,1,696,476,0.6839080459770115
+any_literal_unmatched,0,682,474,0.6950146627565983
+any_literal_unmatched,1,16,2,0.125
+answer_execution_agreement_feature,0,305,208,0.6819672131147541
+answer_execution_agreement_feature,1,393,268,0.6819338422391857
+prompt_truncation_observed,0,333,239,0.7177177177177178
+prompt_truncation_observed,1,365,237,0.6493150684931507
+has_division,0,207,134,0.6473429951690821
+has_division,1,491,342,0.6965376782077393
+has_table_operation,0,677,457,0.6750369276218612
+has_table_operation,1,21,19,0.9047619047619048
