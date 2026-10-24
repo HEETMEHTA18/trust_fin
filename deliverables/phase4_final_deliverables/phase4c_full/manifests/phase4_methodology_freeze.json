@@ -1,0 +1,17 @@
+{
+  "phase": "Phase-4C",
+  "status": "PASS_METHODOLOGY_FROZEN",
+  "base_model": "Qwen/Qwen3-1.7B",
+  "frozen_sft_experiment": "E5",
+  "risk_policy": "B1_raw",
+  "selected_on": "Phase-4B calibration-fit OOF only",
+  "threshold": 0.8472787383161494,
+  "target_coverage": 0.8,
+  "deterministic_gate": [
+    "official_executable_feature",
+    "program_structural_valid"
+  ],
+  "FiQA_policy_file": "Phase-4B B6_fiqa_policy.json",
+  "protect_test": "Do not access protected FinQA/FiQA/FOMC/FinTrust tests until methodology freeze is reviewed.",
+  "limitation": "Any claim of TrustFin-SLM superiority must come from observed, verified test estimates."
+}

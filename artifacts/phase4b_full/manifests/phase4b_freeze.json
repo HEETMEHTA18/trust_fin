@@ -1,0 +1,93 @@
+{
+  "schema": "trustfin.phase4b.v1",
+  "status": "PASS_FROZEN",
+  "source_phase4a": "/home/heet18/Downloads/Research Papers/artifacts/phase4a",
+  "source_sha256": null,
+  "source_component_hashes": {
+    "policy": "4dbfb03dcfa16559e2cb3d68bfc329835b058564d6cc8f760894682fb3231c7c",
+    "readiness": "d293bbf5b4863a217a4716a6e0b5641780883c22b5c1ff1f9e26961ab9314b09",
+    "finqa_features": "cfea556c315448eee5702356d1e978568eb188898c6a2dc0c2d112c944cfa019",
+    "finqa_labels": "3cbccde0837ec180a6bcfcc93e1cf77b0545d2da52e76d2886cf67799a9a4de1",
+    "fiqa_features": "1b51da3b7eac1c55bd04125c3582be9c9182b38dc109532ee231fc67d8b9f851",
+    "fiqa_labels": "0f57b38e274c6fc8d35faba53a93f43cc17bbaaa044871b5ef42a48592f66e5c"
+  },
+  "winner_from_fit_oof": "B1_raw",
+  "fit_only_selection": {
+    "winner": "B1_raw",
+    "criteria": "minimum fit-OOF AURC, Brier as tie-breaker",
+    "target_coverage": 0.8,
+    "thresholds_from_fit_oof": {
+      "B1_raw": 0.8472787383161494,
+      "B2_likelihood": 0.6352704438292418,
+      "B3_verifier": 0.6304754650623443,
+      "B4_grounding": 0.6442850530481654
+    },
+    "feature_sets": {
+      "B1_raw": [
+        "source_likelihood"
+      ],
+      "B2_likelihood": [
+        "source_likelihood"
+      ],
+      "B3_verifier": [
+        "source_likelihood",
+        "prompt_tokens",
+        "prompt_truncation_observed",
+        "official_executable_feature",
+        "program_structural_valid"
+      ],
+      "B4_grounding": [
+        "source_likelihood",
+        "prompt_tokens",
+        "prompt_truncation_observed",
+        "official_executable_feature",
+        "program_structural_valid",
+        "any_literal_unmatched",
+        "unmatched_literal_count",
+        "literal_presence_fraction",
+        "max_question_local_overlap"
+      ]
+    },
+    "no_label_features": true,
+    "fit_sample_count": 698,
+    "seed": 42,
+    "run_mode": "full",
+    "holdout_not_used_for_selection": true,
+    "grounding_source": "PASS"
+  },
+  "fiqa_uncertainty_policy": {
+    "features": [
+      "source_likelihood",
+      "generated_tokens",
+      "prompt_tokens",
+      "sentiment_pred_clipped",
+      "score_near_boundary",
+      "parse_ok"
+    ],
+    "alpha": 10.0,
+    "target": "absolute_error",
+    "fit_oof_90th_percentile_absolute_error": 0.2571000000000001,
+    "holdout_empirical_interval_coverage": 0.96,
+    "interval_guarantee": "none; descriptive fit OOF quantile, not formal conformal prediction",
+    "target_coverage": 0.8,
+    "fit_thresholds": {
+      "B6_constant": -0.12805434782608693,
+      "B6_likelihood": 0.7170333398600385,
+      "B6_ridge_error": -0.15806534385305196
+    }
+  },
+  "seed": 42,
+  "models": {
+    "B1_raw": null,
+    "B2_likelihood": "/home/heet18/Downloads/Research Papers/artifacts/phase4b_full/models/B2_likelihood.joblib",
+    "B3_verifier": "/home/heet18/Downloads/Research Papers/artifacts/phase4b_full/models/B3_verifier.joblib",
+    "B4_grounding": "/home/heet18/Downloads/Research Papers/artifacts/phase4b_full/models/B4_grounding.joblib"
+  },
+  "reports_relative_to_output_root": {
+    "holdout_scores": "predictions/B1_B4_finqa_holdout_scores.csv",
+    "fiqa_scores": "predictions/B6_fiqa_holdout_scores.csv",
+    "holdout_metrics": "tables/B7_model_diagnostics.csv",
+    "risk_coverage": "tables/B5_risk_coverage.csv"
+  },
+  "holdout_was_not_used_for_model_or_threshold_selection": true
+}

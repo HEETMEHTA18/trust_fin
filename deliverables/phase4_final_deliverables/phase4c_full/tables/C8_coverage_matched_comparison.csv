@@ -1,0 +1,5 @@
+method,n,accepted,coverage,matched_count_selective_risk,warning
+B4_grounding,185,148,0.8,0.32432432432432434,"If all valid < target k, some invalid enter rank tail; see valid count."
+B3_verifier,185,148,0.8,0.33108108108108103,"If all valid < target k, some invalid enter rank tail; see valid count."
+B1_raw,185,148,0.8,0.3581081081081081,"If all valid < target k, some invalid enter rank tail; see valid count."
+B2_likelihood,185,148,0.8,0.3581081081081081,"If all valid < target k, some invalid enter rank tail; see valid count."

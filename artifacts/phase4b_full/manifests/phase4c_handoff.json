@@ -1,0 +1,42 @@
+{
+  "schema": "trustfin.phase4c.v1",
+  "phase4b_root": "/home/heet18/Downloads/Research Papers/artifacts/phase4b_full",
+  "phase4b_freeze": "manifests/phase4b_freeze.json",
+  "phase4a_source": "/home/heet18/Downloads/Research Papers/artifacts/phase4a",
+  "source_kind": "directory",
+  "finqa_feature_sets": {
+    "B1_raw": [
+      "source_likelihood"
+    ],
+    "B2_likelihood": [
+      "source_likelihood"
+    ],
+    "B3_verifier": [
+      "source_likelihood",
+      "prompt_tokens",
+      "prompt_truncation_observed",
+      "official_executable_feature",
+      "program_structural_valid"
+    ],
+    "B4_grounding": [
+      "source_likelihood",
+      "prompt_tokens",
+      "prompt_truncation_observed",
+      "official_executable_feature",
+      "program_structural_valid",
+      "any_literal_unmatched",
+      "unmatched_literal_count",
+      "literal_presence_fraction",
+      "max_question_local_overlap"
+    ]
+  },
+  "fiqa_features": [
+    "source_likelihood",
+    "generated_tokens",
+    "prompt_tokens",
+    "sentiment_pred_clipped",
+    "score_near_boundary",
+    "parse_ok"
+  ],
+  "no_protected_test": true
+}

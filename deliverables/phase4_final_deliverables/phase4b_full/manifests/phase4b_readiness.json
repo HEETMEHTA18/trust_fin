@@ -1,0 +1,24 @@
+{
+  "phase": "Phase-4B",
+  "run_mode": "full",
+  "status": "PASS_FROZEN",
+  "gates": {
+    "phase4a_core_pass": true,
+    "phase4a_grounding_recomputed": true,
+    "finqa_record_alignment": true,
+    "fiqa_record_alignment": true,
+    "fit_holdout_fixed": true,
+    "fit_only_winner_frozen": true,
+    "no_gold_in_features": true,
+    "all_B1_to_B8_outputs_present": true
+  },
+  "fit_selection_winner": "B1_raw",
+  "holdout_never_used_to_select_winner": true,
+  "protected_test_sets_used": false,
+  "limitations": [
+    "The 185/25 holdouts are internal validation, not protected test sets.",
+    "FiQA interval is descriptive; do not claim formal conformal guarantee.",
+    "Source-based numerical presence is not semantic grounding.",
+    "Do not retune based on these holdout outputs."
+  ]
+}

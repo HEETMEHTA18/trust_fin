@@ -1,0 +1,2 @@
+comparison,n,absolute_accuracy_difference,bootstrap_95ci_low,bootstrap_95ci_high,discordant_written_wrong_execution_right,discordant_written_right_execution_wrong,exact_mcnemar_p
+C2_execution versus C1_written,883,0.2989807474518686,0.2695356738391846,0.3295583238958098,265,1,4.50362696134808e-78

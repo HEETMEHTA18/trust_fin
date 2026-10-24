@@ -1,0 +1,2 @@
+component,sample_count,mean_latency_seconds,latency_source,verifier_additional_latency_seconds,calibrator_additional_latency_seconds
+Frozen E5 generation (Phase-3 observed),1000,1.1793237924699898,Phase-3 original inference logs,NOT_MEASURED,NOT_MEASURED

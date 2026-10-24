@@ -1,0 +1,9 @@
+method,dataset,n,accepted,coverage,selective_accuracy,selective_risk,selection_note
+C2_execution_only,FinQA,185,185,1.0,0.6486486486486487,0.3513513513513513,Phase-4B fit-only threshold; Phase-4C holdout evaluated once
+C3_structural_gate,FinQA,185,184,0.9945945945945946,0.6521739130434783,0.34782608695652173,Phase-4B fit-only threshold; Phase-4C holdout evaluated once
+C3_grounding_gate,FinQA,185,179,0.9675675675675676,0.664804469273743,0.33519553072625696,Phase-4B fit-only threshold; Phase-4C holdout evaluated once
+C4_likelihood_B1_raw,FinQA,185,151,0.8162162162162162,0.6490066225165563,0.3509933774834437,Phase-4B fit-only threshold; Phase-4C holdout evaluated once
+C6_full_frozen,FinQA,185,151,0.8162162162162162,0.6490066225165563,0.3509933774834437,Phase-4B fit-only threshold; Phase-4C holdout evaluated once
+C4_likelihood_B2_likelihood,FinQA,185,151,0.8162162162162162,0.6490066225165563,0.3509933774834437,Phase-4B fit-only threshold; Phase-4C holdout evaluated once
+C5_verifier_B3_verifier,FinQA,185,144,0.7783783783783784,0.6666666666666666,0.33333333333333337,Phase-4B fit-only threshold; Phase-4C holdout evaluated once
+C5_verifier_B4_grounding,FinQA,185,147,0.7945945945945946,0.673469387755102,0.326530612244898,Phase-4B fit-only threshold; Phase-4C holdout evaluated once

@@ -1,0 +1,28 @@
+{
+  "phase": "Phase-4C",
+  "status": "PASS_METHODOLOGY_FROZEN",
+  "gates": {
+    "phase4b_full_frozen": true,
+    "e5_baseline_1000": true,
+    "finqa_holdout_185": true,
+    "fiqa_holdout_25": true,
+    "no_holdout_retraining": true,
+    "no_threshold_refitting": true,
+    "all_C1_to_C10_tables_written": true
+  },
+  "winner_risk_policy": "B1_raw",
+  "fixed_coverage": 0.8,
+  "n_finqa_holdout": 185,
+  "n_fiqa_holdout": 25,
+  "protected_test_sets_used": false,
+  "fintrust_final_protocol": "NOT_VERIFIED",
+  "no_claim_of_superiority_without_effect_estimate": true,
+  "verifier_aware_policy_selected": false,
+  "novelty_status": "NOT_SUPPORTED_BY_FIT_ONLY_SELECTION",
+  "cautions": [
+    "This is validation-holdout evidence, not a protected test result.",
+    "Phase-4B already reported holdout; no new independent holdout exists.",
+    "Full TrustFin-SLM may not beat execution-only or likelihood baseline.",
+    "Grounding is numerical presence, not complete semantic grounding."
+  ]
+}

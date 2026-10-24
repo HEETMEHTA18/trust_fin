@@ -1,0 +1,21 @@
+{
+  "features": [
+    "source_likelihood",
+    "generated_tokens",
+    "prompt_tokens",
+    "sentiment_pred_clipped",
+    "score_near_boundary",
+    "parse_ok"
+  ],
+  "alpha": 10.0,
+  "target": "absolute_error",
+  "fit_oof_90th_percentile_absolute_error": 0.2571000000000001,
+  "holdout_empirical_interval_coverage": 0.96,
+  "interval_guarantee": "none; descriptive fit OOF quantile, not formal conformal prediction",
+  "target_coverage": 0.8,
+  "fit_thresholds": {
+    "B6_constant": -0.12805434782608693,
+    "B6_likelihood": 0.7170333398600385,
+    "B6_ridge_error": -0.15806534385305196
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "comparison": "B1_raw minus raw likelihood, at equal selected count",
+  "diff_negative_is_better": 0.0,
+  "95_ci": [
+    0.0,
+    0.0
+  ],
+  "n_bootstrap": 2000,
+  "selection_condition": "fit-only winner frozen"
+}

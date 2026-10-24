@@ -45,11 +45,6 @@
     "size_bytes": 124
   },
   {
-    "relative_path": "manifests/artifact_inventory.json",
-    "sha256": "c6fc16311f6acbc34030716481610678c180d34030c302b6f1b44c11c5beba4c",
-    "size_bytes": 3169
-  },
-  {
     "relative_path": "manifests/input_fingerprints.json",
     "sha256": "7a3f58bac99bcbba6efd0b747dd73b0bd9b1366013d4dcc22491e1cc87bc6fa2",
     "size_bytes": 368

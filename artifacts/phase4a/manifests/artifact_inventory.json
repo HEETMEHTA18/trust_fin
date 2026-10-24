@@ -76,12 +76,12 @@
   },
   {
     "relative_path": "plots/A1_A2_accuracy.png",
-    "sha256": "2068cb849cb9271686a64c2642ad51da9897b1d24ce4cec42b77563b3a6a1ebd",
+    "sha256": "d0ef8afc68c5648cd132f88cb47d4974780fe67878a08bb5c49ae426672c58bd",
     "size_bytes": 35608
   },
   {
     "relative_path": "plots/A5_feature_discrimination.png",
-    "sha256": "1885e4086a4ea9d599c1a34b3b24f385f094fbd9a7a3a2e6fd6bc9a74cd79da2",
+    "sha256": "35fececff5b605042f1fb046e987e500f9b86dc57a6c2766468f14698599d2f3",
     "size_bytes": 70058
   },
   {

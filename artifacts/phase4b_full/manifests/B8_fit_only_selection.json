@@ -1,0 +1,43 @@
+{
+  "winner": "B1_raw",
+  "criteria": "minimum fit-OOF AURC, Brier as tie-breaker",
+  "target_coverage": 0.8,
+  "thresholds_from_fit_oof": {
+    "B1_raw": 0.8472787383161494,
+    "B2_likelihood": 0.6352704438292418,
+    "B3_verifier": 0.6304754650623443,
+    "B4_grounding": 0.6442850530481654
+  },
+  "feature_sets": {
+    "B1_raw": [
+      "source_likelihood"
+    ],
+    "B2_likelihood": [
+      "source_likelihood"
+    ],
+    "B3_verifier": [
+      "source_likelihood",
+      "prompt_tokens",
+      "prompt_truncation_observed",
+      "official_executable_feature",
+      "program_structural_valid"
+    ],
+    "B4_grounding": [
+      "source_likelihood",
+      "prompt_tokens",
+      "prompt_truncation_observed",
+      "official_executable_feature",
+      "program_structural_valid",
+      "any_literal_unmatched",
+      "unmatched_literal_count",
+      "literal_presence_fraction",
+      "max_question_local_overlap"
+    ]
+  },
+  "no_label_features": true,
+  "fit_sample_count": 698,
+  "seed": 42,
+  "run_mode": "full",
+  "holdout_not_used_for_selection": true,
+  "grounding_source": "PASS"
+}

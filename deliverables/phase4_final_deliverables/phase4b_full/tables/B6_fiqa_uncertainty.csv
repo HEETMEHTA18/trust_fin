@@ -1,0 +1,4 @@
+method,partition,requested_coverage,coverage,accepted,selective_mae,full_mae,spearman_score_negative_error
+B6_constant,holdout,0.8,1.0,25,0.12448000000000001,0.12448000000000001,
+B6_likelihood,holdout,0.8,0.76,19,0.10099999999999999,0.12448000000000001,0.03846153846153846
+B6_ridge_error,holdout,0.8,0.72,18,0.13277777777777777,0.12448000000000001,0.12384615384615384
