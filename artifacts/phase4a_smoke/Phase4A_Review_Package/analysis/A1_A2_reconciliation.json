@@ -1,0 +1,15 @@
+{
+  "n": 35,
+  "written_answer_accuracy": 0.6285714285714286,
+  "executed_program_answer_accuracy": 0.7714285714285715,
+  "corrected_output_accuracy": 0.7714285714285715,
+  "execution_validity": 1.0,
+  "answer_execution_agreement": 0.7142857142857143,
+  "execution_minus_written_gain_pp": 14.28571428571429,
+  "reconciliation_outcomes": {
+    "both_correct": 21,
+    "both_wrong": 7,
+    "execution_only_correct": 6,
+    "written_only_correct": 1
+  }
+}
