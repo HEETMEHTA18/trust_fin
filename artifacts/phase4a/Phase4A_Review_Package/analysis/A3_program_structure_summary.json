@@ -1,0 +1,20 @@
+{
+  "n": 883,
+  "structural_valid_n": 880,
+  "program_executable_n": 880,
+  "issue_counts": {
+    "unsupported_operand_token": 2,
+    "table_arity": 1
+  },
+  "step_count_distribution": {
+    "1": 559,
+    "2": 267,
+    "3": 32,
+    "4": 4,
+    "5": 19,
+    "6": 1,
+    "7": 1
+  },
+  "mismatch_structural_to_official": 0,
+  "caution": "Structural grammar is an additional verifier feature; the official executor remains authoritative."
+}

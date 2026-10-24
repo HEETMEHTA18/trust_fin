@@ -76,17 +76,25 @@
   },
   {
     "relative_path": "plots/A1_A2_accuracy.png",
+<<<<<<< HEAD
     "sha256": "d0ef8afc68c5648cd132f88cb47d4974780fe67878a08bb5c49ae426672c58bd",
+=======
+    "sha256": "006e9f86a1424578e900e035eca0c52b391df6bec55f10d1c090416b18b7278c",
+>>>>>>> cc55ec767608941a3cd836b7c85fc486a998ec72
     "size_bytes": 35608
   },
   {
     "relative_path": "plots/A5_feature_discrimination.png",
+<<<<<<< HEAD
     "sha256": "35fececff5b605042f1fb046e987e500f9b86dc57a6c2766468f14698599d2f3",
+=======
+    "sha256": "3d914244ef9348a434c0ce5bcebf5adf6b8050012c711c31479add419caeb407",
+>>>>>>> cc55ec767608941a3cd836b7c85fc486a998ec72
     "size_bytes": 70058
   },
   {
     "relative_path": "tables/A5_fit_feature_diagnostics.csv",
-    "sha256": "768d1959c64d719d55c6e83b64bbbb51f6a17e7653de01ecb17ef636f88802e1",
+    "sha256": "d855bf5b4cccae4dd2ccfd75bec75f4ccd20e85a4abefdabc2e52ae9c17099df",
     "size_bytes": 2029
   },
   {
