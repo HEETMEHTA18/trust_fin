@@ -1,0 +1,3 @@
+method,threshold_frozen_on_fit,holdout_accepted,holdout_realized_coverage,holdout_selective_risk,interpretation
+B1_prior,0.8463585077811437,152,0.8216216216216217,0.34868421052631576,descriptive; threshold was frozen before examining holdout scores
+I9_new_candidate,0.6327796030180926,142,0.7675675675675676,0.2676056338028169,descriptive; threshold was frozen before examining holdout scores

@@ -1,0 +1,13 @@
+{
+  "phase4a_zip": "/home/heet18/Downloads/Research Papers/artifacts/phase4a/Phase4A_Review_Package.zip",
+  "phase4a_sha256": "9b792fcf0824d8b7e02f63e4588064411883da15a6dc5a611aa0b2c50c300b66",
+  "phase4b_zip": "/home/heet18/Downloads/Research Papers/artifacts/phase4b_full/Phase4B_Review_Package.zip",
+  "phase4b_sha256": "5aa8e9ff550865655b13c42c98f2d92186e710143242e5589d52f3c8f0802cd7",
+  "optional_phase3_zip": "/home/heet18/Downloads/Research Papers/deliverables/Phase3_TrustFin_Deliverable.zip",
+  "original_phase4b_fit_only_winner": "B1_raw",
+  "n_finqa": 883,
+  "fit": 698,
+  "holdout": 185,
+  "labels_separate": true,
+  "protected_tests_used": false
+}

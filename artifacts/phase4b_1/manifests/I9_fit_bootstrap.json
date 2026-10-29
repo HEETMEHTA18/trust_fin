@@ -1,0 +1,9 @@
+{
+  "metric": "fit 80% selective risk B1 minus new candidate (positive favors candidate)",
+  "n": 698,
+  "n_bootstrap": 1200,
+  "ci_95": [
+    0.007155635062611798,
+    0.05366726296958854
+  ]
+}

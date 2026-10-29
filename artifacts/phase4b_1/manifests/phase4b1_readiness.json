@@ -1,0 +1,24 @@
+{
+  "phase": "4B.1",
+  "run_mode": "full",
+  "status": "PASS_RESEARCH_AUDIT",
+  "all_I1_to_I9_implemented": true,
+  "n_fit_used": 698,
+  "n_reserved_holdout": 185,
+  "selected_candidate": "I5_combined_sigmoid",
+  "selected_before_holdout": true,
+  "fit_only_practical_improvement_gate": true,
+  "research_conclusion": "CANDIDATE_FOR_PROTECTED_TEST",
+  "secondary_holdout_status": "DESCRIPTIVE_ONLY_ALREADY_SEEN",
+  "validation_holdout_already_seen_in_prior_phases": true,
+  "question_operation_semantics_status": "OPTIONAL_KEYWORD_HEURISTIC_NOT_SEMANTIC_VERIFIER",
+  "full_semantic_financial_grounding_verified": false,
+  "risk_estimator_runnable": true,
+  "protected_test_evaluated": false,
+  "fintrust_7_dimension_protocol_status": "PENDING_SEPARATE_EVALUATOR_VALIDATION",
+  "notebook_pass_does_not_equal_publication_success": true,
+  "source_hashes": {
+    "phase4a": "9b792fcf0824d8b7e02f63e4588064411883da15a6dc5a611aa0b2c50c300b66",
+    "phase4b": "5aa8e9ff550865655b13c42c98f2d92186e710143242e5589d52f3c8f0802cd7"
+  }
+}
