@@ -17,6 +17,17 @@ deliverables/Phase2_1_TrustFin_Deliverable/
 deliverables/Phase3_TrustFin_Deliverable/
 deliverables/Phase3_TrustFin_Deliverable_with_adapters/
 
+# --- Exported model weights (merged HF model + GGUF quantizations) ---
+# ~9.2 GB; distributed via HuggingFace Hub / releases, never via git
+deliverables/export/
+*.gguf
+*.bin
+*.safetensors.index.json
+
+# --- Compiled / cache artifacts ---
+unsloth_compiled_cache/
+.pytest_cache/
+
 # --- Python ---
 __pycache__/
 *.pyc

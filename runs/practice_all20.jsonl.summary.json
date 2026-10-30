@@ -1,0 +1,13 @@
+{
+  "label": "Synthetic practice results; not a protected benchmark or publication estimate",
+  "total": 20,
+  "numeric_gold_cases": 12,
+  "numeric_parse_rate": 1.0,
+  "numeric_executable_rate": 1.0,
+  "numeric_written_accuracy": 0.8333333333333334,
+  "numeric_execution_accuracy": 0.8333333333333334,
+  "sentiment_practice_polarity_cases": 4,
+  "sentiment_practice_polarity_accuracy": 1.0,
+  "manual_review_cases": 4,
+  "risk_policy": "Not applied; no B1 or Phase4B.1 calibrated acceptance decision"
+}

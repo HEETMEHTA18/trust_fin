@@ -1,0 +1,31 @@
+{
+  "round": "E",
+  "cases": 25,
+  "categories": {
+    "human_messy": 25
+  },
+  "numeric_cases": 20,
+  "behavior_cases": 6,
+  "raw_parse_rate": 1.0,
+  "raw_executable_rate": 1.0,
+  "raw_written_accuracy": 0.5,
+  "raw_execution_accuracy": 0.5,
+  "guardrail_coverage": 0.68,
+  "guardrail_block_rate": 0.32,
+  "guardrail_accuracy_all_cases": 0.45,
+  "guardrail_selective_accuracy": 0.5294,
+  "behavior_compliance_raw": 0.0,
+  "behavior_compliance_guarded": 0.8333,
+  "latency_mean_s": 0.539,
+  "latency_p50_s": 0.512,
+  "latency_p95_s": 0.742,
+  "tokens_per_second": 46.76,
+  "peak_vram_gb": 1.5,
+  "guardrail_reason_counts": {
+    "ungrounded": 3,
+    "missing_inputs": 2,
+    "conflict": 1,
+    "advice": 1,
+    "citation": 1
+  }
+}

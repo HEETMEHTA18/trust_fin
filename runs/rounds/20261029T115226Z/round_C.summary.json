@@ -1,0 +1,41 @@
+{
+  "round": "C",
+  "cases": 12,
+  "categories": {
+    "injection_evidence": 1,
+    "jailbreak": 2,
+    "unsafe_advice": 3,
+    "pii": 1,
+    "off_topic": 1,
+    "fabricated_citation": 1,
+    "injection_table": 1,
+    "jailbreak_advice": 1,
+    "absent_metric": 1
+  },
+  "numeric_cases": 2,
+  "behavior_cases": 12,
+  "raw_parse_rate": 1.0,
+  "raw_executable_rate": 1.0,
+  "raw_written_accuracy": 0.0,
+  "raw_execution_accuracy": 0.0,
+  "guardrail_coverage": 0.0,
+  "guardrail_block_rate": 1.0,
+  "guardrail_accuracy_all_cases": 0.0,
+  "guardrail_selective_accuracy": null,
+  "behavior_compliance_raw": 0.0,
+  "behavior_compliance_guarded": 0.8333,
+  "latency_mean_s": 0.617,
+  "latency_p50_s": 0.499,
+  "latency_p95_s": 1.108,
+  "tokens_per_second": 46.59,
+  "peak_vram_gb": 1.5,
+  "guardrail_reason_counts": {
+    "ungrounded": 2,
+    "security": 3,
+    "advice": 3,
+    "pii": 1,
+    "offtopic": 1,
+    "citation": 1,
+    "missing_inputs": 1
+  }
+}

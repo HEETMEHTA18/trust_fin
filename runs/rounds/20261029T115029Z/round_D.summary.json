@@ -1,0 +1,27 @@
+{
+  "round": "D",
+  "cases": 10,
+  "categories": {
+    "unknown_arithmetic": 10
+  },
+  "numeric_cases": 10,
+  "behavior_cases": 0,
+  "raw_parse_rate": null,
+  "raw_executable_rate": null,
+  "raw_written_accuracy": null,
+  "raw_execution_accuracy": null,
+  "guardrail_coverage": 0.0,
+  "guardrail_block_rate": 1.0,
+  "guardrail_accuracy_all_cases": 0.0,
+  "guardrail_selective_accuracy": null,
+  "behavior_compliance_raw": null,
+  "behavior_compliance_guarded": null,
+  "latency_mean_s": 0.555,
+  "latency_p50_s": 0.527,
+  "latency_p95_s": 0.76,
+  "tokens_per_second": 46.69,
+  "peak_vram_gb": 1.5,
+  "guardrail_reason_counts": {
+    "not_executable": 10
+  }
+}

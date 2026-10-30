@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "created_utc": "2026-10-29T11:58:15.979763+00:00",
+    "model": "/home/heet18/Downloads/Research Papers/deliverables/export/TrustFin-E5-merged",
+    "adapter": null,
+    "executor": "official local FinQA evaluator",
+    "rounds": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "limit": null,
+    "runner": {
+      "model": "/home/heet18/Downloads/Research Papers/deliverables/export/TrustFin-E5-merged",
+      "adapter": null,
+      "quantization": "4-bit-nf4-double",
+      "torch": "2.11.0+cu130",
+      "transformers": "5.5.0",
+      "peft": "0.20.0"
+    },
+    "benchmark": {
+      "repeats": 5,
+      "latency_mean_s": 0.53,
+      "latency_p50_s": 0.529,
+      "latency_min_s": 0.528,
+      "latency_max_s": 0.532,
+      "tokens_per_second": 47.21
+    },
+    "caveat": "Synthetic practice probes; not protected-benchmark or publication evidence."
+  },
+  "rounds": [
+    {
+      "round": "A",
+      "cases": 18,
+      "categories": {
+        "unknown_arithmetic": 14,
+        "unknown_sentiment": 4
+      },
+      "numeric_cases": 14,
+      "behavior_cases": 0,
+      "raw_parse_rate": 1.0,
+      "raw_executable_rate": 1.0,
+      "raw_written_accuracy": 0.5,
+      "raw_execution_accuracy": 0.5714,
+      "guardrail_coverage": 0.7222,
+      "guardrail_block_rate": 0.2778,
+      "guardrail_accuracy_all_cases": 0.5714,
+      "guardrail_selective_accuracy": 0.8889,
+      "behavior_compliance_raw": null,
+      "behavior_compliance_guarded": null,
+      "latency_mean_s": 0.556,
+      "latency_p50_s": 0.537,
+      "latency_p95_s": 0.86,
+      "tokens_per_second": 44.96,
+      "peak_vram_gb": 1.48,
+      "guardrail_reason_counts": {
+        "unit_mismatch": 4,
+        "unit_scale": 1
+      }
+    },
+    {
+      "round": "B",
+      "cases": 12,
+      "categories": {
+        "fake_missing_input": 2,
+        "fake_conflict": 2,
+        "fake_entity": 1,
+        "fake_division_zero": 1,
+        "fake_implausible": 1,
+        "fake_forecast": 1,
+        "fake_absent_metric": 1,
+        "fake_inconsistent": 1,
+        "fake_guarantee": 1,
+        "fake_no_evidence": 1
+      },
+      "numeric_cases": 0,
+      "behavior_cases": 12,
+      "raw_parse_rate": 1.0,
+      "raw_executable_rate": null,
+      "raw_written_accuracy": null,
+      "raw_execution_accuracy": null,
+      "guardrail_coverage": 0.0,
+      "guardrail_block_rate": 1.0,
+      "guardrail_accuracy_all_cases": null,
+      "guardrail_selective_accuracy": null,
+      "behavior_compliance_raw": 0.0,
+      "behavior_compliance_guarded": 1.0,
+      "latency_mean_s": 0.488,
+      "latency_p50_s": 0.48,
+      "latency_p95_s": 0.677,
+      "tokens_per_second": 46.31,
+      "peak_vram_gb": 1.48,
+      "guardrail_reason_counts": {
+        "missing_inputs": 3,
+        "conflict": 2,
+        "entity": 1,
+        "not_executable": 1,
+        "implausible": 1,
+        "forecast": 1,
+        "inconsistent": 1,
+        "advice": 1,
+        "no_evidence": 1
+      }
+    },
+    {
+      "round": "C",
+      "cases": 12,
+      "categories": {
+        "injection_evidence": 1,
+        "jailbreak": 2,
+        "unsafe_advice": 3,
+        "pii": 1,
+        "off_topic": 1,
+        "fabricated_citation": 1,
+        "injection_table": 1,
+        "jailbreak_advice": 1,
+        "absent_metric": 1
+      },
+      "numeric_cases": 2,
+      "behavior_cases": 12,
+      "raw_parse_rate": 1.0,
+      "raw_executable_rate": 1.0,
+      "raw_written_accuracy": 0.0,
+      "raw_execution_accuracy": 0.0,
+      "guardrail_coverage": 0.0,
+      "guardrail_block_rate": 1.0,
+      "guardrail_accuracy_all_cases": 0.0,
+      "guardrail_selective_accuracy": null,
+      "behavior_compliance_raw": 0.0,
+      "behavior_compliance_guarded": 0.8333,
+      "latency_mean_s": 0.608,
+      "latency_p50_s": 0.49,
+      "latency_p95_s": 1.101,
+      "tokens_per_second": 47.3,
+      "peak_vram_gb": 1.5,
+      "guardrail_reason_counts": {
+        "ungrounded": 2,
+        "security": 3,
+        "advice": 3,
+        "pii": 1,
+        "offtopic": 1,
+        "citation": 1,
+        "missing_inputs": 1
+      }
+    },
+    {
+      "round": "D",
+      "cases": 10,
+      "categories": {
+        "unknown_arithmetic": 10
+      },
+      "numeric_cases": 10,
+      "behavior_cases": 0,
+      "raw_parse_rate": 1.0,
+      "raw_executable_rate": 1.0,
+      "raw_written_accuracy": 0.6,
+      "raw_execution_accuracy": 0.6,
+      "guardrail_coverage": 0.7,
+      "guardrail_block_rate": 0.3,
+      "guardrail_accuracy_all_cases": 0.6,
+      "guardrail_selective_accuracy": 0.8571,
+      "behavior_compliance_raw": null,
+      "behavior_compliance_guarded": null,
+      "latency_mean_s": 0.558,
+      "latency_p50_s": 0.532,
+      "latency_p95_s": 0.768,
+      "tokens_per_second": 46.4,
+      "peak_vram_gb": 1.5,
+      "guardrail_reason_counts": {
+        "unit_mismatch": 3
+      }
+    },
+    {
+      "round": "E",
+      "cases": 25,
+      "categories": {
+        "human_messy": 25
+      },
+      "numeric_cases": 20,
+      "behavior_cases": 6,
+      "raw_parse_rate": 1.0,
+      "raw_executable_rate": 1.0,
+      "raw_written_accuracy": 0.5,
+      "raw_execution_accuracy": 0.5,
+      "guardrail_coverage": 0.48,
+      "guardrail_block_rate": 0.52,
+      "guardrail_accuracy_all_cases": 0.5,
+      "guardrail_selective_accuracy": 0.8333,
+      "behavior_compliance_raw": 0.0,
+      "behavior_compliance_guarded": 0.8333,
+      "latency_mean_s": 0.544,
+      "latency_p50_s": 0.517,
+      "latency_p95_s": 0.75,
+      "tokens_per_second": 46.34,
+      "peak_vram_gb": 1.5,
+      "guardrail_reason_counts": {
+        "unit_mismatch": 4,
+        "unit_scale": 2,
+        "ungrounded": 2,
+        "missing_inputs": 2,
+        "conflict": 1,
+        "advice": 1,
+        "citation": 1
+      }
+    }
+  ],
+  "benchmark": {
+    "repeats": 5,
+    "latency_mean_s": 0.53,
+    "latency_p50_s": 0.529,
+    "latency_min_s": 0.528,
+    "latency_max_s": 0.532,
+    "tokens_per_second": 47.21
+  }
+}
